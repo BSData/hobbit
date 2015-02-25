@@ -1,0 +1,1635 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e167-5c41-57e7-502b" revision="1" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" battleScribeVersion="1.15" name="Rohan" books="Kingdoms of Men" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="3703-fa5e-5118-0689" name="Captain of Rohan" points="45.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="b3fe-52c1-07bd-b099" name="Wargear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="68c3-6345-7d37-b3bc" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="3d63-7679-6bb7-f1e4" name="Options" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="6b20-5c88-ec71-6998" name="Horse" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="ff29-565a-ebfe-c0ac" name="Heavy armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="72d9-708e-714e-dd7e" name="Bow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="385e-8b5c-ef9e-1d19" name="Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="a37e-b514-a830-c318" name="Throwing spears" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="4790-bcc6-28cd-7c0c" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="283c-3851-2fa8-85c2" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Captain of Rohan" hidden="false" book="Kingdoms of Men" page="34">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="4/4+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="5"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="4"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="2"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="1"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="ff29-565a-ebfe-c0ac" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="3703-fa5e-5118-0689" childId="ff29-565a-ebfe-c0ac" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="385e-8b5c-ef9e-1d19" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="3703-fa5e-5118-0689" childId="385e-8b5c-ef9e-1d19" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="5e15-45dc-7dbc-0318" name="Eorl the Young" points="90.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="e38d-26a3-fee1-6ae9" name="Wargear" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="6642-49a6-1cfc-71ae" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="b14d-9799-93f2-9c6e" name="Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="f410-3f6c-c969-4257" name="Throwing spears" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="9fbd-b7b9-2118-4690" name="Felaróf (an armoured horse with Move 12&quot;)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="487b-ac9c-7ea7-ce19" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+        <rule id="d979-88f4-747d-1a73" name="*Legendary Hero" hidden="false" book="Kingdoms of Men" page="34">
+          <description>Roll a dice when Eorl first spends a point of Might each turn. On a 1-3, there is no effect. On a 4-6, do not reduce Eorl&apos;s Might store - the Might point was effectively &apos;free&apos;.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b2ec-6b6b-3741-9297" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Eorl the Young" hidden="false" book="Kingdoms of Men" page="34">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="5/4+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="6"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="5"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3*"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="2"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="e94c-26c4-da5e-5e69" name="Erkenbrand, Captain of Rohan" points="65.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+      <entries>
+        <entry id="deb5-6ca9-aa62-5e2f" name="Options" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="802a-e9e1-3f9e-e540" name="Westfold Redshields upgrade" hidden="false" book="Kingdoms of Men" page="33">
+              <description>If your army includes Erkenbrand, you can upgrade any number of Riders of Rohan to Westfold Redshields at a cost of +1 point per model. Westfold Redshields are fight 4, rather than 3.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="5608-552c-2cc1-c798" name="Wargear" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="d6c0-44fb-0340-4624" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="538d-7a1a-2649-00eb" name="Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="a0e5-f18d-2a27-428a" name="The Horn of the Hammerhand" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="998f-fcc1-8078-b520" name="Options" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="d734-f7be-fb5f-5d4f" name="Horse" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="31db-9cef-c97a-d4a3" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+        <rule id="ab49-bb54-25ec-da99" name="Horn of the Hammerhand" hidden="false" book="Kingdoms of Men" page="33">
+          <description>This is a war horn that adds +2 Courage, rather than +1.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="da02-96a6-b6fe-de45" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Erkenbrand, Captain of Rohan" hidden="false" book="Kingdoms of Men" page="33">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="5/4+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="7"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="4"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="1"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="2c85-9009-c240-5419" name="Gamling, Captain of Rohan" points="50.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="33">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="db65-db26-dbe8-4fb6" name="Wargear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="1fb3-f0a9-9b32-9302" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="ca59-1e47-2e8d-9488" name="Options" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="b3ba-2319-ae08-3279" name="Royal Standard of Rohan" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="ec85-a684-5dd2-ecfb" name="Horse" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="50fe-1d73-c1b7-a849" name="Royal Standard of Rohan" hidden="false" book="Kingdoms of Men" page="33">
+          <description>This precious heirloom is a banner. In addition, any Hero of Rohan who has 0 Might points at the start of the turn automatically adds 1 Might point to his store if he starts the turn within 3&quot;/8cm of the Royal Standard of Rohan. This does not include Gamling himself.</description>
+          <modifiers/>
+        </rule>
+        <rule id="3031-41d1-c3c6-4c4f" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f0f0-e910-8fa3-8ec0" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Gamling, Captain of Rohan" hidden="false" book="Kingdoms of Men" page="33">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="4/4+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="6"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="4"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="2"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="1"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="872b-f6db-1444-b374" name="Grimbold of Grimslade" points="55.0" categoryId="8e06-cb8f-41c0-09a4" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+      <entries>
+        <entry id="f74d-a62b-e7c9-3772" name="Options" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="38b2-9bbf-e9b2-b7ad" name="Helmingas upgrade" hidden="false" book="Kingdoms of Me" page="32">
+              <description>If your army includes Grimbold, you can upgrade any number of Warriors of Rohan to Helmingas at a cost of +1 point per model. Helmingas are Strength 4, rather than 3.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="b18e-5acb-953b-2a43" name="Wagear" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c64c-e9fc-5838-7ef3" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="483a-6c06-f42e-e187" name="Two-handed weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4acd-4520-92f6-a24a" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Grimbold of Grimslade" hidden="false" book="Kingdoms of Men" page="32">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="4/4+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="5"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="4"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="2"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="1"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="fe5e-4f75-861a-ebc5" name="Háma, Captain of Rohan" points="50.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="31">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="e2de-37fa-e942-8c97" name="Wargear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="8197-3a78-3e5a-91ee" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="31">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="fb21-804f-c204-a900" name="Options" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="0e3c-06ae-e7fa-4e65" name="Horse" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="31">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="ae79-d0fe-a62d-c5bf" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+        <rule id="10f6-05ac-35e1-3cc6" name="King&apos;s Man" hidden="false" book="Kingdoms of Men" page="31">
+          <description>If the Good force includes Théoden, Háma automatically passes all Courage tests he has to take so long as Théoden is alive an on the board.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f974-c2c0-fd8d-e523" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Háma, Captain of Rohan" hidden="false" book="Kingdoms of Me" page="31">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="4/4+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="6"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="4"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="2"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="1"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="0"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c74d-b855-266c-3807" name="King&apos;s Huntsman" points="50.0" categoryId="e059-5f8f-1ab2-017e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="f1d1-b408-bf9d-2673" name="Wargear" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="5512-ab7d-3440-be88" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="c88b-5259-e6f0-197a" name="Longbow (Elf bow)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="4e7f-4afe-7a48-84fd" name="Master Archer" hidden="false" book="Kingdoms of Men" page="34">
+          <description>Models with this rule only fail an &apos;in the way&apos; roll on the roll of a 1. Each time this model slays a Hero or Monster he restores his Might to its starting value.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="64ff-a65f-1b31-ede1" profileTypeId="07d0-bd3a-4a2e-7fc3" name="King&apos;s Huntsman" hidden="false" book="Kingdoms of Men" page="34">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="3/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="5"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="1"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="4"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="2"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="1"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3578-b0a8-99c8-a8f1" name="Meriadoc, Knight of the Mark" points="25.0" categoryId="e059-5f8f-1ab2-017e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="33">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="95ad-984d-69ab-7280" name="Wargear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4296-8c06-9d5d-8626" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="faf3-da2b-749a-bad5" name="Options" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="86fd-3e28-eb95-e462" name="Horn of the Riddermark" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="e73b-e99e-f65b-44f7" name="Elven cloak" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="7f0a-1f2e-866a-6030" name="Pony" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="23a9-6827-fdf1-82fe" name="Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="dcb4-965f-7cf6-b5c8" name="Horn of the Riddermark" hidden="false" book="Kingdoms of Me" page="33">
+          <description>If Merry carries the Horn of the Riddermark, all Hobbits gain +1 courage. If merry is slain, the horn is lost.</description>
+          <modifiers/>
+        </rule>
+        <rule id="ee42-ed3b-8e93-9a58" name="Resistant to Magic" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>If this model is targeted by a magical power and has no Will points to resist it with, it may still take a Resist test with a single dice.</description>
+          <modifiers/>
+        </rule>
+        <rule id="0d86-66d2-204f-9cc9" name="Throw Stones" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>This model may opt not to move at all in a Move phase but instead declare that it is Stooping for a Stone. In the Shoot phase, the model may then make a shooting attack with a range of 8&quot; and a Strength of 1. Some models (such as certain Trolls or Ents) have different rangers and Strength values specified in their profiles for when they thrown stones.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="9013-7a87-14bf-8b0e" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Meriadoc, Knight of the Mark" hidden="false" book="Kingdoms of Men" page="33">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="4&quot;/10cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="3/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="2"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="4"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="1"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="1"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="4"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="1"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="1"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="2"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="e454-648f-e035-2d38" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="86fd-3e28-eb95-e462" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="3578-b0a8-99c8-a8f1" childId="86fd-3e28-eb95-e462" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3f9a-560f-fe31-7ec2" name="Rider of Rohan" points="13.0" categoryId="e07a-883e-1b26-d891" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="0f5a-550f-39da-06c1" name="Wargear" minSelections="4" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="fbaf-51a9-e572-ab35" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="393e-42c6-787d-33a1" name="Bow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="18d1-fd0b-2904-8976" name="Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="429a-a336-9f9a-1586" name="Horse" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="e15e-8116-8c7e-5868" name="Options" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="eb1f-b385-8e2f-60d9" name="Banner" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="ad77-88a6-f37e-a10d" name="War horn" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="fad9-a7b6-d895-b17c" name="Throwing spears" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="34">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="82a8-5758-2fdf-bc2f" name="Westfold Redshield upgrade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="deb5-6ca9-aa62-5e2f" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" childId="e94c-26c4-da5e-5e69" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" childId="e94c-26c4-da5e-5e69" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7d4c-ba9f-d548-f5c9" profileTypeId="c77f-e6ae-b63d-62d2" name="Rider of Rohan" hidden="false" book="Kingdoms of Me" page="34">
+          <characteristics>
+            <characteristic characteristicId="196b-a97b-5c5f-dee8" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="3d78-8110-7697-953f" name="Fight" value="3/4+"/>
+            <characteristic characteristicId="dec8-2675-ef6e-49c0" name="Strength" value="3"/>
+            <characteristic characteristicId="cddc-0d63-2e80-720a" name="Defence" value="5"/>
+            <characteristic characteristicId="fad9-e38b-321f-e9f0" name="Attack" value="1"/>
+            <characteristic characteristicId="901e-fb27-2b16-cfe6" name="Wounds" value="1"/>
+            <characteristic characteristicId="0274-aa2c-00fa-faf0" name="Courage" value="3"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="hide" field="196b-a97b-5c5f-dee8" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="82a8-5758-2fdf-bc2f" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="09f0-1427-c034-2121" profileTypeId="c77f-e6ae-b63d-62d2" name="Westfold Redshield" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="196b-a97b-5c5f-dee8" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="3d78-8110-7697-953f" name="Fight" value="4/4+"/>
+            <characteristic characteristicId="dec8-2675-ef6e-49c0" name="Strength" value="3"/>
+            <characteristic characteristicId="cddc-0d63-2e80-720a" name="Defence" value="5"/>
+            <characteristic characteristicId="fad9-e38b-321f-e9f0" name="Attack" value="1"/>
+            <characteristic characteristicId="901e-fb27-2b16-cfe6" name="Wounds" value="1"/>
+            <characteristic characteristicId="0274-aa2c-00fa-faf0" name="Courage" value="3"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="hide" field="196b-a97b-5c5f-dee8" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="82a8-5758-2fdf-bc2f" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="ee54-2a48-ef44-19c8" name="Rohan Outrider" points="7.0" categoryId="e07a-883e-1b26-d891" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="f2cd-a591-f49e-051b" name="Wargear" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="426a-72d8-f3f8-faea" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="325c-0a3a-7146-a9bf" name="Bow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="dc9e-6f83-2c60-dfdf" name="Options" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c94a-4034-c72f-d88d" name="Horse" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="8641-46db-d6df-912f" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+        <rule id="ebff-e659-1cd3-503d" name="Vanguard" hidden="false" book="Kingdoms of Men" page="35">
+          <description>Outriders can use a friendly Hero&apos;s Stand Fast! regardless of range.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8772-af68-994c-ef1c" profileTypeId="c77f-e6ae-b63d-62d2" name="Rohan Outrider" hidden="false" book="Kingdoms of Men" page="35">
+          <characteristics>
+            <characteristic characteristicId="196b-a97b-5c5f-dee8" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="3d78-8110-7697-953f" name="Fight" value="3/3+"/>
+            <characteristic characteristicId="dec8-2675-ef6e-49c0" name="Strength" value="3"/>
+            <characteristic characteristicId="cddc-0d63-2e80-720a" name="Defence" value="4"/>
+            <characteristic characteristicId="fad9-e38b-321f-e9f0" name="Attack" value="1"/>
+            <characteristic characteristicId="901e-fb27-2b16-cfe6" name="Wounds" value=""/>
+            <characteristic characteristicId="0274-aa2c-00fa-faf0" name="Courage" value="4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="6124-0685-1341-445f" name="Rohan Royal Guard" points="10.0" categoryId="e07a-883e-1b26-d891" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="bdd6-81d1-f7ac-694f" name="Wargear" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4254-9cf7-2070-976c" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="0f96-50b2-f4ac-a3ab" name="Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="f448-ad6c-410f-fe3f" name="Options" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="a117-b362-c9b9-a3e3" name="Banner" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="7ee2-7ada-6f28-f8ae" name="Horse" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="651c-1655-e0e9-90b1" name="Throwing spears" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="29d0-3a2d-bb67-6a89" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+        <rule id="7098-db8a-dc57-5a5c" name="Bodyguard (Rohan)" hidden="false" book="Kingdoms of Men" page="35">
+          <description>At the start of the game, choose one Hero of Rohan among those in your force for all your models with the Bodyguard (Rohan) special rule to protect. As long as this Hero is alive and on the board, models with this special rule automatically pass all Courage tests they ahve to take.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d133-d800-d726-c7fc" profileTypeId="c77f-e6ae-b63d-62d2" name="Rohan Royal Guard" hidden="false" book="Kingdoms of Men" page="35">
+          <characteristics>
+            <characteristic characteristicId="196b-a97b-5c5f-dee8" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="3d78-8110-7697-953f" name="Fight" value="4/4+"/>
+            <characteristic characteristicId="dec8-2675-ef6e-49c0" name="Strength" value=""/>
+            <characteristic characteristicId="cddc-0d63-2e80-720a" name="Defence" value="6"/>
+            <characteristic characteristicId="fad9-e38b-321f-e9f0" name="Attack" value="1"/>
+            <characteristic characteristicId="901e-fb27-2b16-cfe6" name="Wounds" value="1"/>
+            <characteristic characteristicId="0274-aa2c-00fa-faf0" name="Courage" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="9a2e-1737-5c30-8e5d" name="Son of Eorl" points="22.0" categoryId="e07a-883e-1b26-d891" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="de62-a607-3d4f-cbe0" name="Wargear" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="86a3-9846-9fee-2d7d" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="aae1-7718-e9ab-09b4" name="Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="b048-eb18-6df7-4651" name="Pureblood steed (an armoured horse with Move 12)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="79f3-2340-8c51-2cb8" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="0619-e849-c36e-16f9" profileTypeId="c77f-e6ae-b63d-62d2" name="Son of Eorl" hidden="false" book="Kingdoms of Men" page="35">
+          <characteristics>
+            <characteristic characteristicId="196b-a97b-5c5f-dee8" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="3d78-8110-7697-953f" name="Fight" value="4/4+"/>
+            <characteristic characteristicId="dec8-2675-ef6e-49c0" name="Strength" value="4"/>
+            <characteristic characteristicId="cddc-0d63-2e80-720a" name="Defence" value="6"/>
+            <characteristic characteristicId="fad9-e38b-321f-e9f0" name="Attack" value="2"/>
+            <characteristic characteristicId="901e-fb27-2b16-cfe6" name="Wounds" value="1"/>
+            <characteristic characteristicId="0274-aa2c-00fa-faf0" name="Courage" value="4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="b5b7-70f6-edb5-03b0" name="Théoden, King of Rohan" points="65.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="31">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="2843-e16f-0f36-f761" name="Wargear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="a775-c8a7-cd0a-a2da" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="31">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="16d8-9046-389c-f99f" name="Options" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="a140-8828-8e4e-76c1" name="Armoured horse" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="31">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="c07f-0116-9086-6fcf" name="Horse" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="31">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="f63f-4e0e-aa89-1a60" name="Heavy armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="31">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="2757-a0b7-d196-9e17" name="Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="31">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="1db1-8317-a0c2-0325" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="de8c-7566-7c95-0010" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Théoden, King of Rohan" hidden="false" book="Kingdoms of Men" page="31">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="5/4+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="5"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="5"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="2"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="0"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="2"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="f63f-4e0e-aa89-1a60" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="b5b7-70f6-edb5-03b0" childId="f63f-4e0e-aa89-1a60" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="2757-a0b7-d196-9e17" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="b5b7-70f6-edb5-03b0" childId="2757-a0b7-d196-9e17" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="b303-46bb-35c5-2b4c" name="Théodred, Heir of Rohan" points="70.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="31">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="d4a3-b4d2-468b-98fc" name="Wargear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="ffcc-cdcd-d9e7-9fc1" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="31">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="1d21-8848-a8b1-9e75" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4bc1-e2ae-76ce-71ce" name="Horse" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="31">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="1789-bbc6-22cc-5e18" name="Bow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="31">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="1527-2f4a-eb5f-de49" name="Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="31">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="8bfc-ec57-b83e-f625" name="Throwing spears" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="31">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="5e23-74b4-2c8f-9c82" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e064-7311-a561-9138" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Théodred, Heir of Rohan" hidden="false" book="Kingdoms of Men" page="31">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="5/4+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="6"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="5"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="3"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="0"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="1527-2f4a-eb5f-de49" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="b303-46bb-35c5-2b4c" childId="1527-2f4a-eb5f-de49" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="517d-eb34-d23b-e0b2" name="Warrior of Rohan" points="6.0" categoryId="e07a-883e-1b26-d891" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="35">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="7d74-ebde-ab31-73db" name="Wargear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="5e8b-e4c5-01b1-f281" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="60ac-8743-2fb0-621a" name="Options" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="52e8-3a83-bd17-3eb8" name="Banner" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="729d-181a-51f7-f509" name="War horn" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="7922-5685-5025-20d6" name="Throwing spears" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="f084-61b4-cbe1-d589" name="Bow" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="58bb-d56f-8647-0105" name="Shield" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="35">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="c47d-a8bb-887c-96b7" name="Helmingas upgrade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="33">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="deb5-6ca9-aa62-5e2f" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" childId="872b-f6db-1444-b374" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" childId="872b-f6db-1444-b374" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="302e-69b8-7790-8751" profileTypeId="c77f-e6ae-b63d-62d2" name="Warrior of Rohan" hidden="false" book="Kingdoms of Men" page="35">
+          <characteristics>
+            <characteristic characteristicId="196b-a97b-5c5f-dee8" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="3d78-8110-7697-953f" name="Fight" value="3/4+"/>
+            <characteristic characteristicId="dec8-2675-ef6e-49c0" name="Strength" value="3"/>
+            <characteristic characteristicId="cddc-0d63-2e80-720a" name="Defence" value="4"/>
+            <characteristic characteristicId="fad9-e38b-321f-e9f0" name="Attack" value="1"/>
+            <characteristic characteristicId="901e-fb27-2b16-cfe6" name="Wounds" value="1"/>
+            <characteristic characteristicId="0274-aa2c-00fa-faf0" name="Courage" value="1"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="517d-eb34-d23b-e0b2" childId="58bb-d56f-8647-0105" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="196b-a97b-5c5f-dee8" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="c47d-a8bb-887c-96b7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile id="cc5f-3e90-244e-0549" profileTypeId="c77f-e6ae-b63d-62d2" name="Helmingas" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="196b-a97b-5c5f-dee8" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="3d78-8110-7697-953f" name="Fight" value="3/4+"/>
+            <characteristic characteristicId="dec8-2675-ef6e-49c0" name="Strength" value="4"/>
+            <characteristic characteristicId="cddc-0d63-2e80-720a" name="Defence" value="4"/>
+            <characteristic characteristicId="fad9-e38b-321f-e9f0" name="Attack" value="1"/>
+            <characteristic characteristicId="901e-fb27-2b16-cfe6" name="Wounds" value="1"/>
+            <characteristic characteristicId="0274-aa2c-00fa-faf0" name="Courage" value="3"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="58bb-d56f-8647-0105" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="196b-a97b-5c5f-dee8" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="c47d-a8bb-887c-96b7" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="9862-096d-2bf6-e78f" name="Éomer, Knight of the Pelennor" points="115.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="c8ed-1fe4-df36-45b8" name="Wargear" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="8125-b519-c1ef-b6b8" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="25d0-ef36-175e-cd80" name="Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="d47e-98b4-3e58-be21" name="Options" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="8abc-5e93-cde1-9c51" name="Armoured horse" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="9862-096d-2bf6-e78f" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="5824-d287-10ae-f196" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="f532-b9b3-7447-f525" name="Devastating Charge" hidden="false" book="Kingdoms of Men" page="32">
+          <description>If Éomer charges, he is Strength 5 until the end of the turn.</description>
+          <modifiers/>
+        </rule>
+        <rule id="e171-e2ad-d9d3-c2f0" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="769f-63c1-4483-28dc" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Éomer, Knight of the Pelennor" hidden="false" book="Kingdoms of Me" page="32">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="5/4+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="7"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="3"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="3"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="5"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="3"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="5824-d287-10ae-f196" name="Éomer, Marshal of the Riddermark" points="75.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="6cd2-3a97-8dd8-9ba6" name="Wargear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="26c3-315d-01bc-18d0" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="63d9-84ff-2682-6cd4" name="Options" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="96bb-155c-d688-75cd" name="Horse" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="12ee-3848-edf7-acf8" name="Bow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="bb26-17eb-e5f7-e50e" name="Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="5816-c7c9-ecd4-b150" name="Throwing spears" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="5824-d287-10ae-f196" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="9862-096d-2bf6-e78f" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="1b20-d960-b73b-72fd" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8b58-b595-9be3-7bae" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Éomer, Marshal of the Riddermark" hidden="false" book="Kingdoms of Men" page="32">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="5/4+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="6"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="5"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="2"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="2"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="bb26-17eb-e5f7-e50e" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="5824-d287-10ae-f196" childId="bb26-17eb-e5f7-e50e" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="004b-b377-d61d-3023" name="Éowyn, Shield Maiden of Rohan" points="30.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="32">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="01b9-ea1b-adb6-4096" name="Options" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="ead3-ab53-c134-fb14" name="Horse" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="c7a5-9639-7f5e-8910" name="Armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="b7f6-ff54-8b8c-9594" name="Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="e2db-1961-a469-f55a" name="Throwing spears" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="32">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="619c-ec7d-76e2-3a7c" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="98dc-20ac-a0bc-758c" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Éowyn, Shield Maiden of Rohan" hidden="false" book="Kingdoms of Me" page="32">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="5/4+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="3"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="3"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="1"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="1"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="5"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="2"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="2"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="2"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="b7f6-ff54-8b8c-9594" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="004b-b377-d61d-3023" childId="b7f6-ff54-8b8c-9594" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="c7a5-9639-7f5e-8910" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="004b-b377-d61d-3023" childId="c7a5-9639-7f5e-8910" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="aaf3-185a-eaa0-2acb" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+      <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up Light Object without having to dismount first.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
