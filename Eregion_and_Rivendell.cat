@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7e71-1951-deac-8195" revision="1" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" battleScribeVersion="1.15" name="Eregion and Rivendell" books="The Free Peoples" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="9cf5-1626-0b78-a27b" name="Arwen" points="60.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="60.0" maxPoints="80.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+      <entries>
+        <entry id="2c31-4998-b0c6-ff64" name="Wargear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4b80-60ea-b6a6-8d21" name="Elven blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="a4de-936a-20f8-50ba" name="Magical Powers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b993-1e26-1454-1161" profileTypeId="caa8-a3a0-9848-1893" name="Nature&apos;s Wrath" hidden="false" book="The Free Peoples" page="19">
+              <characteristics>
+                <characteristic characteristicId="0479-d8df-87bd-dd64" name="Range" value="-"/>
+                <characteristic characteristicId="ebea-500d-5561-2b7a" name="Dice Score" value="4+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="f444-d74a-d4cf-e3b9" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="ad81-b976-a11d-a808" name="Asfaloth (horse)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="0a7c-d456-ea1c-7bd9" name="Elven cloak" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="440f-68e0-399e-2427" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+          <modifiers/>
+        </rule>
+        <rule id="0775-764a-503a-9761" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jumo, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up a Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f1af-8ad8-61fb-d131" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Arwen" hidden="false" book="The Free Peoples" page="19">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="6/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="3"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="3"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="1"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="6"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="1"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="3"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d46d-68a8-4316-01be" name="Cirdan" points="90.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+      <entries>
+        <entry id="1be7-094c-74e3-5882" name="Wargear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+          <entries>
+            <entry id="5ee8-55b0-395a-06a1" name="Cirdan is unarmed" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="4ec9-9d1b-a85d-2472" name="Magical Powers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="be9b-ea09-f54b-9574" profileTypeId="caa8-a3a0-9848-1893" name="Aura of Command" hidden="false" book="The Free Peoples" page="18">
+              <characteristics>
+                <characteristic characteristicId="0479-d8df-87bd-dd64" name="Range" value="-"/>
+                <characteristic characteristicId="ebea-500d-5561-2b7a" name="Dice Score" value="2+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="dfb2-3785-046e-5371" profileTypeId="caa8-a3a0-9848-1893" name="Blinding Light" hidden="false" book="The Free Peoples" page="18">
+              <characteristics>
+                <characteristic characteristicId="0479-d8df-87bd-dd64" name="Range" value="-"/>
+                <characteristic characteristicId="ebea-500d-5561-2b7a" name="Dice Score" value="2+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="6312-44fa-5263-8fd3" profileTypeId="caa8-a3a0-9848-1893" name="Aura of Dismay" hidden="false" book="The Free Peoples" page="18">
+              <characteristics>
+                <characteristic characteristicId="0479-d8df-87bd-dd64" name="Range" value="-"/>
+                <characteristic characteristicId="ebea-500d-5561-2b7a" name="Dice Score" value="5+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="b437-9658-75fe-f62f" name="Terror" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>Should a model wish to Charge this model, it must take a Courage test before it moves. If the model passes, it may Charge as normal. If it fails, the model does not Charge and may not move at all this turn.
+
+Sometime a model will only cause Terror in certain enemies. In these instances, the creatures who are affected are clearly listed, and only those models need to make Courage tests before charging the model.</description>
+          <modifiers/>
+        </rule>
+        <rule id="7984-64f5-c23b-9d54" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="7238-d693-2e12-88be" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Cirdan" hidden="false" book="The Free Peoples" page="18">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="6/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="4"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="1"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="6"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="1"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="4"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c08b-746b-9ea8-76e2" name="Elladan" points="70.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="70.0" maxPoints="100.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+      <entries>
+        <entry id="60b9-4067-d9c8-7d3c" name="Wargear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+          <entries>
+            <entry id="854b-95c1-3dea-986a" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="834f-16a0-7515-a73a" name="Two elven blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="fe75-49f2-31f4-66a6" name="Options" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="3465-6314-fbd2-f805" name="Elven cloak" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="5a27-f2d2-63da-7895" name="Horse" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="7e59-e8e0-d531-3a27" name="Elf bow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="6b2c-0213-11f9-7367" name="Heavy armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="49c2-4a6d-3d75-a725" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+          <modifiers/>
+        </rule>
+        <rule id="2e5c-29c1-94b1-da71" name="Twin Elven Blades" hidden="false" book="The Free Peoples" page="19">
+          <description>When fighting on foot, the brothers must choose to fight in one of three different ways each Fight phase. Each brother can fight either with a single sword (two-handed weapon), with two swords (for +1 Attack) or parry (counts as shielding).</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f93b-f1c5-7972-bf13" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Elladan" hidden="false" book="The Free Peoples" page="19">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="6/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="5"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="6"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="2"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="2"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="c08b-746b-9ea8-76e2" childId="6b2c-0213-11f9-7367" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="e870-09dd-036d-d210" name="Elrohir" points="70.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="70.0" maxPoints="100.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+      <entries>
+        <entry id="ed10-6396-2e30-3842" name="Wargear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+          <entries>
+            <entry id="ed2d-b60d-1795-39b8" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="ae96-5e95-e10e-165e" name="Two elven blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="21f7-739d-b02c-b911" name="Options" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="6ebc-1364-d509-2f15" name="Elven cloak" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="a797-c4d9-cb1c-23c2" name="Horse" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="25ac-a52b-5607-67e3" name="Elf bow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="7dcd-a85b-1bf1-32a8" name="Heavy armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="3a72-0d97-14de-5ab6" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+          <modifiers/>
+        </rule>
+        <rule id="5f20-ccff-ec94-4d98" name="Twin Elven Blades" hidden="false" book="The Free Peoples" page="19">
+          <description>When fighting on foot, the brothers must choose to fight in one of three different ways each Fight phase. Each brother can fight either with a single sword (two-handed weapon), with two swords (for +1 Attack) or parry (counts as shielding).</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5a99-22ba-68e5-ac5f" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Elrohir" hidden="false" book="The Free Peoples" page="19">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="6/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="5"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="6"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="2"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="2"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="e870-09dd-036d-d210" childId="7dcd-a85b-1bf1-32a8" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a9fb-726a-ae91-c915" name="Elrond" points="170.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="170.0" maxPoints="170.0" collective="false" hidden="false" book="The Free Peoples" page="17">
+      <entries>
+        <entry id="a98a-babf-b0a1-4560" name="Magical Powers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="17">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d265-8664-1fc9-518b" profileTypeId="caa8-a3a0-9848-1893" name="Nature&apos;s Wrath" hidden="false" book="The Free Peoples" page="17">
+              <characteristics>
+                <characteristic characteristicId="0479-d8df-87bd-dd64" name="Range" value="-"/>
+                <characteristic characteristicId="ebea-500d-5561-2b7a" name="Dice Score" value="4+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="9bde-e98c-f5d5-ac83" profileTypeId="caa8-a3a0-9848-1893" name="Renew" hidden="false" book="The Free Peoples." page="17">
+              <characteristics>
+                <characteristic characteristicId="0479-d8df-87bd-dd64" name="Range" value="12&quot;/28cm"/>
+                <characteristic characteristicId="ebea-500d-5561-2b7a" name="Dice Score" value="3+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="db32-37d0-208a-dac7" name="Wargear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="17">
+          <entries>
+            <entry id="c0a1-e959-871a-74df" name="Elven blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="17">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="0f14-3ae0-6ca9-682b" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="17">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="3e3d-0abf-be45-a3a0" name="Vilya" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="17">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="590a-0946-6d7c-8833" name="Vilya" hidden="false" book="The Free Peoples" page="17">
+          <description>Thanks to the power of Vilya, one of the Three Elven Rings, Elrond can re-roll his dice when using Fate points.</description>
+          <modifiers/>
+        </rule>
+        <rule id="28b7-0a51-1ae5-5bcb" name="Terror" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>Should a model wish to Charge this model, it must take a Courage test before it moves. If the model passes, it may Charge as normal. If it fails, the model does not Charge and may not move at all this turn.
+
+Sometime a model will only cause Terror in certain enemies. In these instances, the creatures who are affected are clearly listed, and only those models need to make Courage tests before charging the model.</description>
+          <modifiers/>
+        </rule>
+        <rule id="84c3-bbe3-077c-4e9f" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="3f93-2fe0-6bb8-f7e3" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Elrond" hidden="false" book="The Free Peoples" page="17">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="6/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="7"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="3"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="3"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="7"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="3"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c65c-88eb-ec7b-dd05" name="Elrond, Master of Rivendell" points="205.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="205.0" maxPoints="205.0" collective="false" hidden="false" book="The Free Peoples" page="17">
+      <entries>
+        <entry id="77c5-8c6b-abd8-fe8d" name="Magical Powers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="17">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7ff8-5557-f4d8-d7e1" profileTypeId="caa8-a3a0-9848-1893" name="Wrath of Bruinen" hidden="false" book="The Free Peoples" page="17">
+              <characteristics>
+                <characteristic characteristicId="0479-d8df-87bd-dd64" name="Range" value="-"/>
+                <characteristic characteristicId="ebea-500d-5561-2b7a" name="Dice Score" value="4+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="d003-bf18-c292-e6e1" profileTypeId="caa8-a3a0-9848-1893" name="Renew" hidden="false" book="The Free Peoples" page="17">
+              <characteristics>
+                <characteristic characteristicId="0479-d8df-87bd-dd64" name="Range" value="12&quot;/28cm"/>
+                <characteristic characteristicId="ebea-500d-5561-2b7a" name="Dice Score" value="3+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="bad7-6d57-4b2d-dc9a" name="Wargear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="17">
+          <entries>
+            <entry id="f9d6-a6de-80fa-1c38" name="Elven blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="17">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="588a-8da5-30e5-e115" name="Vilya" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="17">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="a264-50ad-c0b5-8ac6" name="Vilya" hidden="false" book="The Free Peoples" page="17">
+          <description>Thanks to the power of Vilya, one of the Three Elven Rings, Elrond can re-roll his dice when using Fate points.</description>
+          <modifiers/>
+        </rule>
+        <rule id="ae17-6137-b803-cf17" name="Terror" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>Should a model wish to Charge this model, it must take a Courage test before it moves. If the model passes, it may Charge as normal. If it fails, the model does not Charge and may not move at all this turn.
+
+Sometime a model will only cause Terror in certain enemies. In these instances, the creatures who are affected are clearly listed, and only those models need to make Courage tests before charging the model.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c4c6-7277-faf2-a54a" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+          <modifiers/>
+        </rule>
+        <rule id="84d6-46ba-8c09-2991" name="Foresight of the Eldar" hidden="false" book="The Free Peoples" page="17">
+          <description>Before the game begins, roll a D6 and make a not of the result - these are Elrond&apos;s &apos;foresight&apos; points for the remainder of the battle. Elrond can spende these points in the Priority phase, after both players have made their priority rolls. For each foresight point expended, Elrond can alter either priority roll by +1 or -1, to a minimum of 1 and a maximum of 6.</description>
+          <modifiers/>
+        </rule>
+        <rule id="a51d-1ab6-eb32-ad2e" name="Wrath of Bruinen" hidden="false" book="The Free Peoples" page="17">
+          <description>This spell affects all enemy models within 6&quot;/14cm of Elrond, but only one foe can attempt to resist it. If resisted, all foes are unaffected; if the resist attempt is failed, then all are affected. All enemies within 6&quot;/14cm are knocked to the gorund. Cavalry models are automatically thrown - both steed and rider are knocked to the ground. All affected models then suffer a Strength 2 hit, or a Strength 8 hit if they are in a stream, river or other similar water terrain feature.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="95fb-ad99-d253-c21a" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Elrond, Master of Rivendell" hidden="false" book="The Free Peoples" page="17">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="6/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="4"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="3"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="3"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="7"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="3"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="4131-1456-bd76-7f00" name="Erestor" points="80.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+      <entries>
+        <entry id="7c08-998f-9acb-2e0d" name="Wargear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+          <entries>
+            <entry id="ffbb-fb92-5fa3-cc42" name="Elven blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="69c5-d167-3036-4627" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="6af5-73ff-1ff9-8a87" name="Noldorin throwing daggers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="51eb-d905-324f-bad3" name="Options" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="9482-06d2-325f-4bb5" name="Elven cloak" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="0de0-9f37-a484-4a06" name="Noldorin Throwing Daggers" hidden="false" book="The Free Peoples" page="1">
+          <description>Erestor re-rolls any failed rolls To Wound made when throwing these dagers or using them in a Fight.</description>
+          <modifiers/>
+        </rule>
+        <rule id="3514-bf9f-2b79-f03b" name="Terror" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>Should a model wish to Charge this model, it must take a Courage test before it moves. If the model passes, it may Charge as normal. If it fails, the model does not Charge and may not move at all this turn.
+
+Sometime a model will only cause Terror in certain enemies. In these instances, the creatures who are affected are clearly listed, and only those models need to make Courage tests before charging the model.</description>
+          <modifiers/>
+        </rule>
+        <rule id="847f-1ada-9df8-0d13" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="7560-0f03-ad82-b5d9" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Erestor" hidden="false" book="The Free Peoples" page="18">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="6/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="7"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="5"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="1"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value=""/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a3ef-4793-467d-d619" name="Gil-galad" points="140.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="140.0" maxPoints="145.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+      <entries>
+        <entry id="fb04-2dcc-5b84-d65f" name="Wargear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+          <entries>
+            <entry id="6fa3-6deb-97f2-1a6a" name="Aeglos" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="f8ee-0999-318f-f252" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="1a3f-d662-8f20-071c" name="Options" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="61ed-cee3-e808-ea00" name="Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="18">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="c6f1-a8e5-da11-43c2" name="Aeglos" hidden="false" book="The Free Peoples" page="18">
+          <description>Aeglos does not follow the normal rules for spears, but instead it confers Gil-galad +1 to his dice roll on the Wound chart.</description>
+          <modifiers/>
+        </rule>
+        <rule id="d229-3590-10d7-2621" name="King&apos;s Guard upgrade" hidden="false" book="The Free Peoples" page="1">
+          <description>If your army includes Gil-galad, you can upgrade any number of High Elf Warriors to King&apos;s Guard at a cost of +1 point per model. King&apos;s Guard have Fight 6/3+.</description>
+          <modifiers/>
+        </rule>
+        <rule id="6c88-16b0-96d5-06ed" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+          <modifiers/>
+        </rule>
+        <rule id="1a18-3655-3bf9-261b" name="Terror" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>Should a model wish to Charge this model, it must take a Courage test before it moves. If the model passes, it may Charge as normal. If it fails, the model does not Charge and may not move at all this turn.
+
+Sometime a model will only cause Terror in certain enemies. In these instances, the creatures who are affected are clearly listed, and only those models need to make Courage tests before charging the model.</description>
+          <modifiers/>
+        </rule>
+        <rule id="2156-72aa-cbd0-7853" name="High King of the Elves" hidden="false" book="The Free Peoples" page="18">
+          <description>The range of Gil-galad&apos;s Stand Fast! rule is 12&quot;/28cm.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b1b6-2432-b6e4-884a" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Gil-galad" hidden="false" book="The Free Peoples" page="18">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="9/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="7"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="3"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="3"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="7"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="3"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="a3ef-4793-467d-d619" childId="61ed-cee3-e808-ea00" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="215b-8906-9ae2-c38e" name="Gildor Inglorion" points="80.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="20">
+      <entries>
+        <entry id="e92f-5a46-a0d2-0b78" name="Wargear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="20">
+          <entries>
+            <entry id="e942-4ddf-c3a1-610d" name="Elven blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="20">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="2ef1-1cf3-3df5-3232" name="Elven cloak" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="20">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="faf9-65aa-2db5-0fa5" name="Magical Powers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="20">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8d34-30c4-4577-ce7f" profileTypeId="caa8-a3a0-9848-1893" name="Immobilise" hidden="false" book="The Free Peoples" page="20">
+              <characteristics>
+                <characteristic characteristicId="0479-d8df-87bd-dd64" name="Range" value="12&quot;/28cm"/>
+                <characteristic characteristicId="ebea-500d-5561-2b7a" name="Dice Score" value="3+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="bde5-ca97-b553-4f96" name="Terror" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>Should a model wish to Charge this model, it must take a Courage test before it moves. If the model passes, it may Charge as normal. If it fails, the model does not Charge and may not move at all this turn.
+
+Sometime a model will only cause Terror in certain enemies. In these instances, the creatures who are affected are clearly listed, and only those models need to make Courage tests before charging the model.</description>
+          <modifiers/>
+        </rule>
+        <rule id="a0fd-7d64-937a-0288" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="6f75-8654-a034-6d81" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Gildor Inglorion" hidden="false" book="The Free Peoples" page="20">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="8&quot;/20cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="6/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="4"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="6"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="1"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="4"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="5bb2-e0f4-9216-628d" name="Glorfindel, Lord of the West" points="130.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+      <entries>
+        <entry id="6901-c313-e62d-77a4" name="Wargear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+          <entries>
+            <entry id="45e1-4831-804b-b83b" name="Elven blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="d0dc-7b6c-d768-00dc" name="Options" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="79a5-df36-71bd-0b4c" name="Armour of Gondolin" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="4ab5-ad41-4f8c-45ef" name="Asfaloth (horse)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="19">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="e0a4-175f-0dda-bc90" name="Armour of Gondolin" hidden="false" book="The Free Peoples" page="19">
+          <description>This is heavy armour that makes Glorfindel Resistant to Magic</description>
+          <modifiers/>
+        </rule>
+        <rule id="e8d2-7cee-0638-71ca" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+          <modifiers/>
+        </rule>
+        <rule id="cf38-5c72-965c-acb3" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+          <description>While mounted, an Expert Rider may re-roll the dice when making Jumo, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up a Light Object without having to dismount first.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="4ea8-b591-5907-1d2f" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Glorfindel, Lord of the West" hidden="false" book="The Free Peoples" page="19">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="7/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="5"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="3"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="3"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="7"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="3"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="cdd7-b462-b815-429e" name="High Elf Captain" points="75.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+      <entries>
+        <entry id="6744-2671-5bfa-a355" name="Wargear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+          <entries>
+            <entry id="4efe-2aaf-b75f-89b0" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="48e0-6990-8ef7-e8e7" name="Elven blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="2c54-ceba-6eae-2b88" name="Options" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="6733-472d-c013-14f5" name="Horse" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="8449-20c2-19c0-3b89" name="Elf bow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="389e-abfc-09ba-b811" name="Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="4162-2f46-5fcd-8a92" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="6a01-6ccc-62f8-21f9" profileTypeId="07d0-bd3a-4a2e-7fc3" name="High Elf Captain" hidden="false" book="The Free Peoples" page="21">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="6/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="6"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="6"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="2"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="1"/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="cdd7-b462-b815-429e" childId="389e-abfc-09ba-b811" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d0c3-11e7-c5ba-111d" name="High Elf Stormcaller" points="60.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="20">
+      <entries>
+        <entry id="c84a-2396-bae0-3932" name="Wargear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="20">
+          <entries>
+            <entry id="6ae1-7cd6-efae-6840" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="20">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="8408-6a85-cc9e-4225" name="Magical Powers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="20">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="57f7-9646-97cf-a86b" profileTypeId="caa8-a3a0-9848-1893" name="Call Winds" hidden="false" book="The Free Peoples" page="20">
+              <characteristics>
+                <characteristic characteristicId="0479-d8df-87bd-dd64" name="Range" value="12&quot;/28cm"/>
+                <characteristic characteristicId="ebea-500d-5561-2b7a" name="Dice Score" value="2+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="5e69-c683-708c-c627" profileTypeId="caa8-a3a0-9848-1893" name="Strengthen Will" hidden="false" book="The Free Peoples" page="20">
+              <characteristics>
+                <characteristic characteristicId="0479-d8df-87bd-dd64" name="Range" value="12&quot;/28cm"/>
+                <characteristic characteristicId="ebea-500d-5561-2b7a" name="Dice Score" value="4+"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="4dc1-d65b-5e37-8292" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+          <modifiers/>
+        </rule>
+        <rule id="738a-0e82-a899-3bf2" name="Wild Channelling" hidden="false" book="The Free Peoples" page="2">
+          <description>If, when casting a spell, one or more of the dice rolled result in a natural 6 (for example, not another number modified by Might etc.) the Will points used in casting the spell are not expended but are returned to the Stormcaller&apos;s pool of Will.</description>
+          <modifiers/>
+        </rule>
+        <rule id="2736-0edf-e5f5-5afb" name="Call Winds" hidden="false" book="The Free Peoples" page="20">
+          <description>A single model within range is blown 2D6&quot;/4D6cm directly away from the caster. If this brings the target into contact with another model or an area of impassable terrain, it stops 1&quot; away from the obstacle. In either case, the model is knocked to the ground and cannot move, for any reason, later in the turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d5d7-0a59-1d32-d23b" profileTypeId="07d0-bd3a-4a2e-7fc3" name="High Elf Stormcaller" hidden="false" book="The Free Peoples" page="20">
+          <characteristics>
+            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="5/3+"/>
+            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="3"/>
+            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defence" value="4"/>
+            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="1"/>
+            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
+            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="5"/>
+            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="1"/>
+            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value=""/>
+            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3bcd-2e6c-e116-1cdb" name="High Elf Warrior" points="9.0" categoryId="e07a-883e-1b26-d891" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+      <entries>
+        <entry id="46b8-818e-60db-3fd7" name="Wargear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+          <entries>
+            <entry id="b80e-f4f9-8c1a-afee" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="76b2-243f-63d2-326b" name="Options" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="cbdd-19d7-7e2a-0abc" name="Banner" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="5d81-b5a1-0783-d4f1" name="Elf bow" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="d9e5-4912-db32-bdc8" name="Elven blade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="a553-7c1f-14cb-36c3" name="Shield" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="6b20-89be-4e79-1e64" name="Spear" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="The Free Peoples" page="21">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="2e6d-cc48-245b-47f5" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+          <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5e03-f992-a7e3-fafd" profileTypeId="c77f-e6ae-b63d-62d2" name="High Elf Warrior" hidden="false" book="The Free Peoples" page="21">
+          <characteristics>
+            <characteristic characteristicId="196b-a97b-5c5f-dee8" name="Move" value="6&quot;/14cm"/>
+            <characteristic characteristicId="3d78-8110-7697-953f" name="Fight" value="5/3+"/>
+            <characteristic characteristicId="dec8-2675-ef6e-49c0" name="Strength" value="3"/>
+            <characteristic characteristicId="cddc-0d63-2e80-720a" name="Defence" value="5"/>
+            <characteristic characteristicId="fad9-e38b-321f-e9f0" name="Attack" value="1"/>
+            <characteristic characteristicId="901e-fb27-2b16-cfe6" name="Wounds" value="1"/>
+            <characteristic characteristicId="0274-aa2c-00fa-faf0" name="Courage" value="5"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="3bcd-2e6c-e116-1cdb" childId="a553-7c1f-14cb-36c3" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="5ac8-bd5d-04d2-4a95" name="Expert Rider" hidden="false" book="The Hobbit: An Unexpected Journey" page="82">
+      <description>While mounted, an Expert Rider may re-roll the dice when making Jumo, Swim and Thrown Rider tests.
+
+While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
+
+Additionally, an Expert Rider can pick up a Light Object without having to dismount first.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e174-7b34-a1c5-425e" name="Terror" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+      <description>Should a model wish to Charge this model, it must take a Courage test before it moves. If the model passes, it may Charge as normal. If it fails, the model does not Charge and may not move at all this turn.
+
+Sometime a model will only cause Terror in certain enemies. In these instances, the creatures who are affected are clearly listed, and only those models need to make Courage tests before charging the model.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f406-11a1-e8ae-6ed2" name="Twin Elven Blades" hidden="false" book="The Free Peoples" page="19">
+      <description>When fighting on foot, the brothers must choose to fight in one of three different ways each Fight phase. Each brother can fight either with a single sword (two-handed weapon), with two swords (for +1 Attack) or parry (counts as shielding).</description>
+      <modifiers/>
+    </rule>
+    <rule id="71f9-916f-0cd1-6d0b" name="Unbreakable Bond" hidden="false" book="The Free Peoples" page="19">
+      <description>If one of the twins is killed, the other will be driven mad by desperate grief. To represent this, the surviving twin&apos;s Strength is increased to 5 and his Defence is reduced to 4. The survivor always passes Courage tests and must do everything he can to charge the model that killed his brother as quickly as possible. Once that model is killed, the survivng twin will then move as fast as possible towards the closest visible enemy for th rest of the game, charging it if able.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5ea5-cc1a-b3b8-f00f" name="Woodland Creature" hidden="false" book="The Hobbit: An Unexpected Journey" page="83">
+      <description>A model with this special rule may move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automatically climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
