@@ -1,819 +1,1128 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2587-8b93-97a0-ad95" revision="2" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" battleScribeVersion="1.15" name="Arnor" books="Kingdoms of Men" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <entries>
-    <entry id="d2c2-2839-a876-168e" name="Aragorn, Isildur&apos;s Heir" points="200.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="200.0" maxPoints="210.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="e302-fab2-f0d9-44e1" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="04fc-2a99-1ac7-bdb3" name="Elven Cloak" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="95db-7d23-5ccc-a893" name="Wargear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="8841-c2af-952d-a35b" name="Bow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+<catalogue id="2587-8b93-97a0-ad95" name="Arnor" book="Kingdoms of Men" revision="3" battleScribeVersion="2.00" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules>
+    <rule id="f184-b3da-e7aa-48fa" name="The Grey Company" book="Kingdoms of Men" page="36" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <description>The Grey Company of Arnor is famed for training every warrior in the use of bows.
+
+You may opt to take a Grey Company force. If you do so, your force (or an allied contingent in your force) that contains only models from the Arnor list can take up to 4 Rangers of Arnor for each Ranger of the North or Dúnedain it contains. It can do so even if this would take it above the normal bow limit.</description>
+    </rule>
+  </rules>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="d2c2-2839-a876-168e" name="Aragorn, Isildur&apos;s Heir" book="Kingdoms of Men" page="38" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
+      <profiles>
+        <profile id="ff3c-bf0d-dfe6-70a0" name="Aragorn, Isildur&apos;s Heir" book="Kingdoms of Men" page="38" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3*"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules>
-        <rule id="4f04-45cc-1ad6-b265" name="*Mighty Hero" hidden="false" book="Kingdoms of Men" page="38">
+        <rule id="4f04-45cc-1ad6-b265" name="*Mighty Hero" book="Kingdoms of Men" page="38" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <description>Aragorn can expend 1 point of Might per turn without reducing his Might store. Any additional points of Might expended during his turn reduce his Might store as normal.</description>
-          <modifiers/>
         </rule>
-        <rule id="2ce8-408d-c731-2195" name="Chieftain of Forgotten Arnor" hidden="false" book="Kingdoms of Men" page="38">
+        <rule id="2ce8-408d-c731-2195" name="Chieftain of Forgotten Arnor" book="Kingdoms of Men" page="38" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <description>Legolas, Gimli and both Heroes and Warriors of Arnor count as being in range of a banner if Aragorn, Isildur&apos;s Heir, is within 3&quot;/7cm.</description>
-          <modifiers/>
         </rule>
-        <rule id="e302-8789-a1b2-501a" name="Master of the Wilderness" hidden="false" book="Kingdoms of Men" page="38">
+        <rule id="e302-8789-a1b2-501a" name="Master of the Wilderness" book="Kingdoms of Men" page="38" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <description>Aragorn, Isildur&apos;s Heir, moved through difficult terrain without penalty, as do Legolas, Gimli and both Heroes and Warriors of Arnor, if they are on foot and within 6&quot;/14cm of Aragorn.</description>
-          <modifiers/>
         </rule>
       </rules>
-      <profiles>
-        <profile id="ff3c-bf0d-dfe6-70a0" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Aragorn, Isildur&apos;s Heir" hidden="false" book="Kingdoms of Men" page="38">
-          <characteristics>
-            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
-            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="6/3+"/>
-            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
-            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defense" value="5"/>
-            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="3"/>
-            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="3"/>
-            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="6"/>
-            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3*"/>
-            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="3"/>
-            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="3"/>
-          </characteristics>
+      <infoLinks>
+        <infoLink id="6f8e-8248-8692-418e" name="New InfoLink" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f3c6-9a39-374b-164e" name="Elven Cloak" book="Kingdoms of Men" page="38" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="338a-cc23-0740-694f" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a7b0-eedd-5050-4133" name="New EntryLink" hidden="false" targetId="f224-8657-e59f-3d8c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d37b-7a26-1c00-fa61" name="Arathorn" book="Kingdoms of Men" page="37" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
+      <profiles>
+        <profile id="99e5-4a30-3eed-52e4" name="Arathorn" book="Kingdoms of Men" page="37" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
         </profile>
       </profiles>
-      <links/>
-    </entry>
-    <entry id="d37b-7a26-1c00-fa61" name="Arathorn" points="75.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="75.0" maxPoints="75.0" collective="false" hidden="false" book="Kingdoms of Men" page="37">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="63ea-d259-13a9-6d6e" name="Wargear" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="07e5-7749-634d-3aaf" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="37">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="be0e-0558-3eed-08a5" name="Bow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="37">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="99e5-4a30-3eed-52e4" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Arathorn" hidden="false" book="Kingdoms of Men" page="37">
-          <characteristics>
-            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
-            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="5/3+"/>
-            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
-            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defense" value="5"/>
-            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="3"/>
-            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
-            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="5"/>
-            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
-            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="2"/>
-            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
-          </characteristics>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="eba7-b49d-7be4-5b2a" name="New EntryLink" hidden="false" targetId="f224-8657-e59f-3d8c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="c083-1ae7-8dba-8b69" name="New EntryLink" hidden="false" targetId="aff2-252e-06a2-80e9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b15d-72a0-f515-c4b0" name="Arvedui, Last King of Arnor" book="Kingdoms of Men" page="37" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
+      <profiles>
+        <profile id="c1cd-1e23-f8a6-3490" name="Arvedui, Last King of Arnor" book="Kingdoms of Men" page="37" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="0"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
         </profile>
       </profiles>
-      <links/>
-    </entry>
-    <entry id="b15d-72a0-f515-c4b0" name="Arvedui, Last King of Arnor" points="70.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="70.0" collective="false" hidden="false" book="Kingdoms of Men" page="37">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="b14d-641c-a857-931a" name="Wargear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="79fb-44dc-4817-3f23" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="37">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
       <rules>
-        <rule id="b89a-bfcc-beda-ab2c" name="The King in the North" hidden="false" book="Kingdoms of Men" page="37">
+        <rule id="b89a-bfcc-beda-ab2c" name="The King in the North" book="Kingdoms of Men" page="37" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <description>Arvedui&apos;s Stand Fast! rule has a range of 12&quot;/28cm.</description>
-          <modifiers/>
         </rule>
       </rules>
-      <profiles>
-        <profile id="c1cd-1e23-f8a6-3490" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Arvedui, Last King of Arnor" hidden="false" book="Kingdoms of Men" page="37">
-          <characteristics>
-            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
-            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="5/4+"/>
-            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
-            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defense" value="6"/>
-            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
-            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
-            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="6"/>
-            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
-            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="2"/>
-            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="0"/>
-          </characteristics>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="59c9-d16f-8dd7-332e" name="New EntryLink" hidden="false" targetId="c45d-8342-8e1b-6cb2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2127-8052-2870-b832" name="Captain of Arnor" book="Kingdoms of Men" page="37" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
+      <profiles>
+        <profile id="54e0-fd30-f8bf-44f5" name="Captain of Arnor" book="Kingdoms of Men" page="37" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="3"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
         </profile>
       </profiles>
-      <links/>
-    </entry>
-    <entry id="2127-8052-2870-b832" name="Captain of Arnor" points="50.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="50.0" maxPoints="60.0" collective="false" hidden="false" book="Kingdoms of Men" page="37">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="2033-3f9b-c8e5-e517" name="Options" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="9fc3-ad92-845b-5a71" name="Bow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="37">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="4884-a1c3-1c30-fb2e" name="Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="37">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="1e40-a1dc-35bb-333d" name="Wargear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="bcae-e08d-5c9c-51f2" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="37">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="54e0-fd30-f8bf-44f5" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Captain of Arnor" hidden="false" book="Kingdoms of Men" page="37">
-          <characteristics>
-            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
-            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="5/4+"/>
-            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
-            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defense" value="6"/>
-            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
-            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
-            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="3"/>
-            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="2"/>
-            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="1"/>
-            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
-          </characteristics>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="21e5-9cea-e0e8-9ec1" name="Bow" book="Kingdoms of Men" page="37" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="b5cc-b165-c9ab-497f" name="New InfoLink" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeb6-7094-1a34-79a7" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="327e-4d47-7ee2-0fb4" name="Shield" book="Kingdoms of Men" page="37" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="589e-3ecb-b91b-25e9" name="New InfoLink" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="e32a-8da5-10ad-d811" name="New InfoLink" hidden="false" targetId="e0df-99a8-fc55-3419" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f015-eaef-efde-478a" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7652-5067-8ccc-8cf5" name="New EntryLink" hidden="false" targetId="c45d-8342-8e1b-6cb2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f6c1-861a-fb76-4bee" name="Dúnedain" book="Kingdoms of Men" page="38" hidden="false" collective="false" categoryEntryId="e059-5f8f-1ab2-017e" type="model">
+      <profiles>
+        <profile id="1259-10d3-9963-2483" name="Dúnedain" book="Kingdoms of Men" page="38" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
         </profile>
       </profiles>
-      <links/>
-    </entry>
-    <entry id="f6c1-861a-fb76-4bee" name="Dúnedain" points="24.0" categoryId="e059-5f8f-1ab2-017e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="24.0" maxPoints="25.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="8461-a226-8291-bb35" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="da9c-7503-7d29-faf8" name="Spear" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="261b-4269-7951-1555" name="Wargear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="d873-44d5-9ab1-f097" name="Bow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="1259-10d3-9963-2483" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Dúnedain" hidden="false" book="Kingdoms of Men" page="38">
-          <characteristics>
-            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
-            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="4/3+"/>
-            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
-            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defense" value="4"/>
-            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="1"/>
-            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="1"/>
-            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="5"/>
-            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="1"/>
-            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="1"/>
-            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
-          </characteristics>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="e536-8b5a-3c66-d760" name="Spear" book="Kingdoms of Men" page="38" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1524-cc29-7b0d-ccb8" name="New InfoLink" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="392d-df1e-3ed9-cd06" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="136a-8659-80bc-439d" name="New EntryLink" hidden="false" targetId="f224-8657-e59f-3d8c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3338-ca4f-8767-6b0e" name="Elladan and Elrohir" book="Kingdoms of Men" page="38" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
+      <profiles>
+        <profile id="89a4-b998-1d1a-9044" name="Elladan" book="Kingdoms of Men" page="38" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
+          </characteristics>
+        </profile>
+        <profile id="c4e7-3d6a-5359-6697" name="Elrohir" book="Kingdoms of Men" page="38" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
+          </characteristics>
         </profile>
       </profiles>
-      <links/>
-    </entry>
-    <entry id="3338-ca4f-8767-6b0e" name="Elladan" points="70.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="70.0" maxPoints="100.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="a0f6-fd93-b547-45b8" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="3abf-4fc1-88e8-9f84" name="Elven Cloak" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="3">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="f908-2a6b-087c-940c" name="Horse" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="e87b-0ed8-d36c-e02c" name="Elf Bow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="3">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="669d-5381-5730-a4c9" name="Heavy armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="38">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="4c01-5ffa-fc6d-6d4a" name="Wargear" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="32a3-fe36-bd19-f3ca" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="fa18-b823-6dcb-bdf0" name="Two elven blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
       <rules>
-        <rule id="06fe-6f5f-b781-3647" name="Twin Elven Blades" hidden="false" book="Kingdoms of Men" page="38">
+        <rule id="06fe-6f5f-b781-3647" name="Twin Elven Blades" book="Kingdoms of Men" page="38" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <description>When fighting on foot, the brothers must choose to fight in one of three different ways in each Fight phase.
 Each brother may fight either with a single sword (counts as two-handed weapon), fight with two swords (for +1 attack), or parry (counts as shielding).</description>
+        </rule>
+        <rule id="9ea8-a069-d74d-74fc" name="Unbreakable Bond" book="Kingdoms of Men" page="38" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <description>If one of the twins is killed, the other will be driven mad with grief.
+To represent this, the surviving twin&apos;s Strength is increased to 5 and his Defends is reduced to 4. The survivor always passes Courage teste and must do everything he can to charge the model that killed his brother as quickly as possible. Once that model is killed, the surviving twin will then move as fast as possible towards the closest visible enemy for the rest of the game, charging it if able.</description>
         </rule>
       </rules>
+      <infoLinks>
+        <infoLink id="66cc-17ff-e3e5-39aa" name="New InfoLink" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="3314-70c2-e855-2ab4" name="Elven Cloaks" book="Kingdoms of Men" page="38" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d9a9-d80a-cc71-1459" name="New InfoLink" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae55-104a-79ea-faa6" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fedf-dd2c-5434-d12a" name="Horses" book="Kingdoms of Men" page="38" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8beb-ca25-9b76-b4a6" name="New InfoLink" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="750b-b0ef-bfbc-2d88" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f40f-675f-dfa3-b61b" name="Elf Bows" book="Kingdoms of Men" page="38" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a854-3b1a-d440-0bb8" name="New InfoLink" hidden="false" targetId="2130-9089-8afe-22a4" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61f7-dcf0-20cf-6790" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="82d5-8f80-748a-b022" name="Heavy Armour" book="Kingdoms of Men" page="38" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ac-fb19-7641-eceb" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="56f6-9b1e-e621-7f4d" name="New EntryLink" hidden="false" targetId="aff2-252e-06a2-80e9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="6b95-dde2-146e-7d74" name="New EntryLink" hidden="false" targetId="5d34-a607-d56a-7ff9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f58a-2d37-e061-afb0" name="Halbarad Dúnadan" book="Kingdoms of Men" page="39" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
-        <profile id="89a4-b998-1d1a-9044" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Elladan" hidden="false" book="Kingdoms of Men" page="38">
+        <profile id="7b96-b211-72e5-70a8" name="Halbarad Dúnadan" book="Kingdoms of Men" page="39" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <characteristics>
-            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
-            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="6/3+"/>
-            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
-            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defense" value="5"/>
-            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
-            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
-            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="6"/>
-            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
-            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="2"/>
-            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="2"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="669d-5381-5730-a4c9" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </profile>
       </profiles>
-      <links/>
-    </entry>
-    <entry id="063a-22ff-69a7-763b" name="Elrohir" points="70.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="70.0" maxPoints="100.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="5f99-79b6-1782-d75e" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="af99-b187-18ec-63c0" name="Elven Cloak" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="3">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="53b9-349e-d8ad-987d" name="Horse" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="da1c-6a2d-bdcd-f0fd" name="Elf Bow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="3">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="47e9-5606-dc58-622f" name="Heavy armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Me" page="38">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="274f-9577-32fc-60b6" name="Wargear" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="8eff-1aae-aece-f43a" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="bc58-047d-98b7-09f8" name="Two elven blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="38">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
-      <rules>
-        <rule id="b5b7-8d2b-af06-95b2" name="Twin Elven Blades" hidden="false" book="Kingdoms of Men" page="38">
-          <description>When fighting on foot, the brothers must choose to fight in one of three different ways in each Fight phase.
-Each brother may fight either with a single sword (counts as two-handed weapon), fight with two swords (for +1 attack), or parry (counts as shielding).</description>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a222-002e-5c32-e4bd" name="Banner of Arwen Evenstar" book="Kingdoms of Men" page="39" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="194e-2174-3870-3efb" name="Banner of Arwen Evenstar" book="Kingdoms of Men" page="39" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Banner of Arwen Evenstar is a banner but affects all friendly models with 6&quot;/14cm, not 3&quot;/8cm. Good models within 6&quot;/14cm of the banner automatically pass any Courage test they are required to take. Halbarad can still use his bow if he carries this banner.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="60f3-546a-367b-4a08" name="New InfoLink" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
-        </rule>
-      </rules>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="680f-984c-31cf-4c3a" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="425f-f822-ba83-4571" name="Horse" book="Kingdoms of Men" page="39" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="2ec0-73bb-c2ea-ef5d" name="New InfoLink" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6247-606d-b150-9ee3" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7346-89ee-9bc1-cc7b" name="Spear" book="Kingdoms of Men" page="39" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6493-cc94-cb08-e5f3" name="New InfoLink" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f02e-2b5a-41f6-e0dd" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6de3-20cf-083e-2960" name="New EntryLink" hidden="false" targetId="aff2-252e-06a2-80e9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="ad74-070f-34d7-d6eb" name="New EntryLink" hidden="false" targetId="f224-8657-e59f-3d8c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d56f-13af-8feb-0af9" name="Malbeth the Seer" book="Kingdoms of Men" page="37" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
-        <profile id="c078-17f2-5244-edcf" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Elrohir" hidden="false" book="Kingdoms of Men" page="38">
+        <profile id="56ff-3757-7ac9-f922" name="Malbeth the Seer" book="Kingdoms of Men" page="37" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <characteristics>
-            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
-            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="6/3+"/>
-            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
-            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defense" value="5"/>
-            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
-            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
-            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="6"/>
-            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
-            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="2"/>
-            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="2"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="3/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="47e9-5606-dc58-622f" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </profile>
       </profiles>
-      <links/>
-    </entry>
-    <entry id="f58a-2d37-e061-afb0" name="Halbarad Dúnadan" points="65.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="65.0" maxPoints="136.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="d3c0-113d-adb3-1550" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="bf83-a8c5-6dda-5d80" name="Banner of Arwen Evenstar" points="60.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="815b-5e6e-f188-abaf" name="Spear" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="c72d-b7bd-56db-ffd6" name="Horse" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="1c5b-7e61-d0f3-cbb3" name="Wargear" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="a2a0-ef27-f7fb-a1bd" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="2619-5786-00ed-ba14" name="Bow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
       <rules>
-        <rule id="0c88-fae5-3d73-23f9" name="The Banner of Arewen Evenstar" hidden="false" book="Kingdoms of Men" page="3">
-          <description>The Banner of Arwen Evenstar is a banner but affects all friendly models within 6&quot;/14cm, not 3&quot;/8cm. Good models within 6&quot;/14cm of the banner automatically pass any Courage tests they are required to take. Halbarad can still use his bow if he carries this banner.</description>
+        <rule id="98f3-0cd8-9b59-99c8" name="Gift of Foresight" book="Kingdoms of Men" page="37" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="7b96-b211-72e5-70a8" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Halbarad Dúnadan" hidden="false" book="Kingdoms of Men" page="39">
-          <characteristics>
-            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
-            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="5/3+"/>
-            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
-            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defense" value="5"/>
-            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="2"/>
-            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
-            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="6"/>
-            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="3"/>
-            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="2"/>
-            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="d56f-13af-8feb-0af9" name="Malbeth the Seer" points="80.0" categoryId="8e06-cb8f-41c0-09a4" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="80.0" maxPoints="80.0" collective="false" hidden="false" book="Kingdoms of Men" page="37">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="a19e-b8b9-7237-c3d2" name="Wargear" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="6eaf-63aa-e93c-31f4" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="37">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="98f3-0cd8-9b59-99c8" name="Gift of Foresight" hidden="false" book="Kingdoms of Men" page="37">
           <description>Every time a Good model within 6&quot;/14cm of Malbeth suffers a Wound, roll a D6. On the roll on a 5+, the Wound is prevented, exactly as if a point of Fate had been expended. Note that if this roll is failed, Fate points may still be expended as normal.</description>
-          <modifiers/>
         </rule>
       </rules>
-      <profiles>
-        <profile id="56ff-3757-7ac9-f922" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Malbeth the Seer" hidden="false" book="Kingdoms of Men" page="37">
-          <characteristics>
-            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
-            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="3/4+"/>
-            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
-            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defense" value="5"/>
-            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="1"/>
-            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="2"/>
-            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="2"/>
-            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="1"/>
-            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="2"/>
-            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="d4bd-7dd3-4d04-0666" name="Ranger of Arnor" points="8.0" categoryId="e07a-883e-1b26-d891" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="8.0" maxPoints="9.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="3243-2216-035f-9b1c" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="91b1-fe5a-ff02-c26d" name="Spear" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="2a6c-acef-c5cd-40c0" name="Wargear" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="262b-3634-710f-f94d" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="9607-450a-fc5f-aead" name="Bow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+      <infoLinks/>
       <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="ec2f-37b7-1331-b913" profileTypeId="c77f-e6ae-b63d-62d2" name="Ranger of Arnor" hidden="false" book="Kingdoms of Men" page="39">
-          <characteristics>
-            <characteristic characteristicId="196b-a97b-5c5f-dee8" name="Move" value="6&quot;/14cm"/>
-            <characteristic characteristicId="3d78-8110-7697-953f" name="Fight" value="4/3+"/>
-            <characteristic characteristicId="dec8-2675-ef6e-49c0" name="Strength" value="3"/>
-            <characteristic characteristicId="cddc-0d63-2e80-720a" name="Defense" value="4"/>
-            <characteristic characteristicId="fad9-e38b-321f-e9f0" name="Attack" value="1"/>
-            <characteristic characteristicId="901e-fb27-2b16-cfe6" name="Wounds" value="1"/>
-            <characteristic characteristicId="0274-aa2c-00fa-faf0" name="Courage" value="3"/>
-          </characteristics>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="363c-4db7-48fa-be57" name="New EntryLink" hidden="false" targetId="aff2-252e-06a2-80e9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4bd-7dd3-4d04-0666" name="Ranger of Arnor" book="Kingdoms of Men" page="39" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="unit">
+      <profiles>
+        <profile id="ec2f-37b7-1331-b913" name="Ranger of Arnor" book="Kingdoms of Men" page="39" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/3+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
+          </characteristics>
         </profile>
       </profiles>
-      <links/>
-    </entry>
-    <entry id="867f-804b-8f7f-5f23" name="Ranger of the North" points="25.0" categoryId="e059-5f8f-1ab2-017e" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="25.0" maxPoints="32.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="9777-2578-a96b-ba1e" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="bd2a-7b80-0125-f82e" name="Horse" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="5ca6-050c-324d-802f" name="Spear" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="315a-ca2d-d2a7-5af1" name="Wargear" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="2ce7-f3c4-2369-7764" name="Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="d27d-9b32-2f86-eb7c" name="Bow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="a02e-3933-81aa-94ab" profileTypeId="07d0-bd3a-4a2e-7fc3" name="Ranger of the North" hidden="false" book="Kingdoms of Men" page="39">
-          <characteristics>
-            <characteristic characteristicId="9aa1-0558-afe7-c4cd" name="Move" value="6&quot;/14cm"/>
-            <characteristic characteristicId="994d-f52a-5bd3-3999" name="Fight" value="4/3+"/>
-            <characteristic characteristicId="831d-46e6-7fc1-05a3" name="Strength" value="4"/>
-            <characteristic characteristicId="fba1-bb39-c1ba-ecc5" name="Defense" value="5"/>
-            <characteristic characteristicId="c687-7ea3-0136-2709" name="Attack" value="1"/>
-            <characteristic characteristicId="d47a-e35a-5537-db08" name="Wounds" value="1"/>
-            <characteristic characteristicId="e454-648f-e035-2d38" name="Courage" value="5"/>
-            <characteristic characteristicId="d58c-1700-0746-eb70" name="Might" value="1"/>
-            <characteristic characteristicId="2901-329c-81a2-38c6" name="Will" value="1"/>
-            <characteristic characteristicId="9560-1b5e-8403-8e23" name="Fate" value="1"/>
-          </characteristics>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="ae5d-35f3-c809-9336" name="Spear" book="Kingdoms of Men" page="39" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4258-14cc-7b32-7d46" name="New InfoLink" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af2e-9ba4-22fd-e8a1" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6cdf-b681-5065-7607" name="New EntryLink" hidden="false" targetId="aff2-252e-06a2-80e9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="89a8-f809-b932-d2e6" name="New EntryLink" hidden="false" targetId="f224-8657-e59f-3d8c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="867f-804b-8f7f-5f23" name="Ranger of the North" book="Kingdoms of Men" page="39" hidden="false" collective="false" categoryEntryId="e059-5f8f-1ab2-017e" type="model">
+      <profiles>
+        <profile id="a02e-3933-81aa-94ab" name="Ranger of the North" book="Kingdoms of Men" page="39" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+        <profile id="67b7-a76e-1bea-d2a7" name="Armour and Bow" book="Kingdoms of Men" page="39" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics/>
         </profile>
       </profiles>
-      <links/>
-    </entry>
-    <entry id="a8a4-7e11-48e2-48a8" name="Warrior of Arnor" points="8.0" categoryId="e07a-883e-1b26-d891" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="8.0" maxPoints="33.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="8903-47cb-f5b8-8b56" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="bbd6-6564-0e94-63ac" name="Banner" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="0b6d-6c85-1053-555a" name="Wargear" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="7439-0956-1d0a-a5f0" name="Heavy armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="a3b1-721a-749c-db30" name="Spear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="0e7f-4a1f-6ac9-ec75" name="Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kingdoms of Men" page="39">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="1300-1e9f-3532-0666" profileTypeId="c77f-e6ae-b63d-62d2" name="Warrior of Arnor" hidden="false" book="Kingdoms of Men" page="39">
-          <characteristics>
-            <characteristic characteristicId="196b-a97b-5c5f-dee8" name="Move" value="6&quot;/14cm"/>
-            <characteristic characteristicId="3d78-8110-7697-953f" name="Fight" value="4/4+"/>
-            <characteristic characteristicId="dec8-2675-ef6e-49c0" name="Strength" value="3"/>
-            <characteristic characteristicId="cddc-0d63-2e80-720a" name="Defense" value="6"/>
-            <characteristic characteristicId="fad9-e38b-321f-e9f0" name="Attack" value="1"/>
-            <characteristic characteristicId="901e-fb27-2b16-cfe6" name="Wounds" value="1"/>
-            <characteristic characteristicId="0274-aa2c-00fa-faf0" name="Courage" value="2"/>
-          </characteristics>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="c131-f3c1-2f66-1f41" name="Horse" book="Kingdoms of Men" page="39" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e304-6408-6e0e-33ea" name="New InfoLink" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cd9-3d56-f173-e97b" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="567a-fa90-8e83-996c" name="Spear" book="Kingdoms of Men" page="39" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6e5c-7bdf-57e6-e129" name="New InfoLink" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8305-ac2a-edc8-62eb" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c43a-891d-193c-ef4a" name="New EntryLink" hidden="false" targetId="aff2-252e-06a2-80e9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="2dd3-81be-a444-3fe3" name="New EntryLink" hidden="false" targetId="f224-8657-e59f-3d8c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a8a4-7e11-48e2-48a8" name="Warrior of Arnor" book="Kingdoms of Men" page="39" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
+      <profiles>
+        <profile id="1300-1e9f-3532-0666" name="Warrior of Arnor" book="Kingdoms of Men" page="39" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="6"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
+          </characteristics>
         </profile>
       </profiles>
-      <links/>
-    </entry>
-  </entries>
-  <rules/>
-  <links/>
-  <sharedEntries/>
-  <sharedEntryGroups/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="d510-e6bf-7403-e8c4" name="Banner" book="Kingdoms of Men" page="39" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="919a-ed5b-17d6-0374" name="New InfoLink" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="382a-de4d-f8a7-f030" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c8a9-a69d-e890-6428" name="New EntryLink" hidden="false" targetId="c45d-8342-8e1b-6cb2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="f2af-545b-c5c6-5436" name="New EntryLink" hidden="false" targetId="c830-aacc-8dcf-c4eb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="5a83-8fad-4cf0-b32b" name="New EntryLink" hidden="false" targetId="e396-6a7d-e74d-48e1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="8.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries>
+    <selectionEntry id="f224-8657-e59f-3d8c" name="Bow" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4d86-5797-d5aa-9ef1" name="New InfoLink" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f66-a731-1204-6b67" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9578-9e1d-b4f8-9af5" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aff2-252e-06a2-80e9" name="Armour" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a272-5fee-4148-82f3" name="Armour" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics/>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ef1-1502-4bae-fcbb" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d294-72d2-1239-77da" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c45d-8342-8e1b-6cb2" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f508-df78-f4ef-8374" name="Heavy Armour" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics/>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9496-f652-676c-4e33" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2258-1098-25fb-9356" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d34-a607-d56a-7ff9" name="Elven Blades" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a511-f42a-7be7-2aa5" name="New InfoLink" hidden="false" targetId="4421-66c4-4f11-6776" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="46a0-eca1-c3a9-378d" name="New InfoLink" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65e2-88cd-7d17-2ec4" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5817-afbb-dfcd-cc54" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e396-6a7d-e74d-48e1" name="Spear" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0554-d535-cc76-0976" name="New InfoLink" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3f2-2497-8fcf-032e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fac-a4bc-57a4-cb36" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="c830-aacc-8dcf-c4eb" name="Shield" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="27a2-248b-888d-a784" name="New InfoLink" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="007e-3369-cb64-ab07" name="New InfoLink" hidden="false" targetId="e0df-99a8-fc55-3419" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e586-d4ba-1cc4-eaf5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72e9-650c-6baa-caba" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups/>
   <sharedRules>
-    <rule id="4044-b67d-f2fe-beb2" name="Twin Elven Blades" hidden="false" book="Kingdoms of Men" page="38">
+    <rule id="4044-b67d-f2fe-beb2" name="Twin Elven Blades" book="Kingdoms of Men" page="38" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>When fighting on foot, the brothers must choose to fight in one of three different ways in each Fight phase.
 Each brother may fight either with a single sword (counts as two-handed weapon), fight with two swords (for +1 attack), or parry (counts as shielding).</description>
-      <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles/>
