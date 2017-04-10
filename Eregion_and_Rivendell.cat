@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="2" battleScribeVersion="2.00" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="3" battleScribeVersion="2.00" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -212,7 +212,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="65c9-fdca-4d14-5b76" name="New InfoLink" hidden="false" targetId="0b1d-2177-4275-126d" type="profile">
+        <infoLink id="65c9-fdca-4d14-5b76" name="New InfoLink" hidden="false" targetId="21b8-8e9e-6161-0812" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -375,7 +375,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="b99f-1147-ffad-4ae4" name="New InfoLink" hidden="false" targetId="9b10-514e-8b67-ec9c" type="profile">
+            <infoLink id="b99f-1147-ffad-4ae4" name="New InfoLink" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1510,12 +1510,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="5a64-be1b-a8a7-3f6d" name="New InfoLink" hidden="false" targetId="4421-66c4-4f11-6776" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -1532,14 +1526,7 @@
     <selectionEntry id="1319-c4f1-5cee-d812" name="Armour" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="da54-9ea3-6384-c0e9" name="New InfoLink" hidden="false" targetId="be51-9605-904b-412c" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e0a-bc85-f7a3-e62b" type="min"/>
@@ -1555,14 +1542,7 @@
     <selectionEntry id="64d9-8937-c5ac-e151" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="c343-285b-ee89-4b9b" name="New InfoLink" hidden="false" targetId="be51-9605-904b-412c" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="705d-4b6b-9db6-7055" type="min"/>

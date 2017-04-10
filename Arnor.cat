@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2587-8b93-97a0-ad95" name="Arnor" book="Kingdoms of Men" revision="3" battleScribeVersion="2.00" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2587-8b93-97a0-ad95" name="Arnor" book="Kingdoms of Men" revision="4" battleScribeVersion="2.00" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="f184-b3da-e7aa-48fa" name="The Grey Company" book="Kingdoms of Men" page="36" hidden="false">
@@ -1040,12 +1040,6 @@ To represent this, the surviving twin&apos;s Strength is increased to 5 and his 
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="a511-f42a-7be7-2aa5" name="New InfoLink" hidden="false" targetId="4421-66c4-4f11-6776" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="46a0-eca1-c3a9-378d" name="New InfoLink" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
           <profiles/>
           <rules/>
@@ -1084,7 +1078,9 @@ To represent this, the surviving twin&apos;s Strength is increased to 5 and his 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c830-aacc-8dcf-c4eb" name="Shield" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1111,7 +1107,9 @@ To represent this, the surviving twin&apos;s Strength is increased to 5 and his 
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>

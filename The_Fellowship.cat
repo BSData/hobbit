@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" revision="1" battleScribeVersion="2.00" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" revision="2" battleScribeVersion="2.00" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -91,7 +91,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="06bd-97b6-9a2c-fa47" name="New InfoLink" hidden="false" targetId="0b1d-2177-4275-126d" type="profile">
+        <infoLink id="06bd-97b6-9a2c-fa47" name="New InfoLink" hidden="false" targetId="21b8-8e9e-6161-0812" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -422,7 +422,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="065a-fe5e-aa47-ab48" name="New InfoLink" hidden="false" targetId="0b1d-2177-4275-126d" type="profile">
+        <infoLink id="065a-fe5e-aa47-ab48" name="New InfoLink" hidden="false" targetId="21b8-8e9e-6161-0812" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -733,7 +733,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="ea83-ef38-ff3b-4f0a" name="New InfoLink" hidden="false" targetId="9998-89a4-9536-3a40" type="profile">
+            <infoLink id="ea83-ef38-ff3b-4f0a" name="New InfoLink" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -829,7 +829,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5125-87a3-977f-43d2" name="Shield" book="The Free Peoples" page="44" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -856,7 +858,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="822f-373c-d31f-4cd5" name="Horn of Gondor" book="The Free Peoples" page="44" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -878,7 +882,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f02d-0876-79b0-b2ac" name="Elven Cloak" book="The Free Peoples" page="44" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1001,7 +1007,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="fd51-8fb8-273a-4a15" name="Elven Cloak" book="The Free Peoples" page="44" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1051,7 +1059,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="9200-56b0-af41-ccdf" name="New InfoLink" hidden="false" targetId="9998-89a4-9536-3a40" type="profile">
+            <infoLink id="9200-56b0-af41-ccdf" name="New InfoLink" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1160,7 +1168,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="746a-ed02-e5ab-4680" name="Mithril Coat" book="The Free Peoples" page="45" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1294,7 +1304,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="719a-aade-1ba4-93ee" name="Two- handed axe" book="The Free Peoples" page="46" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1315,7 +1327,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8dcf-6ad9-e221-c48a" name="Throwing axes" book="The Free Peoples" page="46" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1336,7 +1350,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a87e-5a15-312c-d2a1" name="Elven Cloak" book="The Free Peoples" page="46" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1735,7 +1751,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
