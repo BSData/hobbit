@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, Free Peoples" revision="2" battleScribeVersion="2.00" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, Free Peoples" revision="3" battleScribeVersion="2.00" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -67,6 +67,11 @@
       <characteristicTypes>
         <characteristicType id="1835-f3b9-d8cf-755a" name="Range"/>
         <characteristicType id="a67d-4947-b037-af0c" name="Strength"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="9c17-e82d-5620-86c0" name="Armour">
+      <characteristicTypes>
+        <characteristicType id="6820-108c-64e0-a817" name="Description"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -892,6 +897,53 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
         <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry steed"/>
+      </characteristics>
+    </profile>
+    <profile id="b55b-5615-4438-2b70" name="Armour" book="The Hobbit Strategy Rulebook" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model upgraded to wear armour adds 1 to his Defence"/>
+      </characteristics>
+    </profile>
+    <profile id="ac25-2fd8-3d85-7866" name="Heavy Armour" book="The Hobbit: An Unexpected Journey Rulebook" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model who is upgraded to wear heavy armour adds 2 to his Defence, unless he is already wearing armour, in which case he adds 1"/>
+      </characteristics>
+    </profile>
+    <profile id="a7d9-cb1b-035c-3984" name="Dwarf Armour" book="The Hobbit An Unexpected Journey Rulebook" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model who is upgraded to wear Dwarf Armour adds 2 to his Defence, unless he is already wearing armour, in which case he adds 1"/>
+      </characteristics>
+    </profile>
+    <profile id="6f1b-4c9b-004e-4848" name="Heavy Dwarf Armour" book="The Hobbit An Unexpected Journey Rulebook" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model who is upgraded to wear heavy Dwarf armour adds 3 to his Defence, unless he is already wearing armour, in which case he adds 2. If he is already wearing heavy armour or Dwarf armour he instead adds 1."/>
+      </characteristics>
+    </profile>
+    <profile id="21b8-8e9e-6161-0812" name="Blinding Light" book="The Hobbit An Unexpected Journey Rulebook" page="78" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="While this power is in effect, any shots directed at the caster, or a model within 6&quot; of him, only hit on a To Hit roll of a 6. Additionally, an area with a 12&quot; radius around the caster is illuminated as if it were daylight (perfect when your Wizard is underground)."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="The duration becoomes Exhaustion."/>
       </characteristics>
     </profile>
   </sharedProfiles>
