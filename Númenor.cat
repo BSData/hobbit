@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9a55-4559-8cb7-9caa" name="Númenor" book="Kingdoms of Men" revision="2" battleScribeVersion="2.00" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9a55-4559-8cb7-9caa" name="Númenor" book="Kingdoms of Men" revision="3" battleScribeVersion="2.00" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -76,7 +76,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="370e-96d1-8a6a-e7f6" name="New InfoLink" hidden="false" targetId="9b10-514e-8b67-ec9c" type="profile">
+            <infoLink id="370e-96d1-8a6a-e7f6" name="New InfoLink" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>

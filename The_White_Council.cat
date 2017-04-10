@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6eec-3151-8274-e5e6" name="The White Council" revision="1" battleScribeVersion="2.00" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6eec-3151-8274-e5e6" name="The White Council" revision="2" battleScribeVersion="2.00" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -91,7 +91,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="5473-cfd5-e437-846b" name="New InfoLink" hidden="false" targetId="0b1d-2177-4275-126d" type="profile">
+        <infoLink id="5473-cfd5-e437-846b" name="New InfoLink" hidden="false" targetId="21b8-8e9e-6161-0812" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -390,7 +390,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="11ae-472f-4239-6916" name="New InfoLink" hidden="false" targetId="0b1d-2177-4275-126d" type="profile">
+        <infoLink id="11ae-472f-4239-6916" name="New InfoLink" hidden="false" targetId="21b8-8e9e-6161-0812" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -523,7 +523,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3171-126d-a05e-b904" name="Heavy Armour" book="The Free Peoples" page="18" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -537,7 +539,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -663,7 +667,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -811,7 +817,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6b95-b19a-995c-6086" name="Heavy Armour" book="The Free Peoples" page="17" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -825,7 +833,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -980,7 +990,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1119,7 +1131,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1181,7 +1195,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="8e50-fbf4-f299-daf7" name="New InfoLink" hidden="false" targetId="9b10-514e-8b67-ec9c" type="profile">
+            <infoLink id="8e50-fbf4-f299-daf7" name="New InfoLink" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1350,7 +1364,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1165-29ef-88f8-b5e9" name="Elf Bow" book="The Free Peoples" page="25" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1371,7 +1387,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e379-12cb-08a2-277c" name="Elven blade" book="The Free Peoples" page="25" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1392,7 +1410,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c2b9-1801-66a8-c0e0" name="Elven Cloak" book="The Free Peoples" page="25" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1413,7 +1433,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1550,7 +1572,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="3cd9-4530-39b1-87d6" name="New InfoLink" hidden="false" targetId="9998-89a4-9536-3a40" type="profile">
+            <infoLink id="3cd9-4530-39b1-87d6" name="New InfoLink" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1712,7 +1734,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="08ca-3b26-9bfd-51ff" name="Horse" book="The Free Peoples" page="55" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1797,7 +1821,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="1ab3-be65-9bf1-af23" name="New InfoLink" hidden="false" targetId="0b1d-2177-4275-126d" type="profile">
+        <infoLink id="1ab3-be65-9bf1-af23" name="New InfoLink" hidden="false" targetId="21b8-8e9e-6161-0812" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1822,7 +1846,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7e98-f7b4-f909-4ebf" name="Nenya" book="The Free Peoples" page="55" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1844,7 +1870,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -2012,7 +2040,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a07f-a25e-af7f-abd8" name="Horse" book="The Free Peoples" page="56" hidden="false" collective="false" type="upgrade">
           <profiles/>
