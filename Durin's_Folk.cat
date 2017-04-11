@@ -33,7 +33,8 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0870-644e-a05d-b791" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0870-644e-a05d-b791" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d5e-ff98-22f5-b6aa" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="d4fe-dc1b-499f-823f" name="The Crown of Kings" book="The Free Peoples" page="31" hidden="false" collective="false" type="upgrade">
@@ -400,7 +401,8 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e9-3821-134b-bfa7" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e9-3821-134b-bfa7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60d8-ffa7-009d-9e53" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="3223-ff34-2db3-844b" name="Torozûl" book="The Free Peoples" page="31" hidden="false" collective="false" type="upgrade">
@@ -468,7 +470,8 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7802-580c-ee5b-c358" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7802-580c-ee5b-c358" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b71-6e9d-27fb-43e4" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="405d-3d5a-ee22-c429" name="Durin&apos;s Axe" book="The Free People&apos;s" page="31" hidden="false" collective="false" type="upgrade">
@@ -573,7 +576,8 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1c8-2d34-85ac-9939" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1c8-2d34-85ac-9939" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51d4-ac4f-357a-a2aa" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="a324-689f-7f1b-0176" name="Barazántathûl" book="The Free Peoples" page="32" hidden="false" collective="false" type="upgrade">
@@ -649,7 +653,8 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c31-d7aa-30e0-0939" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c31-d7aa-30e0-0939" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f462-014f-dd29-f02e" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="b64d-9c7b-267b-43f8" name="Elven Cloak" book="The Free Peoples" page="32" hidden="false" collective="false" type="upgrade">
@@ -744,7 +749,8 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ad3-95ec-a013-2be8" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ad3-95ec-a013-2be8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="093b-a533-e7dd-a6bc" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -813,7 +819,8 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8737-8062-88f4-3f1c" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8737-8062-88f4-3f1c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="250e-f557-2029-7b1d" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="2bb0-06e4-6cb6-775f" name="Kalazál" book="The Free Peoples" page="33" hidden="false" collective="false" type="upgrade">
@@ -1071,7 +1078,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9251-3813-14a9-b890" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="e378-8720-deac-d452" name="Throwing Axes" book="The Free Peoples" page="34" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1166,7 +1175,7 @@
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="22cf-e732-aed7-6815" name="Dwarf King" book="The Free Peoples" page="34" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="22cf-e732-aed7-6815" name="Dwarf King" book="The Free Peoples" page="34" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="upgrade">
       <profiles>
         <profile id="f7aa-af16-6714-bf52" name="Dwarf King" book="The Free Peoples" page="34" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1191,7 +1200,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c42-0881-add2-2f4f" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="b278-ab4e-dab5-a2b9" name="Throwing Axes" book="The Free Peoples" page="34" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1298,7 +1309,9 @@
       </rules>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40bb-eb69-e7b9-f8bc" type="max"/>
+      </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1380,7 +1393,9 @@
       </rules>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60c4-c4d9-3ab5-221d" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="33cf-a5c4-a58e-aca1" name="1 King&apos;s Champion and 2 Heralds" book="The Free Peoples" page="35" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1555,7 +1570,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1575,7 +1592,9 @@
           <constraints/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a4df-f76c-8e71-b8b6" name="Khazâd Guard" book="The Free Peoples" page="37" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
@@ -1695,7 +1714,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="57d9-da33-4117-09f2" name="Dwarf Engineer Captain" book="The Free Peoples" page="37" hidden="false" collective="false" type="upgrade">
           <profiles/>

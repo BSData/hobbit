@@ -1101,7 +1101,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b1-6706-9e70-2f47" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="741a-94fa-53c5-2547" name="Horse" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1261,7 +1263,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0e7-6b59-e5cb-9aee" type="max"/>
+      </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>

@@ -234,7 +234,9 @@ You may opt to take a Grey Company force. If you do so, your force (or an allied
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ef1-f91b-3e00-691d" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="21e5-9cea-e0e8-9ec1" name="Bow" book="Kingdoms of Men" page="37" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -326,7 +328,9 @@ You may opt to take a Grey Company force. If you do so, your force (or an allied
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="725d-1c14-e621-eabe" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="e536-8b5a-3c66-d760" name="Spear" book="Kingdoms of Men" page="38" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -819,7 +823,9 @@ To represent this, the surviving twin&apos;s Strength is increased to 5 and his 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5825-2f87-24b1-83e2" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="c131-f3c1-2f66-1f41" name="Horse" book="Kingdoms of Men" page="39" hidden="false" collective="false" type="upgrade">
           <profiles/>
