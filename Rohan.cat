@@ -39,7 +39,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a958-8cee-1151-0944" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="2ae9-4292-668f-30dc" name="Armour" book="Kingdoms of Men" page="34" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>

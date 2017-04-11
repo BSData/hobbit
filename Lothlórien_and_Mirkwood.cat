@@ -516,7 +516,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b884-7301-c60f-a8f8" name="Galadhrim Knight" book="The Free Peoples" page="27" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
@@ -739,7 +739,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4dc8-8f37-7f80-e417" name="Haldir" book="The Free Peoples" page="24" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
@@ -1671,7 +1671,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0e80-76fb-c583-1e61" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc72-5570-00d9-bbd4" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc72-5570-00d9-bbd4" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1727,7 +1727,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="598a-fe20-dc56-74ba" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="007e-cbdb-41f7-76d7" name="Elf bow" book="The Free Peoples" page="26" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1808,7 +1810,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2ac-ded9-17de-f7c2" name="Galadhrim Stormcaller" book="The Free Peoples" page="26" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
@@ -1888,7 +1890,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f188-4172-01db-75be" type="max"/>
+      </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1948,7 +1952,9 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c82-e1eb-b100-3754" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="17df-94fc-78cc-6b7c" name="Armoured horse" book="The Free Peoples" page="26" hidden="false" collective="false" type="upgrade">
           <profiles/>

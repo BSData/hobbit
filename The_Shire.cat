@@ -7,7 +7,7 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="be5c-a3f8-37e2-fce0" name="Frodo of the Nine Fingers" book="The Free Peoples" page="39" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+    <selectionEntry id="be5c-a3f8-37e2-fce0" name="Frodo of the Nine Fingers" book="The Free Peoples" page="39" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="67b0-f957-f8d7-d2b5" name="Frodo of the Nine Fingers" book="The Free Peoples" page="39" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -83,7 +83,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="757a-76bb-612e-17d0" name="Elven Cloak" book="The Free Peoples" page="39" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -191,7 +193,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="83c2-94e5-e3b2-2f26" name="Elven Cloak" book="The Free Peoples" page="39" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -299,7 +303,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6d7e-f0b9-dd42-e138" name="Elven Cloak" book="The Free Peoples" page="39" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -440,7 +446,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="dddb-584a-dcb1-01db" name="War Horn" book="The Free Peoples" page="41" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -556,7 +564,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2924-365d-b0d8-146f" name="Horn of the Riddermark" book="The Free Peoples" page="40" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -578,7 +588,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8302-2be6-2f14-8b78" name="Elven Cloak" book="The Free Peoples" page="40" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -921,7 +933,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1041,7 +1055,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>

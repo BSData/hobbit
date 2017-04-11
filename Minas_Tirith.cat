@@ -619,6 +619,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d5b-85ca-384b-4a84" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="c80e-714d-11ed-aca5" name="Heavy armour" book="Kingdoms of Men" page="18" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -796,7 +797,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f10b-9365-0064-4396" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="9616-adfa-db6f-076f" name="Heavy armour" book="Kingdoms of Men" page="20" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
@@ -1633,7 +1636,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc6e-e2e9-17f1-bd74" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="7b7b-8b50-7b54-346f" name="Armour" book="Kingdoms of Men" page="20" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
@@ -1827,7 +1832,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fccc-71f4-2018-82c4" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="f171-34c2-31f7-088c" name="Heavy armour" book="Kingdoms of Men" page="20" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
