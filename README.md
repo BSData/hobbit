@@ -1,17 +1,13 @@
 Hobbit SBG
 ================
 
-####Contents####
+#### Contents ####
 
 * [Overview][]
 * [Links][]
 
-
+## Overview ##
 [Overview]: #overview
-[Links]: #links
-
-
-##Overview##
 
 __What's this?__
 
@@ -24,7 +20,8 @@ __Okay, nice project. Is it actually working?__ _I just want those files..._
 Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
 
 
-##Links##
+## Links ##
+[Links]: #links
 
 * [BattleScribe homepage][]
 * [BattleScribe Data on Appspot][]
