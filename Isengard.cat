@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2732-1504-6898-05c5" name="Isengard" revision="5" battleScribeVersion="2.00" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2732-1504-6898-05c5" name="Isengard" revision="6" battleScribeVersion="2.00" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -25,6 +25,7 @@
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="6*"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
         <profile id="3487-8376-c532-2c96" name="Immobilise" book="The Fallen Realms" page="17" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
@@ -164,6 +165,7 @@
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
       </profiles>
@@ -241,6 +243,7 @@
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
       </profiles>
@@ -317,6 +320,7 @@
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="0"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="0"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="0"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
       </profiles>
@@ -377,6 +381,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
       </profiles>
@@ -492,6 +497,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
       </profiles>
@@ -575,6 +581,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
       </profiles>
@@ -682,6 +689,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
       </profiles>
@@ -792,6 +800,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
         <profile id="18cf-5823-3aec-4034" name="Transfix" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
@@ -901,6 +910,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
       </profiles>
@@ -997,6 +1007,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1110,6 +1121,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
                 <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
                 <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="4"/>
                 <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+                <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
               </characteristics>
             </profile>
             <profile id="d8a8-2881-4a0e-68ae" name="Immobilise" book="The Fallen Realms" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
@@ -1199,6 +1211,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
                 <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="0"/>
                 <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="0"/>
                 <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="0"/>
+                <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1246,6 +1259,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1266,7 +1280,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1313,6 +1329,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1333,7 +1350,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1386,6 +1405,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="7"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1406,7 +1426,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1430,6 +1452,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="5"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1450,7 +1473,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1474,6 +1499,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="3"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="4"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1509,7 +1535,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f4ff-8276-2874-dd63" name="Shield" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1523,7 +1551,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1555,6 +1585,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1575,7 +1606,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="20e1-7cc1-7df7-eaaa" name="Bow" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1644,6 +1677,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1697,6 +1731,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1717,7 +1752,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3058-02a6-a32b-bec4" name="Warg" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1731,7 +1768,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3410-22a3-86cd-2ff6" name="Throwing spears" book="The Fallen Realms" page="23" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1800,6 +1839,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1820,7 +1860,9 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6cf7-6b34-ae33-e7f3" name="Spear" book="The Fallen Realms" page="23" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1896,6 +1938,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1959,7 +2002,8 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
           <characteristics>
             <characteristic name="Strength" characteristicTypeId="3684-4bad-79f7-2a2c" value="9"/>
             <characteristic name="Defence" characteristicTypeId="7017-e823-5773-12b4" value="10"/>
-            <characteristic name="Batter Points" characteristicTypeId="b509-5974-0a4a-b2a2" value="4"/>
+            <characteristic name="Wounds" characteristicTypeId="b509-5974-0a4a-b2a2" value="4"/>
+            <characteristic name="Type" characteristicTypeId="d4dd-3731-7350-033f"/>
           </characteristics>
         </profile>
         <profile id="9e31-a5b0-cf96-1571" name="Crew" book="The Fallen Realms" page="24" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
@@ -1975,6 +2019,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2060,6 +2105,7 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70"/>
             <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2244,7 +2290,6 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dc5-0043-4644-5f39" type="max"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aaa-3868-9bb2-e601" type="min"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
