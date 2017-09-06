@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="5" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="6" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1001,7 +1001,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="c40b-1b09-cdf0-062e" name="New InfoLink" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
+        <infoLink id="c40b-1b09-cdf0-062e" name="Immobilise/Transfix" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1224,7 +1224,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="88a0-d0f3-4358-7744" name="New InfoLink" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
+            <infoLink id="88a0-d0f3-4358-7744" name="Horse" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1234,7 +1234,6 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f54-414e-4db5-a1b3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72ea-dc61-56ea-4106" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -1257,7 +1256,6 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="094e-2709-c2ff-e015" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3f4-3ab5-9735-3a4f" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -1287,8 +1285,77 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb0f-1320-b569-87ad" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bf6-7645-5a12-768f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="65a8-204e-d43e-2401" name="Elven blade" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6de6-506a-83d7-d2e6" name="New InfoLink" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="49bc-034d-22da-53a0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd9a-d1b1-3da9-6258" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f9fc-0307-5cbf-840c" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8ba2-f2dd-b1c8-e478" name="Heavy Armour" hidden="false" targetId="4996-5640-d164-7654" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11ef-2561-b7ae-e713" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ffa8-f4da-a036-fc50" name="Armour" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="2c12-6aa3-cb23-6af8" name="Armour" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ef4-0a32-b686-942f" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -1300,26 +1367,9 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="fead-a5be-6826-16e6" name="New EntryLink" hidden="false" targetId="64d9-8937-c5ac-e151" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="5eb7-f1b3-ded0-d8dc" name="New EntryLink" hidden="false" targetId="ecba-4aa7-3646-2c9e" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="75.0"/>
+        <cost name="pts" costTypeId="points" value="63.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d0c3-11e7-c5ba-111d" name="High Elf Stormcaller" book="The Free Peoples" page="20" hidden="false" collective="false" type="model">
@@ -1647,14 +1697,14 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="9.0"/>
+        <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5109-ca1c-f24f-f91f" name="Knight of Rivendell" book="Heroes and Villains of Middle-Earth" page="16" hidden="false" collective="false" type="model">
@@ -1676,27 +1726,21 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="d6f7-053e-e2ba-bf45" name="Woodland Creature" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
+      <rules/>
+      <infoLinks>
+        <infoLink id="9a0b-fd1d-ccfc-0bbc" name="Expert Rider" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>A model wuth this special rule may not move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automaticall climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
-        </rule>
-        <rule id="e5a6-09f2-5a41-b160" name="Expert Rider" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
+        </infoLink>
+        <infoLink id="9e67-61d8-84e8-82c1" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
-
-While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
-
-Additionally, an Expert Rider can pick up a Light Object without having to dismount first (pg 85)</description>
-        </rule>
-      </rules>
-      <infoLinks/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1782,7 +1826,7 @@ Additionally, an Expert Rider can pick up a Light Object without having to dismo
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5444-f926-3b65-e2ae" name="Elven Blade" hidden="false" collective="false" type="upgrade">
@@ -1806,7 +1850,7 @@ Additionally, an Expert Rider can pick up a Light Object without having to dismo
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7e2f-59c7-3049-0d92" name="Elf bow" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
@@ -1854,30 +1898,20 @@ Additionally, an Expert Rider can pick up a Light Object without having to dismo
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="919a-8353-e985-e1b5" name="Horse" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="aa77-e3a7-e47b-077e" name="Horse" book="The hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="f55e-58b9-9bb7-16c0" name="Horse" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <characteristics>
-                <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
-                <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
-                <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-                <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
-                <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
-                <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-                <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-                <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Steed"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff8-894e-f74a-f760" type="max"/>
@@ -1888,7 +1922,7 @@ Additionally, an Expert Rider can pick up a Light Object without having to dismo
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="7.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="00bd-34bb-d5ea-4e14" name="War Horn" hidden="false" collective="false" type="upgrade">
@@ -1911,14 +1945,14 @@ Additionally, an Expert Rider can pick up a Light Object without having to dismo
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="30.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="21.0"/>
+        <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1928,7 +1962,7 @@ Additionally, an Expert Rider can pick up a Light Object without having to dismo
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="6f5b-08c0-bd61-ade7" name="New InfoLink" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
+        <infoLink id="6f5b-08c0-bd61-ade7" name="Elven blades" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1944,13 +1978,20 @@ Additionally, an Expert Rider can pick up a Light Object without having to dismo
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1319-c4f1-5cee-d812" name="Armour" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="bad6-7602-7d69-a41a" name="Armour" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b9c-23d5-7661-bcb5" type="max"/>
@@ -1960,7 +2001,7 @@ Additionally, an Expert Rider can pick up a Light Object without having to dismo
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="64d9-8937-c5ac-e151" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
@@ -1983,7 +2024,7 @@ Additionally, an Expert Rider can pick up a Light Object without having to dismo
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="852e-49ae-8330-fc58" name="Elven Cloak" hidden="false" collective="false" type="upgrade">
@@ -2029,30 +2070,20 @@ Additionally, an Expert Rider can pick up a Light Object without having to dismo
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="efbc-b2f5-6d3e-a93f" name="Horse" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="d259-334d-ac1f-c34a" name="Horse" book="The hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e1e0-515f-4c51-f564" name="Horse" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Steed"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa53-f00a-aa7a-ffe9" type="max"/>
@@ -2062,7 +2093,7 @@ Additionally, an Expert Rider can pick up a Light Object without having to dismo
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6215-4888-4cb2-4e35" name="War Horn" hidden="false" collective="false" type="upgrade">
@@ -2085,7 +2116,30 @@ Additionally, an Expert Rider can pick up a Light Object without having to dismo
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b4f4-7b07-e529-3328" name="Banner" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="93d7-f997-a3fb-89ed" name="Banner" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="8e06-cb8f-41c0-09a4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25d2-a63f-a8dd-57d9" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
