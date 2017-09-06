@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="6eec-3151-8274-e5e6" name="The White Council" revision="2" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="6eec-3151-8274-e5e6" name="The White Council" revision="2" battleScribeVersion="2.00" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,10 +7,7 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="3e26-57a5-c21e-b396" name="Gandalf the Grey" book="The Free Peoples" page="43" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="3e26-57a5-c21e-b396-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="3e26-57a5-c21e-b396" name="Gandalf the Grey" book="The Free Peoples" page="43" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="a152-8665-8e6e-2698" name="Blinding Light" book="The Free Peoples" page="43" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
@@ -220,9 +217,9 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f80a-f714-0ca8-7eed" name="Gandalf's Cart" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f80a-f714-0ca8-7eed" name="Gandalf&apos;s Cart" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="bf58-22de-be18-ef43" name="Gandalf's Cart" book="The Free Peoples" page="43" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+            <profile id="bf58-22de-be18-ef43" name="Gandalf&apos;s Cart" book="The Free Peoples" page="43" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -240,7 +237,7 @@
             </profile>
           </profiles>
           <rules>
-            <rule id="3e1b-f610-89fa-e432" name="Gandalf's Cart" book="The Free Peoples" page="43" hidden="false">
+            <rule id="3e1b-f610-89fa-e432" name="Gandalf&apos;s Cart" book="The Free Peoples" page="43" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -308,10 +305,7 @@
         <cost name="pts" costTypeId="points" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d6e8-3b2a-ff19-0a3d" name="Cirdan" book="The Free Peoples" page="18" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="d6e8-3b2a-ff19-0a3d-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="d6e8-3b2a-ff19-0a3d" name="Cirdan" book="The Free Peoples" page="18" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="bdeb-2a59-d1e7-5d15" name="Cirdan" book="The Free Peoples" page="18" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -421,10 +415,7 @@
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0907-9f49-9403-6ec9" name="Erestor" book="The Free Peoples" page="18" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="0907-9f49-9403-6ec9-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="0907-9f49-9403-6ec9" name="Erestor" book="The Free Peoples" page="18" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="f4cb-01d3-32b5-f4be" name="Erestor" book="The Free Peoples" page="18" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -473,7 +464,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f60e-f492-3227-5a18" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="de76-a713-fbe0-3662" name="Noldorin throwing daggers" book="The Free Peoples" page="18" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="de76-a713-fbe0-3662" name="Noldorin throwing daggers" book="The Free Peoples" page="18" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules>
             <rule id="346a-7bd1-a792-a8ee" name="Noldorin Throwing Daggers" book="The Free Peoples" page="1" hidden="false">
@@ -559,10 +550,7 @@
         <cost name="pts" costTypeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e97-f479-dce1-860f" name="Glorfindel, Lord of the West" book="The Free Peoples" page="19" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="8e97-f479-dce1-860f-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="8e97-f479-dce1-860f" name="Glorfindel, Lord of the West" book="The Free Peoples" page="19" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="e1d7-4cc5-47e9-1166" name="Glorfindel, Lord of the West" book="The Free Peoples" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -611,7 +599,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2d3d-f66c-7f6d-51ed" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="eec0-9c78-3c37-c0f1" name="Armour of Gondolin" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="eec0-9c78-3c37-c0f1" name="Armour of Gondolin" book="The Free Peoples" page="19" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="da19-8ba8-e5f2-0df1" name="Armour of Gondolin" book="The Free Peoples" page="19" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
               <profiles/>
@@ -637,7 +625,7 @@
             <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e1c8-b1a5-640b-c5c5" name="Asfaloth (horse)" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="e1c8-b1a5-640b-c5c5" name="Asfaloth (horse)" book="The Free Peoples" page="19" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -690,10 +678,7 @@
         <cost name="pts" costTypeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7b48-6fa6-1e5c-3439" name="Elrond" book="The Free Peoples" page="17" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="7b48-6fa6-1e5c-3439-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="7b48-6fa6-1e5c-3439" name="Elrond" book="The Free Peoples" page="17" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="996f-d74e-eee3-096a" name="Elrond" book="The Free Peoples" page="17" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -714,7 +699,7 @@
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
           </characteristics>
         </profile>
-        <profile id="270c-c4bf-4816-d915" name="Nature's Wrath" book="The Free Peoples" page="17" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="270c-c4bf-4816-d915" name="Nature&apos;s Wrath" book="The Free Peoples" page="17" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -724,7 +709,7 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="4415-0030-6242-2a1b" name="Renew" book="The Free People's" page="17" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="4415-0030-6242-2a1b" name="Renew" book="The Free People&apos;s" page="17" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -789,7 +774,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5cc1-e913-71fa-563f" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="bbf2-6292-e0f9-2039" name="Vilya" book="The Free Peoples" page="17" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="bbf2-6292-e0f9-2039" name="Vilya" book="The Free Peoples" page="17" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules>
             <rule id="b685-9d62-3a59-e162" name="Vilya" book="The Free Peoples" page="17" hidden="false">
@@ -859,10 +844,7 @@
         <cost name="pts" costTypeId="points" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="05e7-7f75-e4ca-b6cb" name="Elrond, Master of Rivendell" book="The Free Peoples" page="17" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="05e7-7f75-e4ca-b6cb-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="05e7-7f75-e4ca-b6cb" name="Elrond, Master of Rivendell" book="The Free Peoples" page="17" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="c434-dd2b-cb0d-b68d" name="Elrond, Master of Rivendell" book="The Free Peoples" page="17" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -921,7 +903,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Before the game begins, roll a D6 and make a not of the result - these are Elrond's 'foresight' points for the remainder of the battle. Elrond can spend these points in the Priority phase, after both players have made their priority rolls. For each foresight point expended, Elrond can alter either priority roll by +1 or -1, to a minimum of 1 and a maximum of 6.</description>
+          <description>Before the game begins, roll a D6 and make a not of the result - these are Elrond&apos;s &apos;foresight&apos; points for the remainder of the battle. Elrond can spend these points in the Priority phase, after both players have made their priority rolls. For each foresight point expended, Elrond can alter either priority roll by +1 or -1, to a minimum of 1 and a maximum of 6.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -965,7 +947,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="56cc-4994-5185-f30a" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="e253-3887-87ec-82ef" name="Vilya" book="The Free Peoples" page="17" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="e253-3887-87ec-82ef" name="Vilya" book="The Free Peoples" page="17" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules>
             <rule id="f95f-348b-e21b-c644" name="Vilya" book="The Free Peoples" page="17" hidden="false">
@@ -1019,10 +1001,7 @@
         <cost name="pts" costTypeId="points" value="205.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c912-b5b3-1da0-edb3" name="Arwen" book="The Free Peoples" page="19" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="c912-b5b3-1da0-edb3-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="c912-b5b3-1da0-edb3" name="Arwen" book="The Free Peoples" page="19" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="3222-aff6-2b6d-9459" name="Arwen" book="The Free Peoples" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -1043,7 +1022,7 @@
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
           </characteristics>
         </profile>
-        <profile id="8877-aaf2-849c-7947" name="Nature's Wrath" book="The Free Peoples" page="19" hidden="false" profileTypeId="caa8-a3a0-9848-1893">
+        <profile id="8877-aaf2-849c-7947" name="Nature&apos;s Wrath" book="The Free Peoples" page="19" hidden="false" profileTypeId="caa8-a3a0-9848-1893">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1087,7 +1066,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c306-9538-df4d-5f7b" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="72fc-0a0a-bcba-bbbe" name="Asfaloth (horse)" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="72fc-0a0a-bcba-bbbe" name="Asfaloth (horse)" book="The Free Peoples" page="19" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1110,7 +1089,7 @@
             <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8a37-f672-028c-6b0c" name="Elven cloak" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="8a37-f672-028c-6b0c" name="Elven cloak" book="The Free Peoples" page="19" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1163,10 +1142,7 @@
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7869-fbdf-f510-2a4a" name="Celeborn" book="The Free Peoples" page="23" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="7869-fbdf-f510-2a4a-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="7869-fbdf-f510-2a4a" name="Celeborn" book="The Free Peoples" page="23" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="c904-d0aa-3d6d-84f2" name="Celeborn" book="The Free Peoples" page="23" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1297,10 +1273,7 @@
         <cost name="pts" costTypeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7af4-8316-bf02-010a" name="Thranduil, King of Mirkwood" book="The Free Peoples" page="25" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="7af4-8316-bf02-010a-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="7af4-8316-bf02-010a" name="Thranduil, King of Mirkwood" book="The Free Peoples" page="25" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="4504-c8bb-536c-5921" name="Thranduil, King of Mirkwood" book="The Free Peoples" page="25" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1363,7 +1336,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>This crown allows Thranduiul to cast the Magical Powers Aura of Dismay and Nature's Wrath once each per game. The spell is automatically cast and no Will points need be expended.</description>
+              <description>This crown allows Thranduiul to cast the Magical Powers Aura of Dismay and Nature&apos;s Wrath once each per game. The spell is automatically cast and no Will points need be expended.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -1471,10 +1444,7 @@
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="359e-308e-571d-b262" name="Legolas" book="The Free Peoples" page="44" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="359e-308e-571d-b262-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="359e-308e-571d-b262" name="Legolas" book="The Free Peoples" page="44" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="ca28-2636-1b26-ec9e" name="Legolas" book="The Free Peoples" page="44" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1502,7 +1472,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Legolas is allowed to shoot his bow three times in the Shoot phase instead of once, hitting his targets normally on 3+. Alternatively, he can decide to fire just one arrow, but in this case, he will hit automatically, regardless of objects 'in the way' or if the targets is in combat.</description>
+          <description>Legolas is allowed to shoot his bow three times in the Shoot phase instead of once, hitting his targets normally on 3+. Alternatively, he can decide to fire just one arrow, but in this case, he will hit automatically, regardless of objects &apos;in the way&apos; or if the targets is in combat.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1627,10 +1597,7 @@
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e98-282a-1a6b-beea" name="Saruman the White" book="The Free Peoples" page="55" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="3e98-282a-1a6b-beea-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="3e98-282a-1a6b-beea" name="Saruman the White" book="The Free Peoples" page="55" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="0dc5-1782-2fcb-aca3" name="Saruman the White" book="The Free Peoples" page="55" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1698,14 +1665,14 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>The range of Saruman the White's Stand Fast! is 12"/28cm rathe than 6"/14cm and, unlike other Heroe's Stand Fast! rolls, can affect other Heroes.</description>
+          <description>The range of Saruman the White&apos;s Stand Fast! is 12&quot;/28cm rathe than 6&quot;/14cm and, unlike other Heroe&apos;s Stand Fast! rolls, can affect other Heroes.</description>
         </rule>
         <rule id="ff89-a366-96ce-abe1" name="Consuming Rivalry" book="The Free Peoples" page="55" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Saruman will never move as part of a heroic action called by Gandalf nor will he accept Gandalf's aid in the form of the Strengthen Will spell - if Gandalf casts this magical power on Saruman, it has no effect.</description>
+          <description>Saruman will never move as part of a heroic action called by Gandalf nor will he accept Gandalf&apos;s aid in the form of the Strengthen Will spell - if Gandalf casts this magical power on Saruman, it has no effect.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1800,10 +1767,7 @@
         <cost name="pts" costTypeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a1d2-d2f6-6e59-a9d5" name="Galadriel, Protectress of Lothlórien" book="The Free Peoples" page="55" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="a1d2-d2f6-6e59-a9d5-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="a1d2-d2f6-6e59-a9d5" name="Galadriel, Protectress of Lothlórien" book="The Free Peoples" page="55" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="343e-8c1d-468e-417f" name="Galadriel, Protectress of Lothlórien" book="The Free Peoples" page="55" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1841,7 +1805,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>All enemy models within 6"/14cm of Galadriel suffera -1 penalty to their Courage</description>
+          <description>All enemy models within 6&quot;/14cm of Galadriel suffera -1 penalty to their Courage</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1917,10 +1881,7 @@
         <cost name="pts" costTypeId="points" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c846-9f88-bb8f-2b0b" name="Radagast the Brown" book="The Free Peoples" page="56" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="c846-9f88-bb8f-2b0b-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="c846-9f88-bb8f-2b0b" name="Radagast the Brown" book="The Free Peoples" page="56" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="758b-060f-816a-2741" name="Radagast the Brown" book="The Free Peoples" page="56" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -2122,7 +2083,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A member of a White Council warband adds +1 to the dice roll when attempting to resist a Magical Power so long as there is another member of his warband within 6"/14cm</description>
+      <description>A member of a White Council warband adds +1 to the dice roll when attempting to resist a Magical Power so long as there is another member of his warband within 6&quot;/14cm</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

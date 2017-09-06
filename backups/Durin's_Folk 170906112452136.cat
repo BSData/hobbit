@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="4ad8-03c3-5f9a-1680" name="Durin's Folk" revision="1" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4ad8-03c3-5f9a-1680" name="Durin&apos;s Folk" revision="1" battleScribeVersion="2.00" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,10 +7,7 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="7306-08a5-d78f-20d7" name="Durin, King of Khazad-dûm" book="The Free Peoples" page="31" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="7306-08a5-d78f-20d7-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="7306-08a5-d78f-20d7" name="Durin, King of Khazad-dûm" book="The Free Peoples" page="31" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="d8a7-8509-92c4-19d0" name="Durin, King of Khazad-dûm" book="The Free Peoples" page="31" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -64,15 +61,15 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b7b2-765f-362d-3b70" name="Durin's Axe" book="The Free People's" page="31" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="b7b2-765f-362d-3b70" name="Durin&apos;s Axe" book="The Free People&apos;s" page="31" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="e03f-715d-17f0-8fd7" name="Durin's Axe" book="The Free Peoples" page="31" hidden="false">
+            <rule id="e03f-715d-17f0-8fd7" name="Durin&apos;s Axe" book="The Free Peoples" page="31" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The wielder adds +1 to his dice rolls on the Wound chart. In addition, the wielder of Durin's Axe may re-roll one of his dice when determining who wins a fight.</description>
+              <description>The wielder adds +1 to his dice rolls on the Wound chart. In addition, the wielder of Durin&apos;s Axe may re-roll one of his dice when determining who wins a fight.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -127,10 +124,7 @@
         <cost name="pts" costTypeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b95-3e1b-979d-0331" name="Dwarf Warrior" book="The Free Peoples" page="35" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="4b95-3e1b-979d-0331-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="4b95-3e1b-979d-0331" name="Dwarf Warrior" book="The Free Peoples" page="35" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="ea8c-7e0d-1b0c-cf57" name="Dwarf Warrior" book="The Free Peoples" page="35" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -373,10 +367,7 @@
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9a6f-ebc2-988b-6618" name="Mardin" book="The Free Peoples" page="31" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="9a6f-ebc2-988b-6618-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="9a6f-ebc2-988b-6618" name="Mardin" book="The Free Peoples" page="31" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="271e-a8ca-b001-05a0" name="Mardin" book="The Free Peoples" page="31" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -404,7 +395,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>As long as Durin is within 12"/28cm, Mardin will automatically pass all Courage tests he has to take. If Durin is slain or leaves the table, Mardin reverts to the normal rules for Courage.</description>
+          <description>As long as Durin is within 12&quot;/28cm, Mardin will automatically pass all Courage tests he has to take. If Durin is slain or leaves the table, Mardin reverts to the normal rules for Courage.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -453,10 +444,7 @@
         <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d85-8cbf-7ad4-2dac" name="Balin, son of Fundin" book="The Free Peoples" page="31" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="7d85-8cbf-7ad4-2dac-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="7d85-8cbf-7ad4-2dac" name="Balin, son of Fundin" book="The Free Peoples" page="31" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="bce3-f8f5-a87b-2d27" name="Balin, son of Fundin" book="The Free Peoples" page="31" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -486,15 +474,15 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b71-6e9d-27fb-43e4" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="405d-3d5a-ee22-c429" name="Durin's Axe" book="The Free People's" page="31" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="405d-3d5a-ee22-c429" name="Durin&apos;s Axe" book="The Free People&apos;s" page="31" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules>
-            <rule id="e7fa-c0a9-494a-332d" name="Durin's Axe" book="The Free Peoples" page="31" hidden="false">
+            <rule id="e7fa-c0a9-494a-332d" name="Durin&apos;s Axe" book="The Free Peoples" page="31" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The wielder adds +1 to his dice rolls on the Wound chart. In addition, the wielder of Durin's Axe may re-roll one of his dice when determining who wins a fight.</description>
+              <description>The wielder adds +1 to his dice rolls on the Wound chart. In addition, the wielder of Durin&apos;s Axe may re-roll one of his dice when determining who wins a fight.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -547,10 +535,7 @@
         <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="202c-d5f7-cc78-29cf" name="Dáin Ironfoot, King of Erebor" book="The Free Peoples" page="32" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="202c-d5f7-cc78-29cf-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="202c-d5f7-cc78-29cf" name="Dáin Ironfoot, King of Erebor" book="The Free Peoples" page="32" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="ea64-f4be-f768-3ab4" name="Dáin Ironfoot, King of Erebor" book="The Free Peoples" page="32" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -578,7 +563,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>The range of Dáin's Stand Fast! rule is 12"/28cm rather then 6"/14cm</description>
+          <description>The range of Dáin&apos;s Stand Fast! rule is 12&quot;/28cm rather then 6&quot;/14cm</description>
         </rule>
         <rule id="2781-eda8-0a86-7386" name="Venerable" book="The Free Peoples" page="32" hidden="false">
           <profiles/>
@@ -634,10 +619,7 @@
         <cost name="pts" costTypeId="points" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe60-bdb7-8111-47e4" name="Gimli, son of Glóin" book="The Free Peoples" page="32" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="fe60-bdb7-8111-47e4-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="fe60-bdb7-8111-47e4" name="Gimli, son of Glóin" book="The Free Peoples" page="32" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="68ae-d903-00e8-a4f7" name="Gimli, son of Glóin" book="The Free Peoples" page="32" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -726,10 +708,7 @@
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e110-74aa-c6b5-3907" name="Flói Stonehand" book="The Free Peoples" page="32" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="e110-74aa-c6b5-3907-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="e110-74aa-c6b5-3907" name="Flói Stonehand" book="The Free Peoples" page="32" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="b2f4-12b0-7066-fbfc" name="Flói Stonehand" book="The Free Peoples" page="32" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -757,7 +736,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>At the start of his Move, Flói can spend a Will point to negate an enemy special rule for the rest of the turn. There is no range to this ability - as long as Flói can see the foe, and has a Will point to spned, it works. For example, this could prevent an enemy from causing Terror, stop Gothmog's Master of Battle, and so on.</description>
+          <description>At the start of his Move, Flói can spend a Will point to negate an enemy special rule for the rest of the turn. There is no range to this ability - as long as Flói can see the foe, and has a Will point to spned, it works. For example, this could prevent an enemy from causing Terror, stop Gothmog&apos;s Master of Battle, and so on.</description>
         </rule>
         <rule id="c313-b3d5-e6a9-410d" name="The Living Lore" book="The Free Peoples" page="32" hidden="false">
           <profiles/>
@@ -788,10 +767,7 @@
         <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="070a-de22-f28d-c915" name="Múrin and Drár" book="The Free Peoples" page="33" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="070a-de22-f28d-c915-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="070a-de22-f28d-c915" name="Múrin and Drár" book="The Free Peoples" page="33" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="9395-d966-43dd-823a" name="Múrin" book="The Free Peoples" page="33" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -916,10 +892,7 @@
         <cost name="pts" costTypeId="points" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b4b-eea2-769c-56a0" name="Dwarf Ranger" book="The Free Peoples" page="36" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="4b4b-eea2-769c-56a0-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="4b4b-eea2-769c-56a0" name="Dwarf Ranger" book="The Free Peoples" page="36" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="684c-65a1-7320-d080" name="Dwarf Ranger" book="The Free Peoples" page="36" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -1080,10 +1053,7 @@
         <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="56ad-881e-0d33-fe0e" name="Dwarf Captain" book="The Free Peoples" page="34" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="56ad-881e-0d33-fe0e-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="56ad-881e-0d33-fe0e" name="Dwarf Captain" book="The Free Peoples" page="34" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="07dd-aa11-4e6d-023b" name="Dwarf Captain" book="The Free Peoples" page="34" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1205,10 +1175,7 @@
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="22cf-e732-aed7-6815" name="Dwarf King" book="The Free Peoples" page="34" hidden="false" collective="false" type="upgrade">
-<categoryLinks>
-<categoryLink id="22cf-e732-aed7-6815-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="22cf-e732-aed7-6815" name="Dwarf King" book="The Free Peoples" page="34" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="upgrade">
       <profiles>
         <profile id="f7aa-af16-6714-bf52" name="Dwarf King" book="The Free Peoples" page="34" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1302,10 +1269,7 @@
         <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a33a-aa4b-a843-adf3" name="Shieldbearer" book="The Free Peoples" page="34" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="a33a-aa4b-a843-adf3-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="a33a-aa4b-a843-adf3" name="Shieldbearer" book="The Free Peoples" page="34" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="b9e2-9015-65ff-e2c0" name="Shieldbearer" book="The Free Peoples" page="34" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1333,14 +1297,14 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>At the start of the game, nominate a single Dwarf Hero for the Shieldbearer to protect. If, at the start of the Fight phase, the Shieldbearer is within 3"/7cm of the protected Hero, and that Hero is in base contact with one or more enemy modesl, the Shieldbearer must immediately call a heroic fight without expending any Might. However, the Shieldbearer must use the free Move to reach the protected hero's fight, if possible. If you have more than one Shieldbearer, each may protect a different Hero if you wish, justs make sure that this is absolutely clear to your opponent!</description>
+          <description>At the start of the game, nominate a single Dwarf Hero for the Shieldbearer to protect. If, at the start of the Fight phase, the Shieldbearer is within 3&quot;/7cm of the protected Hero, and that Hero is in base contact with one or more enemy modesl, the Shieldbearer must immediately call a heroic fight without expending any Might. However, the Shieldbearer must use the free Move to reach the protected hero&apos;s fight, if possible. If you have more than one Shieldbearer, each may protect a different Hero if you wish, justs make sure that this is absolutely clear to your opponent!</description>
         </rule>
         <rule id="80b6-1871-7e1e-b1db" name="Lead by Example" book="The Free Peoples" page="34" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Dwarven Warriors and Heroes within 12"/28cm of a Shieldbearer re-roll failed Courage tests.</description>
+          <description>Dwarven Warriors and Heroes within 12&quot;/28cm of a Shieldbearer re-roll failed Courage tests.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1370,12 +1334,9 @@
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="40c9-62c2-0dc6-6fd5" name="King's Champion" book="The Free People's" page="35" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="40c9-62c2-0dc6-6fd5-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="40c9-62c2-0dc6-6fd5" name="King&apos;s Champion" book="The Free People&apos;s" page="35" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
-        <profile id="38f8-4962-81c9-1b8c" name="The King's Champion" book="The Free People's" page="35" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="38f8-4962-81c9-1b8c" name="The King&apos;s Champion" book="The Free People&apos;s" page="35" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1415,19 +1376,19 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="8b85-07a3-9cb3-09dc" name="The Herald's Duty" book="The Free Peoples" page="35" hidden="false">
+        <rule id="8b85-07a3-9cb3-09dc" name="The Herald&apos;s Duty" book="The Free Peoples" page="35" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>When two Heralds or the King's Champion and a Herald are in base contact, they receive +1 Defence. If two Heralds and a King's Champion are all in base contact with one another, they instead receive +2 Defence.</description>
+          <description>When two Heralds or the King&apos;s Champion and a Herald are in base contact, they receive +1 Defence. If two Heralds and a King&apos;s Champion are all in base contact with one another, they instead receive +2 Defence.</description>
         </rule>
-        <rule id="5259-b361-cdcf-cf33" name="The Life Guard" book="The Free People's " page="35" hidden="false">
+        <rule id="5259-b361-cdcf-cf33" name="The Life Guard" book="The Free People&apos;s " page="35" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If the King's CHampion is wounded, either Herald may expend his own Fate points on the Champion's behalf as long as they are in base contact. Note, that a Herald may not actually suffer Wounds on the King's Champion's behalf - only expend Fate points.</description>
+          <description>If the King&apos;s CHampion is wounded, either Herald may expend his own Fate points on the Champion&apos;s behalf as long as they are in base contact. Note, that a Herald may not actually suffer Wounds on the King&apos;s Champion&apos;s behalf - only expend Fate points.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1436,7 +1397,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60c4-c4d9-3ab5-221d" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="33cf-a5c4-a58e-aca1" name="1 King's Champion and 2 Heralds" book="The Free Peoples" page="35" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="33cf-a5c4-a58e-aca1" name="1 King&apos;s Champion and 2 Heralds" book="The Free Peoples" page="35" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1497,10 +1458,7 @@
         <cost name="pts" costTypeId="points" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e7f-022d-6015-94c5" name="Iron Guard" book="The Free Peoples" page="36" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="8e7f-022d-6015-94c5-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="8e7f-022d-6015-94c5" name="Iron Guard" book="The Free Peoples" page="36" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="603e-208d-00af-ecbd" name="Iron Guard" book="The Free Peoples" page="36" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -1545,10 +1503,7 @@
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b39d-587c-801a-0ce0" name="Vault Warden Team" book="The Free Peoples" page="36" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="b39d-587c-801a-0ce0-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="b39d-587c-801a-0ce0" name="Vault Warden Team" book="The Free Peoples" page="36" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="6d23-8e34-2efa-a04d" name="Iron Shield" book="The Free Peoples" page="36" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -1641,10 +1596,7 @@
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4df-f76c-8e71-b8b6" name="Khazâd Guard" book="The Free Peoples" page="37" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="a4df-f76c-8e71-b8b6-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="a4df-f76c-8e71-b8b6" name="Khazâd Guard" book="The Free Peoples" page="37" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="e7e9-37ef-6cd6-243f" name="Khazâd Guard" book="The Free Peoples" page="37" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -1664,12 +1616,12 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="e603-fad1-cdbd-7465" name="Bodyguard (Durin's Folk)" book="The Free Peoples" page="37" hidden="false">
+        <rule id="e603-fad1-cdbd-7465" name="Bodyguard (Durin&apos;s Folk)" book="The Free Peoples" page="37" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>At the start of the game, choose one Hero of Durin's Folk among those in your force for all your models with this rule to protect. As long as this Hero is on the table, models with the Bodyguard (Durin's Folk) special rule automatically pass all Courage tests they have to take.</description>
+          <description>At the start of the game, choose one Hero of Durin&apos;s Folk among those in your force for all your models with this rule to protect. As long as this Hero is on the table, models with the Bodyguard (Durin&apos;s Folk) special rule automatically pass all Courage tests they have to take.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1697,10 +1649,7 @@
         <cost name="pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3cca-ba1c-67ee-07d7" name="Dwarf Ballista" book="The Free Peoples" page="37" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="3cca-ba1c-67ee-07d7-c892-016b-5298-f37d" targetId="c892-016b-5298-f37d" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="3cca-ba1c-67ee-07d7" name="Dwarf Ballista" book="The Free Peoples" page="37" hidden="false" collective="false" categoryEntryId="c892-016b-5298-f37d" type="model">
       <profiles>
         <profile id="e012-5a16-56c3-808a" name="Dwarf Ballista" book="The Free Peoples" page="37" hidden="false" profileTypeId="8dae-e592-675b-e608" profileTypeName="Siege engine">
           <profiles/>
@@ -1737,14 +1686,14 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Although a stone fired from a Dwarf Ballista is unlikely to pass 'through' multiple targets, any models behind the inition victim are invariably showered in stone shards, armour shrapnel and body parts. Such razor sharp fragments are more than capable of killing or seriously injuring nearby warriors. If shooting at a Battlefield target the missile can conceivably hit several enemies. The target model is struck one blow at the strength of the siege engine, is knocked to the ground, and is flung 1D62/2D6cm directly away from the Dwarf Ballista. Any other models that lie within the path of the victim suffera single Strength 6 hit, and are knocked to the ground if they hae a Strength of 5 or less. If the propelled model hits an obstacle or Siege target, it immediately stops and inflicts a single Strength 6 upon it.</description>
+          <description>Although a stone fired from a Dwarf Ballista is unlikely to pass &apos;through&apos; multiple targets, any models behind the inition victim are invariably showered in stone shards, armour shrapnel and body parts. Such razor sharp fragments are more than capable of killing or seriously injuring nearby warriors. If shooting at a Battlefield target the missile can conceivably hit several enemies. The target model is struck one blow at the strength of the siege engine, is knocked to the ground, and is flung 1D62/2D6cm directly away from the Dwarf Ballista. Any other models that lie within the path of the victim suffera single Strength 6 hit, and are knocked to the ground if they hae a Strength of 5 or less. If the propelled model hits an obstacle or Siege target, it immediately stops and inflicts a single Strength 6 upon it.</description>
         </rule>
         <rule id="7f37-2cfa-99b4-f851" name="Accurate" book="The Free Peoples" page="37" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Dwarf Ballistas are easier to aim than Catapults and other heavy siege engines. When firing a Dwarf Ballista at a Battlefield target, the shot will scatter only 3"/8cm rather than 6"/14cm</description>
+          <description>Dwarf Ballistas are easier to aim than Catapults and other heavy siege engines. When firing a Dwarf Ballista at a Battlefield target, the shot will scatter only 3&quot;/8cm rather than 6&quot;/14cm</description>
         </rule>
       </rules>
       <infoLinks/>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="156c-ca30-3ad2-23eb" name="The Shire" revision="1" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="156c-ca30-3ad2-23eb" name="The Shire" revision="1" battleScribeVersion="2.00" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,10 +7,7 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="be5c-a3f8-37e2-fce0" name="Frodo of the Nine Fingers" book="The Free Peoples" page="39" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="be5c-a3f8-37e2-fce0-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="be5c-a3f8-37e2-fce0" name="Frodo of the Nine Fingers" book="The Free Peoples" page="39" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="67b0-f957-f8d7-d2b5" name="Frodo of the Nine Fingers" book="The Free Peoples" page="39" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -141,10 +138,7 @@
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fe6-8b88-d564-4859" name="Samwise the Brave" book="The Free Peoples" page="39" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="4fe6-8b88-d564-4859-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="4fe6-8b88-d564-4859" name="Samwise the Brave" book="The Free Peoples" page="39" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="5215-d6dc-4b7a-87db" name="Samwise the Brave" book="The Free Peoples" page="39" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -254,10 +248,7 @@
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="224d-1c96-a3a1-4067" name="Peregrin, Captain of the Shire" book="The Free Peoples" page="39" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="224d-1c96-a3a1-4067-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="224d-1c96-a3a1-4067" name="Peregrin, Captain of the Shire" book="The Free Peoples" page="39" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="2f05-6988-d7c4-26dc" name="Peregrin, Captain of the Shire" book="The Free Peoples" page="39" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -367,10 +358,7 @@
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93f1-6d48-5091-11ed" name="Hobbit Archers" book="The Free Peoples" page="41" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="93f1-6d48-5091-11ed-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="93f1-6d48-5091-11ed" name="Hobbit Archers" book="The Free Peoples" page="41" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="b1b9-bac4-e21e-3b21" name="Hobbit Archers" book="The Free Peoples" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -521,10 +509,7 @@
         <cost name="pts" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="10ab-d7e3-8a19-d64e" name="Meriadoc, Captain of the Shire" book="The Free Peoples" page="40" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="10ab-d7e3-8a19-d64e-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="10ab-d7e3-8a19-d64e" name="Meriadoc, Captain of the Shire" book="The Free Peoples" page="40" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="e281-d806-9118-334d" name="Meriadoc, Captain of the Shire" book="The Free Peoples" page="40" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -686,10 +671,7 @@
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0232-59f5-a30b-289e" name="Hobbit Militia" book="The Free Peoples" page="41" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="0232-59f5-a30b-289e-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="0232-59f5-a30b-289e" name="Hobbit Militia" book="The Free Peoples" page="41" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="e920-9f4a-6311-8174" name="Hobbit Militia" book="The Free Peoples" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -715,7 +697,7 @@
             <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Hobbit"/>
           </characteristics>
         </profile>
-        <profile id="b07c-4c89-c433-e062" name="Battlin' Brandybucks" book="The Free Peoples" page="41" hidden="true" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="b07c-4c89-c433-e062" name="Battlin&apos; Brandybucks" book="The Free Peoples" page="41" hidden="true" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -758,7 +740,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="9d9c-b23e-2ee8-7d93" name="Battlin' Brandybucks" book="The Free Peoples" page="40" hidden="true" collective="false" type="upgrade">
+        <selectionEntry id="9d9c-b23e-2ee8-7d93" name="Battlin&apos; Brandybucks" book="The Free Peoples" page="40" hidden="true" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -795,10 +777,7 @@
         <cost name="pts" costTypeId="points" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="70aa-b4f1-c72e-7ff0" name="Paladin Took" book="The Free Peoples" page="40" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="70aa-b4f1-c72e-7ff0-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="70aa-b4f1-c72e-7ff0" name="Paladin Took" book="The Free Peoples" page="40" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="ea4e-d317-8c01-093a" name="Paladin Took" book="The Free Peoples" page="40" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -826,7 +805,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Only Hobbits may benefit from Paladin's Stand Fast! rule. However, the range of Paladin's Stand Fast! is 12"/28cm instead of 6"/14cm</description>
+          <description>Only Hobbits may benefit from Paladin&apos;s Stand Fast! rule. However, the range of Paladin&apos;s Stand Fast! is 12&quot;/28cm instead of 6&quot;/14cm</description>
         </rule>
       </rules>
       <infoLinks>
@@ -855,10 +834,7 @@
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0dd9-babc-9363-985d" name="Lobelia Sack-ville-Baggins" book="The Free Peoples" page="40" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="0dd9-babc-9363-985d-e059-5f8f-1ab2-017e" targetId="e059-5f8f-1ab2-017e" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="0dd9-babc-9363-985d" name="Lobelia Sack-ville-Baggins" book="The Free Peoples" page="40" hidden="false" collective="false" categoryEntryId="e059-5f8f-1ab2-017e" type="model">
       <profiles>
         <profile id="8c34-8acb-fb79-be84" name="Lobelia Sack-ville-Baggins" book="The Free Peoples" page="40" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -886,7 +862,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>No warrior (Good or Evil) can use a Hero's Stand Fast! rule if Lobelia is within 6"/14cm. warriors cannot benefit from Lobelia's Stand Fast! rule</description>
+          <description>No warrior (Good or Evil) can use a Hero&apos;s Stand Fast! rule if Lobelia is within 6&quot;/14cm. warriors cannot benefit from Lobelia&apos;s Stand Fast! rule</description>
         </rule>
         <rule id="7369-2e8e-0802-ae56" name="The Umbrells ia not Mightier than the Sword" book="The Free Peoples" page="40" hidden="false">
           <profiles/>
@@ -922,10 +898,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f0b-ea3b-a95a-f999" name="Fredegar Bolger" book="The Free Peoples" page="40" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="8f0b-ea3b-a95a-f999-e059-5f8f-1ab2-017e" targetId="e059-5f8f-1ab2-017e" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="8f0b-ea3b-a95a-f999" name="Fredegar Bolger" book="The Free Peoples" page="40" hidden="false" collective="false" categoryEntryId="e059-5f8f-1ab2-017e" type="model">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -971,10 +944,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0272-257d-1cbc-7dba" name="Farmer Maggot" book="The Free Peoples" page="41" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="0272-257d-1cbc-7dba-e059-5f8f-1ab2-017e" targetId="e059-5f8f-1ab2-017e" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="0272-257d-1cbc-7dba" name="Farmer Maggot" book="The Free Peoples" page="41" hidden="false" collective="false" categoryEntryId="e059-5f8f-1ab2-017e" type="model">
       <profiles>
         <profile id="1774-532d-92c2-d9fc" name="Farmer Maggot" book="The Free Peoples" page="41" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1045,12 +1015,12 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="b262-08f3-1a06-e374" name="Maggot's Dogs" book="The Free Peoples" page="41" hidden="false">
+        <rule id="b262-08f3-1a06-e374" name="Maggot&apos;s Dogs" book="The Free Peoples" page="41" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Maggot's dogs always use his Courage while he is still alive and on the battlefield.</description>
+          <description>Maggot&apos;s dogs always use his Courage while he is still alive and on the battlefield.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1096,10 +1066,7 @@
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="58b4-1e0f-7d79-edf5" name="Shirriff" book="The Free Peoples" page="41" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="58b4-1e0f-7d79-edf5-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="58b4-1e0f-7d79-edf5" name="Shirriff" book="The Free Peoples" page="41" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="a6b4-b9cf-e751-9dfa" name="Shirriff" book="The Free Peoples" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>

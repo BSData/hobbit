@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="2587-8b93-97a0-ad95" name="Arnor" book="Kingdoms of Men" revision="4" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="2587-8b93-97a0-ad95" name="Arnor" book="Kingdoms of Men" revision="4" battleScribeVersion="2.00" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="f184-b3da-e7aa-48fa" name="The Grey Company" book="Kingdoms of Men" page="36" hidden="false">
@@ -17,12 +17,9 @@ You may opt to take a Grey Company force. If you do so, your force (or an allied
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="d2c2-2839-a876-168e" name="Aragorn, Isildur's Heir" book="Kingdoms of Men" page="38" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="d2c2-2839-a876-168e-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="d2c2-2839-a876-168e" name="Aragorn, Isildur&apos;s Heir" book="Kingdoms of Men" page="38" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
-        <profile id="ff3c-bf0d-dfe6-70a0" name="Aragorn, Isildur's Heir" book="Kingdoms of Men" page="38" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="ff3c-bf0d-dfe6-70a0" name="Aragorn, Isildur&apos;s Heir" book="Kingdoms of Men" page="38" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -55,14 +52,14 @@ You may opt to take a Grey Company force. If you do so, your force (or an allied
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Legolas, Gimli and both Heroes and Warriors of Arnor count as being in range of a banner if Aragorn, Isildur's Heir, is within 3"/7cm.</description>
+          <description>Legolas, Gimli and both Heroes and Warriors of Arnor count as being in range of a banner if Aragorn, Isildur&apos;s Heir, is within 3&quot;/7cm.</description>
         </rule>
         <rule id="e302-8789-a1b2-501a" name="Master of the Wilderness" book="Kingdoms of Men" page="38" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Aragorn, Isildur's Heir, moved through difficult terrain without penalty, as do Legolas, Gimli and both Heroes and Warriors of Arnor, if they are on foot and within 6"/14cm of Aragorn.</description>
+          <description>Aragorn, Isildur&apos;s Heir, moved through difficult terrain without penalty, as do Legolas, Gimli and both Heroes and Warriors of Arnor, if they are on foot and within 6&quot;/14cm of Aragorn.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -109,10 +106,7 @@ You may opt to take a Grey Company force. If you do so, your force (or an allied
         <cost name="pts" costTypeId="points" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d37b-7a26-1c00-fa61" name="Arathorn" book="Kingdoms of Men" page="37" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="d37b-7a26-1c00-fa61-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="d37b-7a26-1c00-fa61" name="Arathorn" book="Kingdoms of Men" page="37" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="99e5-4a30-3eed-52e4" name="Arathorn" book="Kingdoms of Men" page="37" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -163,10 +157,7 @@ You may opt to take a Grey Company force. If you do so, your force (or an allied
         <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b15d-72a0-f515-c4b0" name="Arvedui, Last King of Arnor" book="Kingdoms of Men" page="37" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="b15d-72a0-f515-c4b0-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="b15d-72a0-f515-c4b0" name="Arvedui, Last King of Arnor" book="Kingdoms of Men" page="37" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="c1cd-1e23-f8a6-3490" name="Arvedui, Last King of Arnor" book="Kingdoms of Men" page="37" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -194,7 +185,7 @@ You may opt to take a Grey Company force. If you do so, your force (or an allied
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Arvedui's Stand Fast! rule has a range of 12"/28cm.</description>
+          <description>Arvedui&apos;s Stand Fast! rule has a range of 12&quot;/28cm.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -218,10 +209,7 @@ You may opt to take a Grey Company force. If you do so, your force (or an allied
         <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2127-8052-2870-b832" name="Captain of Arnor" book="Kingdoms of Men" page="37" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="2127-8052-2870-b832-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="2127-8052-2870-b832" name="Captain of Arnor" book="Kingdoms of Men" page="37" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="54e0-fd30-f8bf-44f5" name="Captain of Arnor" book="Kingdoms of Men" page="37" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -315,10 +303,7 @@ You may opt to take a Grey Company force. If you do so, your force (or an allied
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f6c1-861a-fb76-4bee" name="Dúnedain" book="Kingdoms of Men" page="38" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="f6c1-861a-fb76-4bee-e059-5f8f-1ab2-017e" targetId="e059-5f8f-1ab2-017e" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="f6c1-861a-fb76-4bee" name="Dúnedain" book="Kingdoms of Men" page="38" hidden="false" collective="false" categoryEntryId="e059-5f8f-1ab2-017e" type="model">
       <profiles>
         <profile id="1259-10d3-9963-2483" name="Dúnedain" book="Kingdoms of Men" page="38" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -384,10 +369,7 @@ You may opt to take a Grey Company force. If you do so, your force (or an allied
         <cost name="pts" costTypeId="points" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3338-ca4f-8767-6b0e" name="Elladan and Elrohir" book="Kingdoms of Men" page="38" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="3338-ca4f-8767-6b0e-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="3338-ca4f-8767-6b0e" name="Elladan and Elrohir" book="Kingdoms of Men" page="38" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="89a4-b998-1d1a-9044" name="Elladan" book="Kingdoms of Men" page="38" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -443,7 +425,7 @@ Each brother may fight either with a single sword (counts as two-handed weapon),
           <infoLinks/>
           <modifiers/>
           <description>If one of the twins is killed, the other will be driven mad with grief.
-To represent this, the surviving twin's Strength is increased to 5 and his Defends is reduced to 4. The survivor always passes Courage teste and must do everything he can to charge the model that killed his brother as quickly as possible. Once that model is killed, the surviving twin will then move as fast as possible towards the closest visible enemy for the rest of the game, charging it if able.</description>
+To represent this, the surviving twin&apos;s Strength is increased to 5 and his Defends is reduced to 4. The survivor always passes Courage teste and must do everything he can to charge the model that killed his brother as quickly as possible. Once that model is killed, the surviving twin will then move as fast as possible towards the closest visible enemy for the rest of the game, charging it if able.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -563,10 +545,7 @@ To represent this, the surviving twin's Strength is increased to 5 and his Defen
         <cost name="pts" costTypeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f58a-2d37-e061-afb0" name="Halbarad Dúnadan" book="Kingdoms of Men" page="39" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="f58a-2d37-e061-afb0-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="f58a-2d37-e061-afb0" name="Halbarad Dúnadan" book="Kingdoms of Men" page="39" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="7b96-b211-72e5-70a8" name="Halbarad Dúnadan" book="Kingdoms of Men" page="39" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -604,7 +583,7 @@ To represent this, the surviving twin's Strength is increased to 5 and his Defen
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The Banner of Arwen Evenstar is a banner but affects all friendly models with 6"/14cm, not 3"/8cm. Good models within 6"/14cm of the banner automatically pass any Courage test they are required to take. Halbarad can still use his bow if he carries this banner.</description>
+              <description>The Banner of Arwen Evenstar is a banner but affects all friendly models with 6&quot;/14cm, not 3&quot;/8cm. Good models within 6&quot;/14cm of the banner automatically pass any Courage test they are required to take. Halbarad can still use his bow if he carries this banner.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -692,10 +671,7 @@ To represent this, the surviving twin's Strength is increased to 5 and his Defen
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d56f-13af-8feb-0af9" name="Malbeth the Seer" book="Kingdoms of Men" page="37" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="d56f-13af-8feb-0af9-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="d56f-13af-8feb-0af9" name="Malbeth the Seer" book="Kingdoms of Men" page="37" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="56ff-3757-7ac9-f922" name="Malbeth the Seer" book="Kingdoms of Men" page="37" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -723,7 +699,7 @@ To represent this, the surviving twin's Strength is increased to 5 and his Defen
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Every time a Good model within 6"/14cm of Malbeth suffers a Wound, roll a D6. On the roll on a 5+, the Wound is prevented, exactly as if a point of Fate had been expended. Note that if this roll is failed, Fate points may still be expended as normal.</description>
+          <description>Every time a Good model within 6&quot;/14cm of Malbeth suffers a Wound, roll a D6. On the roll on a 5+, the Wound is prevented, exactly as if a point of Fate had been expended. Note that if this roll is failed, Fate points may still be expended as normal.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -747,10 +723,7 @@ To represent this, the surviving twin's Strength is increased to 5 and his Defen
         <cost name="pts" costTypeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d4bd-7dd3-4d04-0666" name="Ranger of Arnor" book="Kingdoms of Men" page="39" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="d4bd-7dd3-4d04-0666-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="d4bd-7dd3-4d04-0666" name="Ranger of Arnor" book="Kingdoms of Men" page="39" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="unit">
       <profiles>
         <profile id="ec2f-37b7-1331-b913" name="Ranger of Arnor" book="Kingdoms of Men" page="39" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
@@ -818,10 +791,7 @@ To represent this, the surviving twin's Strength is increased to 5 and his Defen
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="867f-804b-8f7f-5f23" name="Ranger of the North" book="Kingdoms of Men" page="39" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="867f-804b-8f7f-5f23-e059-5f8f-1ab2-017e" targetId="e059-5f8f-1ab2-017e" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="867f-804b-8f7f-5f23" name="Ranger of the North" book="Kingdoms of Men" page="39" hidden="false" collective="false" categoryEntryId="e059-5f8f-1ab2-017e" type="model">
       <profiles>
         <profile id="a02e-3933-81aa-94ab" name="Ranger of the North" book="Kingdoms of Men" page="39" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -923,10 +893,7 @@ To represent this, the surviving twin's Strength is increased to 5 and his Defen
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a8a4-7e11-48e2-48a8" name="Warrior of Arnor" book="Kingdoms of Men" page="39" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="a8a4-7e11-48e2-48a8-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="a8a4-7e11-48e2-48a8" name="Warrior of Arnor" book="Kingdoms of Men" page="39" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="1300-1e9f-3532-0666" name="Warrior of Arnor" book="Kingdoms of Men" page="39" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>

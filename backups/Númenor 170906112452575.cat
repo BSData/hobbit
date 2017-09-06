@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="9a55-4559-8cb7-9caa" name="Númenor" book="Kingdoms of Men" revision="3" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9a55-4559-8cb7-9caa" name="Númenor" book="Kingdoms of Men" revision="3" battleScribeVersion="2.00" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,10 +7,7 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="978f-587a-14eb-8cc5" name="Captain of Númenor" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="978f-587a-14eb-8cc5-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="978f-587a-14eb-8cc5" name="Captain of Númenor" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="07aa-587c-f1b9-d85f" name="Captain of Númenor" book="Kingdoms of Men" page="41" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -37,7 +34,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="3b71-ff10-c2d2-2385" name="Armour" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3b71-ff10-c2d2-2385" name="Armour" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -53,7 +50,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ba2c-a6f6-80a0-ad9f" name="Bow" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ba2c-a6f6-80a0-ad9f" name="Bow" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -75,7 +72,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a4c8-089a-0603-5858" name="Heavy armour" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="a4c8-089a-0603-5858" name="Heavy armour" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -97,7 +94,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="898b-fe66-1f0f-c89e" name="Horse" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="898b-fe66-1f0f-c89e" name="Horse" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -119,7 +116,7 @@
             <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="11c7-d374-43cb-4919" name="Lance" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="11c7-d374-43cb-4919" name="Lance" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -141,7 +138,7 @@
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="20f1-cba2-2d0a-316e" name="Shield" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="20f1-cba2-2d0a-316e" name="Shield" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -176,10 +173,7 @@
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="22aa-e06e-c9e2-f7c8" name="Elendil, High King of Gondor and Arnor" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="22aa-e06e-c9e2-f7c8-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="22aa-e06e-c9e2-f7c8" name="Elendil, High King of Gondor and Arnor" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="af75-7035-2b2f-938a" name="Elendil, High King of Gondor and Arnor" book="Kingdoms of Men" page="41" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -209,7 +203,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="46e2-bd00-b3c4-e172" name="Narsil" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="46e2-bd00-b3c4-e172" name="Narsil" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules>
             <rule id="c88f-30c2-d398-a414" name="Narsil" book="Kingdoms of Men" page="41" hidden="false">
@@ -233,7 +227,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="45c3-f075-0309-e4d5" name="Very heavy armour" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="45c3-f075-0309-e4d5" name="Very heavy armour" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -249,7 +243,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a9d9-6d00-2e15-8edf" name="Horse" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="a9d9-6d00-2e15-8edf" name="Horse" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -271,7 +265,7 @@
             <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3939-5bdf-f1a2-e9e9" name="Shield" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3939-5bdf-f1a2-e9e9" name="Shield" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -306,10 +300,7 @@
         <cost name="pts" costTypeId="points" value="165.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a499-d035-ae67-7dd9" name="Isildur" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="a499-d035-ae67-7dd9-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="a499-d035-ae67-7dd9" name="Isildur" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="7dc8-524f-61af-d452" name="Isildur" book="Kingdoms of Men" page="41" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -347,7 +338,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="9d95-e6c8-1870-ed8b" name="Very heavy armour" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9d95-e6c8-1870-ed8b" name="Very heavy armour" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -363,7 +354,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f61b-14a3-08ee-c900" name="Horse" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f61b-14a3-08ee-c900" name="Horse" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -385,7 +376,7 @@
             <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d077-85e4-b643-0973" name="Shield" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="d077-85e4-b643-0973" name="Shield" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -420,10 +411,7 @@
         <cost name="pts" costTypeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a14a-c063-1917-cc0b" name="Warrior of Númenor" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="a14a-c063-1917-cc0b-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="a14a-c063-1917-cc0b" name="Warrior of Númenor" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="1527-750c-4bb8-16c8" name="Warrior of Númenor" book="Kingdoms of Men" page="41" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
@@ -447,7 +435,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="97f2-98d5-252d-f2c6" name="Armour" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="97f2-98d5-252d-f2c6" name="Armour" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -463,7 +451,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e6dd-b5bc-da68-113b" name="Banner" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="e6dd-b5bc-da68-113b" name="Banner" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -485,7 +473,7 @@
             <cost name="pts" costTypeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="24f9-ad22-2ec2-cb91" name="Bow" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="24f9-ad22-2ec2-cb91" name="Bow" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -507,7 +495,7 @@
             <cost name="pts" costTypeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="df25-dde1-d9f0-0305" name="Shield" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="df25-dde1-d9f0-0305" name="Shield" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -535,7 +523,7 @@
             <cost name="pts" costTypeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3d35-8395-c814-b0fc" name="Spear" book="Kingdoms of Men" page="41" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3d35-8395-c814-b0fc" name="Spear" book="Kingdoms of Men" page="41" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>

@@ -1,41 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, Free Peoples" revision="3" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com">
-<categoryEntries>
-<categoryEntry id="e07a-883e-1b26-d891" name="Warrior" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="8e06-cb8f-41c0-09a4" name="Hero" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="e059-5f8f-1ab2-017e" name="Independent Hero" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="c892-016b-5298-f37d" name="Siege engine" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="edcb-6da3-c425-b156" name="No Force Org" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-</categoryEntries>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, Free Peoples" revision="3" battleScribeVersion="2.00" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -113,15 +77,20 @@
   </profileTypes>
   <forceEntries>
     <forceEntry id="80c5-b61b-d209-b3a1" name="Warband" hidden="false">
-<categoryLinks>
-<categoryLink id="80c5-b61b-d209-b3a1-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" name="Warrior" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryEntries>
+        <categoryEntry id="e07a-883e-1b26-d891" name="Warrior" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryLink>
-<categoryLink id="80c5-b61b-d209-b3a1-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" name="Hero" hidden="false">
+        </categoryEntry>
+        <categoryEntry id="8e06-cb8f-41c0-09a4" name="Hero" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -129,35 +98,29 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
           </constraints>
-        </categoryLink>
-<categoryLink id="80c5-b61b-d209-b3a1-e059-5f8f-1ab2-017e" targetId="e059-5f8f-1ab2-017e" name="Independent Hero" hidden="false">
+        </categoryEntry>
+        <categoryEntry id="e059-5f8f-1ab2-017e" name="Independent Hero" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryLink>
-<categoryLink id="80c5-b61b-d209-b3a1-c892-016b-5298-f37d" targetId="c892-016b-5298-f37d" name="Siege engine" hidden="false">
+        </categoryEntry>
+        <categoryEntry id="c892-016b-5298-f37d" name="Siege engine" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryLink>
-<categoryLink id="80c5-b61b-d209-b3a1-edcb-6da3-c425-b156" targetId="edcb-6da3-c425-b156" name="No Force Org" hidden="false">
+        </categoryEntry>
+        <categoryEntry id="edcb-6da3-c425-b156" name="No Force Org" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryLink>
-</categoryLinks>
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      
+        </categoryEntry>
+      </categoryEntries>
       <forceEntries/>
     </forceEntry>
   </forceEntries>
@@ -171,7 +134,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Any enemy model within 18" of this model suffers a -1 penalty to its Courage. note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, the Harbinger of Evil special rule and so on.</description>
+      <description>Any enemy model within 18&quot; of this model suffers a -1 penalty to its Courage. note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, the Harbinger of Evil special rule and so on.</description>
     </rule>
     <rule id="e585-88f8-8483-14ae" name="Backstabbers" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
@@ -199,7 +162,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A banner provides a single re-roll to friendly models who are involved in a Fight within 3". Whether it is a model fighting on his own, or several friends all fighting against a common enemy, you can re-roll one Duel roll die in each Fight to see who wins. This re-roll can be made after your opponent has rolled his own dice to see who wins, but must be made before any Might points are spent to adjust scores.
+      <description>A banner provides a single re-roll to friendly models who are involved in a Fight within 3&quot;. Whether it is a model fighting on his own, or several friends all fighting against a common enemy, you can re-roll one Duel roll die in each Fight to see who wins. This re-roll can be made after your opponent has rolled his own dice to see who wins, but must be made before any Might points are spent to adjust scores.
 
 It is possible that one player may re-roll a die and find himself winner the Fight - in which case his opponent may wish to use a banner of his own. Remember, a banner only provides one re-roll to each Duel roll.
 
@@ -267,7 +230,7 @@ Models armed with Elven blades are more likely to win the dice roll to see who w
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the wearer of an Even cloak is partially concealed from view, he cannot be seen a all at distances of more than 6" - the wearer appears to melt into the background. This means that enemies can not charge or shoot the wearer, not can they target him with magical powers at ranges greater than 6", unless they have a completely clear view of the target.
+      <description>If the wearer of an Even cloak is partially concealed from view, he cannot be seen a all at distances of more than 6&quot; - the wearer appears to melt into the background. This means that enemies can not charge or shoot the wearer, not can they target him with magical powers at ranges greater than 6&quot;, unless they have a completely clear view of the target.
 
 If the model is riding a mount, the Elven cloak have no effect.</description>
     </rule>
@@ -315,16 +278,16 @@ Additionally, an Expert Rider can pick up a Light Object without having to dismo
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model can ignore all intervening models and terrain as it moves - flying over buildings, woods and so on. The model may not end its movement within woods or upon any terrain that its base will not safely balance upon (flat rocks, hills and the like are fine, but don't try to perch your model prcariously upon trees, sloped roofs and so on)
+      <description>This model can ignore all intervening models and terrain as it moves - flying over buildings, woods and so on. The model may not end its movement within woods or upon any terrain that its base will not safely balance upon (flat rocks, hills and the like are fine, but don&apos;t try to perch your model prcariously upon trees, sloped roofs and so on)
 
-Furthermore, a model with this special rule may pass 'ove' enemy Control Zones without charging the model - as long as he ends his move outside of the Control Zone.</description>
+Furthermore, a model with this special rule may pass &apos;ove&apos; enemy Control Zones without charging the model - as long as he ends his move outside of the Control Zone.</description>
     </rule>
     <rule id="8052-396f-cad6-90a3" name="Harbinger of Evil" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Any enemy model within 12" of a Harbinger of Evil suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, the Ancient Evil special rule and so on.</description>
+      <description>Any enemy model within 12&quot; of a Harbinger of Evil suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, the Ancient Evil special rule and so on.</description>
     </rule>
     <rule id="514f-ef5e-91a6-fb55" name="Lances" book="The Hobbit: An Unexpected Journey Rulebook" page="68" hidden="false">
       <profiles/>
@@ -370,21 +333,21 @@ If a Cavalry model with a lance dismounts, or his steed is slain, he will ordina
       <modifiers/>
       <description>It is possible through a number of means, that models can Set Ablaze. When this happens, the model suffers an immediate Strength 9 hit. If the model survivse, it will suffer a further Strength 5 hit in each End Phase until the blaze is extinguished.
 
-To extinguish the blaze, the model must lie down, and then crawl 1", at which point the blaze is immediately put out.</description>
+To extinguish the blaze, the model must lie down, and then crawl 1&quot;, at which point the blaze is immediately put out.</description>
     </rule>
     <rule id="8948-88b2-8e1c-f046" name="Severed Heads" book="The Hobbit: An Unexpected Journey Rulebook" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If Severed Heads are fired at a Battlefield target, ignore the normal Strength of the Siege Engine; instead, both the initial target and all models wihtin 2" suffer a single Srtength 3 hit. This shot will neither knock models Prone nor inflict more one Wound per hit. Any Good models hit must immediately pass a Courage test (pg 47 of The Hobbit: An Unexpected Journey Rulebook) or be removed from play. If Severed Heads are fired at a Siege target, they inflict no damage.</description>
+      <description>If Severed Heads are fired at a Battlefield target, ignore the normal Strength of the Siege Engine; instead, both the initial target and all models wihtin 2&quot; suffer a single Srtength 3 hit. This shot will neither knock models Prone nor inflict more one Wound per hit. Any Good models hit must immediately pass a Courage test (pg 47 of The Hobbit: An Unexpected Journey Rulebook) or be removed from play. If Severed Heads are fired at a Siege target, they inflict no damage.</description>
     </rule>
     <rule id="b934-e865-e199-a7ae" name="Shield" book="The Hobbit: An Unexpected Journey Rulebook" page="74" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A shield increases the Defense chractersitic of its bearer by 1. Where the shield is listed in the model's wargear, that bonus is already taken into account in its chracteristis profile. However, if the model purchases the shield as an upgrade, you will need to increase its Defense by 1. Shields also have the following rules:
+      <description>A shield increases the Defense chractersitic of its bearer by 1. Where the shield is listed in the model&apos;s wargear, that bonus is already taken into account in its chracteristis profile. However, if the model purchases the shield as an upgrade, you will need to increase its Defense by 1. Shields also have the following rules:
 Cumbersome
 Shielding</description>
     </rule>
@@ -442,7 +405,7 @@ A spear-armed model may Make Way for his ally if they lose the Fight. This count
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The Siege Engine is a masterpiece in egineering, granting it enhanced range. This Seige Engine has a range of 60" rather than 48".</description>
+      <description>The Siege Engine is a masterpiece in egineering, granting it enhanced range. This Seige Engine has a range of 60&quot; rather than 48&quot;.</description>
     </rule>
     <rule id="85f8-9eb1-092e-7c44" name="Swift Reload" book="The Hobbit: An Unexpected Journey Rulebook" page="92" hidden="false">
       <profiles/>
@@ -456,7 +419,7 @@ A spear-armed model may Make Way for his ally if they lose the Fight. This count
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>At the start of the game, this model must choose one Hero from his force to defend, unless the model's special rules name a specific Hero. Whilst this model is within 12" of the Hero he is defening, he automatically passes any Courage tests he has tpo take.</description>
+      <description>At the start of the game, this model must choose one Hero from his force to defend, unless the model&apos;s special rules name a specific Hero. Whilst this model is within 12&quot; of the Hero he is defening, he automatically passes any Courage tests he has tpo take.</description>
     </rule>
     <rule id="5951-b53f-b4d2-2a35" name="Terror" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
@@ -472,7 +435,7 @@ Sometimes a model will only cause Terror in certain enemies. In thes instance, t
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model may opt not to move at all in a Move phase but instead declase that it is Stooping for a Stone. In the Shoot phase, the model may then make a shooting attack with a range of 8" and a Strength of 1. Some models (such as certain Trolls or Ents) have different ranges and Strength values specified in their profiles for when they throw stones.</description>
+      <description>This model may opt not to move at all in a Move phase but instead declase that it is Stooping for a Stone. In the Shoot phase, the model may then make a shooting attack with a range of 8&quot; and a Strength of 1. Some models (such as certain Trolls or Ents) have different ranges and Strength values specified in their profiles for when they throw stones.</description>
     </rule>
     <rule id="4584-95dc-15c0-9cd5" name="Throwing weapons" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
       <profiles/>
@@ -481,7 +444,7 @@ Sometimes a model will only cause Terror in certain enemies. In thes instance, t
       <modifiers/>
       <description>A model with a throwing weapon can shoot with it in the shoot phase, even if he has moved more than half of his maximum move distance. A model cannot fight with a throwing weapon in the Fight phase.
 
-A throwing weapon can be used as its bearer charges into combat. The player moves the model as if it were going to Charge the enemy, but instead of moving into base combat with his foe, he stops 1" away. He then throws the weapon at the enemy he is about to Charge. This shot is resolved using the rules for shooting (including the -1 To Hit penalty for moving), even though it takes place in the Move phase.
+A throwing weapon can be used as its bearer charges into combat. The player moves the model as if it were going to Charge the enemy, but instead of moving into base combat with his foe, he stops 1&quot; away. He then throws the weapon at the enemy he is about to Charge. This shot is resolved using the rules for shooting (including the -1 To Hit penalty for moving), even though it takes place in the Move phase.
 
 If the target is not slain, the charger then moves into base contact with the same enemy model. If the original target is slain, the charger may complete his move in any way the controlling player wishes - stopping straight away, charging another target or anything in between.</description>
     </rule>
@@ -522,7 +485,7 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A model wuth this special rule may not move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn't mean they can automaticall climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
+      <description>A model wuth this special rule may not move through woods and forests that are classed as difficult terrain as if it were open ground. Note that this doesn&apos;t mean they can automaticall climb terrain in those areas, nor move through tree trunks or jump fallen Obstacles.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -599,7 +562,7 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value=" Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value=" The target model reduces its Courage characteristic by 1 for duration of the battle, to a minimum of 1. This magical power can take effect several times on the same target - reducing the model's Courage each time. "/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value=" The target model reduces its Courage characteristic by 1 for duration of the battle, to a minimum of 1. This magical power can take effect several times on the same target - reducing the model&apos;s Courage each time. "/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="The target model reduces its Courage characteristic by D3 instead of 1"/>
       </characteristics>
     </profile>
@@ -633,10 +596,10 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary"/>
         <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="While this power is in effect, the target model may not move (except to Back Away, should he lose a Fight) or shoot. Additionally, while this power is in effect, he halves his Fight and Attacks characteristics (rounding up) and may not Strike if he wins a Duel roll"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="The Target model'sFight and Attacks characteristics are reduced to 1"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="The Target model&apos;sFight and Attacks characteristics are reduced to 1"/>
       </characteristics>
     </profile>
-    <profile id="1de3-52e2-16f0-f54d" name="Nature's Wrath" book="The Hobbit: An Unexpected Journey" page="79" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="1de3-52e2-16f0-f54d" name="Nature&apos;s Wrath" book="The Hobbit: An Unexpected Journey" page="79" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -698,7 +661,7 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value=" Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="The target model is blasted D6&quot; directly away from the caster and knocked Prone. Roll a dice and move the target that number of inches. Other models in the path of the blasted model are moved aside and knocked Prone. If the target, or one of the models that is knocked Prone, is engaged in combat, then all the models (friend and foe) in the same Fight are also knocked Prone. The target model suffers a Strenthg 5 hit, and any other model kn ocked Prone suffers a Strength 3 hit.  If the blasted model hits an Obstacle or a model that has a Strength of 6 or above, the blasted model's move immediately ends. The Obstacl or model (if it has a Defence value) suffer a Strength 3 hit.Move any models underneath the target model's final position by the minimum distance that allows them to be placed Prone on the board. Note: even Transfixed/Compelled or otherise immobilised models will be blasted by Sorcerous Blast"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="The target model is blasted D6&quot; directly away from the caster and knocked Prone. Roll a dice and move the target that number of inches. Other models in the path of the blasted model are moved aside and knocked Prone. If the target, or one of the models that is knocked Prone, is engaged in combat, then all the models (friend and foe) in the same Fight are also knocked Prone. The target model suffers a Strenthg 5 hit, and any other model kn ocked Prone suffers a Strength 3 hit.  If the blasted model hits an Obstacle or a model that has a Strength of 6 or above, the blasted model&apos;s move immediately ends. The Obstacl or model (if it has a Defence value) suffer a Strength 3 hit.Move any models underneath the target model&apos;s final position by the minimum distance that allows them to be placed Prone on the board. Note: even Transfixed/Compelled or otherise immobilised models will be blasted by Sorcerous Blast"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="The affected model instead suffers a Strength 6 hit, and other models knocked Prone suffer Strength 4 hits instead."/>
       </characteristics>
     </profile>
@@ -752,7 +715,7 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value=" Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="The caster can use this spell to give one Will point to a friendly Hero within range. The target's Will can be increased past their starting amount, and this power can be used even if they started the game without any Will points."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="The caster can use this spell to give one Will point to a friendly Hero within range. The target&apos;s Will can be increased past their starting amount, and this power can be used even if they started the game without any Will points."/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value=" The target receives D3 Will points instead of 1."/>
       </characteristics>
     </profile>

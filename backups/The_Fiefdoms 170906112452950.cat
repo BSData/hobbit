@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="ec85-8051-f1fd-a87a" name="The Fiefdoms" book="Kingdoms of Men" revision="2" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ec85-8051-f1fd-a87a" name="The Fiefdoms" book="Kingdoms of Men" revision="2" battleScribeVersion="2.00" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,10 +7,7 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="090b-848c-f3b7-e3ca" name="Angbor the Fearless" book="Kingdoms of Men" page="25" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="090b-848c-f3b7-e3ca-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="090b-848c-f3b7-e3ca" name="Angbor the Fearless" book="Kingdoms of Men" page="25" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="f3df-409b-5d33-4a10" name="Angbor the Fearless" book="Kingdoms of Man" page="25" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -40,7 +37,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="2699-9d82-4981-b30f" name="Armour" book="Kingdoms of Men" page="25" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="2699-9d82-4981-b30f" name="Armour" book="Kingdoms of Men" page="25" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -56,7 +53,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3bdd-e760-f26a-c25e" name="Two-handed weapon" book="Kingdoms of Men" page="25" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3bdd-e760-f26a-c25e" name="Two-handed weapon" book="Kingdoms of Men" page="25" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -86,10 +83,7 @@
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b19a-3926-6be3-99c5" name="Axeman of Lossarnach" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="b19a-3926-6be3-99c5-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="b19a-3926-6be3-99c5" name="Axeman of Lossarnach" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="aa40-0741-3771-e54c" name="Axeman of Lossarnach" book="Kingdoms of Men" page="28" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
@@ -113,7 +107,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="504e-fa06-bdd7-5b0d" name="Axe of Lassarnach" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="504e-fa06-bdd7-5b0d" name="Axe of Lassarnach" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules>
             <rule id="07ec-1769-0aed-db1b" name="Axe of Lossanarch" book="Kingdoms of Men" page="28" hidden="false">
@@ -137,7 +131,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="52a7-d04b-db44-edac" name="Heavy armour" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="52a7-d04b-db44-edac" name="Heavy armour" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -153,7 +147,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6082-47e1-0ce3-feac" name="Banner" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="6082-47e1-0ce3-feac" name="Banner" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -182,10 +176,7 @@
         <cost name="pts" costTypeId="points" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9fc1-e78e-34a5-398d" name="Blackroot Vale Archer" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="9fc1-e78e-34a5-398d-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="9fc1-e78e-34a5-398d" name="Blackroot Vale Archer" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="bb21-260c-e447-bcae" name="Blackroot Vale Archer" book="Kingdoms of Men" page="28" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
@@ -217,7 +208,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="07b1-3e78-ba6a-7d5b" name="Armour" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="07b1-3e78-ba6a-7d5b" name="Armour" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -233,7 +224,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8f94-41d3-2a43-b982" name="Bow" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="8f94-41d3-2a43-b982" name="Bow" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -256,7 +247,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="df0e-660a-a2c5-2d8b" name="Banner" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="df0e-660a-a2c5-2d8b" name="Banner" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -278,7 +269,7 @@
             <cost name="pts" costTypeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="84a5-1323-d1e1-8f33" name="War horn" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="84a5-1323-d1e1-8f33" name="War horn" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -307,10 +298,7 @@
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e82c-eab8-533e-7c95" name="Captain of Dol Amroth" book="Kingdoms of Men" page="26" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="e82c-eab8-533e-7c95-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="e82c-eab8-533e-7c95" name="Captain of Dol Amroth" book="Kingdoms of Men" page="26" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="2b43-533e-713f-dc7c" name="Captain of Dol Amroth" book="Kingdoms of Men" page="26" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -338,7 +326,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Captains of Dol Amroth always counts as being within the area of effect of a banner if Prince Imrahil is within 12"/28cm</description>
+          <description>Captains of Dol Amroth always counts as being within the area of effect of a banner if Prince Imrahil is within 12&quot;/28cm</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -347,7 +335,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24be-c942-97d1-ed3d" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="bfb2-9bc5-3773-be75" name="Heavy armour" book="Kingdoms of Men" page="26" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="bfb2-9bc5-3773-be75" name="Heavy armour" book="Kingdoms of Men" page="26" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -363,7 +351,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f3cf-f4d7-3183-14f8" name="Shield" book="Kingdoms of Men" page="26" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f3cf-f4d7-3183-14f8" name="Shield" book="Kingdoms of Men" page="26" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -392,7 +380,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4665-647a-0147-08cc" name="Armoured horse" book="Kingdoms of Men" page="26" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="4665-647a-0147-08cc" name="Armoured horse" book="Kingdoms of Men" page="26" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -414,7 +402,7 @@
             <cost name="pts" costTypeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9397-d4c3-7f8b-c5f4" name="Lance" book="Kingdoms of Men" page="26" hidden="true" collective="false" type="upgrade">
+        <selectionEntry id="9397-d4c3-7f8b-c5f4" name="Lance" book="Kingdoms of Men" page="26" hidden="true" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -451,10 +439,7 @@
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c5c-edd0-85a5-3e18" name="Clansman of Lamedon" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="0c5c-edd0-85a5-3e18-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="0c5c-edd0-85a5-3e18" name="Clansman of Lamedon" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="109a-566a-488e-3401" name="Clansman of Lamedon" book="Kingdoms of Men" page="28" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
@@ -479,14 +464,14 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Clansmen of Lamedon always count as being within the arae of effect of a banner if Angbor the Fearless is within 6"/14cm.</description>
+          <description>Clansmen of Lamedon always count as being within the arae of effect of a banner if Angbor the Fearless is within 6&quot;/14cm.</description>
         </rule>
       </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="6edd-7445-da7c-ae03" name="Armour" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="6edd-7445-da7c-ae03" name="Armour" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -502,7 +487,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ee90-a1ca-741e-9e8b" name="Two-handed weapon" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ee90-a1ca-741e-9e8b" name="Two-handed weapon" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -532,10 +517,7 @@
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ad1e-6207-d209-f78b" name="Duinhir" book="Kingdoms of Men" page="26" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="ad1e-6207-d209-f78b-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="ad1e-6207-d209-f78b" name="Duinhir" book="Kingdoms of Men" page="26" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="d4d6-0b89-cfec-b16b" name="Duinhir" book="Kingdoms of Men" page="26" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -580,7 +562,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="dee2-1a1e-94e8-6e7c" name="Armour" book="Kingdoms of Men" page="26" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="dee2-1a1e-94e8-6e7c" name="Armour" book="Kingdoms of Men" page="26" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -596,7 +578,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ba59-85bb-44eb-782c" name="Bow" book="Kingdoms of Men" page="26" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ba59-85bb-44eb-782c" name="Bow" book="Kingdoms of Men" page="26" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -619,7 +601,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="166f-bd50-12ba-4282" name="Spear" book="Kingdoms of Men" page="26" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="166f-bd50-12ba-4282" name="Spear" book="Kingdoms of Men" page="26" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -649,10 +631,7 @@
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="171f-c511-9e10-1ac2" name="Forlong the Fat" book="Kingdoms of Men" page="25" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="171f-c511-9e10-1ac2-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="171f-c511-9e10-1ac2" name="Forlong the Fat" book="Kingdoms of Men" page="25" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="bd18-3e58-a114-8554" name="Forlong the Fat" book="Kingdoms of Men" page="25" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -682,7 +661,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="3bc2-a3d8-66a7-a603" name="Heavy armour" book="Kingdoms of Men" page="25" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3bc2-a3d8-66a7-a603" name="Heavy armour" book="Kingdoms of Men" page="25" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -698,7 +677,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="343d-b7ea-f3cc-9041" name="Spear" book="Kingdoms of Men" page="25" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="343d-b7ea-f3cc-9041" name="Spear" book="Kingdoms of Men" page="25" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -721,7 +700,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a21c-6e12-7c9a-c98b" name="Horse" book="Kingdoms of Men" page="25" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="a21c-6e12-7c9a-c98b" name="Horse" book="Kingdoms of Men" page="25" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -750,10 +729,7 @@
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6db4-1a97-13d2-d51d" name="Knight of Dol Amroth" book="Kingdoms of Men" page="27" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="6db4-1a97-13d2-d51d-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="6db4-1a97-13d2-d51d" name="Knight of Dol Amroth" book="Kingdoms of Men" page="27" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="d22a-54ba-7c92-48ab" name="Knight of Dol Amroth" book="Kingdoms of Men" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
@@ -778,14 +754,14 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Knights of Dol Amroth always count as being within the area of effect of a banner if Prince Imrahil is within 12"/28cm.</description>
+          <description>Knights of Dol Amroth always count as being within the area of effect of a banner if Prince Imrahil is within 12&quot;/28cm.</description>
         </rule>
       </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="dc65-55f5-f5d0-88d2" name="Heavy armour" book="Kingdoms of Men" page="27" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="dc65-55f5-f5d0-88d2" name="Heavy armour" book="Kingdoms of Men" page="27" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -801,7 +777,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9124-517f-4390-0354" name="Shield" book="Kingdoms of Men" page="27" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9124-517f-4390-0354" name="Shield" book="Kingdoms of Men" page="27" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -830,7 +806,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9ed1-169f-297a-403f" name="Armoured horse" book="Kingdoms of Men" page="27" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9ed1-169f-297a-403f" name="Armoured horse" book="Kingdoms of Men" page="27" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -852,7 +828,7 @@
             <cost name="pts" costTypeId="points" value="9.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="abdd-49ac-47bf-db0d" name="Banner" book="Kingdoms of Men" page="27" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="abdd-49ac-47bf-db0d" name="Banner" book="Kingdoms of Men" page="27" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -874,7 +850,7 @@
             <cost name="pts" costTypeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="abed-1b9e-4ae2-3f03" name="Lance" book="Kingdoms of Men" page="27" hidden="true" collective="false" type="upgrade">
+        <selectionEntry id="abed-1b9e-4ae2-3f03" name="Lance" book="Kingdoms of Men" page="27" hidden="true" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -904,7 +880,7 @@
             <cost name="pts" costTypeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="aa2e-ce40-7eee-0791" name="War horn" book="Kingdoms of Men" page="27" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="aa2e-ce40-7eee-0791" name="War horn" book="Kingdoms of Men" page="27" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -933,10 +909,7 @@
         <cost name="pts" costTypeId="points" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f65a-a6ad-00e0-c240" name="Man-at-arms of Dol Amroth" book="Kingdoms of Men" page="27" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="f65a-a6ad-00e0-c240-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="f65a-a6ad-00e0-c240" name="Man-at-arms of Dol Amroth" book="Kingdoms of Men" page="27" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="4c34-59e4-0797-d9df" name="Man-at-arms of Dol Amroth" book="Kingdoms of Men" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
@@ -961,14 +934,14 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Man-at-arms of Dol Amroth always count as being within the area of effect of a banner if Prince Imrahil is within 12"/28cm.</description>
+          <description>Man-at-arms of Dol Amroth always count as being within the area of effect of a banner if Prince Imrahil is within 12&quot;/28cm.</description>
         </rule>
       </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="f342-851e-b2aa-6a93" name="Banner" book="Kingdoms of Men" page="27" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f342-851e-b2aa-6a93" name="Banner" book="Kingdoms of Men" page="27" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -990,7 +963,7 @@
             <cost name="pts" costTypeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cc45-ceef-7540-65be" name="Pike" book="Kingdoms of Pen" page="27" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="cc45-ceef-7540-65be" name="Pike" book="Kingdoms of Pen" page="27" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1012,7 +985,7 @@
             <cost name="pts" costTypeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4635-5af8-b397-5f73" name="Heavy armour" book="Kingdoms of Me" page="27" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="4635-5af8-b397-5f73" name="Heavy armour" book="Kingdoms of Me" page="27" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1035,10 +1008,7 @@
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c1e-4299-27d7-0137" name="Prince Imrahil" book="Kingdoms of Men" page="25" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="9c1e-4299-27d7-0137-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="9c1e-4299-27d7-0137" name="Prince Imrahil" book="Kingdoms of Men" page="25" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="0ccc-e66d-fffe-107f" name="Prince Imrahil" book="Kingdoms of Men" page="25" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -1066,7 +1036,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Imrahil commands great respect and loyalty from all the free folk of Middle-earth. The range of Prince Imrahil's Stand Fast! is 12"/28cm rather than 6"/14cm.</description>
+          <description>Imrahil commands great respect and loyalty from all the free folk of Middle-earth. The range of Prince Imrahil&apos;s Stand Fast! is 12&quot;/28cm rather than 6&quot;/14cm.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1076,7 +1046,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="934b-4fcf-d099-32ed" name="Heavy armour" book="Kingdoms of Men" page="25" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="934b-4fcf-d099-32ed" name="Heavy armour" book="Kingdoms of Men" page="25" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1092,7 +1062,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c873-462b-8678-0dff" name="Shield" book="Kingdoms of Men" page="25" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="c873-462b-8678-0dff" name="Shield" book="Kingdoms of Men" page="25" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1121,7 +1091,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4fef-be39-14f9-ead5" name="Armoured horse" book="Kingdoms of Men" page="25" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="4fef-be39-14f9-ead5" name="Armoured horse" book="Kingdoms of Men" page="25" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1143,7 +1113,7 @@
             <cost name="pts" costTypeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5bad-5c36-8708-9492" name="Lance" book="Kingdoms of Men" page="25" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="5bad-5c36-8708-9492" name="Lance" book="Kingdoms of Men" page="25" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1172,10 +1142,7 @@
         <cost name="pts" costTypeId="points" value="135.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ebc7-2af7-efd0-1635" name="Rider of the Dead" book="Kingdoms of Me" page="28" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="ebc7-2af7-efd0-1635-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="ebc7-2af7-efd0-1635" name="Rider of the Dead" book="Kingdoms of Me" page="28" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="f039-666d-c0a6-ea12" name="Rider of the Dead" book="Kingdoms of Men" page="28" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
@@ -1200,7 +1167,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>When determining what number the Dead need to wound their opponents, use the opponent's Courage rather than its Defence on the Wound chart.</description>
+          <description>When determining what number the Dead need to wound their opponents, use the opponent&apos;s Courage rather than its Defence on the Wound chart.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1214,7 +1181,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="3204-71e2-e3e9-6650" name="Armour" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3204-71e2-e3e9-6650" name="Armour" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1230,7 +1197,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a6d8-fbd5-1ef0-fb99" name="Horse" book="Kingdoms of Men" page="28" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="a6d8-fbd5-1ef0-fb99" name="Horse" book="Kingdoms of Men" page="28" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1253,7 +1220,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="31e2-baf7-216b-ea51" name="Shield" book="Kingdoms of Me" page="28" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="31e2-baf7-216b-ea51" name="Shield" book="Kingdoms of Me" page="28" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1289,10 +1256,7 @@
         <cost name="pts" costTypeId="points" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2ed1-46fd-69cf-8470" name="The King of the Dead" book="Kingdoms of Men" page="26" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="2ed1-46fd-69cf-8470-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="2ed1-46fd-69cf-8470" name="The King of the Dead" book="Kingdoms of Men" page="26" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="4142-6a48-464e-ca1a" name="The King of the Dead" book="Kingdoms of Men" page="26" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -1320,7 +1284,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>When determining what number the Dead need to wound their opponents, use the opponent's Courage rather than its Defence on the Wound chart.</description>
+          <description>When determining what number the Dead need to wound their opponents, use the opponent&apos;s Courage rather than its Defence on the Wound chart.</description>
         </rule>
         <rule id="2be4-fbaa-fdba-f2d4" name="Drain Soul" book="Kingdoms of Men" page="26" hidden="false">
           <profiles/>
@@ -1334,7 +1298,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Only Warriors and Riders of the Dead may use the King's Stand Fast!</description>
+          <description>Only Warriors and Riders of the Dead may use the King&apos;s Stand Fast!</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1351,7 +1315,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="bcb2-8dcf-64bb-0a8f" name="Armour" book="Kingdoms of Men" page="26" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="bcb2-8dcf-64bb-0a8f" name="Armour" book="Kingdoms of Men" page="26" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1374,10 +1338,7 @@
         <cost name="pts" costTypeId="points" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e36-3d35-1728-9c74" name="Warrior of the Dead" book="Kingdoms of Men" page="29" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="7e36-3d35-1728-9c74-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="7e36-3d35-1728-9c74" name="Warrior of the Dead" book="Kingdoms of Men" page="29" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="4ab7-03e9-9ba4-472c" name="Warrior of the Dead" book="Kingdoms of Men" page="29" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
@@ -1402,7 +1363,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>When determining what number the Dead need to wound their opponents, use the opponent's Courage rather than its Defence on the Wound chart.</description>
+          <description>When determining what number the Dead need to wound their opponents, use the opponent&apos;s Courage rather than its Defence on the Wound chart.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1416,7 +1377,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="abdf-969e-b55b-e5c9" name="Armour" book="Kingdoms of Men" page="29" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="abdf-969e-b55b-e5c9" name="Armour" book="Kingdoms of Men" page="29" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1432,7 +1393,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d204-3107-9a39-975b" name="Banner" book="Kingdoms of Men" page="29" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="d204-3107-9a39-975b" name="Banner" book="Kingdoms of Men" page="29" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1454,7 +1415,7 @@
             <cost name="pts" costTypeId="points" value="25.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f7bc-7ac3-f849-8992" name="Shield" book="Kingdoms of Men" page="29" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="f7bc-7ac3-f849-8992" name="Shield" book="Kingdoms of Men" page="29" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1482,7 +1443,7 @@
             <cost name="pts" costTypeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7e39-7769-2def-43cb" name="Spear" book="Kingdoms of Men" page="29" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="7e39-7769-2def-43cb" name="Spear" book="Kingdoms of Men" page="29" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>

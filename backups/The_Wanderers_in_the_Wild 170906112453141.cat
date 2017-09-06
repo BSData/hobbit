@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="fa51-6b47-707e-a50e" name="The Wanderers in the Wild" revision="1" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="fa51-6b47-707e-a50e" name="The Wanderers in the Wild" revision="1" battleScribeVersion="2.00" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,10 +7,7 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="0d8a-ff79-3b0c-42e3" name="Tom Bombadil" book="The Free Peoples" page="49" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="0d8a-ff79-3b0c-42e3-e059-5f8f-1ab2-017e" targetId="e059-5f8f-1ab2-017e" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="0d8a-ff79-3b0c-42e3" name="Tom Bombadil" book="The Free Peoples" page="49" hidden="false" collective="false" categoryEntryId="e059-5f8f-1ab2-017e" type="model">
       <profiles>
         <profile id="27fe-ec32-67ff-d450" name="Tom Bombadil" book="The Free Peoples" page="49" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -59,7 +56,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Tom treats all kinds of difficult terrain as open and always gets a result of 6 on the Jump and CLimb charts (some say that rocks and trees reverently move aside to let him through...). Tom cannot be harmed by ranged attacks - this means that magical powers have no effect at all on him and missiles that hit Tom disappear and are discarded. No models can move into Tom's control zone unless the Good player allows them (this includes models moved by a Sorcerous Blast spell). Tom can charge enemy models normally and his side will always win any fight Tom is involved in, but neither Tom nor any other Good model involved in the same fight will strike any blows. Tom and all Good models within 3"/8cm of him always automatically pass all Courage tests.</description>
+          <description>Tom treats all kinds of difficult terrain as open and always gets a result of 6 on the Jump and CLimb charts (some say that rocks and trees reverently move aside to let him through...). Tom cannot be harmed by ranged attacks - this means that magical powers have no effect at all on him and missiles that hit Tom disappear and are discarded. No models can move into Tom&apos;s control zone unless the Good player allows them (this includes models moved by a Sorcerous Blast spell). Tom can charge enemy models normally and his side will always win any fight Tom is involved in, but neither Tom nor any other Good model involved in the same fight will strike any blows. Tom and all Good models within 3&quot;/8cm of him always automatically pass all Courage tests.</description>
         </rule>
         <rule id="1967-1888-402e-05e0" name="*Laugh and be Merry!" book="The Free Peoples" page="49" hidden="false">
           <profiles/>
@@ -97,10 +94,7 @@
         <cost name="pts" costTypeId="points" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1a1a-a389-1c3c-d7d9" name="Goldberry" book="The Free Peoples" page="49" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="1a1a-a389-1c3c-d7d9-e059-5f8f-1ab2-017e" targetId="e059-5f8f-1ab2-017e" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="1a1a-a389-1c3c-d7d9" name="Goldberry" book="The Free Peoples" page="49" hidden="false" collective="false" categoryEntryId="e059-5f8f-1ab2-017e" type="model">
       <profiles>
         <profile id="efe2-414d-0e5c-dfd4" name="Goldberry" book="The Free Peoples" page="49" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -149,7 +143,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Goldberry cannot be harmed by ranged attacks - this means that magical powers have no effect at all on her, and missiles that hit Goldberry disappear and are discarded. No Evil models can move into Goldberry's control zone (this includes models moved by a Sorcerous Blast spell). Goldberry will never enter the control zone of an Evil model. Goldberry and all Good models within 6"/14cm of her always automatically pass all Courage tests.</description>
+          <description>Goldberry cannot be harmed by ranged attacks - this means that magical powers have no effect at all on her, and missiles that hit Goldberry disappear and are discarded. No Evil models can move into Goldberry&apos;s control zone (this includes models moved by a Sorcerous Blast spell). Goldberry will never enter the control zone of an Evil model. Goldberry and all Good models within 6&quot;/14cm of her always automatically pass all Courage tests.</description>
         </rule>
         <rule id="215a-6a43-c522-200f" name="Tom has his house to mind, and Goldberry is waiting" book="The Free Peoples" page="49" hidden="false">
           <profiles/>
@@ -194,10 +188,7 @@
         <cost name="pts" costTypeId="points" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="996c-4380-c2a7-674d" name="Treebeard" book="The Free Peoples" page="50" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="996c-4380-c2a7-674d-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="996c-4380-c2a7-674d" name="Treebeard" book="The Free Peoples" page="50" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="d826-58f0-7f1c-0594" name="Treebeard" book="The Free Peoples" page="50" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -232,7 +223,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If an Ent does not move at all, he can rip a suitable rock from the ground (provided he's not engaged in combat) and in the subsequent Shoot phase, he can throw it. This works exactly like a crossbow with a range of 18"/42cm and a Strength of 10. If the Good player wishes, this rock can be hurled at a castle wall or other building. If this is the case, the Goof player nominates a target point and rolls To Hit and To Wound as normal. If the shot causes sufficient damage to create a breach, the breach occurs at the point the shot was aimed at.</description>
+          <description>If an Ent does not move at all, he can rip a suitable rock from the ground (provided he&apos;s not engaged in combat) and in the subsequent Shoot phase, he can throw it. This works exactly like a crossbow with a range of 18&quot;/42cm and a Strength of 10. If the Good player wishes, this rock can be hurled at a castle wall or other building. If this is the case, the Goof player nominates a target point and rolls To Hit and To Wound as normal. If the shot causes sufficient damage to create a breach, the breach occurs at the point the shot was aimed at.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -261,10 +252,7 @@
         <cost name="pts" costTypeId="points" value="190.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bb84-7ecd-bd55-d2ea" name="Gwaihir" book="The Free Peoples" page="50" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="bb84-7ecd-bd55-d2ea-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="bb84-7ecd-bd55-d2ea" name="Gwaihir" book="The Free Peoples" page="50" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="e580-308f-ed67-6a09" name="Gwaihir" book="The Free Peoples" page="50" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -321,10 +309,7 @@
         <cost name="pts" costTypeId="points" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="227b-324b-f223-ba87" name="Ghân-buri-Ghân" book="The Free Peoples" page="51" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="227b-324b-f223-ba87-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="227b-324b-f223-ba87" name="Ghân-buri-Ghân" book="The Free Peoples" page="51" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="f98a-f551-45fd-2078" name="Ghân-buri-Ghân" book="The Free Peoples" page="51" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -411,7 +396,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The poisoned blowpipe can be fired in the Shooting phase if the bearer did not move in the preceding Move phase. It has a range of 12"/28cm and a Strength of 2. Every time a 1 is rolled on the D6 To Wound a blowpipe shot, the player must re-roll it.</description>
+              <description>The poisoned blowpipe can be fired in the Shooting phase if the bearer did not move in the preceding Move phase. It has a range of 12&quot;/28cm and a Strength of 2. Every time a 1 is rolled on the D6 To Wound a blowpipe shot, the player must re-roll it.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -432,10 +417,7 @@
         <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="607b-0e82-4d77-d932" name="Bilbo Baggins" book="The Free Peoples" page="51" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="607b-0e82-4d77-d932-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="607b-0e82-4d77-d932" name="Bilbo Baggins" book="The Free Peoples" page="51" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="06f2-3213-e24e-3922" name="Bilbo Baggins" book="The Free Peoples" page="51" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -463,7 +445,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Bilbo carries Sting and wears his Mithril coat - both bonuses have been added to Bilbo's profile. Note that if Bilbo and Frodo are both included, Bilbo carries Sting and the Mithril coat, whilst Frodo carries the Ring.</description>
+          <description>Bilbo carries Sting and wears his Mithril coat - both bonuses have been added to Bilbo&apos;s profile. Note that if Bilbo and Frodo are both included, Bilbo carries Sting and the Mithril coat, whilst Frodo carries the Ring.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -501,10 +483,7 @@
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9d08-8e9b-7396-abbb" name="Bandobras Took, the Bullroarer" book="The Free Peoples" page="51" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="9d08-8e9b-7396-abbb-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="9d08-8e9b-7396-abbb" name="Bandobras Took, the Bullroarer" book="The Free Peoples" page="51" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="3820-862e-36da-a250" name="Bandobras Took, the Bullroarer" book="The Free Peoples" page="51" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -562,10 +541,7 @@
         <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b984-2a92-2103-54d5" name="Great Eagle" book="The Free Peoples" page="52" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="b984-2a92-2103-54d5-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="b984-2a92-2103-54d5" name="Great Eagle" book="The Free Peoples" page="52" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="ca03-d0a0-985a-80f6" name="Great Eagle" book="The Free Peoples" page="52" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -608,10 +584,7 @@
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8d97-77c9-2759-ca19" name="Ent" book="The Free Peoples" page="53" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="8d97-77c9-2759-ca19-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="8d97-77c9-2759-ca19" name="Ent" book="The Free Peoples" page="53" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="f3c9-d830-265e-072a" name="Ent" book="The Free Peoples" page="53" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -643,7 +616,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If an Ent does not move at all, he can rip a suitable rock from the ground (provided he's not engaged in combat) and in the subsequently Shoot phase, he can throw it. This works exactly like a crossbow with a range of 18"/42cm and a Strength of 10. If the Good player wishes, this rock can be hurled at a castle wall or other building. If this is the case, the Good player nominates a target point and rolls To hit and To Wound as normal. If the shot causes sufficient damage to create a breach, the breach ovvurs at the point the shot was aimed at.</description>
+          <description>If an Ent does not move at all, he can rip a suitable rock from the ground (provided he&apos;s not engaged in combat) and in the subsequently Shoot phase, he can throw it. This works exactly like a crossbow with a range of 18&quot;/42cm and a Strength of 10. If the Good player wishes, this rock can be hurled at a castle wall or other building. If this is the case, the Good player nominates a target point and rolls To hit and To Wound as normal. If the shot causes sufficient damage to create a breach, the breach ovvurs at the point the shot was aimed at.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -669,10 +642,7 @@
         <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f470-48e3-a072-f920" name="Woses Warrior" book="The Free Peoples" page="53" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="f470-48e3-a072-f920-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="f470-48e3-a072-f920" name="Woses Warrior" book="The Free Peoples" page="53" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="16dc-b2d8-b51b-0041" name="Woses Warrior" book="The Free Peoples" page="53" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -753,7 +723,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The poisonsed blowpipe can be fired in the Shooting phase if the bearer did not move in the preceding Move phase. It has a range of 12"/28cm and a Strength of 2. Every time a 1 is rolled on the D6 To Wound from a blowpipe shot, the player must re-roll it.</description>
+              <description>The poisonsed blowpipe can be fired in the Shooting phase if the bearer did not move in the preceding Move phase. It has a range of 12&quot;/28cm and a Strength of 2. Every time a 1 is rolled on the D6 To Wound from a blowpipe shot, the player must re-roll it.</description>
             </rule>
           </rules>
           <infoLinks/>

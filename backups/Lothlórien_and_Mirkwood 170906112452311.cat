@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="ed42-db4f-9dc4-d679" name="Lothlórien and Mirkwood" revision="2" authorName="Edward Horsman" authorContact="edhalto@gmail.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ed42-db4f-9dc4-d679" name="Lothlórien and Mirkwood" revision="2" battleScribeVersion="2.00" authorName="Edward Horsman" authorContact="edhalto@gmail.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,10 +7,7 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="bb9e-0901-5d49-a13d" name="Galadriel" book="The Free Peoples" page="23" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="bb9e-0901-5d49-a13d-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="bb9e-0901-5d49-a13d" name="Galadriel" book="The Free Peoples" page="23" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="f6ae-9ea3-4000-db17" name="Galadriel" book="The Free Peoples" page="23" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -141,7 +138,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The mirror is deployed within 6" of Galadriel at the start of the game - it cannot subsequently be moved. At the end of each turn, one Good Hero within 6"/14cm of the mirror can recover their Fate to its starting value.</description>
+              <description>The mirror is deployed within 6&quot; of Galadriel at the start of the game - it cannot subsequently be moved. At the end of each turn, one Good Hero within 6&quot;/14cm of the mirror can recover their Fate to its starting value.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -164,10 +161,7 @@
         <cost name="pts" costTypeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9d48-256f-493f-6e84" name="Celeborn" book="The Free Peoples" page="23" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="9d48-256f-493f-6e84-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="9d48-256f-493f-6e84" name="Celeborn" book="The Free Peoples" page="23" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="6682-6835-86dc-13f6" name="Celeborn" book="The Free Peoples" page="23" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -292,10 +286,7 @@
         <cost name="pts" costTypeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="60d5-7e6b-8daa-dc39" name="Galadhrim Warrior" book="The Free Peoples" page="27" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="60d5-7e6b-8daa-dc39-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="60d5-7e6b-8daa-dc39" name="Galadhrim Warrior" book="The Free Peoples" page="27" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="5319-d5d0-dbe4-4901" name="Galadhrim Warrior" book="The Free Peoples" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -528,10 +519,7 @@
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b884-7301-c60f-a8f8" name="Galadhrim Knight" book="The Free Peoples" page="27" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="b884-7301-c60f-a8f8-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="b884-7301-c60f-a8f8" name="Galadhrim Knight" book="The Free Peoples" page="27" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="26d1-5b6f-c2eb-f247" name="Galadhrim Knight" book="The Free Peoples" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -754,10 +742,7 @@
         <cost name="pts" costTypeId="points" value="18.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4dc8-8f37-7f80-e417" name="Haldir" book="The Free Peoples" page="24" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="4dc8-8f37-7f80-e417-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="4dc8-8f37-7f80-e417" name="Haldir" book="The Free Peoples" page="24" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="95bf-d755-4117-4a51" name="Haldir" book="The Free Peoples" page="24" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -884,12 +869,9 @@
         <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d503-48bb-8633-bfcd" name="Haldir, Defender of Helm's Deep" book="The Free Peoples" page="24" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="d503-48bb-8633-bfcd-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="d503-48bb-8633-bfcd" name="Haldir, Defender of Helm&apos;s Deep" book="The Free Peoples" page="24" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
-        <profile id="11c0-196d-baea-23ab" name="Haldir, Defender of Helm's Deep" book="The Free Peoples" page="24" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="11c0-196d-baea-23ab" name="Haldir, Defender of Helm&apos;s Deep" book="The Free Peoples" page="24" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -910,12 +892,12 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="a267-7109-d52d-ee9f" name="Allies 'till the End" book="The Free Peoples" page="24" hidden="false">
+        <rule id="a267-7109-d52d-ee9f" name="Allies &apos;till the End" book="The Free Peoples" page="24" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Haldir is counted as being in range of Banner and automatically passes Courage tests if he is within 12"/28cm of Aragorn or Theoden.</description>
+          <description>Haldir is counted as being in range of Banner and automatically passes Courage tests if he is within 12&quot;/28cm of Aragorn or Theoden.</description>
         </rule>
         <rule id="96a4-a272-d040-b45b" name="One Final Blow" book="The Free Peoples" page="24" hidden="false">
           <profiles/>
@@ -984,10 +966,7 @@
         <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7680-4fb0-4f85-6867" name="Rúmil" book="The Free Peoples" page="24" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="7680-4fb0-4f85-6867-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="7680-4fb0-4f85-6867" name="Rúmil" book="The Free Peoples" page="24" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="518a-a125-72e1-7fd0" name="Rúmil" book="The Free Peoples" page="24" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1107,10 +1086,7 @@
         <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b90e-eab3-0f75-8338" name="Legolas" book="The Free Peoples" page="25" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="b90e-eab3-0f75-8338-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="b90e-eab3-0f75-8338" name="Legolas" book="The Free Peoples" page="25" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="eccf-016e-69eb-1aae" name="Legolas" book="The Free Peoples" page="25" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1138,7 +1114,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Legolas is allowed to shoot his bow three times in the Shoot phase instead of once, hitting hit targes normally on 3+. Alternatively he can decided to fire just one arrow, but in this case, he will hit automatically, regardless of objects 'in the way' or if the target is in combat.</description>
+          <description>Legolas is allowed to shoot his bow three times in the Shoot phase instead of once, hitting hit targes normally on 3+. Alternatively he can decided to fire just one arrow, but in this case, he will hit automatically, regardless of objects &apos;in the way&apos; or if the target is in combat.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1239,10 +1215,7 @@
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b59-b948-b5e6-2c1d" name="Thranduil, King of Mirkwood" book="The Free Peoples" page="25" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="4b59-b948-b5e6-2c1d-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="4b59-b948-b5e6-2c1d" name="Thranduil, King of Mirkwood" book="The Free Peoples" page="25" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="3336-cccb-e227-f628" name="Thranduil, King of Mirkwood" book="The Free Peoples" page="25" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1299,7 +1272,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>This crown allows Thranduiul to cast the Magical Powers Aura of Dismay and Nature's Wrath once each per game. The spell is automatically cast and no Will points need be expended.</description>
+              <description>This crown allows Thranduiul to cast the Magical Powers Aura of Dismay and Nature&apos;s Wrath once each per game. The spell is automatically cast and no Will points need be expended.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -1351,10 +1324,7 @@
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eaa3-05f2-2971-f1b0" name="Wood Elf Warrior" book="The Free Peoples" page="27" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="eaa3-05f2-2971-f1b0-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="eaa3-05f2-2971-f1b0" name="Wood Elf Warrior" book="The Free Peoples" page="27" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="5c46-9488-3a0d-8579" name="Wood Elf Warrior" book="The Free Peoples" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -1645,10 +1615,7 @@
         <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bef1-ae8b-57c8-d0a7" name="Gildor Inglorion (Eregion and Rivendell)" book="The Free Peoples" page="20" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="bef1-ae8b-57c8-d0a7-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="bef1-ae8b-57c8-d0a7" name="Gildor Inglorion (Eregion and Rivendell)" book="The Free Peoples" page="20" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="1558-6225-552d-bf85" name="Gildor Inglorion" book="The Free Peoples" page="20" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -1728,10 +1695,7 @@
         <cost name="pts" costTypeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9047-4c53-a3b7-32c6" name="Wood Elf Captain" book="The Free Peoples" page="26" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="9047-4c53-a3b7-32c6-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="9047-4c53-a3b7-32c6" name="Wood Elf Captain" book="The Free Peoples" page="26" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="c5b5-9411-6932-0d3b" name="Wood Elf Captain" book="The Free Peoples" page="26" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1849,10 +1813,7 @@
         <cost name="pts" costTypeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f2ac-ded9-17de-f7c2" name="Galadhrim Stormcaller" book="The Free Peoples" page="26" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="f2ac-ded9-17de-f7c2-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="f2ac-ded9-17de-f7c2" name="Galadhrim Stormcaller" book="The Free Peoples" page="26" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="6d11-216a-a33f-bf22" name="Galadhrim Stormcaller" book="The Free Peoples" page="26" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1894,7 +1855,7 @@
             <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
           </characteristics>
         </profile>
-        <profile id="5dc3-e4d9-a2b5-9f30" name="Nature's Wrath" book="The Free Peoples" page="26" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="5dc3-e4d9-a2b5-9f30" name="Nature&apos;s Wrath" book="The Free Peoples" page="26" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1911,7 +1872,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If, when casting a spell, one or more of the dice rolled results in a natural 6 (so, not another number modified by Might, etc.) the Will points used in casting the spell are not expended but are returned to the Stormcaller's pool of Will.</description>
+          <description>If, when casting a spell, one or more of the dice rolled results in a natural 6 (so, not another number modified by Might, etc.) the Will points used in casting the spell are not expended but are returned to the Stormcaller&apos;s pool of Will.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1947,10 +1908,7 @@
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="62f2-b5ed-f878-e194" name="Galadhrim Captain" book="The Free Peoples" page="26" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="62f2-b5ed-f878-e194-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="62f2-b5ed-f878-e194" name="Galadhrim Captain" book="The Free Peoples" page="26" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="57d1-88ee-2f9a-8267" name="Galadhrim Captain" book="The Free Peoples" page="26" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -2100,10 +2058,7 @@
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7c92-c250-55ba-92ce" name="Wood Elf Sentinel" book="The Free Peoples" page="28" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="7c92-c250-55ba-92ce-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="7c92-c250-55ba-92ce" name="Wood Elf Sentinel" book="The Free Peoples" page="28" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="7ea3-4e03-d659-50dd" name="Wood Elf Sentinel" book="The Free Peoples" page="28" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -2139,7 +2094,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
-            <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Range 12&quot;/28cm. The target Evil model must pass a Courage test or make a full move under the control of the Good player, even if it has already moved. This move cannot be used to enter another model's control zone, or perform an action than would cause harm to the target (such as jumping down a cliff etc.) Affected models may not move further that turn."/>
+            <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Range 12&quot;/28cm. The target Evil model must pass a Courage test or make a full move under the control of the Good player, even if it has already moved. This move cannot be used to enter another model&apos;s control zone, or perform an action than would cause harm to the target (such as jumping down a cliff etc.) Affected models may not move further that turn."/>
             <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="N/A"/>
           </characteristics>
         </profile>
@@ -2196,10 +2151,7 @@
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8bd9-9a47-c198-8341" name="Guard of the Galadhrim Court" book="The Free Peoples" page="28" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="8bd9-9a47-c198-8341-e07a-883e-1b26-d891" targetId="e07a-883e-1b26-d891" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="8bd9-9a47-c198-8341" name="Guard of the Galadhrim Court" book="The Free Peoples" page="28" hidden="false" collective="false" categoryEntryId="e07a-883e-1b26-d891" type="model">
       <profiles>
         <profile id="7cd7-2c44-58eb-a137" name="Guard of the Galadhrim Court" book="The Free Peoples" page="28" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -2438,7 +2390,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Galadhrim steeds move 12"/28cm. The Woodland Creature special rule also applies to the Galadhrim steed, so the whole model treats woodland terrain as clear terrain for the purposes of movement.</description>
+      <description>Galadhrim steeds move 12&quot;/28cm. The Woodland Creature special rule also applies to the Galadhrim steed, so the whole model treats woodland terrain as clear terrain for the purposes of movement.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

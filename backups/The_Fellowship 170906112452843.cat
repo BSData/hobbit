@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="90ff-6093-09d6-f3b3" name="The Fellowship" revision="2" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" revision="2" battleScribeVersion="2.00" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,10 +7,7 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="8db6-5d2f-df6b-954e" name="Gandalf the Grey" book="The Free Peoples" page="43" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="8db6-5d2f-df6b-954e-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="8db6-5d2f-df6b-954e" name="Gandalf the Grey" book="The Free Peoples" page="43" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="e88d-9819-6cff-de35" name="Blinding Light" book="The Free Peoples" page="43" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
@@ -235,9 +232,9 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d62b-2367-5544-f4af" name="Gandalf's Cart" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="d62b-2367-5544-f4af" name="Gandalf&apos;s Cart" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="9582-93f6-d2f7-1ef6" name="Gandalf's Cart" book="The Free Peoples" page="43" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+            <profile id="9582-93f6-d2f7-1ef6" name="Gandalf&apos;s Cart" book="The Free Peoples" page="43" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -255,7 +252,7 @@
             </profile>
           </profiles>
           <rules>
-            <rule id="ed53-2df3-93f6-1269" name="Gandalf's Cart" book="The Free Peoples" page="43" hidden="false">
+            <rule id="ed53-2df3-93f6-1269" name="Gandalf&apos;s Cart" book="The Free Peoples" page="43" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -323,10 +320,7 @@
         <cost name="pts" costTypeId="points" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7199-3383-b004-d4a8" name="Gandalf the White" book="The Free Peoples" page="43" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="7199-3383-b004-d4a8-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="7199-3383-b004-d4a8" name="Gandalf the White" book="The Free Peoples" page="43" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="eb2b-760e-a577-5d79" name="Gandalf the White" book="The Free Peoples" page="43" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -424,7 +418,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>When Gandalf the White unveils his inner light, his presence is enough to steel the resolve of the Good Warriors around him. The range of Gandalf the White's Stand Fast! rule 12" rather than 6".</description>
+          <description>When Gandalf the White unveils his inner light, his presence is enough to steel the resolve of the Good Warriors around him. The range of Gandalf the White&apos;s Stand Fast! rule 12&quot; rather than 6&quot;.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -623,10 +617,7 @@
         <cost name="pts" costTypeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="daab-bb28-4311-fe81" name="Aragorn - Strider" book="The Free Peoples" page="44" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="daab-bb28-4311-fe81-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="daab-bb28-4311-fe81" name="Aragorn - Strider" book="The Free Peoples" page="44" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="9d00-0d86-6a94-5e12" name="Aragorn - Strider" book="The Free Peoples" page="44" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -679,7 +670,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>When fighting with Andrúil, Aragorn never needs to roll more than 4+ to score a Wound, regardless of the opponent's Defence (this rule has no effect against Siege Engines). His rolls To Wound can be modified by using Might as normal.</description>
+              <description>When fighting with Andrúil, Aragorn never needs to roll more than 4+ to score a Wound, regardless of the opponent&apos;s Defence (this rule has no effect against Siege Engines). His rolls To Wound can be modified by using Might as normal.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -789,10 +780,7 @@
         <cost name="pts" costTypeId="points" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2556-969c-6131-7684" name="Boromir of Gondor" book="The Free Peoples" page="44" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="2556-969c-6131-7684-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="2556-969c-6131-7684" name="Boromir of Gondor" book="The Free Peoples" page="44" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="ca0f-6036-ef67-2126" name="Boromir of Gondor" book="The Free Peoples" page="44" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -949,10 +937,7 @@
         <cost name="pts" costTypeId="points" value="105.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c257-d30c-ffdf-559a" name="Legolas" book="The Free Peoples" page="44" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="c257-d30c-ffdf-559a-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="c257-d30c-ffdf-559a" name="Legolas" book="The Free Peoples" page="44" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="2d9c-b374-528a-3dce" name="Legolas" book="The Free Peoples" page="44" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -980,7 +965,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Legolas is allowed to shoot his bow three times in the Shoot phase instead of once, hitting his targets normally on 3+. Alternatively, he can decide to fire just one arrow, but in this case, he will hit automatically, regardless of objects 'in the way' or if the targets is in combat.</description>
+          <description>Legolas is allowed to shoot his bow three times in the Shoot phase instead of once, hitting his targets normally on 3+. Alternatively, he can decide to fire just one arrow, but in this case, he will hit automatically, regardless of objects &apos;in the way&apos; or if the targets is in combat.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1099,10 +1084,7 @@
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5043-888d-7cb9-f8e4" name="Frodo" book="The Free Peoples" page="45" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="5043-888d-7cb9-f8e4-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="5043-888d-7cb9-f8e4" name="Frodo" book="The Free Peoples" page="45" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="6b78-974f-b7b7-18ee" name="Frodo" book="The Free Peoples" page="45" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1198,7 +1180,7 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Mithril is a rare metal that is as light as a feather, and as hard as dragon scales. The wearer's Defence value is increased by 3+, in Frodo's case from Defence 3 to 6</description>
+              <description>Mithril is a rare metal that is as light as a feather, and as hard as dragon scales. The wearer&apos;s Defence value is increased by 3+, in Frodo&apos;s case from Defence 3 to 6</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -1265,10 +1247,7 @@
         <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6ffa-9e0f-786f-bcad" name="Gimli son of Glóin" book="The Free Peoples" page="46" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="6ffa-9e0f-786f-bcad-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="6ffa-9e0f-786f-bcad" name="Gimli son of Glóin" book="The Free Peoples" page="46" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="00c2-c803-f7d4-869f" name="Gimli son of Glóin" book="The Free Peoples" page="46" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1404,10 +1383,7 @@
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c975-2b1c-1553-58e6" name="Samwise Gamgee" book="The Free Peoples" page="46" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="c975-2b1c-1553-58e6-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="c975-2b1c-1553-58e6" name="Samwise Gamgee" book="The Free Peoples" page="46" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="b899-c30f-71e4-76b9" name="Samwise Gamgee" book="The Free Peoples" page="46" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1485,10 +1461,7 @@
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8215-d619-6962-6bdf" name="Meriadoc Brandybuck" book="The Free Peoples" page="46" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="8215-d619-6962-6bdf-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="8215-d619-6962-6bdf" name="Meriadoc Brandybuck" book="The Free Peoples" page="46" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="51d4-072b-c3f0-88d4" name="Meriadoc Brandybuck" book="The Free Peoples" page="46" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1566,10 +1539,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fba6-0196-30de-6672" name="Peregrin Took" book="The Free Peoples" page="46" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="fba6-0196-30de-6672-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="fba6-0196-30de-6672" name="Peregrin Took" book="The Free Peoples" page="46" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="51ac-6e66-6e2f-26f5" name="Peregrin Took" book="The Free Peoples" page="46" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1647,10 +1617,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5906-b73a-1e07-9a07" name="Bill the pony" book="The Free Peoples" page="47" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="5906-b73a-1e07-9a07-e059-5f8f-1ab2-017e" targetId="e059-5f8f-1ab2-017e" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="5906-b73a-1e07-9a07" name="Bill the pony" book="The Free Peoples" page="47" hidden="false" collective="false" categoryEntryId="e059-5f8f-1ab2-017e" type="model">
       <profiles>
         <profile id="6c4c-4d1c-fe0d-83a4" name="Bill the pony" book="The Free Peoples" page="47" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1721,10 +1688,7 @@
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25c0-5479-17af-8894" name="Sméagol" book="The Free Peoples" page="47" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="25c0-5479-17af-8894-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="25c0-5479-17af-8894" name="Sméagol" book="The Free Peoples" page="47" hidden="false" collective="false" categoryEntryId="8e06-cb8f-41c0-09a4" type="model">
       <profiles>
         <profile id="7b46-db11-1c75-af6a" name="Sméagol" book="The Free Peoples" page="47" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
