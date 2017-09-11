@@ -661,6 +661,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="78dd-ed6d-9233-c096" name="Shielding" hidden="false" targetId="e0df-99a8-fc55-3419" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>

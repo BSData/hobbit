@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="6" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="7" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1023,7 +1023,6 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d1d-3a49-9540-3f18" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="215b-8906-9ae2-c38e-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
@@ -1037,7 +1036,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="9e5c-0db9-fa7d-872b" name="New EntryLink" hidden="false" targetId="ecba-4aa7-3646-2c9e" type="selectionEntry">
+        <entryLink id="9e5c-0db9-fa7d-872b" name="Elven Blade" hidden="false" targetId="ecba-4aa7-3646-2c9e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1468,10 +1467,31 @@
           <rules/>
           <infoLinks/>
           <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ddd-212e-2b5e-f87d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f281-eb7d-1440-e4d3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16f3-9eb0-ace0-37f2" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d90-db06-6cab-8851" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1480,7 +1500,7 @@
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="5/3+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="5"/>
@@ -1499,12 +1519,33 @@
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ddd-212e-2b5e-f87d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f281-eb7d-1440-e4d3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d90-db06-6cab-8851" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="6/3+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="5"/>
@@ -1541,7 +1582,7 @@
             <modifier type="set" field="hidden" value="false">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a3ef-4793-467d-d619" type="equalTo"/>
+                <condition field="selections" scope="8e06-cb8f-41c0-09a4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a3ef-4793-467d-d619" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1555,154 +1596,66 @@
             <cost name="pts" costTypeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7eb1-8d8e-466d-5a95" name="Banner" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="dc00-06d7-a938-d74d" name="Banner" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c452-e69a-e816-6f72" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0377-541e-1253-bd5d" name="Elf bow" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="a435-fd19-2770-2720" name="Elf Bow" hidden="false" targetId="2130-9089-8afe-22a4" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e247-697a-6b9f-39c2" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2ba8-d950-8283-edb1" name="Elven blade" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="b2c6-3d54-c392-9e3b" name="New InfoLink" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2623-7221-c9be-2382" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="98cd-458b-a1be-283c" name="Shield" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="1d5a-e663-d1ac-b8f6" name="New InfoLink" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="397b-c029-a039-9efb" name="Shielding" hidden="false" targetId="e0df-99a8-fc55-3419" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ddf6-7bc1-1d2a-6782" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="91b7-930a-2c27-af72" name="Spear" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="4ce2-849b-1595-33df" name="Spears" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="392b-72ce-c81f-400c" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f18c-ff2b-9100-98a9" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="2a6e-fbc5-cbc8-b8ce" name="Heavy Armour" hidden="false" targetId="4996-5640-d164-7654" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d66b-df80-4829-966b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0b6-e7a4-fb72-1333" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="af1f-5549-2b34-42c3" name="Banner" hidden="false" targetId="b4f4-7b07-e529-3328" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a2dd-0d9d-43b4-9007" name="Elf Bow" hidden="false" targetId="bbcc-3190-de27-8de8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="428e-239d-309d-cb3c" name="Elven Blade" hidden="false" targetId="ecba-4aa7-3646-2c9e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f281-eb7d-1440-e4d3" name="Heavy Armour" hidden="false" targetId="64d9-8937-c5ac-e151" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b7e4-71fa-9893-587f" name="Shield" hidden="false" targetId="1ddd-212e-2b5e-f87d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b80d-f451-2e7c-c14e" name="Spear " hidden="false" targetId="a309-6d26-c693-8dc3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9d90-db06-6cab-8851" name="Armour" hidden="false" targetId="1319-c4f1-5cee-d812" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
@@ -1713,12 +1666,34 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5109-ca1c-f24f-f91f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ddd-212e-2b5e-f87d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5109-ca1c-f24f-f91f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9bb5-79a2-a8d3-faab" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5109-ca1c-f24f-f91f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7be9-ab1d-12a6-a727" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6/14cm"/>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="5/3+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="5"/>
@@ -1752,205 +1727,84 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="03ab-376c-9752-aa74" name="Banner" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="0ec8-86d7-6d24-e025" name="New InfoLink" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="28e4-8a68-2255-9681" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5e1c-3456-1c71-d565" name="Shield" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="2890-f4a5-0c71-c4fc" name="New InfoLink" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="6174-184b-2511-2a31" name="New InfoLink" hidden="false" targetId="e0df-99a8-fc55-3419" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d6b0-e971-da6f-d2b8" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b125-0d0a-cab1-91d3" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="114e-5e14-482e-170a" name="Heavy Armour" hidden="false" targetId="4996-5640-d164-7654" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07c9-bf54-2da9-598f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7de3-966b-1349-af2f" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5444-f926-3b65-e2ae" name="Elven Blade" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="778e-861f-fe02-5370" name="New InfoLink" hidden="false" targetId="4176-6e26-b2c2-4d55" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42de-7184-aa58-b93b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c1a-72c1-8088-dcd1" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7e2f-59c7-3049-0d92" name="Elf bow" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="a368-b02f-8414-8919" name="Elf Bow" hidden="false" targetId="2130-9089-8afe-22a4" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f58-e9b3-5ff5-7e54" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d418-a00c-f77a-3f3f" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4465-d541-dd8d-7f7e" name="Lance" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="f13f-0325-ca79-c24e" name="Lances" hidden="false" targetId="514f-ef5e-91a6-fb55" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90c9-68be-b3af-0125" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4971-669a-9e6b-cda6" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="919a-8353-e985-e1b5" name="Horse" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="f55e-58b9-9bb7-16c0" name="Horse" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff8-894e-f74a-f760" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6633-cd5e-deda-9f99" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="7.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="00bd-34bb-d5ea-4e14" name="War Horn" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="d945-85bf-bc61-cbe1" name="War Horns" hidden="false" targetId="2763-dbf3-7fde-9758" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ea-29b7-b8e1-5368" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="30.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="4617-6eb3-4b29-5c8b" name="Banner" hidden="false" targetId="b4f4-7b07-e529-3328" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8c33-02c6-fc0d-2442" name="Elf Bow" hidden="false" targetId="bbcc-3190-de27-8de8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b493-9d5d-b9bf-ca18" name="Elven Blade" hidden="false" targetId="ecba-4aa7-3646-2c9e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9bb5-79a2-a8d3-faab" name="Heavy Armour" hidden="false" targetId="64d9-8937-c5ac-e151" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1ab4-b9f3-f583-0047" name="Horse" hidden="false" targetId="efbc-b2f5-6d3e-a93f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40de-a15b-b869-de8c" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2f1b-eece-91ca-ce39" name="Lance" hidden="false" targetId="7e88-5fd6-fcf5-de0c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6a23-75d5-b209-0652" name="Shield" hidden="false" targetId="1ddd-212e-2b5e-f87d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7f17-c240-a1bb-7329" name="War Horn" hidden="false" targetId="6215-4888-4cb2-4e35" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7be9-ab1d-12a6-a727" name="Armour" hidden="false" targetId="1319-c4f1-5cee-d812" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
@@ -1958,7 +1812,7 @@
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="ecba-4aa7-3646-2c9e" name="Elven Blade" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ecba-4aa7-3646-2c9e" name="Elven Blade" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2004,7 +1858,7 @@
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="64d9-8937-c5ac-e151" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="64d9-8937-c5ac-e151" name="Heavy Armour" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2031,7 +1885,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="846b-76d2-56e7-7ca8" name="New InfoLink" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
+        <infoLink id="846b-76d2-56e7-7ca8" name="Elven Cloaks" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2119,7 +1973,7 @@
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b4f4-7b07-e529-3328" name="Banner" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b4f4-7b07-e529-3328" name="Banner" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2140,6 +1994,81 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ddd-212e-2b5e-f87d" name="Shield" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b543-db53-c064-1897" name="Shield" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a0d6-d3aa-0adf-7f69" name="Shielding" hidden="false" targetId="e0df-99a8-fc55-3419" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9b2-0050-b24c-3fb9" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bbcc-3190-de27-8de8" name="Elf Bow" book="The Free Peoples " page="21" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b4ce-a93e-4eb2-3afb" name="Elf Bow" hidden="false" targetId="2130-9089-8afe-22a4" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c09a-c60d-9379-f89f" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a309-6d26-c693-8dc3" name="Spear " book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ba29-f1cf-96ed-938a" name="Spears" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a41e-ee37-cc7b-9a08" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
