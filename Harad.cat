@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7956-83ff-c873-658e" name="Harad" revision="1" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="879f-5f51-3307-49ca" name="Suladân, The Serpent Lord" book="The Lord of the Rings" page="156" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d090-a08b-8347-a6c4" name="Suladân, The Serpent Lord" book="The Lord of the Rings" page="156" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="879f-5f51-3307-49ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6948-3190-8e24-477a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9022-54ee-a657-8887" name="Ascendant" book="The Lord of the Rings" page="156" hidden="false" targetId="ebc4-f98a-153a-790d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="979c-963b-7d61-9e8f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3480-ecf0-b40b-97c7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="37a4-85f1-9c51-84d2" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="b494-1995-ff06-25ec" name="Horse (Hero)" hidden="false" targetId="99b8-91a5-fb85-b6aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8146-131a-9571-6fcd" name="Bow (Hero)" hidden="false" targetId="b74b-871f-cd30-851c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6948-3190-8e24-477a" name="Armour (Hero)" hidden="false" targetId="7808-56c6-6894-e743" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94e5-787e-a556-9192" name="Haradrim King" book="The Lord of the Rings" page="156" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1695-94c2-2123-a16a" name="Haradrim King" book="The Lord of the Rings" page="156" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="94e5-787e-a556-9192" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="204b-f656-9e97-8810" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="24ff-13f4-e95d-c2d2" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c19f-7283-5c2e-9675" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5556-b7d2-f037-7163" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a058-e8d1-a5d6-80b9" name="Bow (Hero)" hidden="false" targetId="b74b-871f-cd30-851c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="938d-1922-5e17-2697" name="Horse (Hero)" hidden="false" targetId="99b8-91a5-fb85-b6aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f983-bd03-3931-6208" name="Lance (Hero)" hidden="false" targetId="bf86-f42a-97d6-1e79" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6717-b18b-0ec5-2803" name="Spear" hidden="false" targetId="454f-2397-d4be-6b75" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="204b-f656-9e97-8810" name="Armour (Hero)" hidden="false" targetId="7808-56c6-6894-e743" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fee7-c642-e74e-f2be" name="Haradrim Chieftain" book="The Lord of the Rings" page="156" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1979-d845-3f09-75e5" name="Haradrim Chieftain" book="The Lord of the Rings" page="156" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="fee7-c642-e74e-f2be" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c981-297a-d519-20aa" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b315-5d73-63fa-9e8d" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c981-297a-d519-20aa" name="Armour (Hero)" hidden="false" targetId="7808-56c6-6894-e743" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ce52-29a0-3aff-fcaf" name="Bow (Hero)" hidden="false" targetId="b74b-871f-cd30-851c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e5b8-65de-7aa6-e774" name="Horse (Hero)" hidden="false" targetId="99b8-91a5-fb85-b6aa" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d3f7-7132-1983-ac22" name="Lance (Hero)" hidden="false" targetId="bf86-f42a-97d6-1e79" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b254-bec5-8cc7-60b3" name="Spear" hidden="false" targetId="454f-2397-d4be-6b75" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2236-2d5d-093f-0627" name="Hâsharin" book="The Lord of the Rings" page="157" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1068-d6f3-ca58-d6e2" name="Hasharin" book="The Lord of the Rings" page="156" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="3"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9099-c966-199c-6b59" name="The Bane of Kings" hidden="false" targetId="b649-7afe-2628-f3c9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8c7f-445c-4c8f-bcb5" name="Stalk Unseen" hidden="false" targetId="34f7-16a7-5027-733f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ff6e-dce2-eda4-67c1" name="Preternatural Agility" hidden="false" targetId="0bb2-dc09-d7d3-4c4a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2ce4-7b6d-9f4c-83ec" name="Elven Cloaks" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e94d-286e-8d7f-5afc" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0419-e92c-7709-6fd9" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1e8a-5cb8-03d6-b17f" name="Throwing Daggers" hidden="false" targetId="cd04-a3c9-a6a1-e895" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b3b-d9d8-d958-82eb" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ed6c-c8b3-bc32-0936" name="Blowpipe" hidden="false" targetId="9df8-18bc-e218-7875" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a63c-836e-dd7c-45b8" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="12ae-292b-db8b-f579" name="Mûmakil of Harad" book="The Lord of the Rings" page="158" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2103-0dcf-e9cf-d79a" name="Mûmakil of Harad" book="The Lord of the Rings" page="158" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/-"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="9"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="7"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="10"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Horse"/>
+          </characteristics>
+        </profile>
+        <profile id="85dd-2ef4-7a96-21a1" name="Howdah" book="The Lord of the Rings" page="158" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="-"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="-"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="-"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="9"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="-"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="5"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="-"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Structure"/>
+          </characteristics>
+        </profile>
+        <profile id="c4ad-6062-05b4-7538" name="Mahûd Chieftain" book="The Lord of the Rings" page="158" hidden="true" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="12ae-292b-db8b-f579" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5521-8f9c-275f-bf8f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/-"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+        <profile id="d23e-5c17-9104-1a6e" name="Haradrim Chieftain (Spear, Armour)" book="The Lord of the Rings" page="156" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="12ae-292b-db8b-f579" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="427f-74fe-c17d-6026" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/-"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="4"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="1"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b11a-adba-961d-32cb" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="78f1-bf04-7a26-abef" name="Tusk Weapons" hidden="true" targetId="cd14-ae78-7381-f846" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="12ae-292b-db8b-f579" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f1-bf04-7a26-abef" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5521-8f9c-275f-bf8f" name="Mahûd Chieftain" hidden="true" targetId="427f-74fe-c17d-6026" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="12ae-292b-db8b-f579" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5521-8f9c-275f-bf8f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="275.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b253-a3df-72ad-5c28" name="Haradrim Warrior" book="The Lord of the Rings" page="159" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="5a00-59fd-96a9-13bf" name="Haradrim Warrior" book="The Lord of the Rings" page="159" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="b253-a3df-72ad-5c28" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="7efd-8675-ed22-e603" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2f63-b5a6-3fa0-8aeb" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="33e8-606d-8100-249e" name="Spear" hidden="false" targetId="454f-2397-d4be-6b75" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5e8f-6038-39f6-cb21" name="Bow" hidden="false" targetId="ac62-2d84-3161-7bb8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2a2a-0abd-d1f2-8e43" name="Banner" hidden="false" targetId="c438-65e9-8f02-7f0c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7efd-8675-ed22-e603" name="Armour" hidden="false" targetId="18b1-2175-82e9-bd6d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9252-1bd6-3fd8-f1a0" name="War Horn" hidden="false" targetId="f310-8f03-7793-8d83" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e8ce-3b54-7e2c-ddeb" name="Horse" hidden="false" targetId="e8be-0c27-0179-eebf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cef9-9e08-ccc8-d7fd" name="Lance" hidden="false" targetId="03b9-e406-0e27-90b1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries>
+    <selectionEntry id="99b8-91a5-fb85-b6aa" name="Horse (Hero)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1f11-1239-f52e-9b36" name="Horse" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41a3-f3d2-c6e2-a806" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b74b-871f-cd30-851c" name="Bow (Hero)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="09e6-e33f-dbf7-e95b" name="Bows" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7baa-53eb-363b-b011" name="Poisoned Arrows" hidden="false" targetId="f6d1-fadc-51d1-d48e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aac-77e7-4e6e-de83" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf86-f42a-97d6-1e79" name="Lance (Hero)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4e42-7b43-d2c5-0803" name="Lances" hidden="false" targetId="514f-ef5e-91a6-fb55" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12e5-0d9c-de4e-4103" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="454f-2397-d4be-6b75" name="Spear" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="879b-902e-49e6-758b" name="Spears" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d12-254a-1957-719b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7808-56c6-6894-e743" name="Armour (Hero)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6d68-c877-706a-95b5" name="Armour" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feef-c093-a974-0151" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd04-a3c9-a6a1-e895" name="Throwing Daggers" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4b7d-8bb7-ec96-4ea5" name="Throwing weapons" hidden="false" targetId="4584-95dc-15c0-9cd5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3000-b1b5-70ab-30c6" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="9df8-18bc-e218-7875" name="Blowpipe" book="The Lord of the Rings" page="156" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f8db-2497-c924-19dc" name="Blowpipe" hidden="false" targetId="0765-4a52-0a24-e553" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce22-4ecf-caca-aebb" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="cd14-ae78-7381-f846" name="Tusk Weapons" book="The Lord of the Rings" page="158" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="08b4-73a4-9f56-d15d" name="Tusk Weapons" hidden="false" targetId="4cf9-76da-1c93-ce2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a1e-01ac-085a-5b94" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="427f-74fe-c17d-6026" name="Mahûd Chieftain" book="The Lord of the Rings" page="158" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6749-2ef8-75e7-cddb" name="Mahûd Chieftain" hidden="false" targetId="ee78-bffb-616d-8dcd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2bb-68ed-36cc-9c50" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac62-2d84-3161-7bb8" name="Bow" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4b3f-4a5f-4021-99f7" name="Bows" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4849-4d65-3f2d-9e8d" name="Poisoned Arrows" hidden="false" targetId="f6d1-fadc-51d1-d48e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4765-d7f3-de6c-5e1e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c438-65e9-8f02-7f0c" name="Banner" book="" page="" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="24a1-b10a-89b7-01ee" name="Banner" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="8e06-cb8f-41c0-09a4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="646e-33cf-232e-b412" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="03b9-e406-0e27-90b1" name="Lance" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0c1e-5d76-ea23-69d6" name="Lances" hidden="false" targetId="514f-ef5e-91a6-fb55" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d28-4ce1-bc76-75ce" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="18b1-2175-82e9-bd6d" name="Armour" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6151-b520-f177-5648" name="Armour" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5430-4a23-cb31-c1fe" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f310-8f03-7793-8d83" name="War Horn" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8b1c-ad66-4c00-a112" name="War Horns" hidden="false" targetId="2763-dbf3-7fde-9758" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e04f-14af-9095-3e33" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8be-0c27-0179-eebf" name="Horse" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c1ca-acef-4521-8c12" name="Horse" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a14-d0b0-cb9f-b06b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups/>
+  <sharedRules>
+    <rule id="f6d1-fadc-51d1-d48e" name="Poisoned Arrows" book="The Lord of the Rings" page="156" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The Haradrim always smear the tips of their arrows with the preserved venom of reptiles and scorpions living in their lands. Every time the player hits a model with the Haradrim arrow, but rolls a 1 on the D6 to wound it, he must re-roll the D6.</description>
+    </rule>
+    <rule id="ebc4-f98a-153a-790d" name="Ascendant" book="The Lord of the Rings" page="156" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Suladân&apos;s reputation is growing with each victory. making his name commonplace amongst the Haradrim, and his very presence can inspire armies to great deads. The range of Suladân&apos;s Stand Fast! rule is 12&quot;/28cm rather than 6&quot;/14cm.</description>
+    </rule>
+    <rule id="b649-7afe-2628-f3c9" name="The Bane of Kings" book="The Lord of the Rings" page="156" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The weapons of the Hâsharii are coated with a poison, far more potent than those used by other warriors. Each time an Hâsharin strikes a model with a shooting or close combat attack, but fails to wound, he must re-roll a D6.</description>
+    </rule>
+    <rule id="34f7-16a7-5027-733f" name="Stalk Unseen" book="The Lord of the Rings" page="156" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Hâsharii learn to walk silently and stealthily through all manner of terrain. An Hâsharin always counts as wearing an Elven Cloak.</description>
+    </rule>
+    <rule id="0bb2-dc09-d7d3-4c4a" name="Preternatural Agility" book="The Lord of the Rings" page="156" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Hâsharri are graceful and elegant fighters, able to dart aside from the thrust of a blade with ease and strike through the gaps in a foes armour with pinpoint accuracy. To represent this dexterity in gaming terms, an Hâsharin can never be trapped whilst standing.</description>
+    </rule>
+    <rule id="4cf9-76da-1c93-ce2e" name="Tusk Weapons" book="The Lord of the Rings" page="158" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Sometimes the Haradrim attach long chains, spikes and other lethal implements to the tusks of the Mûmakil, in order to make it even more difficult for unfortunate victims to escape the fury of their charging war-beasts. If given this upgrade, the Muûakil inflicts four strength 9 hits rather than the normal three when trampling.</description>
+    </rule>
+    <rule id="ee78-bffb-616d-8dcd" name="Mahûd Chieftain" book="The Lord of the Rings" page="158" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The Mahûd chieftain carries a hand weapon and wears armour. He replaces in all respects the Mûmak&apos;s Commander, except that he always stands on the bi-forked wooden structure at the front of the Mûmak (the position at the top of the howdah can be freely filled by a normal Haradrim). In such a position, the Mahûd Chieftain recieves less cover against incoming fire than the Haradrim in the howdah. The howdah only counts as being in the way of an enemy shot if some part of it si physically between the shooter and the Mahûd Chieftain (following the normal rules for cover).</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="0765-4a52-0a24-e553" name="Blowpipe" book="The Lord of the Rings" page="156" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;/28cm"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
