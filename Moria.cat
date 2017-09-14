@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1351-790a-10ca-e52f" name="Moria" revision="3" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1351-790a-10ca-e52f" name="Moria" revision="4" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -14,7 +14,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1632-9294-7f6c-c607" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a474-5405-429c-c8da" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;/12cm"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/5+"/>
@@ -113,7 +121,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="268c-5d2f-7230-df9c" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+        <categoryLink id="268c-5d2f-7230-df9c" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -335,7 +343,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb81-2096-c575-cffd" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="10d9-6f03-0dc9-8293" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+        <categoryLink id="10d9-6f03-0dc9-8293" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -412,7 +420,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="dec9-7531-c4eb-3b39" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="false">
+        <categoryLink id="dec9-7531-c4eb-3b39" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
