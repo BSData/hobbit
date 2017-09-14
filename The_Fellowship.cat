@@ -1,16 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="90ff-6093-09d6-f3b3" name="The Fellowship" revision="2" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" revision="3" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
+  <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
     <selectionEntry id="8db6-5d2f-df6b-954e" name="Gandalf the Grey" book="The Free Peoples" page="43" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="8db6-5d2f-df6b-954e-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="e88d-9819-6cff-de35" name="Blinding Light" book="The Free Peoples" page="43" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
@@ -79,7 +77,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/-"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
@@ -94,37 +92,37 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="06bd-97b6-9a2c-fa47" name="New InfoLink" hidden="false" targetId="21b8-8e9e-6161-0812" type="profile">
+        <infoLink id="06bd-97b6-9a2c-fa47" name="Blinding Light" hidden="false" targetId="21b8-8e9e-6161-0812" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="916d-e5ea-1d39-c80b" name="New InfoLink" hidden="false" targetId="e28f-a134-2570-a2ed" type="profile">
+        <infoLink id="916d-e5ea-1d39-c80b" name="Terrifying Aura" hidden="false" targetId="e28f-a134-2570-a2ed" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7449-d94b-b4ed-5261" name="New InfoLink" hidden="false" targetId="8426-539b-db72-64a0" type="profile">
+        <infoLink id="7449-d94b-b4ed-5261" name="Command/Compel" hidden="false" targetId="8426-539b-db72-64a0" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="ca90-f7ae-dc86-c90e" name="New InfoLink" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
+        <infoLink id="ca90-f7ae-dc86-c90e" name="Immobilise/Transfix" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="e2fe-e6be-80e8-b707" name="New InfoLink" hidden="false" targetId="e0f1-9d42-617f-9c8d" type="profile">
+        <infoLink id="e2fe-e6be-80e8-b707" name="Strengthen Will" hidden="false" targetId="e0f1-9d42-617f-9c8d" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8d7c-ef2c-d3d1-d0a2" name="New InfoLink" hidden="false" targetId="47b2-79ba-c8e0-0861" type="profile">
+        <infoLink id="8d7c-ef2c-d3d1-d0a2" name="Sorcerous Blast" hidden="false" targetId="47b2-79ba-c8e0-0861" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -157,12 +155,21 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2c3-cd36-6d83-4fc2" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc84-c8dd-0bf3-a19a" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="8db6-5d2f-df6b-954e-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5902-e9fb-0e70-d758" name="*Staff of Power" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="1dae-f2e8-4137-5577" name="New InfoLink" hidden="false" targetId="5563-9c52-8ada-de9b" type="rule">
+            <infoLink id="1dae-f2e8-4137-5577" name="Staff of Power" hidden="false" targetId="5563-9c52-8ada-de9b" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -180,6 +187,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fa0-3f7a-5c83-9326" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbb0-47b9-04ec-2785" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -189,21 +197,21 @@
         </selectionEntry>
         <selectionEntry id="7a8d-7831-bc61-f42a" name="Glamdring" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
           <profiles/>
-          <rules>
-            <rule id="56e1-4e52-d23f-7def" name="Glamdring" book="The Free Peoples" page="43" hidden="false">
+          <rules/>
+          <infoLinks>
+            <infoLink id="0b8e-2f39-4f67-830f" name="Glamdring" hidden="false" targetId="905a-5387-ffb9-a71c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>When Gandalf fights with Glamdring (rather than his staff), he adds +1 to his Strength characteristic, giving him a Strength value of 5</description>
-            </rule>
-          </rules>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbef-f785-796f-6aac" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef83-1f87-a040-bca3" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -213,21 +221,21 @@
         </selectionEntry>
         <selectionEntry id="f0fa-cbfc-6b5e-a864" name="Narya" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
           <profiles/>
-          <rules>
-            <rule id="4084-70d5-c781-79a4" name="Narya" book="The Free Peoples" page="43" hidden="false">
+          <rules/>
+          <infoLinks>
+            <infoLink id="7188-9edd-2e57-fe05" name="Narya" hidden="false" targetId="5d35-45bd-6414-7351" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Gandalf can re-roll his dice when using Fate points</description>
-            </rule>
-          </rules>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f21b-ea31-5926-b729" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8467-942f-770b-d688" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -235,9 +243,9 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="d62b-2367-5544-f4af" name="Gandalf's Cart" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="d62b-2367-5544-f4af" name="Gandalf&apos;s Cart" book="The Free Peoples" page="43" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="9582-93f6-d2f7-1ef6" name="Gandalf's Cart" book="The Free Peoples" page="43" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+            <profile id="9582-93f6-d2f7-1ef6" name="Gandalf&apos;s Cart" book="The Free Peoples" page="43" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -254,20 +262,20 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="ed53-2df3-93f6-1269" name="Gandalf's Cart" book="The Free Peoples" page="43" hidden="false">
+          <rules/>
+          <infoLinks>
+            <infoLink id="9ae7-3359-50c9-9896" name="Gandalf&apos;s Cart" hidden="false" targetId="0645-9ffe-7ddf-5cfe" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>A sturdy cart that Gandalf travels upon in his guise as a purveypr of fireworks - counts as cavalry</description>
-            </rule>
-          </rules>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b956-c8bb-b880-fae7" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -294,21 +302,21 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="ccec-32d4-f20a-f1fb" name="Shadowfax" book="The Free Peoples" page="43" hidden="false">
+          <rules/>
+          <infoLinks>
+            <infoLink id="a5ff-3a71-2c8d-f146" name="Shadowfax" hidden="false" targetId="db90-da18-ad96-6c6d" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>The father of horses can only be ridden by Gandalf</description>
-            </rule>
-          </rules>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="433b-ce1c-cd3f-64b3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf2c-bf73-c3ee-90bb" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -324,9 +332,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7199-3383-b004-d4a8" name="Gandalf the White" book="The Free Peoples" page="43" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="7199-3383-b004-d4a8-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="eb2b-760e-a577-5d79" name="Gandalf the White" book="The Free Peoples" page="43" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -335,7 +340,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/-"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
@@ -418,17 +423,9 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="14b5-8789-88ce-a94c" name="The White Rider" book="The Hobbit An Unexpected Journey Errata" page="2" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>When Gandalf the White unveils his inner light, his presence is enough to steel the resolve of the Good Warriors around him. The range of Gandalf the White's Stand Fast! rule 12" rather than 6".</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
-        <infoLink id="065a-fe5e-aa47-ab48" name="New InfoLink" hidden="false" targetId="21b8-8e9e-6161-0812" type="profile">
+        <infoLink id="065a-fe5e-aa47-ab48" name="Blinding Light" hidden="false" targetId="21b8-8e9e-6161-0812" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -476,6 +473,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="dc0e-00c3-1d01-eb35" name="The White Rider" hidden="false" targetId="8e70-6c79-aa09-7c06" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -497,6 +500,15 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c60e-4164-b3e5-9aaa" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4032-bb2e-bd62-471a" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="7199-3383-b004-d4a8-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1b26-d9eb-aff8-2fd3" name="*Staff of Power" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -520,6 +532,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8025-0a5e-dad1-c827" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4c8-77f4-bead-0038" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -544,6 +557,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42af-609c-b4d6-a4b9" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a473-fc50-f3cc-ea09" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -568,6 +582,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f415-85db-edcd-0bb9" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b665-8b13-d9d6-e73b" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -609,6 +624,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c3d-6c72-b01a-f43f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="172e-f214-223c-2c9b" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -623,10 +639,7 @@
         <cost name="pts" costTypeId="points" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="daab-bb28-4311-fe81" name="Aragorn - Strider" book="The Free Peoples" page="44" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="daab-bb28-4311-fe81-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="daab-bb28-4311-fe81" name="Strider/Aragorn" book="The Free Peoples" page="44" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="9d00-0d86-6a94-5e12" name="Aragorn - Strider" book="The Free Peoples" page="44" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -648,17 +661,15 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="4bd6-f021-dc6a-bd7d" name="* Mighty Hero" book="The Free Peoples" page="44" hidden="false">
+      <rules/>
+      <infoLinks>
+        <infoLink id="9a8b-da8c-a676-4945" name="Protect the Ringbearer" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Aragorn can expend 1 point of Might per turn without reducing his Might store. Any additional points of Might expended during his turn reduce his Might store as normal.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="9a8b-da8c-a676-4945" name="New InfoLink" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
+        </infoLink>
+        <infoLink id="7dff-3dc7-805f-e7de" name="* Mighty Hero" hidden="false" targetId="4b04-4a54-f429-6371" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -670,23 +681,32 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e6e-1a1f-ac38-df77" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c63-a485-f133-5b28" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="daab-bb28-4311-fe81-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e10e-c1c5-0c8b-9205" name="Andrúil, the Flame of the West" book="The Free Peoples" page="44" hidden="false" collective="false" type="upgrade">
           <profiles/>
-          <rules>
-            <rule id="6ada-3215-17a7-d9b8" name="Andrúil, the Flame of the West" book="The Free Peoples" page="44" hidden="false">
+          <rules/>
+          <infoLinks>
+            <infoLink id="54a1-8fa0-d57a-74b1" name="Andrúil, the Flame of the West" hidden="false" targetId="9b30-e310-cf80-6c89" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>When fighting with Andrúil, Aragorn never needs to roll more than 4+ to score a Wound, regardless of the opponent's Defence (this rule has no effect against Siege Engines). His rolls To Wound can be modified by using Might as normal.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8b3-13f8-6bdf-59f3" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -709,6 +729,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6166-420a-ce9a-ead1" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -731,6 +752,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61ca-7e35-2e54-4e76" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -753,6 +775,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9ad-6610-e06b-595b" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -775,6 +798,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d61-fc73-0c74-2821" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -790,9 +814,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2556-969c-6131-7684" name="Boromir of Gondor" book="The Free Peoples" page="44" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="2556-969c-6131-7684-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="ca0f-6036-ef67-2126" name="Boromir of Gondor" book="The Free Peoples" page="44" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -801,7 +822,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/4+"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/-"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="6"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
@@ -828,6 +849,15 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f86c-76d5-757a-63c5" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d83-a008-907d-3cc9" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="2556-969c-6131-7684-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="536a-23e1-fe24-1bb2" name="Armour" book="The Free Peoples" page="44" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -838,6 +868,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0240-3ae5-2574-8603" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cf6-44a8-88b3-3cb6" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -867,6 +898,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6177-5c6c-18a0-44a3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84f1-8e8f-417a-b8b5" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -876,21 +908,21 @@
         </selectionEntry>
         <selectionEntry id="822f-373c-d31f-4cd5" name="Horn of Gondor" book="The Free Peoples" page="44" hidden="false" collective="false" type="upgrade">
           <profiles/>
-          <rules>
-            <rule id="8cca-6a59-93d4-8018" name="Horn of Gondor" book="The Free Peoples" page="44" hidden="false">
+          <rules/>
+          <infoLinks>
+            <infoLink id="ae56-f464-ddce-7a61" name="Horn of Gondor" hidden="false" targetId="0d45-0527-2f0a-99e5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Boromir can blow the horn at the start of a fight if he is outnumbered by two-to-one or more. The enemy combatant with the highest Courage must take a Courage test. If this is passed, the combat is fought as normal. If the test is failed, Boromir automatically wins the fight and can strike blows against this enemies.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a535-435f-ccb6-8c64" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d40-bc00-6918-5e6e" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -913,6 +945,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="366a-790b-a895-481f" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -935,6 +968,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48e2-29cc-da8d-7b82" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -950,9 +984,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c257-d30c-ffdf-559a" name="Legolas" book="The Free Peoples" page="44" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="c257-d30c-ffdf-559a-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="2d9c-b374-528a-3dce" name="Legolas" book="The Free Peoples" page="44" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -974,15 +1005,7 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="0260-b854-a062-974a" name="Deadly Shot" book="The Free Peoples" page="44" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Legolas is allowed to shoot his bow three times in the Shoot phase instead of once, hitting his targets normally on 3+. Alternatively, he can decide to fire just one arrow, but in this case, he will hit automatically, regardless of objects 'in the way' or if the targets is in combat.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
         <infoLink id="35f2-6d1c-a7b1-5d2e" name="New InfoLink" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
           <profiles/>
@@ -990,7 +1013,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="82ea-e58e-28c0-c0e5" name="New InfoLink" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
+        <infoLink id="82ea-e58e-28c0-c0e5" name="Protect the Ringbearer" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="becb-9df7-6358-9331" name="Deadly Shot" hidden="false" targetId="2794-60c7-9cac-2c16" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1002,6 +1031,15 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc09-0212-8024-1aa7" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="753e-7afe-d96d-bf9e" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="c257-d30c-ffdf-559a-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9a3b-41fb-fad3-c19f" name="Elf Bow" book="The Free Peoples" page="44" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1019,6 +1057,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9db-7451-2bac-5d7b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf1d-5a88-b8be-3f20" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1041,6 +1080,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04f7-119e-6f75-0993" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1063,6 +1103,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="369f-0d19-be3d-478a" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1085,6 +1126,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e88a-fe0d-1b4f-9857" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1100,9 +1142,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5043-888d-7cb9-f8e4" name="Frodo" book="The Free Peoples" page="45" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="5043-888d-7cb9-f8e4-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="6b78-974f-b7b7-18ee" name="Frodo" book="The Free Peoples" page="45" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1153,7 +1192,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8b05-b5c7-3e16-b8d7" name="New InfoLink" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
+        <infoLink id="8b05-b5c7-3e16-b8d7" name="Protect the Ringbearer" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1165,24 +1204,33 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0027-820d-5ede-8eac" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d5e-2a8d-9d58-76a2" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="5043-888d-7cb9-f8e4-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b814-0914-4b8c-5db8" name="The Ring" book="The Free Peoples" page="45" hidden="false" collective="false" type="upgrade">
           <profiles/>
-          <rules>
-            <rule id="44c3-e7f8-b914-20b2" name="The Ring" book="The Free Peoples" page="45" hidden="false">
+          <rules/>
+          <infoLinks>
+            <infoLink id="4f3b-06fc-b807-5ce3" name="The Ring" hidden="false" targetId="8d79-8080-7392-e280" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>See The Free Peoples pg 45 for rule</description>
-            </rule>
-          </rules>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95c1-1462-d351-e740" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a80-8d83-93d1-ccb5" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1192,20 +1240,20 @@
         </selectionEntry>
         <selectionEntry id="746a-ed02-e5ab-4680" name="Mithril Coat" book="The Free Peoples" page="45" hidden="false" collective="false" type="upgrade">
           <profiles/>
-          <rules>
-            <rule id="297a-4d42-a41a-54ba" name="Mithril Coat" book="The Free Peoples" page="45" hidden="false">
+          <rules/>
+          <infoLinks>
+            <infoLink id="c895-e945-e3fd-c035" name="Mithril Coat" hidden="false" targetId="1745-c3d1-e3b9-20aa" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Mithril is a rare metal that is as light as a feather, and as hard as dragon scales. The wearer's Defence value is increased by 3+, in Frodo's case from Defence 3 to 6</description>
-            </rule>
-          </rules>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7a5-2b8f-7615-b191" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1215,20 +1263,20 @@
         </selectionEntry>
         <selectionEntry id="21de-4349-5df0-c775" name="Sting" book="The Free Peoples" page="45" hidden="false" collective="false" type="upgrade">
           <profiles/>
-          <rules>
-            <rule id="461c-abcd-901c-d2ff" name="Sting" book="The Free Peoples" page="45" hidden="false">
+          <rules/>
+          <infoLinks>
+            <infoLink id="c2a7-ab1a-48c3-3808" name="Sting" hidden="false" targetId="c6ce-0295-3475-0d11" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Sting is a magical blade that shines with a blue light when Orcs are near. When Frodo carries Sting, he adds +1 to his Strength characteristic, giving him a Strength value of 3</description>
-            </rule>
-          </rules>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a978-a9a8-c0c3-1875" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1251,6 +1299,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f824-a4cb-5c2a-d704" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1266,9 +1315,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6ffa-9e0f-786f-bcad" name="Gimli son of Glóin" book="The Free Peoples" page="46" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="6ffa-9e0f-786f-bcad-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="00c2-c803-f7d4-869f" name="Gimli son of Glóin" book="The Free Peoples" page="46" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1290,17 +1336,15 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="01b7-f2e2-f894-b489" name="Axes of the Dwarves!" book="The Free Peoples" page="46" hidden="false">
+      <rules/>
+      <infoLinks>
+        <infoLink id="a973-7782-8747-24cf" name="Protect the Ringbearer" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>At the beginning of each fight, Gimli can choose to use either an axe in each hand, in which case he fights with 3 Attacks, or use his two-handed axe, in which case he adds +1 to his dice rolls on the Wound chart, but he does not suffer the usual -1 penalty on the roll to win the fight.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="a973-7782-8747-24cf" name="New InfoLink" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
+        </infoLink>
+        <infoLink id="3c93-e54d-9f04-1038" name="Axes of the Dwarves!" hidden="false" targetId="0e35-e744-e8bc-9912" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1312,8 +1356,17 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d604-1bf6-79ec-fde2" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24c9-217b-b9f2-3af6" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="6ffa-9e0f-786f-bcad-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="53b7-123a-2556-47b3" name="Heavy Dwark Armour" book="The Free Peoples" page="46" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="53b7-123a-2556-47b3" name="Heavy Dwarf Armour" book="The Free Peoples" page="46" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1322,6 +1375,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a16-e275-223c-539e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3a4-31af-661e-23f4" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1345,6 +1399,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c3d-2fd1-6e3c-fece" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2910-24ec-b2b9-9d9e" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1368,6 +1423,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0020-6f8f-3ef3-63ae" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0533-57ac-7b38-fc85" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1390,6 +1446,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdac-5a64-e635-6e39" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1405,9 +1462,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c975-2b1c-1553-58e6" name="Samwise Gamgee" book="The Free Peoples" page="46" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="c975-2b1c-1553-58e6-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="b899-c30f-71e4-76b9" name="Samwise Gamgee" book="The Free Peoples" page="46" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1455,6 +1509,15 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df43-9ea5-7629-7686" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67a6-1edb-d094-9ebc" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="c975-2b1c-1553-58e6-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2b68-663a-6c0b-705f" name="Elven cloak" book="The Free Peoples" page="46" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1471,6 +1534,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2366-d358-5dd4-d907" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1486,9 +1550,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8215-d619-6962-6bdf" name="Meriadoc Brandybuck" book="The Free Peoples" page="46" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="8215-d619-6962-6bdf-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="51d4-072b-c3f0-88d4" name="Meriadoc Brandybuck" book="The Free Peoples" page="46" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1536,6 +1597,15 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07ab-91d6-c890-40ad" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e42-d0ca-9b59-d0d5" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="8215-d619-6962-6bdf-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="540c-0b53-437d-5ba2" name="Elven Cloak" book="The Free Peoples" page="46" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1552,6 +1622,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c494-2b54-03f4-0dde" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1567,9 +1638,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fba6-0196-30de-6672" name="Peregrin Took" book="The Free Peoples" page="46" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="fba6-0196-30de-6672-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="51ac-6e66-6e2f-26f5" name="Peregrin Took" book="The Free Peoples" page="46" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1617,6 +1685,15 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a49-7c45-d0ac-ddd8" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eef6-2bd0-5612-e6f8" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="fba6-0196-30de-6672-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4651-ded6-5a48-48f9" name="Elven Cloak" book="The Free Peoples" page="46" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1633,6 +1710,7 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7233-d588-ea4a-4fd4" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1648,9 +1726,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5906-b73a-1e07-9a07" name="Bill the pony" book="The Free Peoples" page="47" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="5906-b73a-1e07-9a07-e059-5f8f-1ab2-017e" targetId="e059-5f8f-1ab2-017e" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="6c4c-4d1c-fe0d-83a4" name="Bill the pony" book="The Free Peoples" page="47" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1672,31 +1747,9 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="455c-2da9-e8e7-901b" name="Official meals" book="The Free Peoples" page="47" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Hobbits treat Bill as a banner</description>
-        </rule>
-        <rule id="8ccc-3812-8c5f-e1e7" name="Second breakfast" book="The Free Peoples" page="47" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Each turn, a single member of the Fellowship that ends its move in base contact with Bill, may attempt to regain a point of Might, Will or Fate. Roll a dice - on the score of a 6, the point is restored.</description>
-        </rule>
-        <rule id="241c-c46c-3fc8-5595" name="Only a pony" book="The Free Peoples" page="47" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Bill may never charge the enemy and no other models may use his Stand Fast! rolls. He may, however, benefit from the Stand Fast! roll of any friendly Hobbit.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
-        <infoLink id="4377-bf74-8def-365e" name="New InfoLink" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
+        <infoLink id="4377-bf74-8def-365e" name="Banner" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1708,12 +1761,39 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="81fe-d366-dcb1-9838" name="Official meals" hidden="false" targetId="6f5f-6d0f-0ca4-283a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c146-ceef-09aa-93fd" name="Only a pony" hidden="false" targetId="380d-6b64-edf9-f70b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="345c-2748-86b3-8a4d" name="Second breakfast" hidden="false" targetId="ee40-3dd9-dba4-4b0e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed51-97d4-629f-15c2" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="accb-c20f-784a-0226" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="5906-b73a-1e07-9a07-e059-5f8f-1ab2-017e" hidden="false" targetId="e059-5f8f-1ab2-017e" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -1721,10 +1801,7 @@
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25c0-5479-17af-8894" name="Sméagol" book="The Free Peoples" page="47" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="25c0-5479-17af-8894-8e06-cb8f-41c0-09a4" targetId="8e06-cb8f-41c0-09a4" primary="true"/>
-</categoryLinks>
+    <selectionEntry id="25c0-5479-17af-8894" name="Gollum/Sméagol" book="The Free Peoples" page="47" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="7b46-db11-1c75-af6a" name="Sméagol" book="The Free Peoples" page="47" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1733,7 +1810,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;/12cm"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/4+"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="4/-"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
             <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
@@ -1746,23 +1823,21 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="c852-412c-0e1b-4a8c" name="Serve the master of the precious" book="The Free Peoples" page="47" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>The army must include Frodo to include Sméagol.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
-        <infoLink id="5faa-b1a9-1de4-2bdd" name="New InfoLink" hidden="false" targetId="ec9c-c070-a999-1dfb" type="rule">
+        <infoLink id="5faa-b1a9-1de4-2bdd" name="Cave Dweller" hidden="false" targetId="ec9c-c070-a999-1dfb" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="fd47-1d77-0c11-0581" name="New InfoLink" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
+        <infoLink id="fd47-1d77-0c11-0581" name="Protect the Ringbearer" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9227-8a50-ee38-6836" name="Serve the master of the precious" hidden="false" targetId="cad2-f226-1b73-998e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1774,6 +1849,15 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50d5-dd0f-295c-5b3b" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91bb-6698-58c5-677a" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="25c0-5479-17af-8894-8e06-cb8f-41c0-09a4" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1635-dcef-16e7-a2c4" name="Never considered unarmed. Ever." book="The Free Peoples" page="47" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1784,6 +1868,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fca-4cdd-1786-6095" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a831-8ec5-8aa0-9ea0" type="min"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -1809,6 +1894,125 @@
       <infoLinks/>
       <modifiers/>
       <description>While Frodo lives, all other members of his Fellowship warband automatically pass Courage tests caused by your force being broken</description>
+    </rule>
+    <rule id="4b04-4a54-f429-6371" name="* Mighty Hero" book="The Free Peoples" page="44" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Aragorn can expend 1 point of Might per turn without reducing his Might store. Any additional points of Might expended during his turn reduce his Might store as normal.</description>
+    </rule>
+    <rule id="9b30-e310-cf80-6c89" name="Andrúil, the Flame of the West" book="The Free Peoples" page="44" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When fighting with Andrúil, Aragorn never needs to roll more than 4+ to score a Wound, regardless of the opponent&apos;s Defence (this rule has no effect against Siege Engines). His rolls To Wound can be modified by using Might as normal.</description>
+    </rule>
+    <rule id="6f5f-6d0f-0ca4-283a" name="Official meals" book="The Free Peoples" page="47" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Hobbits treat Bill as a banner</description>
+    </rule>
+    <rule id="380d-6b64-edf9-f70b" name="Only a pony" book="The Free Peoples" page="47" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Bill may never charge the enemy and no other models may use his Stand Fast! rolls. He may, however, benefit from the Stand Fast! roll of any friendly Hobbit.</description>
+    </rule>
+    <rule id="ee40-3dd9-dba4-4b0e" name="Second breakfast" book="The Free Peoples" page="47" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Each turn, a single member of the Fellowship that ends its move in base contact with Bill, may attempt to regain a point of Might, Will or Fate. Roll a dice - on the score of a 6, the point is restored.</description>
+    </rule>
+    <rule id="0d45-0527-2f0a-99e5" name="Horn of Gondor" book="The Free Peoples" page="44" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Boromir can blow the horn at the start of a fight if he is outnumbered by two-to-one or more. The enemy combatant with the highest Courage must take a Courage test. If this is passed, the combat is fought as normal. If the test is failed, Boromir automatically wins the fight and can strike blows against this enemies.</description>
+    </rule>
+    <rule id="1745-c3d1-e3b9-20aa" name="Mithril Coat" book="The Free Peoples" page="45" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Mithril is a rare metal that is as light as a feather, and as hard as dragon scales. The wearer&apos;s Defence value is increased by 3+, in Frodo&apos;s case from Defence 3 to 6</description>
+    </rule>
+    <rule id="c6ce-0295-3475-0d11" name="Sting" book="The Free Peoples" page="45" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Sting is a magical blade that shines with a blue light when Orcs are near. When Frodo carries Sting, he adds +1 to his Strength characteristic, giving him a Strength value of 3</description>
+    </rule>
+    <rule id="8d79-8080-7392-e280" name="The Ring" book="The Free Peoples" page="45" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>See The Free Peoples pg 45 for rule</description>
+    </rule>
+    <rule id="0645-9ffe-7ddf-5cfe" name="Gandalf&apos;s Cart" book="The Free Peoples" page="43" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A sturdy cart that Gandalf travels upon in his guise as a purveypr of fireworks - counts as cavalry</description>
+    </rule>
+    <rule id="905a-5387-ffb9-a71c" name="Glamdring" book="The Free Peoples" page="43" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When Gandalf fights with Glamdring (rather than his staff), he adds +1 to his Strength characteristic, giving him a Strength value of 5</description>
+    </rule>
+    <rule id="5d35-45bd-6414-7351" name="Narya" book="The Free Peoples" page="43" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Gandalf can re-roll his dice when using Fate points</description>
+    </rule>
+    <rule id="db90-da18-ad96-6c6d" name="Shadowfax" book="The Free Peoples" page="43" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The father of horses can only be ridden by Gandalf</description>
+    </rule>
+    <rule id="8e70-6c79-aa09-7c06" name="The White Rider" book="The Hobbit An Unexpected Journey Errata" page="2" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When Gandalf the White unveils his inner light, his presence is enough to steel the resolve of the Good Warriors around him. The range of Gandalf the White&apos;s Stand Fast! rule 12&quot; rather than 6&quot;.</description>
+    </rule>
+    <rule id="0e35-e744-e8bc-9912" name="Axes of the Dwarves!" book="The Free Peoples" page="46" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>At the beginning of each fight, Gimli can choose to use either an axe in each hand, in which case he fights with 3 Attacks, or use his two-handed axe, in which case he adds +1 to his dice rolls on the Wound chart, but he does not suffer the usual -1 penalty on the roll to win the fight.</description>
+    </rule>
+    <rule id="2794-60c7-9cac-2c16" name="Deadly Shot" book="The Free Peoples" page="44" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Legolas is allowed to shoot his bow three times in the Shoot phase instead of once, hitting his targets normally on 3+. Alternatively, he can decide to fire just one arrow, but in this case, he will hit automatically, regardless of objects &apos;in the way&apos; or if the targets is in combat.</description>
+    </rule>
+    <rule id="cad2-f226-1b73-998e" name="Serve the master of the precious" book="The Free Peoples" page="47" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The army must include Frodo to include Sméagol.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
