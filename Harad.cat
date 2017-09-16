@@ -18,7 +18,7 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="879f-5f51-3307-49ca" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6948-3190-8e24-477a" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6948-3190-8e24-477a" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -103,7 +103,7 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="94e5-787e-a556-9192" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="204b-f656-9e97-8810" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="204b-f656-9e97-8810" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -197,7 +197,7 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="fee7-c642-e74e-f2be" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c981-297a-d519-20aa" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c981-297a-d519-20aa" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -525,7 +525,7 @@
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="b253-a3df-72ad-5c28" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="7efd-8675-ed22-e603" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="7efd-8675-ed22-e603" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -762,7 +762,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9df8-18bc-e218-7875" name="Blowpipe" book="The Lord of the Rings" page="156" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -783,7 +785,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cd14-ae78-7381-f846" name="Tusk Weapons" book="The Lord of the Rings" page="158" hidden="false" collective="false" type="upgrade">
       <profiles/>

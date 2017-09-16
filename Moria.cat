@@ -18,7 +18,7 @@
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="1632-9294-7f6c-c607" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a474-5405-429c-c8da" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a474-5405-429c-c8da" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -93,7 +93,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96fa-7ed2-9680-e316" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="5&quot;/12cm"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="3/5+"/>
@@ -339,9 +347,7 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb81-2096-c575-cffd" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="10d9-6f03-0dc9-8293" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
@@ -409,9 +415,7 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c182-025e-cec2-4cb8" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="346f-f1c4-e788-6030" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
           <profiles/>
