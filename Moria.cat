@@ -264,7 +264,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f226-6010-ddad-28d8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f618-cb47-b777-0955" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -272,7 +280,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f226-6010-ddad-28d8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a28a-2c67-fdf2-7440" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -866,7 +882,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5b73-d5f5-fe35-7eb6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0147-0770-925b-1c39" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -874,7 +898,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5b73-d5f5-fe35-7eb6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d297-d11e-34ed-0452" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2087,7 +2119,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="2e63-cd5c-1fed-2a2d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd01-1b2a-1455-a99a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -2111,7 +2151,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="2e63-cd5c-1fed-2a2d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="92d5-a4eb-d112-9b08" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
