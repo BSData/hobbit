@@ -19,6 +19,7 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a474-5405-429c-c8da" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4832-42c8-8e46-2501" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -27,7 +28,7 @@
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;/12cm"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/5+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
@@ -82,6 +83,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="4832-42c8-8e46-2501" name="Armour" hidden="false" targetId="20e7-4d5b-e44d-f925" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="4.0"/>
@@ -97,14 +106,8 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96fa-7ed2-9680-e316" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
-              <repeats/>
-              <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe1a-3145-191c-5066" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96fa-7ed2-9680-e316" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -163,7 +166,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="fe1a-3145-191c-5066" name="Armour (Hero)" hidden="false" targetId="4002-2871-0b79-c755" type="selectionEntry">
+        <entryLink id="fe1a-3145-191c-5066" name="Armour (Hero)" hidden="false" targetId="0343-888c-424c-3c11" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -221,7 +224,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4e3b-dbd6-252b-c93f" name="Iron Fist" book="" page="" hidden="false" targetId="ded0-ca8a-57cd-f37b" type="rule">
+        <infoLink id="4e3b-dbd6-252b-c93f" name="Iron Fist" book="" page="" hidden="false" targetId="301d-93ae-3910-4299" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -253,7 +256,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="f618-cb47-b777-0955" name="Armour (Hero)" hidden="false" targetId="4002-2871-0b79-c755" type="selectionEntry">
+        <entryLink id="f618-cb47-b777-0955" name="Armour (Hero)" hidden="false" targetId="0343-888c-424c-3c11" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -266,7 +269,7 @@
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8898-9b4f-f585-684c" name="Moria Goblin Shaman" book="Moria &amp; Angmar" page="18" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8898-9b4f-f585-684c" name="Moria Goblin Shaman" book="Moria &amp; Angmar" page="18" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="b4b7-2de8-e24d-e6bf" name="Moria Goblin Shaman" book="Moria &amp; Angmar" page="18" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -351,7 +354,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="03bd-47dc-f512-4d62" name="Armour (Hero)" hidden="false" targetId="4002-2871-0b79-c755" type="selectionEntry">
+        <entryLink id="03bd-47dc-f512-4d62" name="Armour (Hero)" hidden="false" targetId="0343-888c-424c-3c11" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -372,9 +375,9 @@
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5e41-bf5f-29ec-b2fc" name="Moria Goblin Drum" book="The Lord of the Rings" page="103" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5e41-bf5f-29ec-b2fc" name="Moria Goblin Drum (2 Drummers &amp; 1 Drum)" book="Moria &amp; Angmar" page="25" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="3086-d730-2477-72dd" name="Drum" book="The Lord of the Rings" page="103" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="3086-d730-2477-72dd" name="Drum" book="Moria &amp; Angmar" page="25" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -385,25 +388,25 @@
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="-"/>
             <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="10"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="-"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value=""/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="-"/>
             <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Instrument"/>
           </characteristics>
         </profile>
-        <profile id="2bb9-7d60-ed67-50c8" name="Drummer" book="The Lord of the Rings" page="103" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="2bb9-7d60-ed67-50c8" name="Drummer" book="Moria &amp; Angmar" page="25" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;/12cm"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/-"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/5+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Moria Goblin"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Goblin"/>
           </characteristics>
         </profile>
       </profiles>
@@ -415,7 +418,19 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="2f7b-7957-02fe-8e6f" name="Drums in the Deep" hidden="false" targetId="bf81-dcd5-22df-98f6" type="rule">
+        <infoLink id="2f7b-7957-02fe-8e6f" name="Drums in the Deep" hidden="false" targetId="c625-f769-e557-8716" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6ea6-63ed-7a25-f8e9" name="Moving the Drum" hidden="false" targetId="6f2a-bf02-67bb-7219" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="04e8-5b94-bb48-28b1" name="Destroying the Drum" hidden="false" targetId="0017-a9f7-68cf-eb11" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -425,14 +440,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="346f-f1c4-e788-6030" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="dec9-7531-c4eb-3b39" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+        <categoryLink id="346f-f1c4-e788-6030" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -442,14 +450,25 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="3162-9027-516c-c396" name="Armour" hidden="false" targetId="20e7-4d5b-e44d-f925" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c49-e80f-a863-bf36" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="100.0"/>
+        <cost name="pts" costTypeId="points" value="99.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f521-a4b0-a85f-9ed5" name="Cave Troll" book="The Lord of the Rings" page="102" hidden="false" collective="false" type="model">
+    <selectionEntry id="f521-a4b0-a85f-9ed5" name="Cave Troll" book="Moria &amp; Angmar" page="29" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="b725-2544-c97a-93a9" name="Cave Troll" book="The Lord of the Rings" page="102" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="b725-2544-c97a-93a9" name="Cave Troll" book="Moria &amp; Angmar" page="29" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -484,7 +503,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b78e-37de-f280-6944" name="Throw Stones" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
+        <infoLink id="b78e-37de-f280-6944" name="Throw Stones (Troll)" hidden="false" targetId="2688-6783-ce1d-87c7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f0b8-b19b-5a38-4221" name="Throw Stones (Troll)" hidden="false" targetId="3684-0687-03d8-0b2f" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -526,7 +551,7 @@
         <cost name="pts" costTypeId="points" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2a8b-489a-3991-9c7d" name="Drûzhag the Beastcaller" book="Moria &amp; Angmar" page="17" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2a8b-489a-3991-9c7d" name="Drûzhag the Beastcaller" book="Moria &amp; Angmar" page="17" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="fc24-ac77-7dc8-8765" name="Drûzhag the Beastcaller" book="Moria &amp; Angmar" page="17" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -574,13 +599,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="38e3-4060-1678-a9d0" name="Master of the Dark Wild" hidden="false" targetId="53ac-f497-3f13-8e8d" type="rule">
+        <infoLink id="38e3-4060-1678-a9d0" name="Master of the Dark Wild" hidden="false" targetId="0b2a-8060-e0b8-7fe4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9921-53b4-527a-33ca" name="Bestial Fury" hidden="false" targetId="7812-ac23-9070-a112" type="profile">
+        <infoLink id="9921-53b4-527a-33ca" name="Bestial Fury" hidden="false" targetId="d00c-cc54-b171-2453" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -592,7 +617,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="eb4a-0da3-dfe8-cdfa" name="Enrage Beast" hidden="false" targetId="c608-49bf-a346-8f18" type="profile">
+        <infoLink id="eb4a-0da3-dfe8-cdfa" name="Enrage Beast" hidden="false" targetId="08d1-6197-f53b-de60" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -616,7 +641,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="14f5-bbf6-8474-4db4" name="Armour (Hero)" hidden="false" targetId="4002-2871-0b79-c755" type="selectionEntry">
+        <entryLink id="14f5-bbf6-8474-4db4" name="Armour (Hero)" hidden="false" targetId="0343-888c-424c-3c11" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -629,7 +654,7 @@
         <cost name="pts" costTypeId="points" value="85.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="28a7-bd16-cfc5-3b7d" name="Grôblog" book="Moria &amp; Angmar" page="17" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="28a7-bd16-cfc5-3b7d" name="Grôblog" book="Moria &amp; Angmar" page="17" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="fbcc-ab3b-dff8-bc8d" name="Grôblog" book="Moria &amp; Angmar" page="17" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -667,7 +692,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="244e-217e-8c0c-681c" name="The Mithril Crown" book="" page="" hidden="false" targetId="5e3a-e6e8-e5f0-9d39" type="profile">
+        <infoLink id="244e-217e-8c0c-681c" name="The Mithril Crown" book="" page="" hidden="false" targetId="e186-4e86-e821-5c37" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -691,7 +716,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="c656-5c01-ad88-557a" name="Armour (Hero)" hidden="false" targetId="4002-2871-0b79-c755" type="selectionEntry">
+        <entryLink id="c656-5c01-ad88-557a" name="Armour (Hero)" hidden="false" targetId="0343-888c-424c-3c11" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -704,7 +729,7 @@
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9985-d6da-6eef-eea5" name="Wild Warg Chieftain" book="Moria &amp; Angmar" page="18" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9985-d6da-6eef-eea5" name="Wild Warg Chieftain" book="Moria &amp; Angmar" page="18" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="0343-ce48-c577-176f" name="Wild Warg Chieftain" book="Moria &amp; Angmar" page="17" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -734,7 +759,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="cc76-81fa-4ba1-b2b1" name="Packlord" hidden="false" targetId="7e38-bc3d-6f0a-963e" type="rule">
+        <infoLink id="cc76-81fa-4ba1-b2b1" name="Packlord" hidden="false" targetId="0b9f-e5ec-dcf9-abc8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -759,7 +784,7 @@
         <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5b73-d5f5-fe35-7eb6" name="Gundabad Blackshield Captain" book="Moria &amp; Angmar" page="18" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5b73-d5f5-fe35-7eb6" name="Gundabad Blackshield Captain" book="Moria &amp; Angmar" page="18" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="7340-636e-376e-288f" name="Gundabad Blackshield Captain" book="Moria &amp; Angmar" page="18" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -798,7 +823,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="d497-dea8-4ed8-bc81" name="Ancient Enemies" hidden="false" targetId="ba2a-60e5-0780-5c40" type="rule">
+        <infoLink id="d497-dea8-4ed8-bc81" name="Ancient Enemies" hidden="false" targetId="041a-f7bf-59e0-f84a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -833,7 +858,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0147-0770-925b-1c39" name="Armour (Hero)" hidden="false" targetId="4002-2871-0b79-c755" type="selectionEntry">
+        <entryLink id="0147-0770-925b-1c39" name="Armour (Hero)" hidden="false" targetId="0343-888c-424c-3c11" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -854,7 +879,7 @@
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc2d-3fca-1a1f-9dde" name="Gundabad Blackshield Shaman" book="Moria &amp; Angmar" page="19" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="bc2d-3fca-1a1f-9dde" name="Gundabad Blackshield Shaman" book="Moria &amp; Angmar" page="19" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="5e54-2779-feab-33ee" name="Gundabad Blackshield Shaman" book="Moria &amp; Angmar" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -912,19 +937,19 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="803e-ef83-4952-af25" name="Ancient Enemies" hidden="false" targetId="ba2a-60e5-0780-5c40" type="rule">
+        <infoLink id="803e-ef83-4952-af25" name="Ancient Enemies" hidden="false" targetId="041a-f7bf-59e0-f84a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="254f-a1a4-2b01-5559" name="Tremor" hidden="false" targetId="0e1b-c6b2-5b50-e896" type="profile">
+        <infoLink id="254f-a1a4-2b01-5559" name="Shatter" hidden="false" targetId="b655-5535-8940-120c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="5d3a-9230-ca38-109b" name="Shatter" hidden="false" targetId="8978-993d-6b0e-095d" type="profile">
+        <infoLink id="5d3a-9230-ca38-109b" name="Tremor" hidden="false" targetId="5fe1-9731-4a4c-2fb6" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -945,7 +970,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="eff5-adea-1f78-f31d" name="Armour (Hero)" hidden="false" targetId="4002-2871-0b79-c755" type="selectionEntry">
+        <entryLink id="eff5-adea-1f78-f31d" name="Armour (Hero)" hidden="false" targetId="0343-888c-424c-3c11" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -958,7 +983,7 @@
         <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9da8-1cc8-38e1-6804" name="Ashrâk" book="Moria &amp; Angmar" page="19" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9da8-1cc8-38e1-6804" name="Ashrâk" book="Moria &amp; Angmar" page="19" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="7f27-eca3-c5ac-dcc6" name="Ashrâk" book="Moria &amp; Angmar" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1016,13 +1041,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6e20-7952-2a57-4264" name="Death-touch" hidden="false" targetId="6d8c-f4bd-6ac1-3b64" type="rule">
+        <infoLink id="6e20-7952-2a57-4264" name="Death-touch" hidden="false" targetId="f111-6e17-b690-a710" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="2583-b0d6-bcf0-b657" name="Poison-blood" hidden="false" targetId="3487-c252-157b-b2bb" type="rule">
+        <infoLink id="2583-b0d6-bcf0-b657" name="Poison-blood" hidden="false" targetId="602b-4f8a-d6d4-cc33" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1058,7 +1083,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="5ff2-068b-6c27-255b" name="Armour (Hero)" hidden="false" targetId="4002-2871-0b79-c755" type="selectionEntry">
+        <entryLink id="5ff2-068b-6c27-255b" name="Armour (Hero)" hidden="false" targetId="0343-888c-424c-3c11" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1079,7 +1104,7 @@
         <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f85a-96f0-f0ff-558d" name="Dragon" book="Moria &amp; Angmar" page="21" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f85a-96f0-f0ff-558d" name="Dragon" book="Moria &amp; Angmar" page="21" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="974a-18be-7987-15b7" name="Dragon" book="Moria &amp; Angmar" page="21" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1166,13 +1191,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="71ef-890a-1c3d-a129" name="Draconic Charge" hidden="false" targetId="3d14-c8d4-32f0-5e8e" type="rule">
+        <infoLink id="71ef-890a-1c3d-a129" name="Draconic Charge" hidden="false" targetId="db00-aee5-4e28-c33d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="49d5-b20d-0c97-b57b" name="Survival Instinct" hidden="false" targetId="b713-23a7-41b2-fb88" type="rule">
+        <infoLink id="49d5-b20d-0c97-b57b" name="Survival Instinct" hidden="false" targetId="c076-88a5-8890-8a2d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1227,7 +1252,7 @@
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="7131-ff97-52e0-9002" name="Breathe Fire" hidden="false" targetId="02a9-7179-c559-4cef" type="profile">
+            <infoLink id="7131-ff97-52e0-9002" name="Breathe Fire" hidden="false" targetId="4735-0b9f-a055-6a17" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1256,7 +1281,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="1261-ffdd-d64b-d2cd" name="Fly (Dragon)" hidden="false" targetId="882c-319e-d079-21f0" type="rule">
+            <infoLink id="1261-ffdd-d64b-d2cd" name="Fly (Dragon)" hidden="false" targetId="3819-dbd6-23bd-83fd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1279,7 +1304,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="636c-b813-747e-6d9f" name="Tough Hide" hidden="false" targetId="77f0-fa96-83ba-2d44" type="rule">
+            <infoLink id="636c-b813-747e-6d9f" name="Tough Hide" hidden="false" targetId="90f6-c430-31d1-4607" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1302,7 +1327,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="757b-0e54-4ad2-cd7b" name="Wyrmtongue" hidden="false" targetId="1d96-4ddb-f05b-95f0" type="rule">
+            <infoLink id="757b-0e54-4ad2-cd7b" name="Wyrmtongue" hidden="false" targetId="694f-9262-a3fc-2ce6" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1328,7 +1353,7 @@
         <cost name="pts" costTypeId="points" value="250.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e3e-fae3-e1ba-6cfd" name="Cave Drake" book="Moria &amp; Angmar" page="22" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7e3e-fae3-e1ba-6cfd" name="Cave Drake" book="Moria &amp; Angmar" page="22" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="936f-1bad-6e66-ac10" name="Cave Drake" book="Moria &amp; Angmar" page="22" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1364,25 +1389,25 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="e375-ae77-857c-705c" name="Draconic Charge" hidden="false" targetId="3d14-c8d4-32f0-5e8e" type="rule">
+        <infoLink id="e375-ae77-857c-705c" name="Draconic Charge" hidden="false" targetId="db00-aee5-4e28-c33d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="fe77-5cf7-1b53-1a9b" name="Cornered Beast" hidden="false" targetId="6519-8130-506c-f46f" type="rule">
+        <infoLink id="fe77-5cf7-1b53-1a9b" name="Cornered Beast" hidden="false" targetId="8e73-42c7-3a3d-54d0" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6daa-740f-65cb-f364" name="Swift and Lithe" hidden="false" targetId="218d-9519-7ca2-dbd4" type="rule">
+        <infoLink id="6daa-740f-65cb-f364" name="Gaping Maw" hidden="false" targetId="9169-f5d5-858d-55d0" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="32fd-e3cd-5537-2ba5" name="Gaping Maw" hidden="false" targetId="fc8c-8ef0-4da9-bd74" type="rule">
+        <infoLink id="32fd-e3cd-5537-2ba5" name="Swift and Lithe" hidden="false" targetId="3c62-f754-9fde-75f5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1410,7 +1435,7 @@
         <cost name="pts" costTypeId="points" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="45fb-7542-e6dd-2187" name="The Watcher in the Water" book="Moria &amp; Angmar" page="23" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="45fb-7542-e6dd-2187" name="The Watcher in the Water" book="Moria &amp; Angmar" page="23" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="3170-2bab-dd75-8193" name="The Watcher in the Water" book="Moria &amp; Angmar" page="23" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1446,31 +1471,31 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="c61d-1576-088b-399e" name="From the Deep" hidden="false" targetId="7a9e-0f24-00ca-5344" type="rule">
+        <infoLink id="c61d-1576-088b-399e" name="Tentacles" hidden="false" targetId="01d2-fd20-aa09-67d5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="064e-4e1c-cc4e-d64f" name="Tentacles" hidden="false" targetId="e629-ff21-9aa7-fdac" type="rule">
+        <infoLink id="064e-4e1c-cc4e-d64f" name="From the Deep" hidden="false" targetId="0bd2-250c-1532-0d67" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9457-83a3-0384-2fca" name="Many Tentacles" hidden="false" targetId="fbfb-864e-e188-15df" type="rule">
+        <infoLink id="9457-83a3-0384-2fca" name="Harbinger of Evil" hidden="false" targetId="8052-396f-cad6-90a3" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="74c1-6f8d-c43f-328c" name="Harbinger of Evil" hidden="false" targetId="8052-396f-cad6-90a3" type="rule">
+        <infoLink id="7a11-2ed1-a713-fb67" name="Many Tentacles" hidden="false" targetId="b04c-7238-5496-ec70" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7a11-2ed1-a713-fb67" name="Water Dweller" hidden="false" targetId="ea44-6f72-8374-2dbc" type="rule">
+        <infoLink id="f1d7-a74d-f09e-e9df" name="Water Dweller" hidden="false" targetId="43dc-acb8-57a9-28ba" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1498,7 +1523,7 @@
         <cost name="pts" costTypeId="points" value="250.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2bb5-92ee-e942-0cef" name="Spider Queen" book="Moria &amp; Angmar" page="24" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2bb5-92ee-e942-0cef" name="Spider Queen" book="Moria &amp; Angmar" page="24" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="3eaa-9000-47d7-3f66" name="Spider Queen" book="Moria &amp; Angmar" page="24" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -1544,25 +1569,25 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="3a25-beae-ac1d-7a3b" name="Movement" hidden="false" targetId="78af-37dd-e9d3-03d4" type="rule">
+        <infoLink id="3a25-beae-ac1d-7a3b" name="Venom" hidden="false" targetId="ca69-5f3f-5df5-9ae7" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="a398-de99-3c3d-6e21" name="Venom" hidden="false" targetId="ebc6-9491-601a-393f" type="rule">
+        <infoLink id="a398-de99-3c3d-6e21" name="Progeny" hidden="false" targetId="cad3-1947-7257-66a9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="f4cd-e729-3903-7fcd" name="Pounce" hidden="false" targetId="67bf-5f68-d8a4-e895" type="rule">
+        <infoLink id="f4cd-e729-3903-7fcd" name="Pounce" hidden="false" targetId="123e-b9f2-30f9-81c8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6ae6-31e7-8e70-9108" name="Progeny" hidden="false" targetId="db9d-333c-db58-d30e" type="rule">
+        <infoLink id="6ae6-31e7-8e70-9108" name="Movement" hidden="false" targetId="3d4f-0a96-d3ad-5584" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1587,10 +1612,634 @@
         <cost name="pts" costTypeId="points" value="115.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c9fa-51d2-957e-5a7f" name="The Balrog" book="Moria &amp; Angmar" page="20" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d579-8726-1f2c-9dcb" name="The Balrog" book="Moria &amp; Angmar" page="20" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="10/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="9"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="9"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="10"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="7"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="0"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="10"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="0"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit, Monster"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="bdd2-53e6-2bba-5c0e" name="Ancient Enemies" hidden="false" targetId="041a-f7bf-59e0-f84a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ffc3-e642-9844-a836" name="Lash" hidden="false" targetId="b1ed-7a4e-bf31-b006" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a4d3-7518-30b5-ff58" name="Resistant to Magic" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="60c7-9393-361d-a88b" name="Terror" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8f5b-8671-886e-c7a3" name="New CategoryLink" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="400.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7262-48be-ef73-bfee" name="Gundabad Blackshield Drummers (2 Drummers &amp; 1 Drum)" book="Moria &amp; Angmar" page="26" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="9562-baf5-9a01-dd9e" name="Gundabad Blackshields (2)" book="Moria &amp; Angmar" page="26" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;/12cm"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/5+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Goblin"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4418-3248-6223-3d55" name="Ancient Enemies" hidden="false" targetId="041a-f7bf-59e0-f84a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2514-2de6-a2ec-ff55" name="Cave Dweller" hidden="false" targetId="ec9c-c070-a999-1dfb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="832d-57e4-214b-e759" name="Run and Drum" hidden="false" targetId="c796-7ab7-3028-2097" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a44c-9182-c365-58f8" name="Doom, Doom!" hidden="false" targetId="3daa-10cd-ac5c-a388" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4779-0dbb-30cf-86c1" name="Take up the Drum" hidden="false" targetId="9e4d-f078-43d6-ed2f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="60fa-791f-e7dc-bf13" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ab9a-c722-2e1d-1716" name="Heavy armour" hidden="false" targetId="fb13-84dc-ec03-217e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1ab-c1b6-fd66-53b5" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="98.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c766-35c5-cf5b-47ef" name="Bat Swarm" book="Moria &amp; Angmar" page="26" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="795a-5d9f-21ca-fae3" name="Bat Swarm" book="Moria &amp; Angmar" page="26" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="12&quot;/28cm"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="1/5+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="4"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Bat"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="aac1-d6a6-1563-0122" name="Fly" hidden="false" targetId="401d-ce6a-48ff-ac6c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c2d2-9ed8-4e45-5e89" name="Blinding Swarm" hidden="false" targetId="154c-d883-0f01-abd6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="59a1-3cd7-a013-6349" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1b0-2b52-04ca-4ce1" name="Warg Marauder" book="Moria &amp; Angmar" page="27" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="aba6-8b13-fda3-32a1" name="Warg Marauder" book="Moria &amp; Angmar" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/5+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Goblin, Cavalry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="26f3-49d8-abc6-6c54" name="Terror" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="14f5-e402-299b-db8b" name="On the Hunt" hidden="false" targetId="3192-ea96-8b47-40ab" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="97c5-b28a-4983-2064" name="Warg Marauder" hidden="false" targetId="4138-947b-1097-b7eb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bb0a-110f-e19b-87f1" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a404-1599-bb6c-989c" name="Armour" hidden="false" targetId="20e7-4d5b-e44d-f925" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e447-1dc1-0523-d295" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a1ed-23e0-e1b1-757a" name="Orc Bow" hidden="false" targetId="f29a-2442-943a-c64c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e174-1711-b5b4-50c3" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="33.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d19-0963-808f-69e3" name="Moria Goblin Prowler" book="Moria &amp; Angmar" page="27" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="52d6-9d63-1625-92db" name="Moria Goblin Prowler" book="Moria &amp; Angmar" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a474-5405-429c-c8da" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4832-42c8-8e46-2501" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;/12cm"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/4+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Goblin"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="bc6e-cae6-c8e3-246d" name="Cave Dweller" hidden="false" targetId="ec9c-c070-a999-1dfb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5ae0-91e6-6b8b-e867" name="Back-stabbers" hidden="false" targetId="9bd5-f1d3-cdad-0598" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e5a1-c598-f7b5-8347" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="75a6-79c3-5d2e-edcf" name="Armour" hidden="false" targetId="20e7-4d5b-e44d-f925" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0d2c-5df6-09d7-6089" name="Throwing Weapons" hidden="false" targetId="5abb-01e6-656a-4c2e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d08-3abf-65b6-93f2" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="542f-5fee-8f9c-a47d" name="Orc Bow" hidden="false" targetId="f29a-2442-943a-c64c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="94b0-5a11-6347-9e1a" name="Two-handed Weapon" hidden="false" targetId="1cb4-ed4d-9954-b0d6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="27fa-e67f-51c6-b215" name="Shield" hidden="false" targetId="3624-4984-af2d-98c5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e63-cd5c-1fed-2a2d" name="Gundabad Blackshield" book="Moria &amp; Angmar" page="27" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="7724-e02a-8711-a504" name="Gundabad Blackshield" book="Moria &amp; Angmar" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="92d5-a4eb-d112-9b08" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a474-5405-429c-c8da" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;/12cm"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/5+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Goblin"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7888-4c33-4f24-e926" name="Cave Dweller" hidden="false" targetId="ec9c-c070-a999-1dfb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9a97-807d-d188-def9" name="Ancient Enemies" hidden="false" targetId="041a-f7bf-59e0-f84a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="42e4-e3cb-40fa-bf04" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="92d5-a4eb-d112-9b08" name="Heavy armour" hidden="false" targetId="fb13-84dc-ec03-217e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aafc-1341-0b6d-25aa" name="Shield" hidden="false" targetId="3624-4984-af2d-98c5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b1a5-1e4c-47e0-530d" name="Spear" hidden="false" targetId="4b28-5865-1390-d1d5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb69-ca96-d0d6-c10f" name="Dweller in the Dark" book="Moria &amp; Angmar" page="28" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="48f9-7eb6-8350-7790" name="Dweller in the Dark" book="Moria &amp; Angmar" page="28" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;/20cm"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="7/3+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="5"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="3"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="7"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Spirit, Monster"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="82d3-a589-ba7d-d971" name="Resistant to Magic" hidden="false" targetId="4a35-7d1b-c1b5-c79f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4bc7-7f41-e572-799f" name="Terror" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5852-852e-bba6-8340" name="Murderous Power" hidden="false" targetId="e142-d5e4-842d-d600" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="be18-3ce0-6e1d-f008" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ce4-fc73-759c-6855" name="Wild Warg" book="Moria &amp; Angmar" page="28" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3f12-37a2-d000-0094" name="Wild Warg" book="Moria &amp; Angmar" page="28" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/5+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Warg"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fba9-e376-4057-0741" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8606-8552-6b8e-304d" name="Giant Spider" book="Moria &amp; Angmar" page="28" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="4f35-ac3a-9f46-16d7" name="Giant Spider" book="Moria &amp; Angmar" page="28" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
+            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="4/6+"/>
+            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="5"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
+            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Spider"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6faa-33ba-4967-fd77" name="Movement" hidden="false" targetId="3d4f-0a96-d3ad-5584" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="627c-634f-050c-a3a1" name="Venom" hidden="false" targetId="ca69-5f3f-5df5-9ae7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c128-a3f5-35d3-e8cf" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="4b28-5865-1390-d1d5" name="Spear" book="Moria &amp; Angmar" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4b28-5865-1390-d1d5" name="Spear" book="Moria &amp; Angmar" page="25" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1613,7 +2262,7 @@
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f29a-2442-943a-c64c" name="Orc Bow" book="Moria &amp; Angmar" page="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f29a-2442-943a-c64c" name="Orc Bow" book="Moria &amp; Angmar" page="25" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1636,7 +2285,7 @@
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3624-4984-af2d-98c5" name="Shield" book="Moria &amp; Angmar" page="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3624-4984-af2d-98c5" name="Shield" book="Moria &amp; Angmar" page="25" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1669,7 +2318,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="d2ef-926d-bf55-fbd7" name="Troll Chain" hidden="false" targetId="cb98-8422-26ff-d307" type="profile">
+        <infoLink id="d2ef-926d-bf55-fbd7" name="Troll Chain" hidden="false" targetId="2d35-e002-508d-3d6e" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1738,29 +2387,6 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4002-2871-0b79-c755" name="Armour (Hero)" book="Moria &amp; Angmar" page="17" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="58d5-9d29-e1f1-e862" name="Armour" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01f3-f2b9-c645-eba7" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d4d0-3432-a2d4-119a" name="Orc Bow (Hero)" book="Moria &amp; Angmar" page="18" hidden="false" collective="false" type="upgrade">
@@ -1832,282 +2458,121 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0343-888c-424c-3c11" name="Armour (Hero)" book="Moria &amp; Angmar" page="17" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ed49-f53c-1fbc-a838" name="Armour" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7907-5808-5998-a479" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="20e7-4d5b-e44d-f925" name="Armour" book="Moria &amp; Angmar" page="25" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ae69-f5da-f945-1d87" name="Armour" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40cb-0411-bff3-1544" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb13-84dc-ec03-217e" name="Heavy armour" book="Moria &amp; Angmar" page="26" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8ce4-a549-0222-9bfc" name="Heavy Armour" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9b51-3372-4733-d562" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5abb-01e6-656a-4c2e" name="Throwing Weapons" book="Moria &amp; Angmar" page="27" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="fbc3-8ae9-ba68-e02e" name="Throwing weapons" hidden="false" targetId="4584-95dc-15c0-9cd5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="433b-c4a8-f1fd-dc09" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="1cb4-ed4d-9954-b0d6" name="Two-handed Weapon" book="Moria &amp; Angmar" page="27" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="baac-d68c-3c58-cf18" name="Two-handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b2a-4b71-46b8-1ff2" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
-  <sharedRules>
-    <rule id="ded0-ca8a-57cd-f37b" name="Iron Fist" book="Moria &amp; Angmar" page="17" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Such is the fear inspired by Durbûrz in his followers that the range of his Stand Fast! rule is 12“/28cm rather than the normal 6&quot;/14cm.</description>
-    </rule>
-    <rule id="bf81-dcd5-22df-98f6" name="Drums in the Deep" book="Moria &amp; Angmar" page="" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>i) At the beginning of the game, deploy the Moria Goblin Drum model following the instructions of the scenario like any other Evil model and place the Drummer(s) in base contact with it. The Drum can be carried by one or two Drummers. If carried by two, it moves at their full pace; if by one at half its pace.
-ii) Drummers carrying the drum cannot carry other burdens such as ladders.
-iii) A Drummer who is carrying the Drum at the start of his move cannot charge that turn.
-iv) A Drummer can drop the Drum at any point in his move.
-v) A Drummer will automatically drop the Drum if his is charged or slain. I all Drummers are slain the Drum is dropped immediately.
-
-vi) The Drum can be picked up by Drummers in contact with it. Once picked up, it cannot be moved further that turn.
-For the Drum to have an effect, at least one Drummer must start the turn in base contact with it and must not move or be engaged in combat.
-
-If these conditions are met, the following effects apply:
-i) In all fights within 18&quot;/42cm of the Drum which include at least one Moria Goblin, the Evil player can re-roll any one of the dice he rolled when determining who wins the fight, with that die&apos;s previous score being superseded.
-ii) All Moria Goblins on the battlefield add +1 to their Courage value and all Good models suffer -1 to their Courage value. (Not cumulative with other rules that confer similar penalties)
-
-The Drum can be shot at normally by the good side. If bought to 0 wounds the model is destroyed and can no longer be used. If a Good model spends a full turn in base contact with the Drum without performing any other actions (shooting, fighting, magic et cetera), the Drum is automatically destroyed as above.
-The Drum does not count towards the number of models in a force, only the Drummer(s).
-</description>
-    </rule>
-    <rule id="53ac-f497-3f13-8e8d" name="Master of the Dark Wild" book="Moria &amp; Angmar" page="17" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>All Bats, Wargs and Spiders within 12&quot;/28cm of Drûzhag use his Courage instead of their own.</description>
-    </rule>
-    <rule id="7e38-bc3d-6f0a-963e" name="Packlord" book="Moria &amp; Angmar" page="18" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Only other Wild Wargs may use a Wild Warg Chieftain’s Stand Fast! rule or benefit from its heroic actions.</description>
-    </rule>
-    <rule id="ba2a-60e5-0780-5c40" name="Ancient Enemies" book="Moria &amp; Angmar" page="18" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Gundabad Blackshields re-roll 15 when attempting to wound Elves or Dwarves.</description>
-    </rule>
-    <rule id="6d8c-f4bd-6ac1-3b64" name="Death-touch" book="Moria &amp; Angmar" page="19" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Any model who wounds, or is wounded by Ashrak in a fight must roll a D6: on a 4+, they are Paralysed exactly as if they had failed to resist the Paralyse Magical Power.</description>
-    </rule>
-    <rule id="3487-c252-157b-b2bb" name="Poison-blood" book="Moria &amp; Angmar" page="19" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>If your force includes Ashrak, you can upgrade any number of Giant Spiders to Venom-back Spiders at a cost of +2 points per model. If a Venom-back Spider fails to wound an enemy, it must re-roll the dice.</description>
-    </rule>
-    <rule id="3d14-c8d4-32f0-5e8e" name="Draconic Charge" book="Moria &amp; Angmar" page="21" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>If a Dragon charges into combat, it will knock enemy models to the ground in the same way as a monstrous mount if it wins the fight.</description>
-    </rule>
-    <rule id="b713-23a7-41b2-fb88" name="Survival Instinct" book="Moria &amp; Angmar" page="21" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Each time a Dragon is wounded, it must take a Courage test. If the test is failed, he flees: the model is removed and counts as a casualty.</description>
-    </rule>
-    <rule id="882c-319e-d079-21f0" name="Fly (Dragon)" book="Moria &amp; Angmar" page="21" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>This Dragon has expansive and powerful wings. It can fly 12“/28cm as described in the main rules manual.</description>
-    </rule>
-    <rule id="1d96-4ddb-f05b-95f0" name="Wyrmtongue" book="Moria &amp; Angmar" page="21" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A Dragon with this ability can cast a spell using one dice, without reducing his Will store. The controlling player can choose to increase the number of dice rolled by reducing the Dragon’s Will store in the usual way. A Dragon with Wyrmtongue has the following magical powers: Transfix, Compel, Sap Will.</description>
-    </rule>
-    <rule id="77f0-fa96-83ba-2d44" name="Tough Hide" book="Moria &amp; Angmar" page="21" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>The skin of this Dragon is almost impenetrably dense, or otherwise protected from harm. Its Wounds and Defense are 9, rather than 7.</description>
-    </rule>
-    <rule id="6519-8130-506c-f46f" name="Cornered Beast" book="Moria &amp; Angmar" page="22" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>If a Cave Drake is defeated in a fight, check to see if it is trapped (and so cannot back away a full 1&quot;/2cm). If this is the case, roll To Wound the Cave Drake as normal. If it is not slain by the strikes, all models (both friend and foe) within 1&quot;/2cm of the Cave Drake suffer a Strength 4 hit.
-
-Cave Drakes are accustomed to fighting within narrow, dark caverns and passageways, and when cornered, they will flail about them with their lash-like tail 1 and spined limbs.
-</description>
-    </rule>
-    <rule id="218d-9519-7ca2-dbd4" name="Swift and Lithe" book="Moria &amp; Angmar" page="22" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>The Cave Drake is incredibly agile, able to weave through rock-strewn caves and tunnels with unnerving ease, using the vibrissae extending from its head to guide the bulk of its body. A Cave Drake can move through difficult terrain of any sort without penalty.</description>
-    </rule>
-    <rule id="fc8c-8ef0-4da9-bd74" name="Gaping Maw" book="Moria &amp; Angmar" page="22" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>If a Cave Drake wins a fight, it can either strike as normal or attempt to swallow a single man-sized (or smaller) model in the same fight. If the Cave Drake chooses to swallow a model, make a single roll To Wound against the target - if successful, the victim is gobbled up and very dead.
-
-Fate rolls can be made against this special attack as normal. If the Fate roll is passed, the target survives and is unharmed. If the Fate roll is failed, the target model loses any remaining Wounds and is removed as a casualty.
-
-Cave Drakes are almost continuously hungry and won’t hesitate to consume a morsel of flesh in the midst of a battle. Using its powerful jaws, a Cave Drake can crunch armour and bone, choking down a man-sized victim in a matter of moments.</description>
-    </rule>
-    <rule id="7a9e-0f24-00ca-5344" name="From the Deep" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When you deploy your army, do not place the Watcher in the Water on the board - instead keep it to one side ready for use later in the game. At the start of each turn, before rolling for priority, announce if you would like the Watcher to arrive, and then roll a D6. On the score of a 3+ it is ready to enter play. Once you have declared that you would fire the Watcher to arrive, you must roII at the start of each turn thereafter until it is available.
-
-When the Watcher is ready to enter play, immediately place it anywhere on the battlefield - it can displace models. Move any displaced miniatures by the shortest possible distance so that they are 1&quot;/2cm away from the Watcher (or as close as space will allow). In this situation, players take it in turns to reposition his own displaced models, with the player that controls the Watcher in the Water going first. This may create some strange situations, but represents the Watcher bursting up from below the ground and scattering warriors (friend and foe alike) with its shocking arrival and incredible bulk.
-
-The Watcher cannot charge in the turn that it arrives.</description>
-    </rule>
-    <rule id="e629-ff21-9aa7-fdac" name="Tentacles" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>In the Shoot phase, the Watcher can make D6 shooting attacks. These have a range of 6&quot;/14cm, a Strength of 3 and never require ’in the way&apos; rolls. Any model hit by a tentacle, but not slain, is dragged into base contact with the Watcher by the shortest route, even over the heads of other models. Models moved in this way do not count as having charged. If there is no space for the model to fit into combat with the Watcher, it is not moved at all. The Watcher can make these special attacks even if it is in base contact with an enemy.</description>
-    </rule>
-    <rule id="fbfb-864e-e188-15df" name="Many Tentacles" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>As the Watcher in the Water is wounded, it becomes less menacing. Each time the Watcher loses a Wound it also loses an Attack.</description>
-    </rule>
-    <rule id="ea44-6f72-8374-2dbc" name="Water Dweller" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>The Watcher in the Water is not slowed when entering a water feature and always counts as having rolled a 6 on the Swimming chart. Additionally, it doubles its movement while it is wholly within a water feature.</description>
-    </rule>
-    <rule id="78af-37dd-e9d3-03d4" name="Movement" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Spider Queens move at full speed over any type of difficult terrain and ignores all obstacles except for water features and gaps - such as chasms, ditches and other spaces which she has to jump as normal.</description>
-    </rule>
-    <rule id="ebc6-9491-601a-393f" name="Venom" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A Spider Queen must re-roll any failed To Wound rolls.</description>
-    </rule>
-    <rule id="67bf-5f68-d8a4-e895" name="Pounce" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>In the turn in which a Spider Queen charges a model on foot or a cavalry model, she receives the Extra Attack and Knock to Ground rules exactly as if she were a monstrous mount.</description>
-    </rule>
-    <rule id="db9d-333c-db58-d30e" name="Progeny" book="Moria &amp; Angmar" page="23" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>During any point in her move, the Spider Queen can expend a Will point to put a Broodling base into play anywhere, at least partially within 3&quot;/8cm. Broodlings may move and charge on the turn they are summoned. She may summon multiple Broodlings in a single turn, provided she has sufficient Will remaining. Note, Broodlings are not counted when working out if a force is broken.</description>
-    </rule>
-  </sharedRules>
-  <sharedProfiles>
-    <profile id="5236-4e71-7069-8a06" name="Lash" book="Moria &amp; Angmar" page="20" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="6&quot;/14cm"/>
-        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="7"/>
-      </characteristics>
-    </profile>
-    <profile id="cb98-8422-26ff-d307" name="Troll Chain" book="Moria &amp; Angmar" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="3&quot;/8cm"/>
-        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="4"/>
-      </characteristics>
-    </profile>
-    <profile id="7812-ac23-9070-a112" name="Bestial Fury" book="Moria &amp; Angmar" page="17" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Dice score to use 3+.
-This works exactly as described for Fury in the main rules manual, except its effects apply to (unridden) Wargs, Spiders and Bat Swarms, not Goblins."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="The special Fate roll that the power provides is passed on a 5+ instead of a 6."/>
-      </characteristics>
-    </profile>
-    <profile id="c608-49bf-a346-8f18" name="Enrage Beast" book="Moria &amp; Angmar" page="17" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Fight Phase of Target"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="This power can be used against a single Bat, (unridden) Warg or Spider model. If the power is successfully used, the target’s Fight, Strength, Attacks and Courage are increased by 3 until the end of the Fight phase. The enraged model suffers a Strength 10 hit at the end of the Fight phase."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
-      </characteristics>
-    </profile>
-    <profile id="5e3a-e6e8-e5f0-9d39" name="The Mithril Crown" book="Moria &amp; Angmar" page="17" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="A few meagre pieces of enchanted Mithril hammered into a crown, and a web of carefully spun lies can bring out the best in any Goblin. While Grôblog is alive, Goblins pass the Fate save provided by Fury on a 5+ instead of just the roll of a 6."/>
-      </characteristics>
-    </profile>
-    <profile id="0e1b-c6b2-5b50-e896" name="Tremor" book="Moria &amp; Angmar" page="19" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Draw a straight line that extends 2D6&quot; (double the score if playing in cm) from the Shaman. All models touched are knocked to the ground and suffer a Strength 6 hit. One model affected can attempt to resist this power in the usual manner."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
-      </characteristics>
-    </profile>
-    <profile id="8978-993d-6b0e-095d" name="Shatter" book="Moria &amp; Angmar" page="19" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Pick an enemy model within sight of the Shaman. The victim has all of its weapons destroyed and is considered to be unarmed for the remainder of the game."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
-      </characteristics>
-    </profile>
-    <profile id="02a9-7179-c559-4cef" name="Breathe Fire" book="Moria &amp; Angmar" page="21" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Each time a Dragon breathes fire, it expends a point of Will. If the shot hits, it affects the target and any model (Good or Evil) within 2&quot;/4cm (Fate rolls may be taken as normal). Any model that suffers a Wound caused by Dragon breath is automatically slain."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
+  <sharedRules/>
+  <sharedProfiles/>
 </catalogue>
