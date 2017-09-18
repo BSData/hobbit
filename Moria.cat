@@ -1864,6 +1864,164 @@ The Drum can be shot at normally by the good side. If bought to 0 wounds the mod
 The Drum does not count towards the number of models in a force, only the Drummer(s).
 </description>
     </rule>
+    <rule id="53ac-f497-3f13-8e8d" name="Master of the Dark Wild" book="Moria &amp; Angmar" page="17" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>All Bats, Wargs and Spiders within 12&quot;/28cm of Drûzhag use his Courage instead of their own.</description>
+    </rule>
+    <rule id="7e38-bc3d-6f0a-963e" name="Packlord" book="Moria &amp; Angmar" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Only other Wild Wargs may use a Wild Warg Chieftain’s Stand Fast! rule or benefit from its heroic actions.</description>
+    </rule>
+    <rule id="ba2a-60e5-0780-5c40" name="Ancient Enemies" book="Moria &amp; Angmar" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Gundabad Blackshields re-roll 15 when attempting to wound Elves or Dwarves.</description>
+    </rule>
+    <rule id="6d8c-f4bd-6ac1-3b64" name="Death-touch" book="Moria &amp; Angmar" page="19" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Any model who wounds, or is wounded by Ashrak in a fight must roll a D6: on a 4+, they are Paralysed exactly as if they had failed to resist the Paralyse Magical Power.</description>
+    </rule>
+    <rule id="3487-c252-157b-b2bb" name="Poison-blood" book="Moria &amp; Angmar" page="19" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If your force includes Ashrak, you can upgrade any number of Giant Spiders to Venom-back Spiders at a cost of +2 points per model. If a Venom-back Spider fails to wound an enemy, it must re-roll the dice.</description>
+    </rule>
+    <rule id="3d14-c8d4-32f0-5e8e" name="Draconic Charge" book="Moria &amp; Angmar" page="21" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If a Dragon charges into combat, it will knock enemy models to the ground in the same way as a monstrous mount if it wins the fight.</description>
+    </rule>
+    <rule id="b713-23a7-41b2-fb88" name="Survival Instinct" book="Moria &amp; Angmar" page="21" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Each time a Dragon is wounded, it must take a Courage test. If the test is failed, he flees: the model is removed and counts as a casualty.</description>
+    </rule>
+    <rule id="882c-319e-d079-21f0" name="Fly (Dragon)" book="Moria &amp; Angmar" page="21" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This Dragon has expansive and powerful wings. It can fly 12“/28cm as described in the main rules manual.</description>
+    </rule>
+    <rule id="1d96-4ddb-f05b-95f0" name="Wyrmtongue" book="Moria &amp; Angmar" page="21" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A Dragon with this ability can cast a spell using one dice, without reducing his Will store. The controlling player can choose to increase the number of dice rolled by reducing the Dragon’s Will store in the usual way. A Dragon with Wyrmtongue has the following magical powers: Transfix, Compel, Sap Will.</description>
+    </rule>
+    <rule id="77f0-fa96-83ba-2d44" name="Tough Hide" book="Moria &amp; Angmar" page="21" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The skin of this Dragon is almost impenetrably dense, or otherwise protected from harm. Its Wounds and Defense are 9, rather than 7.</description>
+    </rule>
+    <rule id="6519-8130-506c-f46f" name="Cornered Beast" book="Moria &amp; Angmar" page="22" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If a Cave Drake is defeated in a fight, check to see if it is trapped (and so cannot back away a full 1&quot;/2cm). If this is the case, roll To Wound the Cave Drake as normal. If it is not slain by the strikes, all models (both friend and foe) within 1&quot;/2cm of the Cave Drake suffer a Strength 4 hit.
+
+Cave Drakes are accustomed to fighting within narrow, dark caverns and passageways, and when cornered, they will flail about them with their lash-like tail 1 and spined limbs.
+</description>
+    </rule>
+    <rule id="218d-9519-7ca2-dbd4" name="Swift and Lithe" book="Moria &amp; Angmar" page="22" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The Cave Drake is incredibly agile, able to weave through rock-strewn caves and tunnels with unnerving ease, using the vibrissae extending from its head to guide the bulk of its body. A Cave Drake can move through difficult terrain of any sort without penalty.</description>
+    </rule>
+    <rule id="fc8c-8ef0-4da9-bd74" name="Gaping Maw" book="Moria &amp; Angmar" page="22" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If a Cave Drake wins a fight, it can either strike as normal or attempt to swallow a single man-sized (or smaller) model in the same fight. If the Cave Drake chooses to swallow a model, make a single roll To Wound against the target - if successful, the victim is gobbled up and very dead.
+
+Fate rolls can be made against this special attack as normal. If the Fate roll is passed, the target survives and is unharmed. If the Fate roll is failed, the target model loses any remaining Wounds and is removed as a casualty.
+
+Cave Drakes are almost continuously hungry and won’t hesitate to consume a morsel of flesh in the midst of a battle. Using its powerful jaws, a Cave Drake can crunch armour and bone, choking down a man-sized victim in a matter of moments.</description>
+    </rule>
+    <rule id="7a9e-0f24-00ca-5344" name="From the Deep" book="Moria &amp; Angmar" page="23" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When you deploy your army, do not place the Watcher in the Water on the board - instead keep it to one side ready for use later in the game. At the start of each turn, before rolling for priority, announce if you would like the Watcher to arrive, and then roll a D6. On the score of a 3+ it is ready to enter play. Once you have declared that you would fire the Watcher to arrive, you must roII at the start of each turn thereafter until it is available.
+
+When the Watcher is ready to enter play, immediately place it anywhere on the battlefield - it can displace models. Move any displaced miniatures by the shortest possible distance so that they are 1&quot;/2cm away from the Watcher (or as close as space will allow). In this situation, players take it in turns to reposition his own displaced models, with the player that controls the Watcher in the Water going first. This may create some strange situations, but represents the Watcher bursting up from below the ground and scattering warriors (friend and foe alike) with its shocking arrival and incredible bulk.
+
+The Watcher cannot charge in the turn that it arrives.</description>
+    </rule>
+    <rule id="e629-ff21-9aa7-fdac" name="Tentacles" book="Moria &amp; Angmar" page="23" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>In the Shoot phase, the Watcher can make D6 shooting attacks. These have a range of 6&quot;/14cm, a Strength of 3 and never require ’in the way&apos; rolls. Any model hit by a tentacle, but not slain, is dragged into base contact with the Watcher by the shortest route, even over the heads of other models. Models moved in this way do not count as having charged. If there is no space for the model to fit into combat with the Watcher, it is not moved at all. The Watcher can make these special attacks even if it is in base contact with an enemy.</description>
+    </rule>
+    <rule id="fbfb-864e-e188-15df" name="Many Tentacles" book="Moria &amp; Angmar" page="23" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>As the Watcher in the Water is wounded, it becomes less menacing. Each time the Watcher loses a Wound it also loses an Attack.</description>
+    </rule>
+    <rule id="ea44-6f72-8374-2dbc" name="Water Dweller" book="Moria &amp; Angmar" page="23" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The Watcher in the Water is not slowed when entering a water feature and always counts as having rolled a 6 on the Swimming chart. Additionally, it doubles its movement while it is wholly within a water feature.</description>
+    </rule>
+    <rule id="78af-37dd-e9d3-03d4" name="Movement" book="Moria &amp; Angmar" page="23" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Spider Queens move at full speed over any type of difficult terrain and ignores all obstacles except for water features and gaps - such as chasms, ditches and other spaces which she has to jump as normal.</description>
+    </rule>
+    <rule id="ebc6-9491-601a-393f" name="Venom" book="Moria &amp; Angmar" page="23" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A Spider Queen must re-roll any failed To Wound rolls.</description>
+    </rule>
+    <rule id="67bf-5f68-d8a4-e895" name="Pounce" book="Moria &amp; Angmar" page="23" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>In the turn in which a Spider Queen charges a model on foot or a cavalry model, she receives the Extra Attack and Knock to Ground rules exactly as if she were a monstrous mount.</description>
+    </rule>
+    <rule id="db9d-333c-db58-d30e" name="Progeny" book="Moria &amp; Angmar" page="23" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>During any point in her move, the Spider Queen can expend a Will point to put a Broodling base into play anywhere, at least partially within 3&quot;/8cm. Broodlings may move and charge on the turn they are summoned. She may summon multiple Broodlings in a single turn, provided she has sufficient Will remaining. Note, Broodlings are not counted when working out if a force is broken.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="5236-4e71-7069-8a06" name="Lash" book="Moria &amp; Angmar" page="20" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
