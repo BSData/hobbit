@@ -425,7 +425,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5e41-bf5f-29ec-b2fc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3162-9027-516c-c396" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;/12cm"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/5+"/>
@@ -510,16 +518,6 @@
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
             <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Troll"/>
-          </characteristics>
-        </profile>
-        <profile id="eaf0-4d31-6476-b590" name="Throw Stones" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;/28cm"/>
-            <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="8"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1729,12 +1727,20 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7262-48be-ef73-bfee" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab9a-c722-2e1d-1716" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="5&quot;/12cm"/>
             <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="2/5+"/>
             <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
             <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
             <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
@@ -2613,6 +2619,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="fbc3-8ae9-ba68-e02e" name="Throwing weapons" hidden="false" targetId="4584-95dc-15c0-9cd5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bce0-d82f-f981-7349" name="Throwing weapon" hidden="false" targetId="8f3d-592c-7215-9adf" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
