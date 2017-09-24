@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="7" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="8" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -42,19 +42,19 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="f50b-8d15-72b9-8e0b" name="New InfoLink" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+        <infoLink id="f50b-8d15-72b9-8e0b" name="Expert Rider" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d3be-4151-0230-369e" name="New InfoLink" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+        <infoLink id="d3be-4151-0230-369e" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="136b-6421-0643-94bc" name="New InfoLink" hidden="false" targetId="1de3-52e2-16f0-f54d" type="profile">
+        <infoLink id="136b-6421-0643-94bc" name="Nature&apos;s Wrath" hidden="false" targetId="1de3-52e2-16f0-f54d" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -75,59 +75,26 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="6961-2153-06f4-570a" name="Asfaloth (horse)" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="cdb3-1bdc-1731-8dcd" name="New InfoLink" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d190-d91f-a61a-2513" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ca7-a1c7-9b53-867e" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ce5e-44f5-47dd-2739" name="Elven cloak" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="e707-6f8f-07e3-daa0" name="New InfoLink" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e745-ff3d-97b3-aa0e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7b5-10e0-91d3-955a" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="69b2-7171-a3ce-ce01" name="New EntryLink" hidden="false" targetId="ecba-4aa7-3646-2c9e" type="selectionEntry">
+        <entryLink id="e3e3-f01f-4e8f-76ca" name="Horse (Hero)" hidden="false" targetId="eedf-5a46-ecc1-12d4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9708-297b-5110-51b4" name="Elven Blade (Hero)" hidden="false" targetId="cd63-07d1-8916-477d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="518f-c305-0b13-e13e" name="Elven Cloak (Hero)" hidden="false" targetId="4d08-6098-041e-4702" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -137,7 +104,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d46d-68a8-4316-01be" name="Cirdan" book="The Free Peoples" page="18" hidden="false" collective="false" type="model">
@@ -160,13 +127,6 @@
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
             <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
           </characteristics>
-        </profile>
-        <profile id="58f5-3d22-38de-1098" name="Unarmed" book="The Free Peoples" page="18" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics/>
         </profile>
         <profile id="ad65-ed99-0253-5503" name="Aura of Command" book="The Free Peoples" page="18" hidden="false" profileTypeId="caa8-a3a0-9848-1893">
           <profiles/>
@@ -201,31 +161,37 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="ca72-a699-a84b-11e0" name="New InfoLink" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+        <infoLink id="ca72-a699-a84b-11e0" name="Terror" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d93a-6166-89c9-b1bc" name="New InfoLink" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+        <infoLink id="d93a-6166-89c9-b1bc" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7ae4-bf39-37ab-1cb4" name="New InfoLink" hidden="false" targetId="db4a-8e11-f47e-31fd" type="profile">
+        <infoLink id="7ae4-bf39-37ab-1cb4" name="Aura of Command" hidden="false" targetId="db4a-8e11-f47e-31fd" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7029-a815-c0cc-ce5d" name="New InfoLink" hidden="false" targetId="daba-0bf1-9b09-1042" type="profile">
+        <infoLink id="7029-a815-c0cc-ce5d" name="Aura of Dismay" hidden="false" targetId="daba-0bf1-9b09-1042" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="65c9-fdca-4d14-5b76" name="New InfoLink" hidden="false" targetId="21b8-8e9e-6161-0812" type="profile">
+        <infoLink id="65c9-fdca-4d14-5b76" name="Blinding Light" hidden="false" targetId="21b8-8e9e-6161-0812" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0c20-35a5-dc9d-51d9" name="Unarmed" hidden="false" targetId="cf5c-7ed6-c2e6-7cbe" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -253,37 +219,33 @@
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c08b-746b-9ea8-76e2" name="Elladan and Elrohir" book="The Free Peoples" page="19" hidden="false" collective="false" type="model">
+    <selectionEntry id="c08b-746b-9ea8-76e2" name="Elladan" book="The Free Peoples" page="19" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="f93b-f1c5-7972-bf13" name="Elladan" book="The Free Peoples" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c08b-746b-9ea8-76e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eeb7-339b-ce7b-4bd1" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c08b-746b-9ea8-76e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d7b1-f989-9157-1635" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
-            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
-            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
-            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
-            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
-            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
-          </characteristics>
-        </profile>
-        <profile id="0809-86f3-8527-e34c" name="Elrohir" book="The Free Peoples" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
-            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
-            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
@@ -294,24 +256,21 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="2e5c-29c1-94b1-da71" name="Twin Elven Blades" book="The Free Peoples" page="19" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>When fighting on foot, the brothers must choose to fight in one of three different ways each Fight phase. Each brother can fight either with a single sword (two-handed weapon), with two swords (for +1 Attack) or parry (counts as shielding).</description>
-        </rule>
-        <rule id="ad6a-b301-f57e-04d9" name="Unbreakable Bond" book="The Free Peoples" page="19" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If one of the twins is killed, the other will be driven mad by desperate grief. To represent this, the surviving twin&apos;s Strength is increased to 5 and his Defence is reduced to 4. The survivor always passes Courage tests and must do everything he can to charge the model that killed his brother as quickly as possible. Once that model is killed, the survivng twin will then move as fast as possible towards the closest visible enemy for th rest of the game, charging it if able.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
-        <infoLink id="bbe9-3f68-59f2-eabd" name="New InfoLink" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+        <infoLink id="bbe9-3f68-59f2-eabd" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2543-003d-51cf-3d76" name="Twin Elven Blade" hidden="false" targetId="7881-22d9-70b6-ec05" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9866-b192-cb45-1d02" name="Unbreakable bond" hidden="false" targetId="aa3a-c705-84e6-f4a0" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -332,107 +291,10 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="058d-7e44-7cd5-ca2f" name="Elven Cloaks" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="40ba-6832-afad-6220" name="New InfoLink" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="026a-f746-d176-ced7" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14bc-1bb5-ddbe-34a9" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="877c-e072-b3d6-35e9" name="Horses" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="4865-63cd-d29a-82d7" name="New InfoLink" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a733-6a80-6e09-0017" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5761-1759-43e4-93a0" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3685-206d-7949-f8eb" name="Elf Bows" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="caf4-bffb-ac6d-1b98" name="New InfoLink" hidden="false" targetId="2130-9089-8afe-22a4" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f1b-35de-b9d0-5ebe" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d41-1642-fd11-2fa9" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9883-eb8c-b776-310f" name="Heavy Armour" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="b99f-1147-ffad-4ae4" name="New InfoLink" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d343-123e-a959-ffef" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34ff-3da3-3f60-0c47" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="3a8f-904c-7005-a26b" name="New EntryLink" hidden="false" targetId="1319-c4f1-5cee-d812" type="selectionEntry">
+        <entryLink id="8c42-1d0a-17e9-0d0d" name="Elven Blade (Hero)" hidden="false" targetId="cd63-07d1-8916-477d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -440,7 +302,55 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8c42-1d0a-17e9-0d0d" name="New EntryLink" hidden="false" targetId="ecba-4aa7-3646-2c9e" type="selectionEntry">
+        <entryLink id="d7b1-f989-9157-1635" name="Armour (Hero)" hidden="false" targetId="ef18-74da-4ff3-0806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c08b-746b-9ea8-76e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eeb7-339b-ce7b-4bd1" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="eeb7-339b-ce7b-4bd1" name="Heavy Armour (Hero)" hidden="false" targetId="f66d-1ec5-2986-e590" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c08b-746b-9ea8-76e2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d7b1-f989-9157-1635" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c879-64fc-0d2c-d86e" name="Elven Cloak (Hero)" hidden="false" targetId="4d08-6098-041e-4702" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="353c-a476-ef01-4368" name="Elven Bow (Hero)" hidden="false" targetId="f6f9-625e-68cb-d6a9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="11fe-fc21-5dca-047e" name="Horse (Hero)" hidden="false" targetId="eedf-5a46-ecc1-12d4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -450,7 +360,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="70.0"/>
+        <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a9fb-726a-ae91-c915" name="Elrond" book="The Free Peoples" page="17" hidden="false" collective="false" type="model">
@@ -459,12 +369,27 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a9fb-726a-ae91-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bb9c-9bc5-b136-544b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a9fb-726a-ae91-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8c08-018b-254f-f386" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="7"/>
@@ -484,7 +409,7 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="9d49-f590-a1d0-1c77" name="Renew" book="The Free People&apos;s" page="17" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+        <profile id="9d49-f590-a1d0-1c77" name="Renew" book="The Free Peoples" page="17" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -515,7 +440,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4613-a659-501b-f307" name="New InfoLink" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+        <infoLink id="4613-a659-501b-f307" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -536,36 +461,26 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9a9a-db3e-b0df-5939" name="Vilya" book="The Free Peoples" page="17" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="42a4-5db5-4b3a-6992" name="Vilya" book="The Free Peoples" page="17" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Thanks to the power of Vilya, one of the Three Elven Rings, Elrond can re-roll his dice when using Fate points.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="094e-43fd-1c3b-ff8b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3a7c-d7b4-60d3-4872" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="8c08-018b-254f-f386" name="New EntryLink" hidden="false" targetId="64d9-8937-c5ac-e151" type="selectionEntry">
+        <entryLink id="8c08-018b-254f-f386" name="Heavy Armour (Hero)" hidden="false" targetId="f66d-1ec5-2986-e590" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a9fb-726a-ae91-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bb9c-9bc5-b136-544b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="77ad-c847-2a91-208c" name="Elven Blade (Hero)" hidden="false" targetId="cd63-07d1-8916-477d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -573,17 +488,33 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="77ad-c847-2a91-208c" name="New EntryLink" hidden="false" targetId="ecba-4aa7-3646-2c9e" type="selectionEntry">
+        <entryLink id="5bb1-e1b6-8674-d2c1" name="Vilya" hidden="false" targetId="8ec2-9414-2741-904c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bb9c-9bc5-b136-544b" name="Armour (Hero)" hidden="false" targetId="ef18-74da-4ff3-0806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a9fb-726a-ae91-c915" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8c08-018b-254f-f386" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="170.0"/>
+        <cost name="pts" costTypeId="points" value="145.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c65c-88eb-ec7b-dd05" name="Elrond, Master of Rivendell" book="The Free Peoples" page="17" hidden="false" collective="false" type="model">
@@ -627,35 +558,34 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
           </characteristics>
         </profile>
-        <profile id="cc6a-5a54-dc5d-63e9" name="Wrath of Bruinen" book="The Free Peoples" page="17" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
-            <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="This spell affects all enemy models within 6&quot;/14cm of Elrond, but only one foe can attempt to resist it. If resisted, all foes are unaffected; if the resist attempt is failed, then all are affected. All enemies within 6&quot;/14cm are knocked to the ground. Cavalry models are automatically thrown - both steed and rider are knocked to the ground. All affected models then suffer a Strength 2 hit, or a Strength 8 hit if they are in a stream, river or other similar water terrain feature."/>
-            <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="none"/>
-          </characteristics>
-        </profile>
       </profiles>
-      <rules>
-        <rule id="84d6-46ba-8c09-2991" name="Foresight of the Eldar" book="The Free Peoples" page="17" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Before the game begins, roll a D6 and make a not of the result - these are Elrond&apos;s &apos;foresight&apos; points for the remainder of the battle. Elrond can spend these points in the Priority phase, after both players have made their priority rolls. For each foresight point expended, Elrond can alter either priority roll by +1 or -1, to a minimum of 1 and a maximum of 6.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
-        <infoLink id="e728-3dcb-11f2-9030" name="New InfoLink" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+        <infoLink id="e728-3dcb-11f2-9030" name="Terror" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="1ccf-221d-d6a6-3739" name="New InfoLink" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+        <infoLink id="1ccf-221d-d6a6-3739" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a8aa-525e-3382-97d6" name="Foresight of the Eldar" hidden="false" targetId="5359-55bd-737e-c3bc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6b40-0d8c-28ad-12ee" name="Wrath of Bruinen" hidden="false" targetId="52f1-9e96-62a5-1e54" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f69a-3f58-aba1-dfb2" name="Renew" hidden="false" targetId="1fd9-7821-ca59-15be" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -676,36 +606,18 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="db78-ece6-09e6-0c5c" name="Vilya" book="The Free Peoples" page="17" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="4784-f058-ad77-2491" name="Vilya" book="The Free Peoples" page="17" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Thanks to the power of Vilya, one of the Three Elven Rings, Elrond can re-roll his dice when using Fate points.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d1fe-322a-1cf2-6027" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="894b-f7d0-fb47-744b" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="c452-be4b-59e2-94bb" name="New EntryLink" hidden="false" targetId="ecba-4aa7-3646-2c9e" type="selectionEntry">
+        <entryLink id="c452-be4b-59e2-94bb" name="Elven Blade (Hero)" hidden="false" targetId="cd63-07d1-8916-477d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5778-3728-e6df-9e2b" name="Vilya" hidden="false" targetId="8ec2-9414-2741-904c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -715,7 +627,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="205.0"/>
+        <cost name="pts" costTypeId="points" value="190.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4131-1456-bd76-7f00" name="Erestor" book="The Free Peoples" page="18" hidden="false" collective="false" type="model">
@@ -724,12 +636,27 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4131-1456-bd76-7f00" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4bf-1ee4-3d5b-3c97" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4131-1456-bd76-7f00" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc8c-2da7-467d-3edd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
@@ -769,53 +696,26 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="d291-6a8f-dd34-d034" name="Noldorin throwing daggers" book="The Free Peoples" page="18" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="384a-e063-8e89-ce24" name="Noldorin Throwing Daggers" book="The Free Peoples" page="1" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Erestor re-rolls any failed rolls To Wound made when throwing these dagers or using them in a Fight.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b96-71ac-9d98-92a4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e5e0-0e82-3d8d-9d61" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a321-0229-615e-8f68" name="Elven Cloaks" book="The Free Peoples" page="18" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e4bf-1ee4-3d5b-3c97" name="Armour (Hero)" hidden="false" targetId="ef18-74da-4ff3-0806" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3168-3226-c3c7-fc08" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e0d-0dc1-ac67-ac77" type="max"/>
-          </constraints>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4131-1456-bd76-7f00" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc8c-2da7-467d-3edd" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="5b3d-09ba-1a6e-45c2" name="New EntryLink" hidden="false" targetId="64d9-8937-c5ac-e151" type="selectionEntry">
+        </entryLink>
+        <entryLink id="806f-9c28-c3e1-5b61" name="Elven Blade (Hero)" hidden="false" targetId="cd63-07d1-8916-477d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -823,7 +723,31 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="522d-242c-fb86-e1d2" name="New EntryLink" hidden="false" targetId="ecba-4aa7-3646-2c9e" type="selectionEntry">
+        <entryLink id="cc8c-2da7-467d-3edd" name="Heavy Armour (Hero)" hidden="false" targetId="f66d-1ec5-2986-e590" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4131-1456-bd76-7f00" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4bf-1ee4-3d5b-3c97" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d6de-80a1-0165-9fd5" name="Elven Cloak (Hero)" hidden="false" targetId="4d08-6098-041e-4702" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fd10-9337-5f39-49dc" name="Noldorin Throwing Daggers" hidden="false" targetId="d161-d602-43fb-179a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -833,7 +757,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="80.0"/>
+        <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3ef-4793-467d-d619" name="Gil-galad" book="The Free Peoples" page="18" hidden="false" collective="false" type="model">
@@ -842,12 +766,34 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a3ef-4793-467d-d619" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d4fb-f7cb-993d-2ac4" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a3ef-4793-467d-d619" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8da-1d22-eb3b-3578" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a3ef-4793-467d-d619" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16fb-a3fb-3a37-7628" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="9/3+"/>
             <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
-            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="7"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="5"/>
             <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="3"/>
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="3"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="7"/>
@@ -858,23 +804,27 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="2156-72aa-cbd0-7853" name="High King of the Elves" book="The Free Peoples" page="18" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>The range of Gil-galad&apos;s Stand Fast! rule is 12&quot;/28cm.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
-        <infoLink id="2e1e-9697-9739-0c90" name="New InfoLink" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+        <infoLink id="2e1e-9697-9739-0c90" name="Terror" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
         <infoLink id="3c6a-a021-338d-b6ac" name="New InfoLink" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1e60-57aa-f5b4-b4cb" name="High King of the Elves" hidden="false" targetId="ad8a-0314-7a1b-1d00" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="94f7-aa0d-4bd3-00a7" name="Gil-galad - King&apos;s Guards" hidden="false" targetId="db9c-932f-7efe-400f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -895,66 +845,10 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="73ac-1da1-15d4-9433" name="Aeglos" book="The Free Peoples" page="18" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules>
-            <rule id="da87-4aa5-b3c6-d30b" name="Aeglos" book="The Free Peoples" page="18" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <description>Aeglos does not follow the normal rules for spears, but instead it confers Gil-galad +1 to his dice roll on the Wound chart.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a49e-4487-dad3-c582" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c1d8-44d0-dd7a-ebf6" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="95be-ea3a-31bd-cd2b" name="Shield" book="The Free Peoples" page="18" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="d6e1-4a73-5baa-569a" name="New InfoLink" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="bad2-0c3e-ba19-0897" name="New InfoLink" hidden="false" targetId="e0df-99a8-fc55-3419" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7666-e208-f8cb-9ce9" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ba4-4b8d-8058-ab73" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="3c33-7ff1-c1ea-21ba" name="New EntryLink" hidden="false" targetId="64d9-8937-c5ac-e151" type="selectionEntry">
+        <entryLink id="a52f-2516-49c7-5601" name="Aeglos" hidden="false" targetId="3d2c-ee13-cd51-e129" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -962,9 +856,49 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="16fb-a3fb-3a37-7628" name="Shield (Hero)" hidden="false" targetId="860f-c4c9-4f23-270a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d4fb-f7cb-993d-2ac4" name="Armour (Hero)" hidden="false" targetId="ef18-74da-4ff3-0806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a3ef-4793-467d-d619" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b8da-1d22-eb3b-3578" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b8da-1d22-eb3b-3578" name="Heavy Armour (Hero)" hidden="false" targetId="f66d-1ec5-2986-e590" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="a3ef-4793-467d-d619" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d4fb-f7cb-993d-2ac4" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="140.0"/>
+        <cost name="pts" costTypeId="points" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="215b-8906-9ae2-c38e" name="Gildor Inglorion" book="The Free Peoples" page="20" hidden="false" collective="false" type="model">
@@ -1007,13 +941,19 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="a6d8-8f5c-2487-71c1" name="New InfoLink" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
+        <infoLink id="a6d8-8f5c-2487-71c1" name="Terror" hidden="false" targetId="5951-b53f-b4d2-2a35" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d4fb-cb61-b576-32c9" name="New InfoLink" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+        <infoLink id="d4fb-cb61-b576-32c9" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1c48-5205-d479-9620" name="Gildor Inglorion - Noldorin Exiles" hidden="false" targetId="8dfa-499f-5fdc-5cb6" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1037,7 +977,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="9e5c-0db9-fa7d-872b" name="Elven Blade" hidden="false" targetId="ecba-4aa7-3646-2c9e" type="selectionEntry">
+        <entryLink id="9e5c-0db9-fa7d-872b" name="Elven Blade (Hero)" hidden="false" targetId="cd63-07d1-8916-477d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1045,7 +985,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="cddd-155a-4350-1d35" name="New EntryLink" hidden="false" targetId="852e-49ae-8330-fc58" type="selectionEntry">
+        <entryLink id="cddd-155a-4350-1d35" name="Elven Cloak (Hero)" hidden="false" targetId="4d08-6098-041e-4702" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1055,7 +995,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="80.0"/>
+        <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5bb2-e0f4-9216-628d" name="Glorfindel, Lord of the West" book="The Free Peoples" page="19" hidden="false" collective="false" type="model">
@@ -1064,7 +1004,22 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5bb2-e0f4-9216-628d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b935-46ee-306b-ddd5" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5bb2-e0f4-9216-628d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3d9-42fd-2d27-d6b4" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
             <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="7/3+"/>
@@ -1109,62 +1064,26 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="05fa-859f-9370-60e3" name="Armour of Gondolin" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="0948-14a1-baa7-c405" name="Armour of Gondolin" book="The Free Peoples" page="19" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="This is heavy armour that makes Glorfindel Resistant to Magic"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a036-c093-82f6-2653" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b85-0605-b9b7-c63e" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6ce9-6ffe-ff8f-5f32" name="Asfaloth (horse)" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="3e30-d12f-c0c7-2835" name="New InfoLink" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="634d-c73a-bcc9-5683" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a6a-4723-adde-b0db" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="bf00-1197-b40a-ac3b" name="New EntryLink" hidden="false" targetId="ecba-4aa7-3646-2c9e" type="selectionEntry">
+        <entryLink id="d3d9-42fd-2d27-d6b4" name="Armour of Gondolin" hidden="false" targetId="2424-ce1c-9e86-091d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5bb2-e0f4-9216-628d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b935-46ee-306b-ddd5" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d232-bdc3-52a9-4f90" name="Elven Blade (Hero)" hidden="false" targetId="cd63-07d1-8916-477d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1172,9 +1091,33 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="9f17-a069-cb58-7287" name="Horse (Hero)" hidden="false" targetId="eedf-5a46-ecc1-12d4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b935-46ee-306b-ddd5" name="Armour (Hero)" hidden="false" targetId="ef18-74da-4ff3-0806" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5bb2-e0f4-9216-628d" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3d9-42fd-2d27-d6b4" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="130.0"/>
+        <cost name="pts" costTypeId="points" value="125.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cdd7-b462-b815-429e" name="High Elf Captain" book="The Free Peoples" page="21" hidden="false" collective="false" type="model">
@@ -1187,21 +1130,21 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5836-8116-1fcc-4f68" type="equalTo"/>
+                <condition field="selections" scope="cdd7-b462-b815-429e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5836-8116-1fcc-4f68" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6464-809a-532c-de28" type="equalTo"/>
+                <condition field="selections" scope="cdd7-b462-b815-429e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6464-809a-532c-de28" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd2f-122c-d9b6-346b" type="equalTo"/>
+                <condition field="selections" scope="cdd7-b462-b815-429e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd2f-122c-d9b6-346b" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1252,7 +1195,7 @@
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd2f-122c-d9b6-346b" type="equalTo"/>
+                <condition field="selections" scope="cdd7-b462-b815-429e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd2f-122c-d9b6-346b" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1284,7 +1227,7 @@
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5836-8116-1fcc-4f68" type="equalTo"/>
+                <condition field="selections" scope="cdd7-b462-b815-429e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5836-8116-1fcc-4f68" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1337,9 +1280,9 @@
             <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
             <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="5"/>
             <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="1"/>
-            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value=""/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="3"/>
             <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="1"/>
-            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
           </characteristics>
         </profile>
         <profile id="ce62-9de9-9d98-9d3f" name="Call Winds" book="The Free Peoples" page="20" hidden="false" profileTypeId="caa8-a3a0-9848-1893">
@@ -1352,6 +1295,16 @@
             <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="2+"/>
           </characteristics>
         </profile>
+        <profile id="0702-484b-0b41-1847" name="Strengthen Will" book="The Free Peoples" page="20" hidden="false" profileTypeId="caa8-a3a0-9848-1893" profileTypeName="Magical Powers">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="0479-d8df-87bd-dd64" value="12&quot;/28cm"/>
+            <characteristic name="Dice Score" characteristicTypeId="ebea-500d-5561-2b7a" value="4+"/>
+          </characteristics>
+        </profile>
       </profiles>
       <rules/>
       <infoLinks>
@@ -1361,13 +1314,19 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="fbc8-726d-0eba-5d5b" name="Wild Channelling" hidden="false" targetId="830f-6a31-4e99-3780" type="rule">
+        <infoLink id="fbc8-726d-0eba-5d5b" name="Wild Channelling" hidden="false" targetId="04ed-49e2-8d33-333d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="25e6-73f1-bc8c-4d3b" name="Call Winds" hidden="false" targetId="0bd5-f717-beb0-e5e4" type="profile">
+        <infoLink id="25e6-73f1-bc8c-4d3b" name="Call Winds" hidden="false" targetId="d45c-9dc8-d633-a8ce" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3e49-b4ab-3f41-5f8f" name="Strengthen Will" hidden="false" targetId="e0f1-9d42-617f-9c8d" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1400,7 +1359,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3bcd-2e6c-e116-1cdb" name="High Elf Warrior" book="The Free Peoples" page="21" hidden="false" collective="false" type="model">
@@ -1413,28 +1372,35 @@
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7e4-71fa-9893-587f" type="equalTo"/>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7e4-71fa-9893-587f" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="2">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f281-eb7d-1440-e4d3" type="equalTo"/>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f281-eb7d-1440-e4d3" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d90-db06-6cab-8851" type="equalTo"/>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d90-db06-6cab-8851" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="set" field="3d78-8110-7697-953f" value="6/3+">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16f3-9eb0-ace0-37f2" type="equalTo"/>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c463-cccd-39b6-d6a9" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="196b-a97b-5c5f-dee8" value="8&quot;/20cm">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="11bd-02f8-dbf5-7e46" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1459,6 +1425,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="eb0c-b010-7972-3691" name="Expert Rider" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -1471,30 +1443,7 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="16f3-9eb0-ace0-37f2" name="King&apos;s Guard" book="The Free Peoples" page="18" hidden="true" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="8e06-cb8f-41c0-09a4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a3ef-4793-467d-d619" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="af1f-5549-2b34-42c3" name="Banner" hidden="false" targetId="b4f4-7b07-e529-3328" type="selectionEntry">
@@ -1505,7 +1454,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a2dd-0d9d-43b4-9007" name="Elf Bow" hidden="false" targetId="bbcc-3190-de27-8de8" type="selectionEntry">
+        <entryLink id="a2dd-0d9d-43b4-9007" name="Elven Bow" hidden="false" targetId="bbcc-3190-de27-8de8" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1529,7 +1478,7 @@
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d90-db06-6cab-8851" type="equalTo"/>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d90-db06-6cab-8851" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1549,7 +1498,15 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="670d-8adc-946e-35bf" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1561,7 +1518,47 @@
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f281-eb7d-1440-e4d3" type="equalTo"/>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f281-eb7d-1440-e4d3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="11bd-02f8-dbf5-7e46" name="Noldorin Exiles" hidden="false" targetId="ca47-936e-1558-e15f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c463-cccd-39b6-d6a9" name="King&apos;s Guard" hidden="false" targetId="7493-2553-4d96-21e3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="670d-8adc-946e-35bf" name="Horse" hidden="false" targetId="efbc-b2f5-6d3e-a93f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f6df-9b65-b8c1-a614" name="Lance" hidden="true" targetId="7e88-5fd6-fcf5-de0c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="670d-8adc-946e-35bf" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1574,56 +1571,58 @@
         <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5109-ca1c-f24f-f91f" name="Knight of Rivendell" book="Heroes and Villains of Middle-Earth" page="16" hidden="false" collective="false" type="model">
+    <selectionEntry id="57af-0836-62b9-4d26" name="Elrohir" book="The Free Peoples" page="19" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="0741-2ae1-61e2-4245" name="Knight of Rivendell" book="Heroes and Villains of Middle-Earth" page="16" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="e949-15fd-1357-dfec" name="Elrohir" book="The Free Peoples" page="19" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="5109-ca1c-f24f-f91f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a23-75d5-b209-0652" type="equalTo"/>
+                <condition field="selections" scope="57af-0836-62b9-4d26" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4cfd-680e-9cad-0ac0" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="cddc-0d63-2e80-720a" value="2">
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="5109-ca1c-f24f-f91f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9bb5-79a2-a8d3-faab" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="5109-ca1c-f24f-f91f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7be9-ab1d-12a6-a727" type="equalTo"/>
+                <condition field="selections" scope="57af-0836-62b9-4d26" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab03-7db8-4dce-09dc" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="6&quot;/14cm"/>
-            <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="5/3+"/>
-            <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
-            <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
-            <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
-            <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="5"/>
-            <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Elf"/>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="6/3+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="4"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="2"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="3"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="2"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Elf"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="9a0b-fd1d-ccfc-0bbc" name="Expert Rider" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+        <infoLink id="6234-1ca1-ec50-2fe4" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9e67-61d8-84e8-82c1" name="Woodland Creature" hidden="false" targetId="25e0-58f0-ebb0-4420" type="rule">
+        <infoLink id="4edf-164a-b4cf-a10b" name="Twin Elven Blade" hidden="false" targetId="7881-22d9-70b6-ec05" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1ce8-1128-0403-e0fb" name="Unbreakable bond" hidden="false" targetId="aa3a-c705-84e6-f4a0" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1631,9 +1630,12 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5afc-f5c2-d033-90a4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="56d9-a69a-d7ac-9cfc" type="max"/>
+      </constraints>
       <categoryLinks>
-        <categoryLink id="828d-dd10-f69b-1b11" name="New CategoryLink" hidden="false" targetId="e07a-883e-1b26-d891" primary="true">
+        <categoryLink id="a92d-ac88-e2eb-3d72" hidden="false" targetId="8e06-cb8f-41c0-09a4" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1644,7 +1646,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="4617-6eb3-4b29-5c8b" name="Banner" hidden="false" targetId="b4f4-7b07-e529-3328" type="selectionEntry">
+        <entryLink id="a5eb-a2c9-7cb2-5bb4" name="Elven Blade (Hero)" hidden="false" targetId="cd63-07d1-8916-477d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1652,23 +1654,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8c33-02c6-fc0d-2442" name="Elven Bow" hidden="false" targetId="bbcc-3190-de27-8de8" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="b493-9d5d-b9bf-ca18" name="Elven Blade" hidden="false" targetId="ecba-4aa7-3646-2c9e" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9bb5-79a2-a8d3-faab" name="Heavy Armour" hidden="false" targetId="64d9-8937-c5ac-e151" type="selectionEntry">
+        <entryLink id="ab03-7db8-4dce-09dc" name="Armour (Hero)" hidden="false" targetId="ef18-74da-4ff3-0806" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1676,7 +1662,7 @@
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7be9-ab1d-12a6-a727" type="equalTo"/>
+                <condition field="selections" scope="57af-0836-62b9-4d26" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4cfd-680e-9cad-0ac0" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1684,41 +1670,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1ab4-b9f3-f583-0047" name="Horse" hidden="false" targetId="efbc-b2f5-6d3e-a93f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40de-a15b-b869-de8c" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="2f1b-eece-91ca-ce39" name="Lance" hidden="false" targetId="7e88-5fd6-fcf5-de0c" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="6a23-75d5-b209-0652" name="Shield" hidden="false" targetId="1ddd-212e-2b5e-f87d" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="7f17-c240-a1bb-7329" name="War Horn" hidden="false" targetId="6215-4888-4cb2-4e35" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="7be9-ab1d-12a6-a727" name="Armour" hidden="false" targetId="1319-c4f1-5cee-d812" type="selectionEntry">
+        <entryLink id="4cfd-680e-9cad-0ac0" name="Heavy Armour (Hero)" hidden="false" targetId="f66d-1ec5-2986-e590" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1726,17 +1678,41 @@
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9bb5-79a2-a8d3-faab" type="equalTo"/>
+                <condition field="selections" scope="57af-0836-62b9-4d26" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab03-7db8-4dce-09dc" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="19fe-37df-fdeb-bc02" name="Elven Cloak (Hero)" hidden="false" targetId="4d08-6098-041e-4702" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="62e0-5fe9-08d7-b293" name="Elven Bow (Hero)" hidden="false" targetId="f6f9-625e-68cb-d6a9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aacb-56f1-f5ef-453b" name="Horse (Hero)" hidden="false" targetId="eedf-5a46-ecc1-12d4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="7.0"/>
+        <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1765,7 +1741,7 @@
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1319-c4f1-5cee-d812" name="Armour" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1319-c4f1-5cee-d812" name="Armour" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1792,7 +1768,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="7db4-160e-f205-61be" name="Heavy Armour" hidden="false" targetId="75fe-f4a6-2ca8-ed83" type="profile">
+        <infoLink id="7db4-160e-f205-61be" name="Heavy Armour" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1811,7 +1787,7 @@
         <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="852e-49ae-8330-fc58" name="Elven Cloak" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="852e-49ae-8330-fc58" name="Elven Cloak" book="The Free Peoples" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1831,10 +1807,10 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e88-5fd6-fcf5-de0c" name="Lance" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7e88-5fd6-fcf5-de0c" name="Lance" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1857,7 +1833,7 @@
         <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="efbc-b2f5-6d3e-a93f" name="Horse" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="efbc-b2f5-6d3e-a93f" name="Horse" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1877,7 +1853,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="7.0"/>
+        <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6215-4888-4cb2-4e35" name="War Horn" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
@@ -2030,7 +2006,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eedf-5a46-ecc1-12d4" name="Horse (Hero)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="eedf-5a46-ecc1-12d4" name="Horse (Hero)" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2050,14 +2026,14 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f66d-1ec5-2986-e590" name="Heavy Armour (Hero)" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f66d-1ec5-2986-e590" name="Heavy Armour (Hero)" book="The Free Peoples" page="17" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="9b68-fdb7-703f-4336" name="Heavy Armour" hidden="false" targetId="75fe-f4a6-2ca8-ed83" type="profile">
+        <infoLink id="9b68-fdb7-703f-4336" name="Heavy Armour" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2076,7 +2052,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f6f9-625e-68cb-d6a9" name="Elven Bow (Hero)" book="The Free Peoples " page="21" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f6f9-625e-68cb-d6a9" name="Elven Bow (Hero)" book="The Free Peoples " page="19" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2099,7 +2075,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cd63-07d1-8916-477d" name="Elven Blade (Hero)" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cd63-07d1-8916-477d" name="Elven Blade (Hero)" book="The Free Peoples" page="17" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2122,7 +2098,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ef18-74da-4ff3-0806" name="Armour (Hero)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ef18-74da-4ff3-0806" name="Armour (Hero)" book="The Free Peoples" page="17" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2145,37 +2121,167 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4d08-6098-041e-4702" name="Elven Cloak (Hero)" book="The Free Peoples" page="18" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2827-ceb1-8476-bffb" name="Elven Cloaks" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9df-e87e-5f4e-221b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ec2-9414-2741-904c" name="Vilya" book="The Free Peoples" page="17" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="be73-2d75-02b7-dd7d" name="Vilya" hidden="false" targetId="5805-7c45-f71b-ad22" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dfca-0b3f-26e2-219f" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d2c-ee13-cd51-e129" name="Aeglos" book="The Free Peoples" page="18" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4e2e-6567-43e1-8b55" name="Aeglos" hidden="false" targetId="14a9-44e8-2ed6-71dc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae42-70e0-afef-b258" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d161-d602-43fb-179a" name="Noldorin Throwing Daggers" book="The Free Peoples" page="18" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7312-458b-eeb1-72b9" name="Noldorin Throwing Daggers" hidden="false" targetId="1db3-146f-2d81-183c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="022c-efea-d507-e89e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2424-ce1c-9e86-091d" name="Armour of Gondolin" book="The Free Peoples" page="19" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="95f0-da7f-dfc8-1114" name="Armour of Gondolin" hidden="false" targetId="4a05-16ee-5626-1f90" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37bf-02d6-c8b2-b84e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7493-2553-4d96-21e3" name="King&apos;s Guard" book="The Free Peoples" page="18" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0bd9-f660-da5f-3b6c" name="Gil-galad - King&apos;s Guards" hidden="false" targetId="db9c-932f-7efe-400f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca47-936e-1558-e15f" name="Noldorin Exiles" book="The Free Peoples " page="20" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f427-a1b2-c0e2-9615" name="Gildor Inglorion - Noldorin Exiles" hidden="false" targetId="8dfa-499f-5fdc-5cb6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e465-a291-27d1-8e35" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
-  <sharedRules>
-    <rule id="830f-6a31-4e99-3780" name="Wild Channelling" book="The Free Peoples" page="2" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>If, when casting a spell, one or more of the dice rolled result in a natural 6 (for example, not another number modified by Might etc.) the Will points used in casting the spell are not expended but are returned to the Stormcaller&apos;s pool of Will.</description>
-    </rule>
-  </sharedRules>
-  <sharedProfiles>
-    <profile id="0bd5-f717-beb0-e5e4" name="Call Winds" book="The Free Peoples" page="20" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="A single model within range is blown 2D6&quot;/4D6cm directly away from the caster. If this brings the target into contact with another model or an area of impassable terrain, it stops 1&quot; away from the obstacle. In either case, the model is knocked to the ground and cannot move, for any reason, later in the turn."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="N/A"/>
-      </characteristics>
-    </profile>
-    <profile id="75fe-f4a6-2ca8-ed83" name="Heavy Armour" book="The Lord of the Rings: The Return of the King" page="66" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model with a helmet and armour below the waist may have heavy armour. A model wearing heavy armour adds +2 to its Defence value."/>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
+  <sharedRules/>
+  <sharedProfiles/>
 </catalogue>

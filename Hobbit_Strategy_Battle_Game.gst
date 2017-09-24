@@ -173,13 +173,6 @@
       <modifiers/>
       <description>Any enemy model within 18&quot; of this model suffers a -1 penalty to its Courage. note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, the Harbinger of Evil special rule and so on.</description>
     </rule>
-    <rule id="e585-88f8-8483-14ae" name="Backstabbers" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>This model receives+1 to their To Wound rolls when striking Trapped models. This bonus is cumulative with other bonuses, such as using a two-handed weapon.</description>
-    </rule>
     <rule id="c3be-4735-0cfb-bf08" name="Bane of Kings" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
       <rules/>
@@ -503,13 +496,6 @@ Siege Engines that have a Troll crew member may fire twice each turn provided th
 
 A model using a two-handed weapon in close combat suffers a -1 penalty to Duel rolls. When a model makes Strikes with a two-handed weapon, add 1 to its To Wound roll. Thus, a roll To Wound of a 3 becomes a 4, a 4 becomes a 5, and so on.</description>
     </rule>
-    <rule id="ca69-5f3f-5df5-9ae7" name="Venom" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Venomous models must re-roll 1s when rolling To WOund. Additionally, a model slain by a creature with this special rule may not actually be dead - if you are plaing a series of games where the outcome of one effects the next, place these models to one side and roll a D6 for each at the end of their side lost the Scenario, might just mean they are alive when they are eaten).</description>
-    </rule>
     <rule id="2763-dbf3-7fde-9758" name="War Horns" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
       <profiles/>
       <rules/>
@@ -686,7 +672,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A Spider must re-roll any failed To Wound rolls.</description>
+      <description>A Spider must re-roll any failed To Wound rolls. [If you are plaing a series of games where the outcome of one effects the next, place models slain by Venom to one side. If their side wins the encounter, a roll of 6+ means that the effects of the paralysing venom wear off and that model can participate in subseqent encounters].</description>
     </rule>
     <rule id="43dc-acb8-57a9-28ba" name="Water Dweller" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
@@ -782,6 +768,76 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <infoLinks/>
       <modifiers/>
       <description>A Warg Marauder is represented by a single model with the combined profile here the component parts cannot be attacked or wounded separately. Once the model is reduced to 0 Wounds (or is otherwise removed as a casualty) remove the entire model from play. The Warg Marauder is a cavalry model in all regards, except those noted above.</description>
+    </rule>
+    <rule id="04ed-49e2-8d33-333d" name="Wild Channelling" book="The Free Peoples" page="20" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If, when casting a spell, one or more of the dice rolled result in a natural 6 (for example, not another number modified by Might etc.) the Will points used in casting the spell are not expended but are returned to the Stormcaller&apos;s pool of Will.</description>
+    </rule>
+    <rule id="5805-7c45-f71b-ad22" name="Vilya" book="The Free Peoples" page="17" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Thanks to the power of Vilya, one of the Three Elven Rings, Elrond can re-roll his dice when using Fate points.</description>
+    </rule>
+    <rule id="5359-55bd-737e-c3bc" name="Foresight of the Eldar" book="The Free Peoples" page="17" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Before the game begins, roll a D6 and make a note of the result - these are EIrond’s ’foresight’ points for the remainder of the battle. EIrond can spend these points in the Priority phase, after both players have made their priority rolls. For each foresight point expended, EIrond can alter either priority roll by +1 or -1, to a minimum of 1 and a maximum of 6.</description>
+    </rule>
+    <rule id="ad8a-0314-7a1b-1d00" name="High King of the Elves" book="The Free Peoples" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The range of Gil-galad&apos;s Stand Fast! rule is 12“/28cm.</description>
+    </rule>
+    <rule id="1db3-146f-2d81-183c" name="Noldorin Throwing Daggers" book="The Free Peoples" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Erestor re-rolls any failed rolls To Wound made when throwing these daggers or using them in a Fight.</description>
+    </rule>
+    <rule id="7881-22d9-70b6-ec05" name="Twin Elven Blade" book="The Free Peoples" page="19" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When fighting on foot, the brothers must choose to fight in one of three different ways each Fight phase. Each brother can fight either with a single sword (two-handed weapon), with two swords (for +1 Attack) or parry (counts as shielding).</description>
+    </rule>
+    <rule id="aa3a-c705-84e6-f4a0" name="Unbreakable Bond" book="The Free Peoples" page="19" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If one of the twins is killed, the other will be driven mad by desperate grief. To represent this, the surviving twin’s Strength is increased to 5 and his Defence is reduced to 4. The survivor always passes Courage tests and must do s everything he can to charge the model that killed his brother as quickly as possible. Once that model is killed, the surviving twin will then move as fast as possible towards the closest visible enemy for the rest of the game, charging it if able.</description>
+    </rule>
+    <rule id="db9c-932f-7efe-400f" name="Gil-galad - King&apos;s Guards" book="The Free Peoples" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If your army includes Gil-galad, you can upgrade any number of High Elf Warriors mto King’s Guard at a cost of +1 point per model. King&apos;s Guard have Fight 6/3+.</description>
+    </rule>
+    <rule id="8dfa-499f-5fdc-5cb6" name="Gildor Inglorion - Noldorin Exiles" book="The Free Peoples" page="20" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If your army includes Gildor Inglorion, you can upgrade any number of Wood Elf Warriors to Noldorin Exiles at a cost of +1 point per model. Noldorin Exiles have Move 8&quot;/20cm.</description>
+    </rule>
+    <rule id="14a9-44e8-2ed6-71dc" name="Aeglos" book="The Free Peoples" page="18" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Aeglos does not follow the normal rules for spears, but instead it confers Gil-galad +1 to his dice roll on the Wound chart.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1210,7 +1266,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model who is upgraded to wear heavy armour adds 2 to his Defence, unless he is already wearing armour, in which case he adds 1"/>
+        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model with a helmet and armour below the waist may have heavy armour. A model wearing heavy armour adds +2 to its Defence value."/>
       </characteristics>
     </profile>
     <profile id="a7d9-cb1b-035c-3984" name="Dwarf Armour" book="The Hobbit An Unexpected Journey Rulebook" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
@@ -1335,6 +1391,44 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12“/28cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="8"/>
       </characteristics>
+    </profile>
+    <profile id="d45c-9dc8-d633-a8ce" name="Call Winds" book="The Free Peoples" page="20" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="A single model within range is blown 2D6&quot;/4DGcm directly away from the caster. If this brings the target into contact with another model or an area of impassable terrain, it stops 1“ away from the obstacle. In either case, the model is knocked to the ground and cannot move, for any reason, later in the turn."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="4a05-16ee-5626-1f90" name="Armour of Gondolin" book="The Free Peoples" page="19" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="This is heavy armour that makes Glorfindel Resistant to Magic."/>
+      </characteristics>
+    </profile>
+    <profile id="52f1-9e96-62a5-1e54" name="Wrath of Bruinen" book="The Free Peoples" page="17" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="This spell affects all enemy models within 6&quot;/14cm of Elrond, but only one foe can attempt to resist it. If resisted, all foes are unaffected; if the resist attempt is failed, then all are affected. All enemies within 6&quot;/14cm are knocked to the ground. Cavalry models are automatically thrown both steed and rider are knocked to the ground. All affected models then suffer a Strength 2 hit, or a Strength 8 hit if they are in a stream, river or other similar water terrain feature."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="cf5c-7ed6-c2e6-7cbe" name="Unarmed" book="The Free Peoples" page="18" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics/>
     </profile>
   </sharedProfiles>
 </gameSystem>
