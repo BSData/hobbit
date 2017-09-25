@@ -541,6 +541,20 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="d2fb-c9e0-4ae6-ae10" name="Troll Chain" hidden="false" targetId="2d35-e002-508d-3d6e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f521-a4b0-a85f-9ed5" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5437-e47b-466b-0c08" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -1611,7 +1625,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="3a25-beae-ac1d-7a3b" name="Venom" hidden="false" targetId="ca69-5f3f-5df5-9ae7" type="rule">
+        <infoLink id="3a25-beae-ac1d-7a3b" name="Venom" hidden="false" targetId="e47d-dba7-1fae-0b75" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2298,7 +2312,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="627c-634f-050c-a3a1" name="Venom" hidden="false" targetId="ca69-5f3f-5df5-9ae7" type="rule">
+        <infoLink id="627c-634f-050c-a3a1" name="Venom" hidden="false" targetId="e47d-dba7-1fae-0b75" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2405,7 +2419,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="d2ef-926d-bf55-fbd7" name="Troll Chain" hidden="false" targetId="2d35-e002-508d-3d6e" type="profile">
+        <infoLink id="a9c1-b2b5-b1a2-d194" name="Troll Chain" hidden="false" targetId="2d35-e002-508d-3d6e" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
