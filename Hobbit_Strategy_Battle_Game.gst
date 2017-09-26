@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, Free Peoples" revision="4" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, Free Peoples" revision="5" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -209,7 +209,7 @@ A warrior carrying a banner who is clain may pass it on to a friendly Warrior (b
 
 If you have alled contingents in your army (pg 101), pick one Hero from each contingent with at least one model with this special rule in it. Any model with this special rule will protect the chosen Hero from their contingent.</description>
     </rule>
-    <rule id="0844-3834-04ba-d6b2" name="Bows" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
+    <rule id="0844-3834-04ba-d6b2" name="Bows" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -232,7 +232,7 @@ Additionally, Burly models can carry a Heavy Object and still move their full mo
       <modifiers/>
       <description>Cave Dwellers add 1 to all Jump, Leap and CLimb test. They also suffer no penalties for fighting in the dark.</description>
     </rule>
-    <rule id="95db-f21e-3f94-0389" name="Crossbows" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
+    <rule id="95db-f21e-3f94-0389" name="Crossbows" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -244,9 +244,9 @@ Additionally, Burly models can carry a Heavy Object and still move their full mo
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A model can only use an ELven blase as a single-handed weapon if it also carried a shield. A model armed with a bow, crosbow, two-handed weapon or pike may carry a shield; however, he does not receive the +1 bonus to his Defense characteristic</description>
+      <description>A model can only use an Elven blade as a single-handed weapon if it also carried a shield. A model armed with a bow, crossbow, two-handed weapon or pike may carry a shield; however, he does not receive the +1 bonus to his Defense characteristic.</description>
     </rule>
-    <rule id="4176-6e26-b2c2-4d55" name="Elven blades" book="The hobbit: An Unexpected Journey" page="68" hidden="false">
+    <rule id="4176-6e26-b2c2-4d55" name="Elven blades" book="The Hobbit: An Unexpected Journey" page="68" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -255,7 +255,7 @@ Additionally, Burly models can carry a Heavy Object and still move their full mo
 
 Models armed with Elven blades are more likely to win the dice roll to see who wins a Drawn Combat. A Good model with an Elven blade will win the roll off on a 3-6 instead of a 4-6. Should an Evil model have the Elven blade (an odd situation, granted) he will win the roll on a 1-4. If both sides have Elven blades, neither receives an advantage.</description>
     </rule>
-    <rule id="4d2b-177f-7240-6734" name="Elven Cloaks" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
+    <rule id="4d2b-177f-7240-6734" name="Elven Cloaks" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -264,7 +264,7 @@ Models armed with Elven blades are more likely to win the dice roll to see who w
 
 If the model is riding a mount, the Elven cloak have no effect.</description>
     </rule>
-    <rule id="2507-c351-8e85-f546" name="Engineer Captains" book="The Hobbit: An Unexpected Journey Rulebook" page="92" hidden="false">
+    <rule id="2507-c351-8e85-f546" name="Engineer Captains" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -319,7 +319,7 @@ Furthermore, a model with this special rule may pass &apos;ove&apos; enemy Contr
       <modifiers/>
       <description>Any enemy model within 12&quot; of a Harbinger of Evil suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, the Ancient Evil special rule and so on.</description>
     </rule>
-    <rule id="514f-ef5e-91a6-fb55" name="Lances" book="The Hobbit: An Unexpected Journey Rulebook" page="68" hidden="false">
+    <rule id="514f-ef5e-91a6-fb55" name="Lances" book="The Hobbit: An Unexpected Journey" page="68" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -365,14 +365,14 @@ If a Cavalry model with a lance dismounts, or his steed is slain, he will ordina
 
 To extinguish the blaze, the model must lie down, and then crawl 1&quot;, at which point the blaze is immediately put out.</description>
     </rule>
-    <rule id="8948-88b2-8e1c-f046" name="Severed Heads" book="The Hobbit: An Unexpected Journey Rulebook" page="92" hidden="false">
+    <rule id="8948-88b2-8e1c-f046" name="Severed Heads" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>If Severed Heads are fired at a Battlefield target, ignore the normal Strength of the Siege Engine; instead, both the initial target and all models wihtin 2&quot; suffer a single Srtength 3 hit. This shot will neither knock models Prone nor inflict more one Wound per hit. Any Good models hit must immediately pass a Courage test (pg 47 of The Hobbit: An Unexpected Journey Rulebook) or be removed from play. If Severed Heads are fired at a Siege target, they inflict no damage.</description>
     </rule>
-    <rule id="b934-e865-e199-a7ae" name="Shield" book="The Hobbit: An Unexpected Journey Rulebook" page="74" hidden="false">
+    <rule id="b934-e865-e199-a7ae" name="Shield" book="The Hobbit: An Unexpected Journey" page="74" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -381,7 +381,7 @@ To extinguish the blaze, the model must lie down, and then crawl 1&quot;, at whi
 Cumbersome
 Shielding</description>
     </rule>
-    <rule id="e0df-99a8-fc55-3419" name="Shielding" book="THe Hobbit: An Unexpected Journey" page="74" hidden="false">
+    <rule id="e0df-99a8-fc55-3419" name="Shielding" book="The Hobbit: An Unexpected Journey" page="74" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -392,14 +392,14 @@ In a Multiple Combat, all friendly models in the same Fight must be Shielding fo
 
 Models who are Prone can use the Shielding rule like other fighters.</description>
     </rule>
-    <rule id="026d-9114-92bf-15fd" name="Siege Veterans" book="The Hobbit: An Unexpected Journey Rulebook" page="92" hidden="false">
+    <rule id="026d-9114-92bf-15fd" name="Siege Veterans" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>If a Siege Engine crewed by Siege Veterans successfully hits a Siege target, the controlling player may roll two dice To Wound it, not one, and apply the highest result. To receive this bonus, all crew must have the Seige Veterans skill.</description>
     </rule>
-    <rule id="bef7-0f1e-af53-b636" name="Slingshot" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
+    <rule id="bef7-0f1e-af53-b636" name="Slingshot" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -423,21 +423,21 @@ Supporting models may not use Heroic Actions in the Fight phase, not can they ma
 
 A spear-armed model may Make Way for his ally if they lose the Fight. This counts as the one model who is allowed to Make Way for a friend.</description>
     </rule>
-    <rule id="5563-9c52-8ada-de9b" name="Staff of Power" book="The Hobbit: An Unexpected Journey Rulebook" page="69" hidden="false">
+    <rule id="5563-9c52-8ada-de9b" name="Staff of Power" book="The Hobbit: An Unexpected Journey" page="69" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>The wielder of a Staff of Power can use the Stun special stike. in addition, the bearer can expend 1 point of Will each turn wihtout reducing his own Will store.</description>
     </rule>
-    <rule id="3679-eb54-bca1-3551" name="Superior Construction" book="The Hobbit: An Unexpected Journey Rulebook" page="92" hidden="false">
+    <rule id="3679-eb54-bca1-3551" name="Superior Construction" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>The Siege Engine is a masterpiece in egineering, granting it enhanced range. This Seige Engine has a range of 60&quot; rather than 48&quot;.</description>
     </rule>
-    <rule id="85f8-9eb1-092e-7c44" name="Swift Reload" book="The Hobbit: An Unexpected Journey Rulebook" page="92" hidden="false">
+    <rule id="85f8-9eb1-092e-7c44" name="Swift Reload" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -478,7 +478,7 @@ A throwing weapon can be used as its bearer charges into combat. The player move
 
 If the target is not slain, the charger then moves into base contact with the same enemy model. If the original target is slain, the charger may complete his move in any way the controlling player wishes - stopping straight away, charging another target or anything in between.</description>
     </rule>
-    <rule id="ff83-f9b2-fb27-b5f4" name="Troll" book="The Hobbit: An Unexpected Journey Rulebook" page="92" hidden="false">
+    <rule id="ff83-f9b2-fb27-b5f4" name="Troll" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -487,7 +487,7 @@ If the target is not slain, the charger then moves into base contact with the sa
 
 Siege Engines that have a Troll crew member may fire twice each turn provided that the Troll is in base contact with the Siege Engine, has not moved in the preceding Move phase and is not engaged in combat. The Troll does not count towards the mnimum number of crew required to operate the maching, so you must have at least two other crew present. Troll crew carry a hand weapon (not that they really need one to fight effectively). Only a single Mordor Troll can be attached to Siege Engine.</description>
     </rule>
-    <rule id="2949-6b26-329e-151a" name="Two-handed Weapon" book="The Hobbit: An Unexpected Journey Rulebook" page="67" hidden="false">
+    <rule id="2949-6b26-329e-151a" name="Two-handed Weapon" book="The Hobbit: An Unexpected Journey" page="67" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -839,6 +839,17 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <modifiers/>
       <description>Aeglos does not follow the normal rules for spears, but instead it confers Gil-galad +1 to his dice roll on the Wound chart.</description>
     </rule>
+    <rule id="15f3-052f-f55b-9bb3" name="Unarmed" book="The Lord of the Rings" page="42" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Occasionally a model may carry no weapon at all. and when this is the case it will be clearly specified in its entry.
+
+An unarmed model is not well equipped for combat and therefore suffers a -l dice penalty when working out who wins a fight - a roll of 4 counts as 3. a roll of 6 as 5, and so on. Rolls of 1 still count as 1 because it is the lowest score possible. Note that separate dice rolls will be required in multiple combats for unarmed models.
+
+Savage animals and monsters which would not normally need weapons to fight are not penalised just because they have no visible weaponry. They have claws. teeth, and whatever else nature has endowed them with.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="db4a-8e11-f47e-31fd" name="Aura of Command" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1039,7 +1050,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="The target also suffers a Strength 7 hit."/>
       </characteristics>
     </profile>
-    <profile id="5134-d1bd-1c25-a3cf" name="Bow" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="5134-d1bd-1c25-a3cf" name="Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1071,7 +1082,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value=" The target receives D3 Will points instead of 1."/>
       </characteristics>
     </profile>
-    <profile id="070b-2e1d-113d-b9e0" name="Crossbow" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="070b-2e1d-113d-b9e0" name="Crossbow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1081,7 +1092,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="4"/>
       </characteristics>
     </profile>
-    <profile id="ed27-ea5d-7941-a0c3" name="Dwarf Bow" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="ed27-ea5d-7941-a0c3" name="Dwarf Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1091,7 +1102,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
-    <profile id="2130-9089-8afe-22a4" name="Elf Bow" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="2130-9089-8afe-22a4" name="Elf Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1101,7 +1112,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
-    <profile id="9699-2da7-a962-fb65" name="Great bow" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="9699-2da7-a962-fb65" name="Great bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1111,7 +1122,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="4"/>
       </characteristics>
     </profile>
-    <profile id="3fb9-e5b2-8065-104c" name="Long bow" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="3fb9-e5b2-8065-104c" name="Long bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1121,7 +1132,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
-    <profile id="2c9f-4686-0c96-3d17" name="Orc Bow" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="2c9f-4686-0c96-3d17" name="Orc Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1131,7 +1142,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
       </characteristics>
     </profile>
-    <profile id="46b7-d148-5299-5e1a" name="Short bow" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="46b7-d148-5299-5e1a" name="Short bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1141,7 +1152,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
       </characteristics>
     </profile>
-    <profile id="b1dc-2538-054d-ea88" name="Slingshot" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="b1dc-2538-054d-ea88" name="Slingshot" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1151,7 +1162,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="1"/>
       </characteristics>
     </profile>
-    <profile id="51fb-64c4-c26f-144a" name="Throwing Spear" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="51fb-64c4-c26f-144a" name="Throwing Spear" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1161,7 +1172,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
-    <profile id="8f3d-592c-7215-9adf" name="Throwing weapon" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="8f3d-592c-7215-9adf" name="Throwing weapon" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1187,7 +1198,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Steed"/>
       </characteristics>
     </profile>
-    <profile id="5096-defb-9f42-7e85" name="Fell Warg" book="The hobbit: An unexpected Journey Rulebook" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="5096-defb-9f42-7e85" name="Fell Warg" book="The Hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1203,7 +1214,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Steed"/>
       </characteristics>
     </profile>
-    <profile id="6ce1-5ee7-4e92-16a0" name="Horse" book="The hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+    <profile id="6ce1-5ee7-4e92-16a0" name="Horse" book="The Hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1251,7 +1262,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry steed"/>
       </characteristics>
     </profile>
-    <profile id="b55b-5615-4438-2b70" name="Armour" book="The Hobbit Strategy Rulebook" page="74" hidden="true" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+    <profile id="b55b-5615-4438-2b70" name="Armour" book="The Hobbit: An Unexpected Journey" page="74" hidden="true" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1260,7 +1271,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model upgraded to wear armour adds 1 to his Defence."/>
       </characteristics>
     </profile>
-    <profile id="ac25-2fd8-3d85-7866" name="Heavy Armour" book="The Hobbit: An Unexpected Journey Rulebook" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+    <profile id="ac25-2fd8-3d85-7866" name="Heavy Armour" book="The Hobbit: An Unexpected Journey" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1269,7 +1280,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model upgraded to wear armour adds 2 to his Defence."/>
       </characteristics>
     </profile>
-    <profile id="a7d9-cb1b-035c-3984" name="Dwarf Armour" book="The Hobbit An Unexpected Journey Rulebook" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+    <profile id="a7d9-cb1b-035c-3984" name="Dwarf Armour" book="The Hobbit: An Unexpected Journey" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1278,7 +1289,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model upgraded to wear armour adds 2 to his Defence."/>
       </characteristics>
     </profile>
-    <profile id="6f1b-4c9b-004e-4848" name="Heavy Dwarf Armour" book="The Hobbit An Unexpected Journey Rulebook" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+    <profile id="6f1b-4c9b-004e-4848" name="Heavy Dwarf Armour" book="The Hobbit: An Unexpected Journey" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1422,13 +1433,6 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="This spell affects all enemy models within 6&quot;/14cm of Elrond, but only one foe can attempt to resist it. If resisted, all foes are unaffected; if the resist attempt is failed, then all are affected. All enemies within 6&quot;/14cm are knocked to the ground. Cavalry models are automatically thrown both steed and rider are knocked to the ground. All affected models then suffer a Strength 2 hit, or a Strength 8 hit if they are in a stream, river or other similar water terrain feature."/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="-"/>
       </characteristics>
-    </profile>
-    <profile id="cf5c-7ed6-c2e6-7cbe" name="Unarmed" book="The Free Peoples" page="18" hidden="false" profileTypeId="56bc-db0c-4ea3-bafb" profileTypeName="Wargear Item">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics/>
     </profile>
   </sharedProfiles>
 </gameSystem>
