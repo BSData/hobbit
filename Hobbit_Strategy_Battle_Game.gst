@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, Free Peoples" revision="3" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, Free Peoples" revision="4" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1251,13 +1251,13 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
         <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry steed"/>
       </characteristics>
     </profile>
-    <profile id="b55b-5615-4438-2b70" name="Armour" book="The Hobbit Strategy Rulebook" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+    <profile id="b55b-5615-4438-2b70" name="Armour" book="The Hobbit Strategy Rulebook" page="74" hidden="true" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model upgraded to wear armour adds 1 to his Defence"/>
+        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model upgraded to wear armour adds 1 to his Defence."/>
       </characteristics>
     </profile>
     <profile id="ac25-2fd8-3d85-7866" name="Heavy Armour" book="The Hobbit: An Unexpected Journey Rulebook" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
@@ -1266,7 +1266,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model with a helmet and armour below the waist may have heavy armour. A model wearing heavy armour adds +2 to its Defence value."/>
+        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model upgraded to wear armour adds 2 to his Defence."/>
       </characteristics>
     </profile>
     <profile id="a7d9-cb1b-035c-3984" name="Dwarf Armour" book="The Hobbit An Unexpected Journey Rulebook" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
@@ -1275,7 +1275,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model who is upgraded to wear Dwarf Armour adds 2 to his Defence, unless he is already wearing armour, in which case he adds 1"/>
+        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model upgraded to wear armour adds 2 to his Defence."/>
       </characteristics>
     </profile>
     <profile id="6f1b-4c9b-004e-4848" name="Heavy Dwarf Armour" book="The Hobbit An Unexpected Journey Rulebook" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
@@ -1284,7 +1284,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model who is upgraded to wear heavy Dwarf armour adds 3 to his Defence, unless he is already wearing armour, in which case he adds 2. If he is already wearing heavy armour or Dwarf armour he instead adds 1."/>
+        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="A model upgraded to wear armour adds 3 to his Defence."/>
       </characteristics>
     </profile>
     <profile id="21b8-8e9e-6161-0812" name="Blinding Light" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">

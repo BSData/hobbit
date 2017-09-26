@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="8" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="11" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -447,7 +447,22 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c65c-88eb-ec7b-dd05" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c65c-88eb-ec7b-dd05" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -592,7 +607,22 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9fb-726a-ae91-c915" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9fb-726a-ae91-c915" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -1853,7 +1883,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6215-4888-4cb2-4e35" name="War Horn" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
@@ -2026,7 +2056,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="7.0"/>
+        <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f66d-1ec5-2986-e590" name="Heavy Armour (Hero)" book="The Free Peoples" page="17" hidden="false" collective="false" type="upgrade">

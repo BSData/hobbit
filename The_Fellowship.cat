@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" revision="3" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90ff-6093-09d6-f3b3" name="The Fellowship" revision="4" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -128,7 +128,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="2f5c-eaba-70c5-e764" name="New InfoLink" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
+        <infoLink id="2f5c-eaba-70c5-e764" name="Protect the Ringbearer" hidden="false" targetId="dd5d-f6bf-44e3-5c9b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -139,14 +139,14 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7199-3383-b004-d4a8" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="Gandalf the White" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7199-3383-b004-d4a8" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="Gandalf the White" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -331,7 +331,7 @@
         <cost name="pts" costTypeId="points" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7199-3383-b004-d4a8" name="Gandalf the White" book="The Free Peoples" page="43" hidden="false" collective="false" type="model">
+    <selectionEntry id="Gandalf the White" name="Gandalf the White" book="The Free Peoples" page="43" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="eb2b-760e-a577-5d79" name="Gandalf the White" book="The Free Peoples" page="43" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
