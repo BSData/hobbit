@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1351-790a-10ca-e52f" name="Moria" revision="6" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1351-790a-10ca-e52f" name="Moria" revision="7" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8,9 +8,9 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="1632-9294-7f6c-c607" name="Moria Goblin Warrior" book="Moria &amp; Angmar" page="92" hidden="false" collective="false" type="model">
+    <selectionEntry id="1632-9294-7f6c-c607" name="Moria Goblin Warrior" book="Moria &amp; Angmar" page="25" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="c3d7-a393-0bf0-85d1" name="Moria Goblin Warrior" book="The Lord of the Rings: The Return of the King" page="92" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+        <profile id="c3d7-a393-0bf0-85d1" name="Moria Goblin Warrior" book="Moria &amp; Angmar" page="25" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -771,7 +771,7 @@
     </selectionEntry>
     <selectionEntry id="9985-d6da-6eef-eea5" name="Wild Warg Chieftain" book="Moria &amp; Angmar" page="18" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="0343-ce48-c577-176f" name="Wild Warg Chieftain" book="Moria &amp; Angmar" page="17" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+        <profile id="0343-ce48-c577-176f" name="Wild Warg Chieftain" book="Moria &amp; Angmar" page="18" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
           <rules/>
           <infoLinks/>

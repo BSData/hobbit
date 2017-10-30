@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e167-5c41-57e7-502b" name="Rohan" book="Kingdoms of Men" revision="4" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e167-5c41-57e7-502b" name="Rohan" book="Kingdoms of Men" revision="5" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -452,7 +452,7 @@
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2c85-9009-c240-5419" name="Gamling, Captain of Rohan" book="Kingdoms of Me" page="33" hidden="false" collective="false" type="model">
+    <selectionEntry id="2c85-9009-c240-5419" name="Gamling, Captain of Rohan" book="Kingdoms of Men" page="33" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="f0f0-e910-8fa3-8ec0" name="Gamling, Captain of Rohan" book="Kingdoms of Men" page="33" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -657,7 +657,7 @@
     </selectionEntry>
     <selectionEntry id="fe5e-4f75-861a-ebc5" name="Háma, Captain of Rohan" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="f974-c2c0-fd8d-e523" name="Háma, Captain of Rohan" book="Kingdoms of Me" page="31" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="f974-c2c0-fd8d-e523" name="Háma, Captain of Rohan" book="Kingdoms of Men" page="31" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -848,7 +848,7 @@
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3578-b0a8-99c8-a8f1" name="Meriadoc, Knight of the Mark" book="Kingdoms of Me" page="33" hidden="false" collective="false" type="model">
+    <selectionEntry id="3578-b0a8-99c8-a8f1" name="Meriadoc, Knight of the Mark" book="Kingdoms of Men" page="33" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="9013-7a87-14bf-8b0e" name="Meriadoc, Knight of the Mark" book="Kingdoms of Men" page="33" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -968,7 +968,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="e10c-d620-8750-4926" name="New InfoLink" hidden="false" targetId="ae78-94b5-cb0a-147b" type="profile">
+            <infoLink id="e10c-d620-8750-4926" name="Pony" hidden="false" targetId="ae78-94b5-cb0a-147b" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1025,7 +1025,7 @@
     </selectionEntry>
     <selectionEntry id="3f9a-560f-fe31-7ec2" name="Rider of Rohan" book="Kingdoms of Men" page="34" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="7d4c-ba9f-d548-f5c9" name="Rider of Rohan" book="Kingdoms of Me" page="34" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
+        <profile id="7d4c-ba9f-d548-f5c9" name="Rider of Rohan" book="Kingdoms of Men" page="34" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1454,7 +1454,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="eb82-758b-32cb-796d" name="New InfoLink" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
+        <infoLink id="eb82-758b-32cb-796d" name="Expert Rider" hidden="false" targetId="e226-c764-7852-6cac" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1774,7 +1774,7 @@ Additionally, an Expert Rider can pick up Light Object without having to dismoun
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="90e7-0c0d-cfcc-406a" name="New InfoLink" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
+            <infoLink id="90e7-0c0d-cfcc-406a" name="Horse" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1826,7 +1826,7 @@ Additionally, an Expert Rider can pick up Light Object without having to dismoun
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="7571-f2c6-c7ac-135d" name="New InfoLink" hidden="false" targetId="4584-95dc-15c0-9cd5" type="rule">
+            <infoLink id="7571-f2c6-c7ac-135d" name="Throwing weapons" hidden="false" targetId="4584-95dc-15c0-9cd5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1852,7 +1852,7 @@ Additionally, an Expert Rider can pick up Light Object without having to dismoun
         <cost name="pts" costTypeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="517d-eb34-d23b-e0b2" name="Warrior of Rohan" book="Kingdoms of Me" page="35" hidden="false" collective="false" type="model">
+    <selectionEntry id="517d-eb34-d23b-e0b2" name="Warrior of Rohan" book="Kingdoms of Men" page="35" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="302e-69b8-7790-8751" name="Warrior of Rohan" book="Kingdoms of Men" page="35" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
@@ -1915,7 +1915,7 @@ Additionally, an Expert Rider can pick up Light Object without having to dismoun
             <modifier type="set" field="hidden" value="false">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="8e06-cb8f-41c0-09a4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="872b-f6db-1444-b374" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="872b-f6db-1444-b374" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1989,7 +1989,7 @@ Additionally, an Expert Rider can pick up Light Object without having to dismoun
     </selectionEntry>
     <selectionEntry id="9862-096d-2bf6-e78f" name="Éomer, Knight of the Pelennor" book="Kingdoms of Men" page="32" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="769f-63c1-4483-28dc" name="Éomer, Knight of the Pelennor" book="Kingdoms of Me" page="32" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="769f-63c1-4483-28dc" name="Éomer, Knight of the Pelennor" book="Kingdoms of Men" page="32" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2275,9 +2275,9 @@ Additionally, an Expert Rider can pick up Light Object without having to dismoun
         <cost name="pts" costTypeId="points" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="004b-b377-d61d-3023" name="Éowyn, Shield Maiden of Rohan" book="Kingdoms of Me" page="32" hidden="false" collective="false" type="model">
+    <selectionEntry id="004b-b377-d61d-3023" name="Éowyn, Shield Maiden of Rohan" book="Kingdoms of Men" page="32" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="98dc-20ac-a0bc-758c" name="Éowyn, Shield Maiden of Rohan" book="Kingdoms of Me" page="32" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
+        <profile id="98dc-20ac-a0bc-758c" name="Éowyn, Shield Maiden of Rohan" book="Kingdoms of Men" page="32" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
           <rules/>
           <infoLinks/>
