@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e167-5c41-57e7-502b" name="Rohan" book="Kingdoms of Men" revision="6" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e167-5c41-57e7-502b" name="Rohan" book="Kingdoms of Men" revision="7" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -568,7 +568,7 @@
         <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="872b-f6db-1444-b374" name="Grimbold of Grimslade" book="Kingdoms of Men" page="32" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="872b-f6db-1444-b374" name="Grimbold of Grimslade" book="Kingdoms of Men" page="32" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="4acd-4520-92f6-a24a" name="Grimbold of Grimslade" book="Kingdoms of Men" page="32" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3">
           <profiles/>
@@ -1294,7 +1294,7 @@
         <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6124-0685-1341-445f" name="Rohan Royal Guard" book="Kingdoms of Men" page="35" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6124-0685-1341-445f" name="Rohan Royal Guard" book="Kingdoms of Men" page="35" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="d133-d800-d726-c7fc" name="Rohan Royal Guard" book="Kingdoms of Men" page="35" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2">
           <profiles/>
@@ -1876,7 +1876,7 @@ Additionally, an Expert Rider can pick up Light Object without having to dismoun
             <modifier type="increment" field="dec8-2675-ef6e-49c0" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d4c-dade-b96f-d25f" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6b23-1506-0989-dbcc" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1907,7 +1907,7 @@ Additionally, an Expert Rider can pick up Light Object without having to dismoun
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9d4c-dade-b96f-d25f" name="Helmingas upgrade" book="Kingdoms of Men" page="33" hidden="true" collective="false" type="upgrade">
+        <selectionEntry id="6b23-1506-0989-dbcc" name="Helmingas upgrade" book="Kingdoms of Men" page="33" hidden="true" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1915,13 +1915,13 @@ Additionally, an Expert Rider can pick up Light Object without having to dismoun
             <modifier type="set" field="hidden" value="false">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="872b-f6db-1444-b374" type="equalTo"/>
+                <condition field="selections" scope="8e06-cb8f-41c0-09a4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="872b-f6db-1444-b374" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6522-8acd-f842-1a86" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fb8b-a59e-0b61-2b67" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>

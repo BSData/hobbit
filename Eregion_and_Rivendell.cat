@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="12" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="13" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1504,15 +1504,7 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d90-db06-6cab-8851" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1528,15 +1520,7 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="670d-8adc-946e-35bf" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1544,15 +1528,7 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f281-eb7d-1440-e4d3" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1584,15 +1560,7 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="3bcd-2e6c-e116-1cdb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="670d-8adc-946e-35bf" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -1782,7 +1750,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="64d9-8937-c5ac-e151" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b9c-23d5-7661-bcb5" type="max"/>
       </constraints>
@@ -1805,7 +1781,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1319-c4f1-5cee-d812" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8945-2aa2-0f47-d619" type="max"/>
       </constraints>
@@ -1840,7 +1824,7 @@
         <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e88-5fd6-fcf5-de0c" name="Lance" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7e88-5fd6-fcf5-de0c" name="Lance" book="The Free Peoples" page="21" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1851,7 +1835,22 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efbc-b2f5-6d3e-a93f" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eedf-5a46-ecc1-12d4" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70de-3514-37fa-e8a5" type="max"/>
       </constraints>
@@ -1995,7 +1994,22 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efbc-b2f5-6d3e-a93f" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eedf-5a46-ecc1-12d4" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a41e-ee37-cc7b-9a08" type="max"/>
       </constraints>
@@ -2266,7 +2280,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7493-2553-4d96-21e3" name="King&apos;s Guard" book="The Free Peoples" page="18" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7493-2553-4d96-21e3" name="King&apos;s Guard" book="The Free Peoples" page="18" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2277,8 +2291,18 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="8e06-cb8f-41c0-09a4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a3ef-4793-467d-d619" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aeda-1000-ba86-b511" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2287,7 +2311,7 @@
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ca47-936e-1558-e15f" name="Noldorin Exiles" book="The Free Peoples " page="20" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ca47-936e-1558-e15f" name="Noldorin Exiles" book="The Free Peoples " page="20" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2298,7 +2322,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="8e06-cb8f-41c0-09a4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="215b-8906-9ae2-c38e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e465-a291-27d1-8e35" type="max"/>
       </constraints>
