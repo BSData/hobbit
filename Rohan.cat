@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e167-5c41-57e7-502b" name="Rohan" book="Kingdoms of Men" revision="8" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e167-5c41-57e7-502b" name="Rohan" book="Kingdoms of Men" revision="9" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -18,14 +18,7 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="496d-851f-b1fc-66d3" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4319-1ff5-52b1-b4ee" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d65e-8fe3-fb16-52f5" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -33,6 +26,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="80b0-ec16-2312-6cea" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4319-1ff5-52b1-b4ee" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -83,14 +83,6 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="496d-851f-b1fc-66d3" name="Heavy armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="4a42-0144-ee5b-f8af" name="Bow (Hero)" hidden="false" targetId="0dd6-5767-61f9-bce1" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -99,7 +91,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="5dcc-ff66-7f68-3ebf" name="Throwing spears (Hero)" hidden="false" targetId="809a-8dbd-c0b3-86ac" type="selectionEntry">
+        <entryLink id="5dcc-ff66-7f68-3ebf" name="Throwing Spears (Hero)" hidden="false" targetId="809a-8dbd-c0b3-86ac" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -123,6 +115,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="d65e-8fe3-fb16-52f5" name="Heavy Armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="40.0"/>
@@ -138,21 +138,21 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="496d-851f-b1fc-66d3" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c0f2-2c4a-819a-3074" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="80b0-ec16-2312-6cea" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="76b0-92a4-057e-0a41" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4319-1ff5-52b1-b4ee" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9095-5d2a-de9f-465f" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -212,7 +212,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c0f2-2c4a-819a-3074" name="Heavy armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
+        <entryLink id="c0f2-2c4a-819a-3074" name="Heavy Armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -256,24 +256,24 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="80b0-ec16-2312-6cea" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="496d-851f-b1fc-66d3" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0620-cd95-df45-ca6f" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4319-1ff5-52b1-b4ee" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="86a4-0fbb-adfe-ccd7" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96b5-031c-a497-4d3a" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -327,7 +327,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0620-cd95-df45-ca6f" name="Heavy armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
+        <entryLink id="0620-cd95-df45-ca6f" name="Heavy Armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -371,17 +371,17 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd15-b088-b86c-b937" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5433-16b5-912e-6532" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd15-b088-b86c-b937" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -427,7 +427,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="5433-16b5-912e-6532" name="Heavy armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
+        <entryLink id="5433-16b5-912e-6532" name="Heavy Armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -474,7 +474,7 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dd15-b088-b86c-b937" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="21db-1f92-c529-0c0b" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -513,7 +513,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="2c05-2055-0d07-bdc5" name="Two-handed Weapon (Hero)" hidden="false" targetId="cd80-4fa0-e1dd-b100" type="selectionEntry">
+        <entryLink id="2c05-2055-0d07-bdc5" name="Two-Handed Weapon (Hero)" hidden="false" targetId="cd80-4fa0-e1dd-b100" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -531,7 +531,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="55.0"/>
+        <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fe5e-4f75-861a-ebc5" name="Háma, Captain of Rohan" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="model">
@@ -544,14 +544,14 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="744a-e821-ac8e-6ba4" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="21db-1f92-c529-0c0b" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2e6-bf58-9ea6-e24a" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d399-3bbc-d2b8-d41c" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -611,7 +611,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d399-3bbc-d2b8-d41c" name="Heavy armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
+        <entryLink id="d399-3bbc-d2b8-d41c" name="Heavy Armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -642,7 +642,7 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="744a-e821-ac8e-6ba4" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="16e7-3e8a-e953-3555" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -718,14 +718,14 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="744a-e821-ac8e-6ba4" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9e21-fbb8-506c-8e60" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dd1-dc98-e2ae-68ca" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1534-faa3-5c0c-3205" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -839,14 +839,14 @@
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="610e-5209-a3cf-7e48" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fe5-4eae-4d2f-69d8" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6087-c0b0-8da9-2319" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="610e-5209-a3cf-7e48" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -967,7 +967,7 @@
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="610e-5209-a3cf-7e48" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="707a-6602-7e14-f2ff" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1049,17 +1049,17 @@
           <rules/>
           <infoLinks/>
           <modifiers>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf5b-5600-1a20-7f73" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="2">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7265-86c6-aa97-2a71" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="49f0-f066-362d-094f" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1136,7 +1136,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="11d6-8b06-58dd-cb7f" name="Throwing spears" hidden="false" targetId="9bc5-676c-e2c9-7d7e" type="selectionEntry">
+        <entryLink id="11d6-8b06-58dd-cb7f" name="Throwing Spears" hidden="false" targetId="9bc5-676c-e2c9-7d7e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1144,7 +1144,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7265-86c6-aa97-2a71" name="Heavy armour" hidden="false" targetId="9c06-d97d-d47a-83a7" type="selectionEntry">
+        <entryLink id="7265-86c6-aa97-2a71" name="Heavy Armour" hidden="false" targetId="9c06-d97d-d47a-83a7" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1172,24 +1172,24 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="49f0-f066-362d-094f" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="2">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7265-86c6-aa97-2a71" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d950-2bf3-4b6d-675d" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0af-bab2-86ea-7908" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e77a-766f-523e-ac0d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b31-1b24-3bc0-3148" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1245,7 +1245,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d950-2bf3-4b6d-675d" name="Heavy armour" hidden="false" targetId="9c06-d97d-d47a-83a7" type="selectionEntry">
+        <entryLink id="d950-2bf3-4b6d-675d" name="Heavy Armour" hidden="false" targetId="9c06-d97d-d47a-83a7" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1368,7 +1368,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d2e6-bf58-9ea6-e24a" name="Heavy armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
+        <entryLink id="d2e6-bf58-9ea6-e24a" name="Heavy Armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1391,21 +1391,21 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="744a-e821-ac8e-6ba4" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96b5-031c-a497-4d3a" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2e6-bf58-9ea6-e24a" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1b24-a7fb-1dad-1a60" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dd1-dc98-e2ae-68ca" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6851-7fc3-1fc3-7450" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1451,7 +1451,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="1b24-a7fb-1dad-1a60" name="Heavy armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
+        <entryLink id="1b24-a7fb-1dad-1a60" name="Heavy Armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1514,13 +1514,6 @@
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6087-c0b0-8da9-2319" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
-              <repeats/>
-              <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="49f0-f066-362d-094f" type="equalTo"/>
               </conditions>
               <conditionGroups/>
@@ -1529,6 +1522,13 @@
               <repeats/>
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f97-1f8f-d493-07de" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6087-c0b0-8da9-2319" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1632,21 +1632,21 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff14-7307-8d39-10b4" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="39cc-6bca-9990-c47d" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d278-5bb9-fe8c-2ee5" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="95f4-903c-2905-1d0a" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c338-cb6d-de3d-069b" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="72c5-7ea9-d80d-fbac" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1715,7 +1715,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="72c5-7ea9-d80d-fbac" name="Heavy armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
+        <entryLink id="72c5-7ea9-d80d-fbac" name="Heavy Armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1754,7 +1754,7 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="95f4-903c-2905-1d0a" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0fd-c0d2-efd7-df38" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1831,7 +1831,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="39cc-6bca-9990-c47d" name="Heavy armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
+        <entryLink id="39cc-6bca-9990-c47d" name="Heavy Armour (Hero)" hidden="false" targetId="a29e-bc1c-85a5-c88d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1886,14 +1886,14 @@
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efc8-b5bd-0bd5-6e3a" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d7bf-cf00-a003-260e" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="increment" field="fba1-bb39-c1ba-ecc5" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d7bf-cf00-a003-260e" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="efc8-b5bd-0bd5-6e3a" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
