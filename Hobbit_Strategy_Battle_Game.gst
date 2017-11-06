@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, Free Peoples" revision="5" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, Free Peoples" revision="6" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -246,7 +246,7 @@ Additionally, Burly models can carry a Heavy Object and still move their full mo
       <modifiers/>
       <description>A model can only use an Elven blade as a single-handed weapon if it also carried a shield. A model armed with a bow, crossbow, two-handed weapon or pike may carry a shield; however, he does not receive the +1 bonus to his Defense characteristic.</description>
     </rule>
-    <rule id="4176-6e26-b2c2-4d55" name="Elven blades" book="The Hobbit: An Unexpected Journey" page="68" hidden="false">
+    <rule id="4176-6e26-b2c2-4d55" name="Elven Blades" book="The Hobbit: An Unexpected Journey" page="68" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -487,7 +487,7 @@ If the target is not slain, the charger then moves into base contact with the sa
 
 Siege Engines that have a Troll crew member may fire twice each turn provided that the Troll is in base contact with the Siege Engine, has not moved in the preceding Move phase and is not engaged in combat. The Troll does not count towards the mnimum number of crew required to operate the maching, so you must have at least two other crew present. Troll crew carry a hand weapon (not that they really need one to fight effectively). Only a single Mordor Troll can be attached to Siege Engine.</description>
     </rule>
-    <rule id="2949-6b26-329e-151a" name="Two-handed Weapon" book="The Hobbit: An Unexpected Journey" page="67" hidden="false">
+    <rule id="2949-6b26-329e-151a" name="Two-Handed Weapon" book="The Hobbit: An Unexpected Journey" page="67" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -527,7 +527,7 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
 Cave Drakes are accustomed to fighting within narrow, dark caverns and passageways, and when cornered, they will flail about them with their lash-like tail 1 and spined limbs.
 </description>
     </rule>
-    <rule id="f111-6e17-b690-a710" name="Death-touch" book="Moria &amp; Angmar" page="19" hidden="false">
+    <rule id="f111-6e17-b690-a710" name="Death-Touch" book="Moria &amp; Angmar" page="19" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -618,7 +618,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <modifiers/>
       <description>Only other Wild Wargs may use a Wild Warg Chieftain’s Stand Fast! rule or benefit from its heroic actions.</description>
     </rule>
-    <rule id="602b-4f8a-d6d4-cc33" name="Poison-blood" book="Moria &amp; Angmar" page="19" hidden="false">
+    <rule id="602b-4f8a-d6d4-cc33" name="Poison-Blood" book="Moria &amp; Angmar" page="19" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -741,7 +741,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <modifiers/>
       <description>The Warg Marauder can always fire two Orc bow shots, even if it has moved its full movement or is locked in a fight.</description>
     </rule>
-    <rule id="9bd5-f1d3-cdad-0598" name="Back-stabbers" book="Moria &amp; Angmar" page="27" hidden="false">
+    <rule id="9bd5-f1d3-cdad-0598" name="Back-Stabbers" book="Moria &amp; Angmar" page="27" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -818,14 +818,14 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <modifiers/>
       <description>If one of the twins is killed, the other will be driven mad by desperate grief. To represent this, the surviving twin’s Strength is increased to 5 and his Defence is reduced to 4. The survivor always passes Courage tests and must do s everything he can to charge the model that killed his brother as quickly as possible. Once that model is killed, the surviving twin will then move as fast as possible towards the closest visible enemy for the rest of the game, charging it if able.</description>
     </rule>
-    <rule id="db9c-932f-7efe-400f" name="Gil-galad - King&apos;s Guards" book="The Free Peoples" page="18" hidden="false">
+    <rule id="db9c-932f-7efe-400f" name="King&apos;s Guards" book="The Free Peoples" page="18" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>If your army includes Gil-galad, you can upgrade any number of High Elf Warriors mto King’s Guard at a cost of +1 point per model. King&apos;s Guard have Fight 6/3+.</description>
     </rule>
-    <rule id="8dfa-499f-5fdc-5cb6" name="Gildor Inglorion - Noldorin Exiles" book="The Free Peoples" page="20" hidden="false">
+    <rule id="8dfa-499f-5fdc-5cb6" name="Noldorin Exiles" book="The Free Peoples" page="20" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -849,6 +849,76 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
 An unarmed model is not well equipped for combat and therefore suffers a -l dice penalty when working out who wins a fight - a roll of 4 counts as 3. a roll of 6 as 5, and so on. Rolls of 1 still count as 1 because it is the lowest score possible. Note that separate dice rolls will be required in multiple combats for unarmed models.
 
 Savage animals and monsters which would not normally need weapons to fight are not penalised just because they have no visible weaponry. They have claws. teeth, and whatever else nature has endowed them with.</description>
+    </rule>
+    <rule id="f954-24d3-39d2-d5b3" name="King&apos;s Man" book="Kingdoms of Men" page="31" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If the Good force includes Théoden, Háma automatically passes all Courage tests he has to take so long as Théoden is alive and on the board.</description>
+    </rule>
+    <rule id="7e1d-15e4-0127-1035" name="Devastating Charge" book="Kingdoms of Men" page="32" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If Éomer charges, he is Strength 5 until the end of the turn.</description>
+    </rule>
+    <rule id="4e5f-c9b1-ae7b-b2a2" name="Horn of the Riddermark" book="Kingdoms of Men" page="33" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If Merry carries the Horn of the Riddermark, all Hobbits gain +1 courage. If Merry is slain, the horn is lost.</description>
+    </rule>
+    <rule id="8412-03bf-9794-b0e9" name="Royal Standard of Rohan" book="Kingdoms of Men" page="33" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This precious heirloom is a banner. In addition, any Hero of Rohan who has 0 Might points at the start of the turn automatically adds 1 Might point to his store if he starts the turn within 3&quot;/8cm of the Royal Standard of Rohan. This does not include Gamling himself.</description>
+    </rule>
+    <rule id="88d1-bb99-3f37-9e42" name="Westfold Redshields" book="Kingdoms of Men" page="33" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If your army includes Erkenbrand, you can upgrade any number of Rider of Rohan to Westfold Redshields at a cost of +1 point per model. Westfold Redshields are Fight 4, rather than 3.</description>
+    </rule>
+    <rule id="b616-abe9-cd64-671b" name="Horn of the Hammerhand" book="Kingdoms of Man" page="33" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This is a War Horn that adds +2 Courage rather than +1.</description>
+    </rule>
+    <rule id="4437-51cb-cddc-19e8" name="Master Archer" book="Kingdoms of Men" page="34" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Models with this rule only fail an &apos;in the way&apos; roll on the roll of a 1. Each time this model slays a Hero or Monster he restores his Might to its starting value.</description>
+    </rule>
+    <rule id="3861-08a3-a589-bbff" name="Legendary Hero" book="Kingdoms of Men" page="34" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Roll a dice when Eorl first spends a point of Might each turn. On a 1-3, there is no effect. On a 4-6, do not reduce Eorl&apos;s Might store - the Might point was effectively &apos;free&apos;.</description>
+    </rule>
+    <rule id="f506-9f8a-dcc4-a80d" name="Vanguard" book="Kingdoms of Men" page="35" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Outriders can use a friendly Hero&apos;s Stand Fast! regardless of range.</description>
+    </rule>
+    <rule id="9380-d95c-7cd3-646d" name="Helmingas" book="Kingdoms of Men" page="32" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If your army includes Grimbold, you can upgrade any number of Warriors of Rohan to Helmingas at a cost of +1 points per model. Helmingas are Strength 4, rather than 3.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1056,7 +1126,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;/56cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
       </characteristics>
     </profile>
@@ -1082,13 +1152,13 @@ Savage animals and monsters which would not normally need weapons to fight are n
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value=" The target receives D3 Will points instead of 1."/>
       </characteristics>
     </profile>
-    <profile id="070b-2e1d-113d-b9e0" name="Crossbow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="070b-2e1d-113d-b9e0" name="Cross Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;/56cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="4"/>
       </characteristics>
     </profile>
@@ -1098,7 +1168,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;/46cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
@@ -1108,27 +1178,27 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;/56cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
-    <profile id="9699-2da7-a962-fb65" name="Great bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="9699-2da7-a962-fb65" name="Great Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;/56cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="4"/>
       </characteristics>
     </profile>
-    <profile id="3fb9-e5b2-8065-104c" name="Long bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="3fb9-e5b2-8065-104c" name="Long Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="24&quot;/56cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
@@ -1138,17 +1208,17 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;/46cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
       </characteristics>
     </profile>
-    <profile id="46b7-d148-5299-5e1a" name="Short bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="46b7-d148-5299-5e1a" name="Short Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="18&quot;/46cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
       </characteristics>
     </profile>
@@ -1158,7 +1228,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;/28cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="1"/>
       </characteristics>
     </profile>
@@ -1168,7 +1238,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="8&quot;"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="8&quot;/19cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
@@ -1178,7 +1248,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="6&quot;"/>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="6&quot;/14cm"/>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
@@ -1188,7 +1258,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
         <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
         <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
         <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
@@ -1204,7 +1274,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
         <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/-"/>
         <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
         <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
@@ -1220,7 +1290,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
         <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
         <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
         <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
@@ -1236,7 +1306,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;"/>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="8&quot;/19cm"/>
         <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
         <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="2"/>
         <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="3"/>
@@ -1252,7 +1322,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;"/>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
         <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="3/-"/>
         <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
         <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
@@ -1262,7 +1332,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
         <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry steed"/>
       </characteristics>
     </profile>
-    <profile id="b55b-5615-4438-2b70" name="Armour" book="The Hobbit: An Unexpected Journey" page="74" hidden="true" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+    <profile id="b55b-5615-4438-2b70" name="Armour" book="The Hobbit: An Unexpected Journey" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1432,6 +1502,38 @@ Savage animals and monsters which would not normally need weapons to fight are n
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
         <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="This spell affects all enemy models within 6&quot;/14cm of Elrond, but only one foe can attempt to resist it. If resisted, all foes are unaffected; if the resist attempt is failed, then all are affected. All enemies within 6&quot;/14cm are knocked to the ground. Cavalry models are automatically thrown both steed and rider are knocked to the ground. All affected models then suffer a Strength 2 hit, or a Strength 8 hit if they are in a stream, river or other similar water terrain feature."/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="4ad1-1c4b-21b4-415e" name="Felaróf" book="Kingdoms of Men" page="34" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="12&quot;/28cm"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Steed"/>
+      </characteristics>
+    </profile>
+    <profile id="a30f-d0cc-5462-a7bd" name="Pureblood Steed" book="Kingdoms of Men" page="34" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="12&quot;/28cm"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="3"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="5"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Steed"/>
       </characteristics>
     </profile>
   </sharedProfiles>
