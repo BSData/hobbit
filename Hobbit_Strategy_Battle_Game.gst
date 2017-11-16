@@ -179,7 +179,6 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model must re-roll all failed To Wound rolls.</description>
       <description>Re-roll all of the model&apos;s failed Wound rolls, once per die.</description>
     </rule>
     <rule id="48e0-32c9-b4ac-722a" name="Bane Weapon" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
