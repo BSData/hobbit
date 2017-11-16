@@ -171,7 +171,8 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Any enemy model within 18&quot; of this model suffers a -1 penalty to its Courage. note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, the Harbinger of Evil special rule and so on.</description>
+      <description>-1 Courage to any enemy model within 18&quot;/46cm.
+[Not cumulative with other similar penalties (Goblin Drums, the Harbinger of Evil, etc.).]</description>
     </rule>
     <rule id="c3be-4735-0cfb-bf08" name="Bane of Kings" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
@@ -179,72 +180,82 @@
       <infoLinks/>
       <modifiers/>
       <description>This model must re-roll all failed To Wound rolls.</description>
+      <description>Re-roll all of the model&apos;s failed Wound rolls, once per die.</description>
     </rule>
     <rule id="48e0-32c9-b4ac-722a" name="Bane Weapon" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Bane weapons have a particular effect against certain foes - this is presented in the profile of the bearer a Xbane, where X indicates a specific race. A Wound from a weapon with this special rule (after Fate rolls have been taken) causes, not 1, but D3 Wounds against models of that race. For example, a model with the Elfbane special rule would cause D3 Wounds per successfu; Strike against Elves</description>
+      <description>A sucessful Strike from this weapon causes 1xD3 Wounds against all models of that race.
+[An Elfbane weapon causes 1xD3 Wounds per sucessful Strike against any Elf model.]</description>
     </rule>
     <rule id="5ae7-455d-aa7e-032a" name="Banner" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A banner provides a single re-roll to friendly models who are involved in a Fight within 3&quot;. Whether it is a model fighting on his own, or several friends all fighting against a common enemy, you can re-roll one Duel roll die in each Fight to see who wins. This re-roll can be made after your opponent has rolled his own dice to see who wins, but must be made before any Might points are spent to adjust scores.
+      <description>Effects Carrier:
+Counts as a two-handed weapon, but without the usual bonus.
+[Can be used to Fight while mounted.]
+[All equipment is dropped, other than armour.]
 
-It is possible that one player may re-roll a die and find himself winner the Fight - in which case his opponent may wish to use a banner of his own. Remember, a banner only provides one re-roll to each Duel roll.
-
-Any model carrying a banner is encumbered by its weight, and suffers a -1 penalty to his Duel rolls.
-
-A warrior carrying a banner who is clain may pass it on to a friendly Warrior (but not to a Hero), who is in base contact and is not engaged ina Fight. Swap the models over, or finr a suitable banner-carrying substiture in your collection.</description>
+Effects on Fights:
+Re-roll a single die in to determine the winner of the Fight.
+[The Fight must contain a friendly model within 3&quot;/8cm of the carrier.]
+[The carrier must be standing.]
+[The re-roll can be used after the opponents roll, but must be used before any Might.]
+[If the opponent can also re-roll for any reason, the player with priority re-rolls first.]
+[The carrier can pass the banner to a friendly model who in base cantact, not in a Fight, and not a Hero]</description>
     </rule>
     <rule id="2d91-9af0-b06e-c2b4" name="Bodyguard" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>At the start of the game, if you have any models with this special rule in your force, choose one Hero among those in your fource for all of them to protect. As long as the chosen Hero remains alive and on the board, your models with this special rule automatically pass all Courage tests.
-
-If you have alled contingents in your army (pg 101), pick one Hero from each contingent with at least one model with this special rule in it. Any model with this special rule will protect the chosen Hero from their contingent.</description>
+      <description>The model automatically passes Courage tests while target Hero is alive and on the board.
+[Each contingent can have up to one target Hero.]
+[In each contigent, all models with this rule must have the same target Hero.]
+</description>
     </rule>
     <rule id="0844-3834-04ba-d6b2" name="Bows" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A model can shoot a bow in the shoot phase, provided it has not udes more than half of its maximum allowance in the preceeding Move phase.</description>
+      <description>The model can Shoot in the Shoot Phase.
+[The model must have used no more than half of its Movement in the Move Phase.]</description>
     </rule>
     <rule id="be60-39e9-b5bc-4bf7" name="Burly" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Whe fighting with a two-handed weapon, a model with this special rule does not suffer a pealty to his Duel rolls.
-
-Additionally, Burly models can carry a Heavy Object and still move their full move distance.</description>
+      <description>The model does not suffer the usual Fight roll penalty when using a two-handed weapon, .
+The model can use their full Movement when carrying Heavy Objects.</description>
     </rule>
     <rule id="ec9c-c070-a999-1dfb" name="Cave Dweller" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Cave Dwellers add 1 to all Jump, Leap and CLimb test. They also suffer no penalties for fighting in the dark.</description>
+      <description>+1 to all Jump, Leap and Climb test. 
+No penalties for fighting in the dark.</description>
     </rule>
     <rule id="95db-f21e-3f94-0389" name="Crossbows" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A model with a crossbow may not fire it in the same turn that it has moved.</description>
+      <description>The model can Shoot in the Shoot Phase.
+[The model must have not moved in the Move Phase.]</description>
     </rule>
     <rule id="14ea-8008-1b98-564f" name="Cumbersome" book="THe Hobbit: An Unexpected Journey" page="74" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A model can only use an Elven blade as a single-handed weapon if it also carried a shield. A model armed with a bow, crossbow, two-handed weapon or pike may carry a shield; however, he does not receive the +1 bonus to his Defense characteristic.</description>
+      <description></description>
     </rule>
     <rule id="4176-6e26-b2c2-4d55" name="Elven Blades" book="The Hobbit: An Unexpected Journey" page="68" hidden="false">
       <profiles/>
@@ -372,25 +383,29 @@ To extinguish the blaze, the model must lie down, and then crawl 1&quot;, at whi
       <modifiers/>
       <description>If Severed Heads are fired at a Battlefield target, ignore the normal Strength of the Siege Engine; instead, both the initial target and all models wihtin 2&quot; suffer a single Srtength 3 hit. This shot will neither knock models Prone nor inflict more one Wound per hit. Any Good models hit must immediately pass a Courage test (pg 47 of The Hobbit: An Unexpected Journey Rulebook) or be removed from play. If Severed Heads are fired at a Siege target, they inflict no damage.</description>
     </rule>
-    <rule id="b934-e865-e199-a7ae" name="Shield" book="The Hobbit: An Unexpected Journey" page="74" hidden="false">
+    <rule id="b934-e865-e199-a7ae" name="Shield, Cumbersome, Shielding" book="The Hobbit: An Unexpected Journey" page="74" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A shield increases the Defense chractersitic of its bearer by 1. Where the shield is listed in the model&apos;s wargear, that bonus is already taken into account in its chracteristis profile. However, if the model purchases the shield as an upgrade, you will need to increase its Defense by 1. Shields also have the following rules:
-Cumbersome
-Shielding</description>
+      <description>Shield
++1 to the model&apos;s Defence, unless armed with any bow, two-handed weapon, spear, or pike.
+[The model can only use Elven blades one-handed.]
+
+Shielding
+Double the number of dice rolled to determine the winner of the Fight.
+If the model wins the Fight, they cannot Strike.
+[Must be declared before any roll.]
+[All friendly models in a Fight must be Shielding.]
+[Shielding models cannot be supported by spears or pikes.]
+[Prone models can use Shielding.]</description>
     </rule>
     <rule id="e0df-99a8-fc55-3419" name="Shielding" book="The Hobbit: An Unexpected Journey" page="74" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Prior to either player rolling any dice in a Duel roll, a shield-armed model who is involved in te Fight may declare that he is Shielding. A model that is Shielding doucles his Attacks when making the Duel roll to see who wins the Fight. Thus, a Shielding model with 1 Attack would roll two dice. If the Shielding model wins the Fight, however, he makes no striked against his enemy, having put all of his effort into surviving.
-
-In a Multiple Combat, all friendly models in the same Fight must be Shielding for them to get the bonus. Thus, if one or more friendly models do not have shie;ds, then none of them can use the Shielding rule. Spear- and pike - armed models cannot Support a Shielding model.
-
-Models who are Prone can use the Shielding rule like other fighters.</description>
+      <description></description>
     </rule>
     <rule id="026d-9114-92bf-15fd" name="Siege Veterans" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
@@ -515,17 +530,14 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Gundabad Blackshields re-roll 15 when attempting to wound Elves or Dwarves.</description>
+      <description>Re-roll rolls of 1 when the model is attempting to Wound an Elf or Dwarf.</description>
     </rule>
     <rule id="8e73-42c7-3a3d-54d0" name="Cornered Beast" book="Moria &amp; Angmar" page="22" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If a Cave Drake is defeated in a fight, check to see if it is trapped (and so cannot back away a full 1&quot;/2cm). If this is the case, roll To Wound the Cave Drake as normal. If it is not slain by the strikes, all models (both friend and foe) within 1&quot;/2cm of the Cave Drake suffer a Strength 4 hit.
-
-Cave Drakes are accustomed to fighting within narrow, dark caverns and passageways, and when cornered, they will flail about them with their lash-like tail 1 and spined limbs.
-</description>
+      <description>If the model loses a fight and is trapped, but is not slain, all models within 1&quot;/2cm of the model suffer a Strength 4 Strike.</description>
     </rule>
     <rule id="f111-6e17-b690-a710" name="Death-Touch" book="Moria &amp; Angmar" page="19" hidden="false">
       <profiles/>
@@ -732,7 +744,8 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The Fight value of any enemy model in base contact with a Bat Swarm is halved (round fractions down).</description>
+      <description>Halve the Fight value on all enemy models in base contact.
+[Round down.]</description>
     </rule>
     <rule id="3192-ea96-8b47-40ab" name="On the Hunt" book="Moria &amp; Angmar" page="27" hidden="false">
       <profiles/>
@@ -746,7 +759,8 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When striking models that are trapped, Moria Goblin Prowlers receive +1 on their rolls To Wound. Note that this bonus is cumulative with the +1 bonus for using a two-handed weapon.</description>
+      <description>+1 to the model&apos;s rolls to Wound when striking trapped models.
+[Cumulative with the two-handed weapon bonus.]</description>
     </rule>
     <rule id="e142-d5e4-842d-d600" name="Murderous Power" book="Moria &amp; Angmar" page="28" hidden="false">
       <profiles/>
@@ -837,7 +851,8 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Aeglos does not follow the normal rules for spears, but instead it confers Gil-galad +1 to his dice roll on the Wound chart.</description>
+      <description>+1 to the model&apos;s rolls to Wound
+[Does not follow the normal rules for spears.]</description>
     </rule>
     <rule id="15f3-052f-f55b-9bb3" name="Unarmed" book="The Lord of the Rings" page="42" hidden="false">
       <profiles/>
