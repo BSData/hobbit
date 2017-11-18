@@ -172,7 +172,7 @@
       <infoLinks/>
       <modifiers/>
       <description>-1 Courage to any enemy model within 18&quot;/46cm.
-[Not cumulative with other similar penalties (Goblin Drums, the Harbinger of Evil, etc.).]</description>
+[Not cumulative with other similar penalties (&apos;Doom, Doom!&apos;, &apos;Harbinger of Evil&apos;, etc.).]</description>
     </rule>
     <rule id="c3be-4735-0cfb-bf08" name="Bane of Kings" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
@@ -194,18 +194,18 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Effects Carrier:
-Counts as a two-handed weapon, but without the usual bonus.
-[Can be used to Fight while mounted.]
-[All equipment is dropped, other than armour.]
+      <description>Effects on Carrier:
+	Counts as a Two-Handed Weapon, with the penalty to Fight rolls but without the bonus to Wound rolls.
+	[Can be used to Fight while mounted.]
+	[All equipment is dropped, other than armour.]
 
 Effects on Fights:
-Re-roll a single die in to determine the winner of the Fight.
-[The Fight must contain a friendly model within 3&quot;/8cm of the carrier.]
-[The carrier must be standing.]
-[The re-roll can be used after the opponents roll, but must be used before any Might.]
-[If the opponent can also re-roll for any reason, the player with priority re-rolls first.]
-[The carrier can pass the banner to a friendly model who in base cantact, not in a Fight, and not a Hero]</description>
+	Re-roll a single die in to determine the winner of the Fight.
+	[The Fight must contain a friendly model within 3&quot;/8cm of the carrier.]
+	[The carrier must be Standing.]
+	[The re-roll can be used after the opponent&apos;s roll, but must be used before any Might.]
+	[If the opponent can also re-roll for any reason, the player with Priority re-rolls first.]
+	[The carrier can pass the Banner to a friendly model who in base cantact, not in a Fight, and not a Hero.]</description>
     </rule>
     <rule id="2d91-9af0-b06e-c2b4" name="Bodyguard" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
@@ -230,7 +230,7 @@ Re-roll a single die in to determine the winner of the Fight.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The model does not suffer the usual Fight roll penalty when using a two-handed weapon, .
+      <description>The model does not suffer the usual Fight roll penalty when using a Two-Handed Weapon.
 The model can use their full Movement when carrying Heavy Objects.</description>
     </rule>
     <rule id="ec9c-c070-a999-1dfb" name="Cave Dweller" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
@@ -239,7 +239,7 @@ The model can use their full Movement when carrying Heavy Objects.</description>
       <infoLinks/>
       <modifiers/>
       <description>+1 to all Jump, Leap and Climb test. 
-No penalties for fighting in the dark.</description>
+No penalties for Fights in the Dark.</description>
     </rule>
     <rule id="95db-f21e-3f94-0389" name="Crossbows" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
       <profiles/>
@@ -247,32 +247,30 @@ No penalties for fighting in the dark.</description>
       <infoLinks/>
       <modifiers/>
       <description>The model can Shoot in the Shoot Phase.
-[The model must have not moved in the Move Phase.]</description>
-    </rule>
-    <rule id="14ea-8008-1b98-564f" name="Cumbersome" book="THe Hobbit: An Unexpected Journey" page="74" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description></description>
+[The model must have not Moved in the Move Phase.]</description>
     </rule>
     <rule id="4176-6e26-b2c2-4d55" name="Elven Blades" book="The Hobbit: An Unexpected Journey" page="68" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>An Elven blade can be used as either a single-handed weapon or a two-handed weapon. Elven blades can use the Feint special strike.
+      <description>Can be used as a One-Handed or Two-Handed Weapon.
 
-Models armed with Elven blades are more likely to win the dice roll to see who wins a Drawn Combat. A Good model with an Elven blade will win the roll off on a 3-6 instead of a 4-6. Should an Evil model have the Elven blade (an odd situation, granted) he will win the roll on a 1-4. If both sides have Elven blades, neither receives an advantage.</description>
+Increases likelihood of winning Drawn Fights:
+	3-6 to win for a Good model.
+	1-4 to win for an Evil Model.
+	[If both sides have Elven blades, no change.]
+
+</description>
     </rule>
     <rule id="4d2b-177f-7240-6734" name="Elven Cloaks" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the wearer of an Even cloak is partially concealed from view, he cannot be seen a all at distances of more than 6&quot; - the wearer appears to melt into the background. This means that enemies can not charge or shoot the wearer, not can they target him with magical powers at ranges greater than 6&quot;, unless they have a completely clear view of the target.
-
-If the model is riding a mount, the Elven cloak have no effect.</description>
+      <description>If a model is further than 6&quot;/14cm away from the wearer, and the wearer is partially concealed, that model cannot target the wearer.
+[Targeting includes Charging, Shooting and Magical Powers.]
+[If the wearer is Mounted, this rule does not apply.]</description>
     </rule>
     <rule id="2507-c351-8e85-f546" name="Engineer Captains" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
@@ -286,48 +284,49 @@ If the model is riding a mount, the Elven cloak have no effect.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>While mounted, an Expert Rider may re-roll the dice when making Jump, Swim and Thrown Rider tests.
-
-While mounted, an Expert Rider carrying a shield and bow still gains the +1 Defence bonus. If the model dismounts, he will lose the bonus for carrying a shield.
-
-Additionally, an Expert Rider can pick up a Light Object without having to dismount first (pg 85)</description>
+      <description>While Mounted, re-roll Jump, Swim and Thrown Rider tests.
+The model can pick up Light Objects without Dis-Mounting.
+While Mounted, +1 to Defence from Shields even if carrying a Bow.
+[If the model Dis-Mounts, bonus does not apply.]</description>
     </rule>
     <rule id="1796-7001-bd0a-699b" name="Expert Shot" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model may fire twice in the Shooting pahse instead od once. These shots can be resolved one at a time, meaning the model can target the same model twice or two different models, once each, as he wishes.</description>
+      <description>The model has two Shots in the Shoot Phase.
+[Second Shot can be allocated after the outcome of the first.]</description>
     </rule>
     <rule id="0faa-65e7-6948-24ec" name="Fearless" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model automaticalle passes Courage tests, but cannot use the rules for Shielding (pg 74).</description>
+      <description>Pass Courage tests automatically.
+Can not &apos;Shield&apos;.</description>
     </rule>
     <rule id="85a3-5fcb-6505-b79c" name="Flaming Ammunition" book="Mordor" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the Siege Engine hits a Siege target, the firing player may re-roll any To Wound rolls of a 1</description>
+      <description>Re-roll rolls of 1 while attempting to Wound a Siege target.</description>
     </rule>
     <rule id="401d-ce6a-48ff-ac6c" name="Fly" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model can ignore all intervening models and terrain as it moves - flying over buildings, woods and so on. The model may not end its movement within woods or upon any terrain that its base will not safely balance upon (flat rocks, hills and the like are fine, but don&apos;t try to perch your model prcariously upon trees, sloped roofs and so on)
-
-Furthermore, a model with this special rule may pass &apos;ove&apos; enemy Control Zones without charging the model - as long as he ends his move outside of the Control Zone.</description>
+      <description>Ignore all models, control zones, and terrain during Movement.
+Can not end its movement within Control Zones, woods, or upon any terrain that its base will not securely balance upon.</description>
     </rule>
     <rule id="8052-396f-cad6-90a3" name="Harbinger of Evil" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Any enemy model within 12&quot; of a Harbinger of Evil suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, the Ancient Evil special rule and so on.</description>
+      <description>-1 Courage to all models within 12&quot;/28cm of the model.
+[Not cumulative with other similar penalties (&apos;Ancient Evil&apos;, &apos;Doom, Doom!&apos;, etc.).]</description>
     </rule>
     <rule id="514f-ef5e-91a6-fb55" name="Lances" book="The Hobbit: An Unexpected Journey" page="68" hidden="false">
       <profiles/>
@@ -387,24 +386,17 @@ To extinguish the blaze, the model must lie down, and then crawl 1&quot;, at whi
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Shield
-+1 to the model&apos;s Defence, unless armed with any bow, two-handed weapon, spear, or pike.
-[The model can only use Elven blades one-handed.]
+      <description>Shield:
+	+1 to the model&apos;s Defence, unless armed with any bow, two-handed weapon, spear, or pike.
+	[The model can only use Elven blades one-handed.]
 
-Shielding
-Double the number of dice rolled to determine the winner of the Fight.
-If the model wins the Fight, they cannot Strike.
-[Must be declared before any roll.]
-[All friendly models in a Fight must be Shielding.]
-[Shielding models cannot be supported by spears or pikes.]
-[Prone models can use Shielding.]</description>
-    </rule>
-    <rule id="e0df-99a8-fc55-3419" name="Shielding" book="The Hobbit: An Unexpected Journey" page="74" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description></description>
+Shielding:
+	Double the number of dice rolled to determine the winner of the Fight.
+	If the model wins the Fight, they cannot Strike.
+	[Must be declared before any roll.]
+	[All friendly models in a Fight must be Shielding.]
+	[Shielding models cannot be supported by spears or pikes.]
+	[Prone models can use Shielding.]</description>
     </rule>
     <rule id="026d-9114-92bf-15fd" name="Siege Veterans" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
@@ -536,32 +528,33 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the model loses a fight and is trapped, but is not slain, all models within 1&quot;/2cm of the model suffer a Strength 4 Strike.</description>
+      <description>If the model loses a fight and is Trapped, but is not Slain, all models within 1&quot;/2cm of the model suffer a Strength 4 Strike.</description>
     </rule>
     <rule id="f111-6e17-b690-a710" name="Death-Touch" book="Moria &amp; Angmar" page="19" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Any model who wounds, or is wounded by Ashrak in a fight must roll a D6: on a 4+, they are Paralysed exactly as if they had failed to resist the Paralyse Magical Power.</description>
+      <description>If model Wounds or is Wounded by another model, the other model must roll a D6, getting Paralysed on a 4+.
+[Effects follow the rules for the Magic Power&apos; Paralyse&apos;.]
+</description>
     </rule>
     <rule id="db00-aee5-4e28-c33d" name="Draconic Charge" book="Moria &amp; Angmar" page="21" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If a Dragon charges into combat, it will knock enemy models to the ground in the same way as a monstrous mount if it wins the fight.</description>
+      <description>If the model Charges, enemy models are Knocked to the Ground.
+[In the same way as a Monstrous Mount if it wins a Fight.]</description>
     </rule>
     <rule id="c625-f769-e557-8716" name="Drums in the Deep" book="Moria &amp; Angmar" page="25" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>At the beginning of the game, deploy the Moria Goblin Drum model following the instructions of the scenario like any other Evil model, and place the Drummers in base contact with it. For the Drum to be struck, at least one Drummer must start the turn in base contact with it and must not move or be engaged in combat. It may not be moved and played in the same turn. If one or more Drums meet these conditions, then the following effects apply: All fights within 18&quot;/42cm of one or more struck Drums that include at least one Moria Goblin, the Evil player can re-roll any one of the dice he rolled when determining who wins the fight. You must stick with the result of the re- roll (dice cannot be re-rolled more than once).
-
-All Moria Goblins on the battlefield (including Heroes) add +1 to their Courage values and all Good models on the battlefield suffer a -1 penalty to their Courage values (note that this is not cumulative with other rules that confer similar modifiers).
-
-For the purposes of counting the total number of models in the Evil force, only the Drummers count and not the Drum itself.
+      <description>Deploy the Drum model following the instructions of the scenario like any other model, with the Drummers in base contact with it.
+To use the Drum, at least one Drummer must start the turn in base contact with it and must not move or be engaged in combat.
+It may not be Moved and Played in the same turn.
 
 </description>
     </rule>
@@ -570,7 +563,7 @@ For the purposes of counting the total number of models in the Evil force, only 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This Dragon has expansive and powerful wings. It can fly 12“/28cm as described in the main rules manual.</description>
+      <description>The model can &apos;Fly&apos; 12“/28cm, following the same rules.</description>
     </rule>
     <rule id="0bd2-250c-1532-0d67" name="From the Deep" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
@@ -599,7 +592,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Such is the fear inspired by Durbûrz in his followers that the range of his Stand Fast! rule is 12“/28cm rather than the normal 6&quot;/14cm.</description>
+      <description>The range of the model&apos;s &apos;Stand Fast!&apos; rule is 12“/28cm.</description>
     </rule>
     <rule id="b04c-7238-5496-ec70" name="Many Tentacles" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
@@ -711,7 +704,11 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The Drum can be shot at normally by the Good side, and has a Defence of 10 and 3 Wounds. If reduced to 0 Wounds, the model is destroyed - leave the Drum in place - but it cannot be played any more. The Drum model has no control zone and if a Good model spends a full turn in base contact with the Drum, without doing anything else (such as shooting, using magical powers or fighting in combat), the Drum is automatically destroyed as described above.</description>
+      <description>The Drum has Defence 10, 3 Wounds, and no Control Zone.
+It can be Shot at normally.
+If reduced to 0 Wounds it is Destroyed.
+A model that spends a full turn in base contact destroys it automatically.
+[To do so, the model must not perform any actions during that turn.]</description>
     </rule>
     <rule id="c796-7ab7-3028-2097" name="Run and Drum" book="Moria &amp; Angmar" page="26" hidden="false">
       <profiles/>
@@ -725,11 +722,17 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>While one or more Gundabad Blackshield drums are playing:
+      <description>Effects on Models:
+	+1 Courage for all Goblins on the battlefield, including Heroes. 
+	-1 Courage for all of the opponent&apos;s  models.
+	[Not cumulative with other similar penalties (&apos;Ancient Evil&apos;, &apos;Harbinger of Evil&apos;, etc.).]
 
-- In all fights within 18&quot;/42cm of one or more playing Drums that include at least one Goblin, the Evil player can re-roIl any one of the dice he rolled in the same way as if there was a banner nearby - see the main rules manual for further details.
-
-- All Goblins on the battlefield (including Heroes) add +1 to their Courage value and all Good models suffer a -1 penalty to their Courage value (note that this is not cumulative with other rules that confer a similar modifiers).</description>
+Effects on Fights:
+	Re-roll a single die in to determine the winner of the Fight.
+	[The Fight must contain a Goblin within 18&quot;/42cm of the Drum.]
+	[The re-roll can be used after the opponent&apos;s roll, but must be used before any Might.]
+	[If the opponent can also re-roll for any reason, the player with Priority re-rolls first.]
+</description>
     </rule>
     <rule id="9e4d-f078-43d6-ed2f" name="Take up the Drum" book="Moria &amp; Angmar" page="26" hidden="false">
       <profiles/>
@@ -758,8 +761,8 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>+1 to the model&apos;s rolls to Wound when striking trapped models.
-[Cumulative with the two-handed weapon bonus.]</description>
+      <description>+1 to the model&apos;s rolls to Wound when striking Trapped models.
+[Cumulative with the Two-Handed Weapon bonus.]</description>
     </rule>
     <rule id="e142-d5e4-842d-d600" name="Murderous Power" book="Moria &amp; Angmar" page="28" hidden="false">
       <profiles/>
@@ -801,14 +804,19 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Before the game begins, roll a D6 and make a note of the result - these are EIrond’s ’foresight’ points for the remainder of the battle. EIrond can spend these points in the Priority phase, after both players have made their priority rolls. For each foresight point expended, EIrond can alter either priority roll by +1 or -1, to a minimum of 1 and a maximum of 6.</description>
+      <description>How to use Foresight:
+	Before the game, roll a D6.
+	This is the model&apos;s number of Foresight points.
+	The model can spend these points in the Priority Phase, after both players have made their Priority rolls.
+	Each point spent alters either Priority roll by +1 or -1.
+	[To a minimum:maximum value of 1:6.]</description>
     </rule>
     <rule id="ad8a-0314-7a1b-1d00" name="High King of the Elves" book="The Free Peoples" page="18" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The range of Gil-galad&apos;s Stand Fast! rule is 12“/28cm.</description>
+      <description>The range of the model&apos;s &apos;Stand Fast!&apos; rule is 12“/28cm.</description>
     </rule>
     <rule id="1db3-146f-2d81-183c" name="Noldorin Throwing Daggers" book="The Free Peoples" page="18" hidden="false">
       <profiles/>
@@ -836,7 +844,7 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If your army includes Gil-galad, you can upgrade any number of High Elf Warriors mto King’s Guard at a cost of +1 point per model. King&apos;s Guard have Fight 6/3+.</description>
+      <description> Fight is 6/3+.</description>
     </rule>
     <rule id="8dfa-499f-5fdc-5cb6" name="Noldorin Exiles" book="The Free Peoples" page="20" hidden="false">
       <profiles/>
@@ -850,8 +858,8 @@ Cave Drakes are almost continuously hungry and won’t hesitate to consume a mor
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>+1 to the model&apos;s rolls to Wound
-[Does not follow the normal rules for spears.]</description>
+      <description>+1 to the model&apos;s rolls to Wound.
+[Does not follow the normal rules for Spears.]</description>
     </rule>
     <rule id="15f3-052f-f55b-9bb3" name="Unarmed" book="The Lord of the Rings" page="42" hidden="false">
       <profiles/>
@@ -869,21 +877,23 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the Good force includes Théoden, Háma automatically passes all Courage tests he has to take so long as Théoden is alive and on the board.</description>
+      <description>If the Good force includes Théoden, model automatically passes all Courage tests.
+[If Théoden is Slain or Moves off the board, the bonus is cancelled.]</description>
     </rule>
     <rule id="7e1d-15e4-0127-1035" name="Devastating Charge" book="Kingdoms of Men" page="32" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If Éomer charges, he is Strength 5 until the end of the turn.</description>
+      <description>Having Charged, the model is Strength 5 until the end of the turn.</description>
     </rule>
     <rule id="4e5f-c9b1-ae7b-b2a2" name="Horn of the Riddermark" book="Kingdoms of Men" page="33" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If Merry carries the Horn of the Riddermark, all Hobbits gain +1 courage. If Merry is slain, the horn is lost.</description>
+      <description>+1 Courage to all Hobbits.
+[If the model is Slain or Moves off the board, the bonus is cancelled.]</description>
     </rule>
     <rule id="8412-03bf-9794-b0e9" name="Royal Standard of Rohan" book="Kingdoms of Men" page="33" hidden="false">
       <profiles/>
@@ -904,7 +914,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This is a War Horn that adds +2 Courage rather than +1.</description>
+      <description>A War Horn that adds +2 Courage, not +1.</description>
     </rule>
     <rule id="4437-51cb-cddc-19e8" name="Master Archer" book="Kingdoms of Men" page="34" hidden="false">
       <profiles/>
@@ -932,7 +942,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If your army includes Grimbold, you can upgrade any number of Warriors of Rohan to Helmingas at a cost of +1 points per model. Helmingas are Strength 4, rather than 3.</description>
+      <description>+1 to Strength.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
