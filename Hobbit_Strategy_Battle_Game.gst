@@ -166,7 +166,7 @@
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
   <sharedRules>
-    <rule id="2c05-83bf-3fc2-7429" name="Ancient Evil" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
+    <rule id="2c05-83bf-3fc2-7429" name="Ancient Evil" book="Moria &amp; Angmar" page="20" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -277,7 +277,9 @@ Increases likelihood of winning Drawn Fights:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>One of the crew is replaced with a Captain taken from the relevant force list; represent this with a suitable model. Engineer Captains carry a single-handed weapon, but otherwise have the same equipment as the crew. Unlike other Heroes, Engineer Captains may use their Might to influence To Hit, To Wound, and Scatter table rolls made by the machine. Only a single Engineer Captain can be attached to a Siege Engine.</description>
+      <description>The model replaces a crew member and may use Might to alter Hit, Wound, and Scatter rolls made by the Siege Engine.
+The model has the same equipment as the crew, as well as a Single-Handed Weapon.
+[Up to one per Siege Engine.]</description>
     </rule>
     <rule id="e226-c764-7852-6cac" name="Expert Rider" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
@@ -320,7 +322,7 @@ Can not &apos;Shield&apos;.</description>
       <description>Ignore all models, control zones, and terrain during Movement.
 Can not end its movement within Control Zones, woods, or upon any terrain that its base will not securely balance upon.</description>
     </rule>
-    <rule id="8052-396f-cad6-90a3" name="Harbinger of Evil" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
+    <rule id="8052-396f-cad6-90a3" name="Harbinger of Evil" book="Moria &amp; Angmar" page="21" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -528,14 +530,14 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the model loses a fight and is Trapped, but is not Slain, all models within 1&quot;/2cm of the model suffer a Strength 4 Strike.</description>
+      <description>If the Cave Drake loses a fight and is Trapped, but is not Slain, all models within 1&quot;/2cm of the model suffer a Strength 4 Strike.</description>
     </rule>
     <rule id="f111-6e17-b690-a710" name="Death-Touch" book="Moria &amp; Angmar" page="19" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If model Wounds or is Wounded by another model, the other model must roll a D6, getting Paralysed on a 4+.
+      <description>If Ashrâk Wounds or is Wounded, the other model must roll a D6, getting Paralysed on a 4+.
 [Effects follow the rules for the Magic Power&apos; Paralyse&apos;.]
 </description>
     </rule>
@@ -544,7 +546,7 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the model Charges, enemy models are Knocked to the Ground.
+      <description>If the Dragon Charges, enemy models are Knocked to the Ground.
 [In the same way as a Monstrous Mount if it wins a Fight.]</description>
     </rule>
     <rule id="c625-f769-e557-8716" name="Drums in the Deep" book="Moria &amp; Angmar" page="25" hidden="false">
@@ -563,29 +565,34 @@ It may not be Moved and Played in the same turn.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The model can &apos;Fly&apos; 12“/28cm, following the same rules.</description>
+      <description>A Dragon can &apos;Fly&apos; 12“/28cm, following the same rules.</description>
     </rule>
     <rule id="0bd2-250c-1532-0d67" name="From the Deep" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When you deploy your army, do not place the Watcher in the Water on the board - instead keep it to one side ready for use later in the game. At the start of each turn, before rolling for priority, announce if you would like the Watcher to arrive, and then roll a D6. On the score of a 3+ it is ready to enter play. Once you have declared that you would fire the Watcher to arrive, you must roII at the start of each turn thereafter until it is available.
+      <description>How to use the Watcher:
+	Do not place at the start of the game.
+	Each turn, before the Priority roll, announce if you want to place the Watcher.
+	Roll a D6; 3+ is a success.
+	[If unsuccesssful, re-roll at the start of every turn until successful.]
+	If successful, place the Watcher anywhere on the board; displacing any other models.
+	Move diplaced model by the shortest path to be 1&quot;/2cm from the Watcher, space allowing.
+	Players take turns to move their own models, starting with the Watcher&apos;s player.
+	The Watcher cannot charge on the same turn.
 
-When the Watcher is ready to enter play, immediately place it anywhere on the battlefield - it can displace models. Move any displaced miniatures by the shortest possible distance so that they are 1&quot;/2cm away from the Watcher (or as close as space will allow). In this situation, players take it in turns to reposition his own displaced models, with the player that controls the Watcher in the Water going first. This may create some strange situations, but represents the Watcher bursting up from below the ground and scattering warriors (friend and foe alike) with its shocking arrival and incredible bulk.
-
-The Watcher cannot charge in the turn that it arrives.</description>
+	</description>
     </rule>
     <rule id="9169-f5d5-858d-55d0" name="Gaping Maw" book="Moria &amp; Angmar" page="22" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If a Cave Drake wins a fight, it can either strike as normal or attempt to swallow a single man-sized (or smaller) model in the same fight. If the Cave Drake chooses to swallow a model, make a single roll To Wound against the target - if successful, the victim is gobbled up and very dead.
-
-Fate rolls can be made against this special attack as normal. If the Fate roll is passed, the target survives and is unharmed. If the Fate roll is failed, the target model loses any remaining Wounds and is removed as a casualty.
-
-Cave Drakes are almost continuously hungry and won’t hesitate to consume a morsel of flesh in the midst of a battle. Using its powerful jaws, a Cave Drake can crunch armour and bone, choking down a man-sized victim in a matter of moments.</description>
+      <description>If the Cave Drake wins a fight, it can Strike or attempt to swallow a single man-sized (or smaller) model in the same fight.
+If the Cave Drake chooses to swallow model, roll to Wound.
+If successful, the target is Slain.
+[Fate rolls can be made as normal; if successful, the target survives and is unharmed.]</description>
     </rule>
     <rule id="301d-93ae-3910-4299" name="Iron Fist" book="Moria &amp; Angmar" page="17" hidden="false">
       <profiles/>
@@ -806,8 +813,8 @@ Effects on Fights:
       <modifiers/>
       <description>How to use Foresight:
 	Before the game, roll a D6.
-	This is the model&apos;s number of Foresight points.
-	The model can spend these points in the Priority Phase, after both players have made their Priority rolls.
+	This is the Elrond&apos;s number of Foresight points.
+	Elrond can spend these points in the Priority Phase, after both players have made their Priority rolls.
 	Each point spent alters either Priority roll by +1 or -1.
 	[To a minimum:maximum value of 1:6.]</description>
     </rule>
@@ -909,7 +916,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <modifiers/>
       <description>If your army includes Erkenbrand, you can upgrade any number of Rider of Rohan to Westfold Redshields at a cost of +1 point per model. Westfold Redshields are Fight 4, rather than 3.</description>
     </rule>
-    <rule id="b616-abe9-cd64-671b" name="Horn of the Hammerhand" book="Kingdoms of Man" page="33" hidden="false">
+    <rule id="b616-abe9-cd64-671b" name="Horn of the Hammerhand" book="Kingdoms of Men" page="33" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
