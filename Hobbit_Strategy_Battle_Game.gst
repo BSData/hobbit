@@ -171,7 +171,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>-1 Courage to any enemy model within 18&quot;/46cm.
+      <description>-1 Courage to all enemies within 18&quot;/46cm.
 [Not cumulative with other similar penalties (&apos;Doom, Doom!&apos;, &apos;Harbinger of Evil&apos;, etc.).]</description>
     </rule>
     <rule id="c3be-4735-0cfb-bf08" name="Bane of Kings" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
@@ -179,7 +179,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Re-roll all of the model&apos;s failed Wound rolls, once per die.</description>
+      <description>Re-roll failed Wound rolls.</description>
     </rule>
     <rule id="48e0-32c9-b4ac-722a" name="Bane Weapon" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
@@ -212,7 +212,7 @@ Effects on Fights:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The model automatically passes Courage tests while target Hero is alive and on the board.
+      <description>Automatically pass Courage tests while target Hero is alive and on the board.
 [Each contingent can have up to one target Hero.]
 [In each contigent, all models with this rule must have the same target Hero.]
 </description>
@@ -222,16 +222,16 @@ Effects on Fights:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The model can Shoot in the Shoot Phase.
-[The model must have used no more than half of its Movement in the Move Phase.]</description>
+      <description>Can Shoot in the Shoot Phase.
+[Must have used no more than half of its Movement in the Move Phase.]</description>
     </rule>
     <rule id="be60-39e9-b5bc-4bf7" name="Burly" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The model does not suffer the usual Fight roll penalty when using a Two-Handed Weapon.
-The model can use their full Movement when carrying Heavy Objects.</description>
+      <description>Does not suffer the usual Fight penalty when using a Two-Handed Weapon.
+Can use their full Movement when carrying Heavy Objects.</description>
     </rule>
     <rule id="ec9c-c070-a999-1dfb" name="Cave Dweller" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
@@ -246,8 +246,8 @@ No penalties for Fights in the Dark.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The model can Shoot in the Shoot Phase.
-[The model must have not Moved in the Move Phase.]</description>
+      <description>Can Shoot in the Shoot Phase.
+[Must have not Moved in the Move Phase.]</description>
     </rule>
     <rule id="4176-6e26-b2c2-4d55" name="Elven Blades" book="The Hobbit: An Unexpected Journey" page="68" hidden="false">
       <profiles/>
@@ -268,7 +268,7 @@ Increases likelihood of winning Drawn Fights:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If a model is further than 6&quot;/14cm away from the wearer, and the wearer is partially concealed, that model cannot target the wearer.
+      <description>If further than 6&quot;/14cm away from the wearer, a model cannot target the wearer.
 [Targeting includes Charging, Shooting and Magical Powers.]
 [If the wearer is Mounted, this rule does not apply.]</description>
     </rule>
@@ -277,8 +277,8 @@ Increases likelihood of winning Drawn Fights:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The model replaces a crew member and may use Might to alter Hit, Wound, and Scatter rolls made by the Siege Engine.
-The model has the same equipment as the crew, as well as a Single-Handed Weapon.
+      <description>Replaces a crew member and may use Might to alter Hit, Wound, and Scatter rolls made by the Siege Engine.
+Has the same equipment as the crew, as well as a Single-Handed Weapon.
 [Up to one per Siege Engine.]</description>
     </rule>
     <rule id="e226-c764-7852-6cac" name="Expert Rider" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
@@ -287,7 +287,7 @@ The model has the same equipment as the crew, as well as a Single-Handed Weapon.
       <infoLinks/>
       <modifiers/>
       <description>While Mounted, re-roll Jump, Swim and Thrown Rider tests.
-The model can pick up Light Objects without Dis-Mounting.
+Can pick up Light Objects without Dis-Mounting.
 While Mounted, +1 to Defence from Shields even if carrying a Bow.
 [If the model Dis-Mounts, bonus does not apply.]</description>
     </rule>
@@ -296,7 +296,7 @@ While Mounted, +1 to Defence from Shields even if carrying a Bow.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The model has two Shots in the Shoot Phase.
+      <description>Has two Shots in the Shoot Phase.
 [Second Shot can be allocated after the outcome of the first.]</description>
     </rule>
     <rule id="0faa-65e7-6948-24ec" name="Fearless" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
@@ -327,7 +327,7 @@ Can not end its movement within Control Zones, woods, or upon any terrain that i
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>-1 Courage to all models within 12&quot;/28cm of the model.
+      <description>-1 Courage to all enemies within 12&quot;/28cm.
 [Not cumulative with other similar penalties (&apos;Ancient Evil&apos;, &apos;Doom, Doom!&apos;, etc.).]</description>
     </rule>
     <rule id="514f-ef5e-91a6-fb55" name="Lances" book="The Hobbit: An Unexpected Journey" page="68" hidden="false">
@@ -335,30 +335,37 @@ Can not end its movement within Control Zones, woods, or upon any terrain that i
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A Cavalry model armed with a lance receives a bonus when making Strikes, in a turn that he has charged; add 1 to their roll To Wound - thus, a score of 2 becomes 3, 4 becomes a 5 and so on. A Cavalry model with a lance even gets this bonus against other Cavalry models, as long as it has charged. Note, however, that a Cavalry model that is wihtin difficult terain does not receive any bonus.
-
-If a Cavalry model with a lance dismounts, or his steed is slain, he will ordinarily abandon his lance, resorting to using another hand weapon.</description>
+      <description>Can only be used while Mounted.
+If the model Charges, +1 to Wound against any type of model.
+[Does not apply in difficult terrain.]
+[Lance is discarded if the model dismounts or their steed is Slain.]</description>
     </rule>
     <rule id="e428-dd18-64fa-a9a7" name="Mountain Dwellers" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Mountain Dwellers may re-roll any Jump, Leap and CLimb test. In addition, they may move through rocky areas that are classed as difficult terrain as if they were open ground.</description>
+      <description>Re-roll Jump, Leap and Climb test.
+No Movement penalty in areas of rocky difficult terrain.</description>
     </rule>
     <rule id="c9f2-20e8-9d4e-27a6" name="Pikes" book="Mordor" page="69" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Pikes require two hands to use. This means that a model cannot use a shield and a pike at the same time. Otherwise, the rules for pikes are the same as those spears with the following exceptions. A pike-srmed model can Support a friend engaged in close combat by being in base combat with another pike-armed model that is already doing so (note they must both be pikes; neither can be a spear), so two pike-armed models can Support one comrade. Just as with a spear-armed model, this created an exception to the ordinary Fight rules, in that the bearer does not need to be in bast contact with an enemy modell.</description>
+      <description>Require two hands to use.
+Cannot be used at the same time as a Shield.
+Follows rules for Spears, with additions:
+	Can Support an ally by being in base contact with another Pike-armed model, such that the two Pike-armed models Support one ally.
+	[Does not apply if the Supporting model carries a Spear instead of a Pike.]
+	</description>
     </rule>
     <rule id="ad3a-a37d-44be-1bbe" name="Poisoned Arrows" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Models with this special rule msut re-roll 1s when rolling To Wound with a shooting attack.</description>
+      <description>Re-roll failed Wound rolls when Shooting.</description>
     </rule>
     <rule id="4a35-7d1b-c1b5-c79f" name="Resistant to Magic" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
@@ -523,7 +530,7 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Re-roll rolls of 1 when the model is attempting to Wound an Elf or Dwarf.</description>
+      <description>Re-roll rolls of 1 when attempting to Wound an Elf or Dwarf.</description>
     </rule>
     <rule id="8e73-42c7-3a3d-54d0" name="Cornered Beast" book="Moria &amp; Angmar" page="22" hidden="false">
       <profiles/>
@@ -546,7 +553,7 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the Dragon Charges, enemy models are Knocked to the Ground.
+      <description>If the Dragon Charges, enemies are Knocked to the Ground.
 [In the same way as a Monstrous Mount if it wins a Fight.]</description>
     </rule>
     <rule id="c625-f769-e557-8716" name="Drums in the Deep" book="Moria &amp; Angmar" page="25" hidden="false">
@@ -589,24 +596,24 @@ It may not be Moved and Played in the same turn.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the Cave Drake wins a fight, it can Strike or attempt to swallow a single man-sized (or smaller) model in the same fight.
-If the Cave Drake chooses to swallow model, roll to Wound.
-If successful, the target is Slain.
-[Fate rolls can be made as normal; if successful, the target survives and is unharmed.]</description>
+      <description>If the Cave Drake wins a fight, it can Strike normally or attempt to swallow a single man-sized (or smaller) model that it is Fighting.
+If the Cave Drake chooses to swallow a model, roll to Wound.
+If successful, the model is Slain.
+[Fate rolls can be made as normal; if successful, the model survives and is unharmed.]</description>
     </rule>
     <rule id="301d-93ae-3910-4299" name="Iron Fist" book="Moria &amp; Angmar" page="17" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The range of the model&apos;s &apos;Stand Fast!&apos; rule is 12“/28cm.</description>
+      <description>&apos;Stand Fast!&apos; range is 12“/28cm.</description>
     </rule>
     <rule id="b04c-7238-5496-ec70" name="Many Tentacles" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>As the Watcher in the Water is wounded, it becomes less menacing. Each time the Watcher loses a Wound it also loses an Attack.</description>
+      <description>Each time the Watcher loses a Wound it loses an Attack.</description>
     </rule>
     <rule id="0b2a-8060-e0b8-7fe4" name="Master of the Dark Wild" book="Moria &amp; Angmar" page="17" hidden="false">
       <profiles/>
@@ -620,28 +627,29 @@ If successful, the target is Slain.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Spiders move at full speed over any type of difficult terrain and ignores all obstacles except for water features and gaps - such as chasms, ditches and other spaces - which they have to jump as normal.</description>
+      <description>No movement penalty in areas of difficult terrain.
+Ignore all obstacles except water features and gaps (chasms, ditches, etc.).</description>
     </rule>
     <rule id="0b9f-e5ec-dcf9-abc8" name="Packlord" book="Moria &amp; Angmar" page="18" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Only other Wild Wargs may use a Wild Warg Chieftain’s Stand Fast! rule or benefit from its heroic actions.</description>
+      <description>Other Wild Wargs may use the model&apos;s &apos;Stand Fast!&apos; rule or benefit from its heroic actions.</description>
     </rule>
     <rule id="602b-4f8a-d6d4-cc33" name="Poison-Blood" book="Moria &amp; Angmar" page="19" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If your force includes Ashrak, you can upgrade any number of Giant Spiders to Venom-back Spiders at a cost of +2 points per model. If a Venom-back Spider fails to wound an enemy, it must re-roll the dice.</description>
+      <description>Re-roll failed Wound rolls.</description>
     </rule>
     <rule id="123e-b9f2-30f9-81c8" name="Pounce" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>In the turn in which a Spider Queen charges a model on foot or a cavalry model, she receives the Extra Attack and Knock to Ground rules exactly as if she were a monstrous mount.</description>
+      <description>Spider Queen follows the rules of a &apos;Monstrous Mount&apos;.</description>
     </rule>
     <rule id="cad3-1947-7257-66a9" name="Progeny" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
@@ -704,7 +712,7 @@ If successful, the target is Slain.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The Moria Goblin Drum is moved in the same way as a Heaw Object (see the main rules manual for details).</description>
+      <description>The Moria Goblin Drum is moved in the same way as a Heavy Object.</description>
     </rule>
     <rule id="0017-a9f7-68cf-eb11" name="Destroying the Drum" book="Moria &amp; Angmar" page="25" hidden="false">
       <profiles/>
@@ -753,7 +761,7 @@ Effects on Fights:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Halve the Fight value on all enemy models in base contact.
+      <description>Halve the Fight value on all enemies in base contact.
 [Round down.]</description>
     </rule>
     <rule id="3192-ea96-8b47-40ab" name="On the Hunt" book="Moria &amp; Angmar" page="27" hidden="false">
@@ -761,14 +769,14 @@ Effects on Fights:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The Warg Marauder can always fire two Orc bow shots, even if it has moved its full movement or is locked in a fight.</description>
+      <description>Can fire two shots, even if it has used all of its Movement or is Fighting.</description>
     </rule>
     <rule id="9bd5-f1d3-cdad-0598" name="Back-Stabbers" book="Moria &amp; Angmar" page="27" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>+1 to the model&apos;s rolls to Wound when striking Trapped models.
+      <description>+1 to rolls to Wound when striking Trapped models.
 [Cumulative with the Two-Handed Weapon bonus.]</description>
     </rule>
     <rule id="e142-d5e4-842d-d600" name="Murderous Power" book="Moria &amp; Angmar" page="28" hidden="false">
@@ -776,7 +784,7 @@ Effects on Fights:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Whenever a Dweller in the Dark slays an enemy model, it regains a single Wound suffered previously in the battle. This cannot take it above its starting total.</description>
+      <description>Whenever a Dweller in the Dark slays an enemy, it regains a single Wound, up to its starting total.</description>
     </rule>
     <rule id="2688-6783-ce1d-87c7" name="Throw Stones (Troll)" book="Moria &amp; Angmar" page="29" hidden="false">
       <profiles/>
@@ -823,14 +831,14 @@ Effects on Fights:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The range of the model&apos;s &apos;Stand Fast!&apos; rule is 12“/28cm.</description>
+      <description> &apos;Stand Fast!&apos; range is 12“/28cm.</description>
     </rule>
     <rule id="1db3-146f-2d81-183c" name="Noldorin Throwing Daggers" book="The Free Peoples" page="18" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Erestor re-rolls any failed rolls To Wound made when throwing these daggers or using them in a Fight.</description>
+      <description>Re-rolls failed Wound rolls when throwing or Fighting with these daggers.</description>
     </rule>
     <rule id="7881-22d9-70b6-ec05" name="Twin Elven Blade" book="The Free Peoples" page="19" hidden="false">
       <profiles/>
@@ -853,19 +861,19 @@ Effects on Fights:
       <modifiers/>
       <description> Fight is 6/3+.</description>
     </rule>
-    <rule id="8dfa-499f-5fdc-5cb6" name="Noldorin Exiles" book="The Free Peoples" page="20" hidden="false">
+    <rule id="8dfa-499f-5fdc-5cb6" name="Noldorin Exiles" book="The Free Peoples" page="20" hidden="true">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If your army includes Gildor Inglorion, you can upgrade any number of Wood Elf Warriors to Noldorin Exiles at a cost of +1 point per model. Noldorin Exiles have Move 8&quot;/20cm.</description>
+      <description>Move is 8&quot;/20cm.</description>
     </rule>
     <rule id="14a9-44e8-2ed6-71dc" name="Aeglos" book="The Free Peoples" page="18" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>+1 to the model&apos;s rolls to Wound.
+      <description>+1 to rolls to Wound.
 [Does not follow the normal rules for Spears.]</description>
     </rule>
     <rule id="15f3-052f-f55b-9bb3" name="Unarmed" book="The Lord of the Rings" page="42" hidden="false">
@@ -884,7 +892,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the Good force includes Théoden, model automatically passes all Courage tests.
+      <description>Automatically passes all Courage tests if the force includes Théoden.
 [If Théoden is Slain or Moves off the board, the bonus is cancelled.]</description>
     </rule>
     <rule id="7e1d-15e4-0127-1035" name="Devastating Charge" book="Kingdoms of Men" page="32" hidden="false">
@@ -892,7 +900,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Having Charged, the model is Strength 5 until the end of the turn.</description>
+      <description>Having Charged, Strength 5 until the end of the turn.</description>
     </rule>
     <rule id="4e5f-c9b1-ae7b-b2a2" name="Horn of the Riddermark" book="Kingdoms of Men" page="33" hidden="false">
       <profiles/>
@@ -928,14 +936,17 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Models with this rule only fail an &apos;in the way&apos; roll on the roll of a 1. Each time this model slays a Hero or Monster he restores his Might to its starting value.</description>
+      <description>&apos;In the way&apos; rolls fail on rolls of 1, not 1-3.
+Each Hero or Monster slain by this model restores a point of this model&apos;s Might, up to its starting value.</description>
     </rule>
     <rule id="3861-08a3-a589-bbff" name="Legendary Hero" book="Kingdoms of Men" page="34" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Roll a dice when Eorl first spends a point of Might each turn. On a 1-3, there is no effect. On a 4-6, do not reduce Eorl&apos;s Might store - the Might point was effectively &apos;free&apos;.</description>
+      <description>After the first Might roll of each turn, roll a dice. If:
+	1-3: no effect.
+	4-6: do not reduce Might store.</description>
     </rule>
     <rule id="f506-9f8a-dcc4-a80d" name="Vanguard" book="Kingdoms of Men" page="35" hidden="false">
       <profiles/>

@@ -1839,13 +1839,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="b543-db53-c064-1897" name="Shield" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="a0d6-d3aa-0adf-7f69" name="Shielding" hidden="false" targetId="e0df-99a8-fc55-3419" type="rule">
+        <infoLink id="b543-db53-c064-1897" name="Shield, Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1929,13 +1923,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="1331-d863-c0c4-cf5a" name="Shield" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="29c1-4938-41a4-fd12" name="Shielding" hidden="false" targetId="e0df-99a8-fc55-3419" type="rule">
+        <infoLink id="1331-d863-c0c4-cf5a" name="Shield, Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2230,7 +2218,7 @@
         <modifier type="set" field="hidden" value="false">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a3ef-4793-467d-d619" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a3ef-4793-467d-d619" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -2261,7 +2249,7 @@
         <modifier type="set" field="hidden" value="false">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="215b-8906-9ae2-c38e" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="215b-8906-9ae2-c38e" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>

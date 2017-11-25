@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1351-790a-10ca-e52f" name="Moria" revision="7" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1351-790a-10ca-e52f" name="Moria" revision="8" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2332,7 +2332,16 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="a6ea-55ac-9d94-e3eb" name="Poison-Blood" hidden="false" targetId="66d2-0759-716c-2055" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
@@ -2390,13 +2399,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="db3e-34c6-9116-1ef8" name="Shield" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="78dd-ed6d-9233-c096" name="Shielding" hidden="false" targetId="e0df-99a8-fc55-3419" type="rule">
+        <infoLink id="db3e-34c6-9116-1ef8" name="Shield, Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2442,13 +2445,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="117a-8f25-b485-2aa0" name="Shield" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8121-49e1-5c0d-6d0c" name="Shielding" hidden="false" targetId="e0df-99a8-fc55-3419" type="rule">
+        <infoLink id="117a-8f25-b485-2aa0" name="Shield, Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2702,6 +2699,37 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66d2-0759-716c-2055" name="Poison-Blood" book="Moria &amp; Angmar" page="19" hidden="true" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0d0e-64df-e21c-9193" name="Poison-Blood" book="" page="" hidden="false" targetId="602b-4f8a-d6d4-cc33" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9da8-1cc8-38e1-6804" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c89-c00d-fd8f-6f55" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
