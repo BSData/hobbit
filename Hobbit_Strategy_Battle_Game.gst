@@ -223,7 +223,7 @@ Effects on Fights:
       <infoLinks/>
       <modifiers/>
       <description>Can Shoot in the Shoot Phase.
-[Must have used no more than half of its Movement in the Move Phase.]</description>
+[Must have used no more than half of their Movement in the Move Phase.]</description>
     </rule>
     <rule id="be60-39e9-b5bc-4bf7" name="Burly" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
@@ -372,23 +372,26 @@ Follows rules for Spears, with additions:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If this model is targeted by a magical power and has no Will points to resist it with, it may still take a Resist test with a single dice.</description>
+      <description>If targeted by a magical power, having run out of Will points, it may still take a Resist test with a single dice.</description>
     </rule>
     <rule id="a1ff-a0c9-5972-0846" name="Set Ablaze" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>It is possible through a number of means, that models can Set Ablaze. When this happens, the model suffers an immediate Strength 9 hit. If the model survivse, it will suffer a further Strength 5 hit in each End Phase until the blaze is extinguished.
-
-To extinguish the blaze, the model must lie down, and then crawl 1&quot;, at which point the blaze is immediately put out.</description>
+      <description>When this occurs, the model takes an immediate Strength 9 hit.
+If they survive, they suffer a Strength 5 hit in each End Phase, until the blaze is extinguished.
+To extinguish the blaze, the model must lie down and crawl 1&quot;; once done the blaze is immediately put out.</description>
     </rule>
     <rule id="8948-88b2-8e1c-f046" name="Severed Heads" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If Severed Heads are fired at a Battlefield target, ignore the normal Strength of the Siege Engine; instead, both the initial target and all models wihtin 2&quot; suffer a single Srtength 3 hit. This shot will neither knock models Prone nor inflict more one Wound per hit. Any Good models hit must immediately pass a Courage test (pg 47 of The Hobbit: An Unexpected Journey Rulebook) or be removed from play. If Severed Heads are fired at a Siege target, they inflict no damage.</description>
+      <description>Both the Battlefield target and all models within 2&quot;/5cm suffer a single Strength 3 hit.
+[This shot will neither knock models Prone nor inflict more one Wound per hit.]
+Any Good models hit must immediately pass a Courage test, or be removed from play.
+[Has no effect on Siege targets.]</description>
     </rule>
     <rule id="b934-e865-e199-a7ae" name="Shield, Cumbersome, Shielding" book="The Hobbit: An Unexpected Journey" page="74" hidden="false">
       <profiles/>
@@ -412,31 +415,44 @@ Shielding:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If a Siege Engine crewed by Siege Veterans successfully hits a Siege target, the controlling player may roll two dice To Wound it, not one, and apply the highest result. To receive this bonus, all crew must have the Seige Veterans skill.</description>
+      <description>If an Engine crewed by Siege Veterans successfully hits a Siege target, the controlling player may roll two dice to Wound, applying the higher.
+[All crew must be Seige Veterans.]</description>
     </rule>
     <rule id="bef7-0f1e-af53-b636" name="Slingshot" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A model can shoot twice if he remains stationary, or once if he moves up to half of his maximum move distance. If he moves more than half of his maximum move distance, he may not fire the slingshot at all this phase.</description>
+      <description>Can shoot in the Shoot phase.
+[Must have used no more than half of their Movement in the Move Phase.]
+If they remain stationary, they get an additional shot.
+[Second Shot can be allocated after the outcome of the first.]
+</description>
     </rule>
     <rule id="644a-02f5-9e09-a4a9" name="Spears" book="Mordor" page="69" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A spear enables its bearer to fight in a special way. A spear-armed model can join a Fight by moving into base contact with a friend who is in base contact with an enemy model. This is an exception to the ordinary Fight rules, in that the spear-armed model does not need to be in base contact with the enemy model to participate in the Fight.
+      <description>The bearer can join a Fight by moving into base contact with an ally who is in base contact with an enemy.
+If the bearer is not in base contact with another enemy, they contribute an Attack to this fight, based on their Fight and Strength.
+[Can Support any ally ( Prone, Two-Handed Weapon etc.).]
+[The bearer may only Support one ally at a time.]
+[A model can only be Supported by one ally at a time.]
+[Only a single Attack can be contributed, regardless of the number on the bearer&apos;s profile.]
+[The bearer may not be Struck or be &apos;Knocked to the Ground&apos; if their side loses the Fight.]
+[The bearer can be the model to &apos;Make Way&apos; if their side lose the Fight.]
+[Heros can use Might as usual.]
+[Heros can not use &apos;Heroic Actions&apos; or &apos;Heroic Combat&apos;.]
 
-A spear-armed model fighting in thie way contributes a single Attack to the Fight, at his own Fight value and using his own Strength characteristic, provided he is not himself in base contact with an enemy model. He may only contribute a single Attack, however, regardless of how many he has on his profile. If the spear-armed model is a Hero with Might points, he may expend them to affect his dice in the usual way. In a Multiple Combat, a supporting model he is supporting.
 
-The model using the spear is considered to be suppoting his ally, and may not be targeted with Strikes should his side lose the combat; he will also not be Knocked to the Ground if his side loses the Fight against a charging Cavalry model.
 
-A model can only gain Support from one spear-armed model at a time and a spear-armed model may only Support a single model at a time. A spear-armed model can Support any friendly model, even one that is Prone or armed with a two-handed weapon.
 
-Supporting models may not use Heroic Actions in the Fight phase, not can they make additional moves as part of a Heroic Combat.
 
-A spear-armed model may Make Way for his ally if they lose the Fight. This counts as the one model who is allowed to Make Way for a friend.</description>
+
+
+
+This counts as the one model who is allowed to Make Way for a friend.</description>
     </rule>
     <rule id="5563-9c52-8ada-de9b" name="Staff of Power" book="The Hobbit: An Unexpected Journey" page="69" hidden="false">
       <profiles/>
@@ -656,7 +672,9 @@ Ignore all obstacles except water features and gaps (chasms, ditches, etc.).</de
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>During any point in her move, the Spider Queen can expend a Will point to put a Broodling base into play anywhere, at least partially within 3&quot;/8cm. Broodlings may move and charge on the turn they are summoned. She may summon multiple Broodlings in a single turn, provided she has sufficient Will remaining. Note, Broodlings are not counted when working out if a force is broken.</description>
+      <description>Can deploy Broodlings within 3&quot;/8cm, each Broodling costing a point of Will.
+Broodlings may move and charge on that turn.
+[Broodlings are not counted when working out if a force is Broken.]</description>
     </rule>
     <rule id="c076-88a5-8890-8a2d" name="Survival Instinct" book="Moria &amp; Angmar" page="21" hidden="false">
       <profiles/>
@@ -730,7 +748,7 @@ A model that spends a full turn in base contact destroys it automatically.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The drums brought to war by the Gundabad Blackshields are carried upon the back of one Goblin while another beats upon it. The drum is considered to be ‘playing&apos; as long as the Drummer and Bearer are in base contact together.</description>
+      <description>The drum is playing if the Drummer and Bearer are in base contact.</description>
     </rule>
     <rule id="3daa-10cd-ac5c-a388" name="Doom, Doom!" book="Moria &amp; Angmar" page="26" hidden="false">
       <profiles/>
@@ -915,7 +933,9 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This precious heirloom is a banner. In addition, any Hero of Rohan who has 0 Might points at the start of the turn automatically adds 1 Might point to his store if he starts the turn within 3&quot;/8cm of the Royal Standard of Rohan. This does not include Gamling himself.</description>
+      <description>Follows the rules for Banners, with additional effects:
+Heros of Rohan, who have 0 Might points at the start of the turn, automatically addone Might to their store if they start the turn within 3&quot;/8cm of the Royal Standard of Rohan.
+[Excluding the bearer.]</description>
     </rule>
     <rule id="88d1-bb99-3f37-9e42" name="Westfold Redshields" book="Kingdoms of Men" page="33" hidden="false">
       <profiles/>
