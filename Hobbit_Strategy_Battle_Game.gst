@@ -381,7 +381,7 @@ Follows rules for Spears, with additions:
       <modifiers/>
       <description>When this occurs, the model takes an immediate Strength 9 hit.
 If they survive, they suffer a Strength 5 hit in each End Phase, until the blaze is extinguished.
-To extinguish the blaze, the model must lie down and crawl 1&quot;; once done the blaze is immediately put out.</description>
+To extinguish the blaze, the model must lie down and crawl 1&quot;/2cm; once done the blaze is immediately put out.</description>
     </rule>
     <rule id="8948-88b2-8e1c-f046" name="Severed Heads" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
@@ -434,14 +434,14 @@ If they remain stationary, they get an additional shot.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The bearer can join a Fight by moving into base contact with an ally who is in base contact with an enemy.
-If the bearer is not in base contact with another enemy, they contribute an Attack to this fight, based on their Fight and Strength.
+      <description>The wielder can join a Fight by moving into base contact with an ally who is in base contact with an enemy.
+If the wielder is not in base contact with another enemy, they contribute an Attack to this fight, based on their Fight and Strength.
 [Can Support any ally ( Prone, Two-Handed Weapon etc.).]
-[The bearer may only Support one ally at a time.]
+[The wielder may only Support one ally at a time.]
 [A model can only be Supported by one ally at a time.]
 [Only a single Attack can be contributed, regardless of the number on the bearer&apos;s profile.]
-[The bearer may not be Struck or be &apos;Knocked to the Ground&apos; if their side loses the Fight.]
-[The bearer can be the model to &apos;Make Way&apos; if their side lose the Fight.]
+[The wielder may not be Struck or be &apos;Knocked to the Ground&apos; if their side loses the Fight.]
+[The wielder can be the model to &apos;Make Way&apos; if their side lose the Fight.]
 [Heros can use Might as usual.]
 [Heros can not use &apos;Heroic Actions&apos; or &apos;Heroic Combat&apos;.]
 
@@ -459,28 +459,30 @@ This counts as the one model who is allowed to Make Way for a friend.</descripti
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The wielder of a Staff of Power can use the Stun special stike. in addition, the bearer can expend 1 point of Will each turn wihtout reducing his own Will store.</description>
+      <description>The wielder can use the Stun special stike.
+The wielder can expend 1 point of Will each turn without affecting their store.</description>
     </rule>
     <rule id="3679-eb54-bca1-3551" name="Superior Construction" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The Siege Engine is a masterpiece in egineering, granting it enhanced range. This Seige Engine has a range of 60&quot; rather than 48&quot;.</description>
+      <description>Range of 60&quot;/140cm  rather than 48&quot;/112cm.</description>
     </rule>
     <rule id="85f8-9eb1-092e-7c44" name="Swift Reload" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When firing a Seige Engine with this upgrade, the player rolls 2D6 and chooses the highest result to determine the number of shots fired.</description>
+      <description>Roll 2D6; the higher is the number of shots fired.</description>
     </rule>
     <rule id="98e5-0c6c-dc8a-255d" name="Sworn Protector" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>At the start of the game, this model must choose one Hero from his force to defend, unless the model&apos;s special rules name a specific Hero. Whilst this model is within 12&quot; of the Hero he is defening, he automatically passes any Courage tests he has tpo take.</description>
+      <description>Automatically pass Courage tests while target Hero is within 12&quot;/28cm.
+[Target Hero to be chosen before the start of the game, unless specified in the model&apos;s profile.]</description>
     </rule>
     <rule id="5951-b53f-b4d2-2a35" name="Terror" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
@@ -532,7 +534,7 @@ A model using a two-handed weapon in close combat suffers a -1 penalty to Duel r
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If you have one or more war horns on the battlefield, all models in your force have +1 Courage.</description>
+      <description>+1 Courage to allies.</description>
     </rule>
     <rule id="25e0-58f0-ebb0-4420" name="Woodland Creature" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
@@ -681,14 +683,15 @@ Broodlings may move and charge on that turn.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Each time a Dragon is wounded, it must take a Courage test. If the test is failed, he flees: the model is removed and counts as a casualty.</description>
+      <description>Take a Courage test every time a Wound is suffered.
+If failed, the model is removed and counts as a casualty.</description>
     </rule>
     <rule id="3c62-f754-9fde-75f5" name="Swift and Lithe" book="Moria &amp; Angmar" page="22" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The Cave Drake is incredibly agile, able to weave through rock-strewn caves and tunnels with unnerving ease, using the vibrissae extending from its head to guide the bulk of its body. A Cave Drake can move through difficult terrain of any sort without penalty.</description>
+      <description>Can move through any difficult terrain without penalty.</description>
     </rule>
     <rule id="01d2-fd20-aa09-67d5" name="Tentacles" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
@@ -702,7 +705,7 @@ Broodlings may move and charge on that turn.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The skin of this Dragon is almost impenetrably dense, or otherwise protected from harm. Its Wounds and Defense are 9, rather than 7.</description>
+      <description>9 Wounds and 9 Defense.</description>
     </rule>
     <rule id="e47d-dba7-1fae-0b75" name="Venom" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
@@ -772,7 +775,9 @@ Effects on Fights:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If either model in the drum team is killed, the controlling player can choose to &apos;pass on&apos; the model&apos;s wargear to any other Gundabad Blackshield within 1&quot;/2cm - immediately replace the model with the model of the slain drummer/bearer. Models that are already engaged in close combat cannot take up the wargear (they’re too busy fighting for their lives). If there are no models available, the equipment is lost in the maelstrom of combat.</description>
+      <description>If a Drummer is Slain, another Gundabad Blackshield warrior can take their place if within 1&quot;/2cm of the other drummer.
+[Models in combat cannot replace the slain Drummer.]
+[If no replacement is available, drum is destroyed.]</description>
     </rule>
     <rule id="154c-d883-0f01-abd6" name="Blinding Swarm" book="Moria &amp; Angmar" page="26" hidden="false">
       <profiles/>
@@ -830,7 +835,7 @@ Effects on Fights:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Thanks to the power of Vilya, one of the Three Elven Rings, Elrond can re-roll his dice when using Fate points.</description>
+      <description>Can re-roll Fate rolls.</description>
     </rule>
     <rule id="5359-55bd-737e-c3bc" name="Foresight of the Eldar" book="The Free Peoples" page="17" hidden="false">
       <profiles/>
@@ -934,7 +939,7 @@ Savage animals and monsters which would not normally need weapons to fight are n
       <infoLinks/>
       <modifiers/>
       <description>Follows the rules for Banners, with additional effects:
-Heros of Rohan, who have 0 Might points at the start of the turn, automatically addone Might to their store if they start the turn within 3&quot;/8cm of the Royal Standard of Rohan.
+Heros of Rohan who have 0 Might points at the start of the turn automatically add one Might to their store if they start the turn within 3&quot;/8cm of the Royal Standard of Rohan.
 [Excluding the bearer.]</description>
     </rule>
     <rule id="88d1-bb99-3f37-9e42" name="Westfold Redshields" book="Kingdoms of Men" page="33" hidden="false">
@@ -973,7 +978,7 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Outriders can use a friendly Hero&apos;s Stand Fast! regardless of range.</description>
+      <description>Outriders can use an ally&apos;s &apos;Stand Fast!&apos; at any range.</description>
     </rule>
     <rule id="9380-d95c-7cd3-646d" name="Helmingas" book="Kingdoms of Men" page="32" hidden="false">
       <profiles/>
