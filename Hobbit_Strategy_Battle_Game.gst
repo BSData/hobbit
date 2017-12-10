@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, Free Peoples" revision="7" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, Free Peoples" revision="8" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -186,36 +186,35 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A sucessful Strike from this weapon causes 1xD3 Wounds against all models of that race.
-[An Elfbane weapon causes 1xD3 Wounds per sucessful Strike against any Elf model.]</description>
+      <description>A sucessful Strike from this weapon causes (1/2)D6 Wounds against models of that race.
+[Round up.]</description>
     </rule>
     <rule id="5ae7-455d-aa7e-032a" name="Banner" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Effects on Carrier:
-	Counts as a Two-Handed Weapon, with the penalty to Fight rolls but without the bonus to Wound rolls.
-	[Can be used to Fight while mounted.]
-	[All equipment is dropped, other than armour.]
+      <description>Effects on bearer:
+	Counts as a Two-Handed Weapon, with the Duel roll penalty but without the Wound roll bonus.
+	[Can be used in Duels while mounted.]
+	[All other equipment is discarded, other than armour.]
 
-Effects on Fights:
-	Re-roll a single die in to determine the winner of the Fight.
-	[The Fight must contain a friendly model within 3&quot;/8cm of the carrier.]
-	[The carrier must be Standing.]
-	[The re-roll can be used after the opponent&apos;s roll, but must be used before any Might.]
-	[If the opponent can also re-roll for any reason, the player with Priority re-rolls first.]
-	[The carrier can pass the Banner to a friendly model who in base cantact, not in a Fight, and not a Hero.]</description>
+Effects on Duels:
+	Re-roll a single die when determining the outcome of Duels.
+	[The Duel must involve an allied model within 3&quot;/8cm of the bearer.]
+	[The bearer must be Standing.]
+	[The re-roll can be taken after the opponent&apos;s roll, but must be taken before either player uses Might.]
+	[If the opponent can also re-roll dice for any reason, the player without Priority re-rolls first.]
+	[The bearer can pass the Banner to an ally in base cantact who is neither in a Duel nor a Hero (unless otherwise stated).]</description>
     </rule>
     <rule id="2d91-9af0-b06e-c2b4" name="Bodyguard" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Automatically pass Courage tests while target Hero is alive and on the board.
-[Each contingent can have up to one target Hero.]
-[In each contigent, all models with this rule must have the same target Hero.]
-</description>
+      <description>Automatically pass Courage tests while Target Hero is alive and on the board.
+[Each contingent can have up to one Target Hero.]
+[In each contigent, all models with this rule must have the same Target Hero.]</description>
     </rule>
     <rule id="0844-3834-04ba-d6b2" name="Bows" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
       <profiles/>
@@ -239,7 +238,7 @@ Can use their full Movement when carrying Heavy Objects.</description>
       <infoLinks/>
       <modifiers/>
       <description>+1 to all Jump, Leap and Climb test. 
-No penalties for Fights in the Dark.</description>
+No penalties for Duels in the dark.</description>
     </rule>
     <rule id="95db-f21e-3f94-0389" name="Crossbows" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
       <profiles/>
@@ -256,21 +255,19 @@ No penalties for Fights in the Dark.</description>
       <modifiers/>
       <description>Can be used as a One-Handed or Two-Handed Weapon.
 
-Increases likelihood of winning Drawn Fights:
+Increases likelihood of winning drawn Duels:
 	3-6 to win for a Good model.
 	1-4 to win for an Evil Model.
-	[If both sides have Elven blades, no change.]
-
-</description>
+	[If both sides have Elven Blades, no change.]</description>
     </rule>
     <rule id="4d2b-177f-7240-6734" name="Elven Cloaks" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If further than 6&quot;/14cm away from the wearer, a model cannot target the wearer.
+      <description>A model cannot Target the wearer if further than 6&quot;/14cm away from the wearer.
 [Targeting includes Charging, Shooting and Magical Powers.]
-[If the wearer is Mounted, this rule does not apply.]</description>
+[Does not apply if the wearer is Mounted.]</description>
     </rule>
     <rule id="2507-c351-8e85-f546" name="Engineer Captains" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
@@ -279,7 +276,7 @@ Increases likelihood of winning Drawn Fights:
       <modifiers/>
       <description>Replaces a crew member and may use Might to alter Hit, Wound, and Scatter rolls made by the Siege Engine.
 Has the same equipment as the crew, as well as a Single-Handed Weapon.
-[Up to one per Siege Engine.]</description>
+[Maximum of one per Siege Engine.]</description>
     </rule>
     <rule id="e226-c764-7852-6cac" name="Expert Rider" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
@@ -312,7 +309,7 @@ Can not &apos;Shield&apos;.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Re-roll rolls of 1 while attempting to Wound a Siege target.</description>
+      <description>Re-roll Wound rolls of 1 against Siege Targets.</description>
     </rule>
     <rule id="401d-ce6a-48ff-ac6c" name="Fly" book="The Hobbit: An Unexpected Journey" page="82" hidden="false">
       <profiles/>
@@ -320,7 +317,7 @@ Can not &apos;Shield&apos;.</description>
       <infoLinks/>
       <modifiers/>
       <description>Ignore all models, control zones, and terrain during Movement.
-Can not end its movement within Control Zones, woods, or upon any terrain that its base will not securely balance upon.</description>
+Can not end its movement within control zones, woods, or upon any terrain that its base will not securely balance upon.</description>
     </rule>
     <rule id="8052-396f-cad6-90a3" name="Harbinger of Evil" book="Moria &amp; Angmar" page="21" hidden="false">
       <profiles/>
@@ -338,7 +335,7 @@ Can not end its movement within Control Zones, woods, or upon any terrain that i
       <description>Can only be used while Mounted.
 If the model Charges, +1 to Wound against any type of model.
 [Does not apply in difficult terrain.]
-[Lance is discarded if the model dismounts or their steed is Slain.]</description>
+[Discarded if the model Dismounts or their steed is Slain.]</description>
     </rule>
     <rule id="e428-dd18-64fa-a9a7" name="Mountain Dwellers" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
@@ -354,12 +351,9 @@ Re-roll Jump, Leap and Climb test.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Require two hands to use.
-Cannot be used at the same time as a Shield.
-Follows rules for Spears, with additions:
-	Can Support an ally by being in base contact with another Pike-armed model, such that the two Pike-armed models Support one ally.
-	[Does not apply if the Supporting model carries a Spear instead of a Pike.]
-	</description>
+      <description>Follows rules for Spears, with additions:
+	Can Support an ally by being in base contact with a supporting Pike- or Spear-armed model, such that the two models Support one ally.
+	[Require two hands to use, so cannot be used with a Shield or Bow.]</description>
     </rule>
     <rule id="ad3a-a37d-44be-1bbe" name="Poisoned Arrows" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
@@ -373,26 +367,26 @@ Follows rules for Spears, with additions:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If targeted by a magical power, having run out of Will points, it may still take a Resist test with a single dice.</description>
+      <description>If Targeted by a Magical Power, having run out of Will, may still take a Resist test with a single die.</description>
     </rule>
     <rule id="a1ff-a0c9-5972-0846" name="Set Ablaze" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When this occurs, the model takes an immediate Strength 9 hit.
-If they survive, they suffer a Strength 5 hit in each End Phase, until the blaze is extinguished.
-To extinguish the blaze, the model must lie down and crawl 1&quot;/2cm; once done the blaze is immediately put out.</description>
+      <description>Model takes a Strength 9 hit.
+If not Slain, model takes a Strength 5 hit in each End Phase until extinguished.
+To extinguish, model must lie down and crawl 1&quot;/2cm.</description>
     </rule>
     <rule id="8948-88b2-8e1c-f046" name="Severed Heads" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Both the Battlefield target and all models within 2&quot;/5cm suffer a single Strength 3 hit.
-[This shot will neither knock models Prone nor inflict more one Wound per hit.]
-Any Good models hit must immediately pass a Courage test, or be removed from play.
-[Has no effect on Siege targets.]</description>
+      <description>Both the Battlefield Target and all models within 2&quot;/5cm take a Strength 3 hit.
+[This shot will neither knock models Prone nor inflict more than one Wound per hit.]
+If not Slain, hit models must immediately pass a Courage test, or be removed from play.
+[Doe not apply to Siege Targets.]</description>
     </rule>
     <rule id="b934-e865-e199-a7ae" name="Shield, Cumbersome, Shielding" book="The Hobbit: An Unexpected Journey" page="74" hidden="false">
       <profiles/>
@@ -400,23 +394,23 @@ Any Good models hit must immediately pass a Courage test, or be removed from pla
       <infoLinks/>
       <modifiers/>
       <description>Shield:
-	+1 to the model&apos;s Defence, unless armed with any bow, two-handed weapon, spear, or pike.
+	+1 Defence, unless armed with a Bow, Two-Danded Weapon, Spear, or Pike.
 	[The model can only use Elven blades one-handed.]
 
 Shielding:
-	Double the number of dice rolled to determine the winner of the Fight.
-	If the model wins the Fight, they cannot Strike.
+	Double the number of dice rolled in the Duel.
+	[Prone models can use Shielding.]
+	[Cannot Strike if the Duel is won.]
 	[Must be declared before any roll.]
-	[All friendly models in a Fight must be Shielding.]
-	[Shielding models cannot be supported by spears or pikes.]
-	[Prone models can use Shielding.]</description>
+	[None or all allied models in a Duel must be Shielding.]
+	[Shielding models cannot be supported by Spears or Pikes.]</description>
     </rule>
     <rule id="026d-9114-92bf-15fd" name="Siege Veterans" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If an Engine crewed by Siege Veterans successfully hits a Siege target, the controlling player may roll two dice to Wound, applying the higher.
+      <description>If an Engine crewed by Siege Veterans hits a Siege target, roll two dice to Wound, applying the higher.
 [All crew must be Seige Veterans.]</description>
     </rule>
     <rule id="bef7-0f1e-af53-b636" name="Slingshot" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
@@ -426,49 +420,39 @@ Shielding:
       <modifiers/>
       <description>Can shoot in the Shoot phase.
 [Must have used no more than half of their Movement in the Move Phase.]
-If they remain stationary, they get an additional shot.
-[Second Shot can be allocated after the outcome of the first.]
-</description>
+If they remain stationary, they can Shoot twice.
+[Second Shot can be allocated after the outcome of the first.]</description>
     </rule>
     <rule id="644a-02f5-9e09-a4a9" name="Spears" book="Mordor" page="69" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The wielder can join a Fight by moving into base contact with an ally who is in base contact with an enemy.
-If the wielder is not in base contact with another enemy, they contribute an Attack to this fight, based on their Fight and Strength.
-[Can Support any ally ( Prone, Two-Handed Weapon etc.).]
-[The wielder may only Support one ally at a time.]
+      <description>Wielder can join a Duel by moving into base contact with an ally who is in base contact with an enemy.
+If not in base contact with another enemy, wielder contributes an Attack to the Duel, using their Fight and Strength.
+[Wielder can Support any ally (Prone, Two-Handed Weapon etc.).]
+[Wielder may only Support one ally at a time.]
 [A model can only be Supported by one ally at a time.]
-[Only a single Attack can be contributed, regardless of the number on the bearer&apos;s profile.]
-[The wielder may not be Struck or be &apos;Knocked to the Ground&apos; if their side loses the Fight.]
-[The wielder can be the model to &apos;Make Way&apos; if their side lose the Fight.]
+[Wielder only contributes a single Attack, regardless of the number on the wielder&apos;s profile.]
+[Wielder may not be Struck or &apos;Knocked to the Ground&apos; if the Duel is lost.]
+[Wielder can be the model to &apos;Make Way&apos; if their side lose the Fight.]
 [Heros can use Might as usual.]
-[Heros can not use &apos;Heroic Actions&apos; or &apos;Heroic Combat&apos;.]
-
-
-
-
-
-
-
-
-This counts as the one model who is allowed to Make Way for a friend.</description>
+[Heros can not use &apos;Heroic Actions&apos; or &apos;Heroic Combat&apos;.]</description>
     </rule>
     <rule id="5563-9c52-8ada-de9b" name="Staff of Power" book="The Hobbit: An Unexpected Journey" page="69" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The wielder can use the Stun special stike.
-The wielder can expend 1 point of Will each turn without affecting their store.</description>
+      <description>Wielder can use &apos;Stun&apos;.
+Wielder can expend 1 Will each turn without depleting Will.</description>
     </rule>
     <rule id="3679-eb54-bca1-3551" name="Superior Construction" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Range of 60&quot;/140cm  rather than 48&quot;/112cm.</description>
+      <description>Range of 60&quot;/140cm.</description>
     </rule>
     <rule id="85f8-9eb1-092e-7c44" name="Swift Reload" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
@@ -493,7 +477,6 @@ The wielder can expend 1 point of Will each turn without affecting their store.<
       <description>Enemies must pass a Courage test to Charge this model.
 	If passed, Charge as normal.
 	If failed, can not Charge this or any other enemy this turn.
-
 [May only apply to specific types of enemy, as specified in the model&apos;s profile.]</description>
     </rule>
     <rule id="6cc8-0177-db8a-9eb4" name="Throw Stones" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
@@ -517,8 +500,7 @@ Range 8&quot;/20cm and Strength 1, unless otherwise stated in the model&apos;s p
 Can be used prior to completeing a Charge.
 [Model moves within 1&quot;/2cm of the enemy then Shoots immediately, with a -1 Hit penalty for moving.]
 [If the enemy is not Slain, model moves into base contact as usual.]
-[If the enemy is Slain, model can continue their Movement.]
-</description>
+[If the enemy is Slain, model can continue their Movement.]</description>
     </rule>
     <rule id="ff83-f9b2-fb27-b5f4" name="Troll" book="The Hobbit: An Unexpected Journey" page="92" hidden="false">
       <profiles/>
@@ -559,49 +541,44 @@ Siege Engines that have a Troll crew member may fire twice each turn provided th
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Re-roll rolls of 1 when attempting to Wound an Elf or Dwarf.</description>
+      <description>Re-roll Wound rolls of 1 against Elves or Dwarves.</description>
     </rule>
     <rule id="8e73-42c7-3a3d-54d0" name="Cornered Beast" book="Moria &amp; Angmar" page="22" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the Cave Drake loses a fight and is Trapped, but is not Slain, all models within 1&quot;/2cm of the model suffer a Strength 4 Strike.</description>
+      <description>If the Cave Drake loses a Duel and is Trapped, but is not Slain, all models within 1&quot;/2cm of the model suffer a Strength 4 Strike.</description>
     </rule>
     <rule id="f111-6e17-b690-a710" name="Death-Touch" book="Moria &amp; Angmar" page="19" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If Ashrâk Wounds or is Wounded, the other model must roll a D6, getting Paralysed on a 4+.
-[Effects follow the rules for the Magic Power&apos; Paralyse&apos;.]
-</description>
+      <description>If Ashrâk Wounds or is Wounded, the opposing model must roll 1D6; &apos;Paralyse&apos; on 4+.</description>
     </rule>
     <rule id="db00-aee5-4e28-c33d" name="Draconic Charge" book="Moria &amp; Angmar" page="21" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the Dragon Charges, enemies are Knocked to the Ground.
-[In the same way as a Monstrous Mount if it wins a Fight.]</description>
+      <description>Enemies Charged by a Dragon are Knocked to the Ground.</description>
     </rule>
     <rule id="c625-f769-e557-8716" name="Drums in the Deep" book="Moria &amp; Angmar" page="25" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Deploy the Drum model following the instructions of the scenario like any other model, with the Drummers in base contact with it.
-To use the Drum, at least one Drummer must start the turn in base contact with it and must not move or be engaged in combat.
-It may not be Moved and Played in the same turn.
-
-</description>
+      <description>Deploy like any other model, with the Drummers in base contact with it.
+To use the Drum, a Drummer must start the turn in base contact and must not move or be in a Duel.
+It may not be Moved and Played in the same turn.</description>
     </rule>
     <rule id="3819-dbd6-23bd-83fd" name="Fly (Dragon)" book="Moria &amp; Angmar" page="21" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A Dragon can &apos;Fly&apos; 12“/28cm, following the same rules.</description>
+      <description>Can &apos;Fly&apos; 12“/28cm.</description>
     </rule>
     <rule id="0bd2-250c-1532-0d67" name="From the Deep" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
@@ -610,25 +587,23 @@ It may not be Moved and Played in the same turn.
       <modifiers/>
       <description>How to use the Watcher:
 	Do not place at the start of the game.
-	Each turn, before the Priority roll, announce if you want to place the Watcher.
-	Roll a D6; 3+ is a success.
-	[If unsuccesssful, re-roll at the start of every turn until successful.]
+	Each turn, before rolling for Priority, choose if you want to place the Watcher.
+	If so, roll 1D6; success on 3+.
+	[If unsuccesssful, re-roll at the start of every turn.]
 	If successful, place the Watcher anywhere on the board; displacing any other models.
-	Move diplaced model by the shortest path to be 1&quot;/2cm from the Watcher, space allowing.
+	Move diplaced models by the shortest path to be 1&quot;/2cm from the Watcher, space allowing.
 	Players take turns to move their own models, starting with the Watcher&apos;s player.
-	The Watcher cannot charge on the same turn.
-
-	</description>
+	The Watcher cannot charge on the same turn.</description>
     </rule>
     <rule id="9169-f5d5-858d-55d0" name="Gaping Maw" book="Moria &amp; Angmar" page="22" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If the Cave Drake wins a fight, it can Strike normally or attempt to swallow a single man-sized (or smaller) model that it is Fighting.
-If the Cave Drake chooses to swallow a model, roll to Wound.
+      <description>If the Cave Drake wins a Duel, it can attempt to swallow a single man-sized (or smaller) model involved in the Duel.
+If the Cave Drake chooses to do so, roll to Wound.
 If successful, the model is Slain.
-[Fate rolls can be made as normal; if successful, the model survives and is unharmed.]</description>
+[Fate rolls can be made as normal; ifeffective, the model survives and is unharmed.]</description>
     </rule>
     <rule id="301d-93ae-3910-4299" name="Iron Fist" book="Moria &amp; Angmar" page="17" hidden="false">
       <profiles/>
@@ -656,7 +631,7 @@ If successful, the model is Slain.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>No movement penalty in areas of difficult terrain.
+      <description>Not slowed by difficult terrain.
 Ignore all obstacles except water features and gaps (chasms, ditches, etc.).</description>
     </rule>
     <rule id="0b9f-e5ec-dcf9-abc8" name="Packlord" book="Moria &amp; Angmar" page="18" hidden="false">
@@ -664,7 +639,7 @@ Ignore all obstacles except water features and gaps (chasms, ditches, etc.).</de
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Other Wild Wargs may use the model&apos;s &apos;Stand Fast!&apos; rule or benefit from its heroic actions.</description>
+      <description>Other Wild Wargs may use this model&apos;s &apos;Stand Fast!&apos; rule and benefit from its heroic actions.</description>
     </rule>
     <rule id="602b-4f8a-d6d4-cc33" name="Poison-Blood" book="Moria &amp; Angmar" page="19" hidden="false">
       <profiles/>
@@ -678,15 +653,16 @@ Ignore all obstacles except water features and gaps (chasms, ditches, etc.).</de
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>&apos;&apos;Monstrous Mount&apos;.</description>
+      <description>&apos;Monstrous Mount&apos;.</description>
     </rule>
     <rule id="cad3-1947-7257-66a9" name="Progeny" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Can deploy Broodlings within 3&quot;/8cm, each Broodling costing a point of Will.
+      <description>Can deploy Broodlings within 3&quot;/8cm.
 Broodlings may move and charge on that turn.
+[Each costs a point of Will.]
 [Broodlings are not counted when working out if a force is Broken.]</description>
     </rule>
     <rule id="c076-88a5-8890-8a2d" name="Survival Instinct" book="Moria &amp; Angmar" page="21" hidden="false">
@@ -702,7 +678,7 @@ If failed, the model is removed and counts as a casualty.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Can move through any difficult terrain without penalty.</description>
+      <description>Not slowed by difficult terrain.</description>
     </rule>
     <rule id="01d2-fd20-aa09-67d5" name="Tentacles" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
@@ -754,18 +730,18 @@ Double movement while wholly within watery terrain.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The Moria Goblin Drum is moved in the same way as a Heavy Object.</description>
+      <description>Follows rules for a &apos;Heavy Object&apos;.</description>
     </rule>
     <rule id="0017-a9f7-68cf-eb11" name="Destroying the Drum" book="Moria &amp; Angmar" page="25" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The Drum has Defence 10, 3 Wounds, and no Control Zone.
-It can be Shot at normally.
-If reduced to 0 Wounds it is Destroyed.
-A model that spends a full turn in base contact destroys it automatically.
-[To do so, the model must not perform any actions during that turn.]</description>
+      <description>10 Defence, 3 Wounds, no control zone.
+Can be Shot.
+If reduced to 0 Wounds, it is Destroyed.
+A model that spends a full turn in base contact Destroys it automatically.
+[The model must not perform any actions during that turn.]</description>
     </rule>
     <rule id="c796-7ab7-3028-2097" name="Run and Drum" book="Moria &amp; Angmar" page="26" hidden="false">
       <profiles/>
@@ -779,17 +755,16 @@ A model that spends a full turn in base contact destroys it automatically.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Effects on Models:
-	+1 Courage for all Goblins on the battlefield, including Heroes. 
-	-1 Courage for all of the opponent&apos;s  models.
+      <description>Effects on models:
+	+1 Courage for all Goblins on the battlefield. 
+	-1 Courage for all enemy models.
 	[Not cumulative with other similar penalties (&apos;Ancient Evil&apos;, &apos;Harbinger of Evil&apos;, etc.).]
 
-Effects on Fights:
-	Re-roll a single die in to determine the winner of the Fight.
-	[The Fight must contain a Goblin within 18&quot;/42cm of the Drum.]
-	[The re-roll can be used after the opponent&apos;s roll, but must be used before any Might.]
-	[If the opponent can also re-roll for any reason, the player with Priority re-rolls first.]
-</description>
+Effects on Duels:
+	Re-roll a single die when determining the outcome of Duels.
+	[The Duel must involve a Goblin within 18&quot;/42cm of the Drum.]
+	[The re-roll can be taken after the opponent&apos;s roll, but must be taken before either player uses Might.]
+	[If the opponent can also re-roll dice for any reason, the player without Priority re-rolls first.]</description>
     </rule>
     <rule id="9e4d-f078-43d6-ed2f" name="Take up the Drum" book="Moria &amp; Angmar" page="26" hidden="false">
       <profiles/>
@@ -813,14 +788,15 @@ Effects on Fights:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Can fire two shots, even if it has used all of its Movement or is Fighting.</description>
+      <description>Can Shoot twice.
+[Even if it has used all of its Movement or is in a Duel.]</description>
     </rule>
     <rule id="9bd5-f1d3-cdad-0598" name="Back-Stabbers" book="Moria &amp; Angmar" page="27" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>+1 to rolls to Wound when striking Trapped models.
+      <description>+1 to Wound rolls on Trapped models.
 [Cumulative with the Two-Handed Weapon bonus.]</description>
     </rule>
     <rule id="e142-d5e4-842d-d600" name="Murderous Power" book="Moria &amp; Angmar" page="28" hidden="false">
@@ -828,7 +804,8 @@ Effects on Fights:
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Whenever a Dweller in the Dark slays an enemy, it regains a single Wound, up to its starting total.</description>
+      <description>Recovers a Wound for each enemy Slain.
+[Maximum of starting value.]</description>
     </rule>
     <rule id="2688-6783-ce1d-87c7" name="Throw Stones (Troll)" book="Moria &amp; Angmar" page="29" hidden="false">
       <profiles/>
@@ -851,7 +828,7 @@ Range 12&quot;/28cm and Strength 8.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If a direct 6 is rolled when casting a spell, Will point is recovered. </description>
+      <description>If a direct 6 is rolled when casting a spell, Will point is recovered.</description>
     </rule>
     <rule id="5805-7c45-f71b-ad22" name="Vilya" book="The Free Peoples" page="17" hidden="false">
       <profiles/>
@@ -866,11 +843,11 @@ Range 12&quot;/28cm and Strength 8.</description>
       <infoLinks/>
       <modifiers/>
       <description>How to use Foresight:
-	Before the game, roll a D6.
-	This is the Elrond&apos;s number of Foresight points.
-	Elrond can spend these points in the Priority Phase, after both players have made their Priority rolls.
-	Each point spent alters either Priority roll by +1 or -1.
-	[To a minimum:maximum value of 1:6.]</description>
+	Before the game, roll 1D6.
+	This is Elrond&apos;s number of Foresight points.
+	Elrond can spend these after both players have rolled for Priority.
+	Each point alters Priority roll by +1 or -1.
+	[To a minimum:maximum of 1:6.]</description>
     </rule>
     <rule id="ad8a-0314-7a1b-1d00" name="High King of the Elves" book="The Free Peoples" page="18" hidden="false">
       <profiles/>
@@ -884,7 +861,7 @@ Range 12&quot;/28cm and Strength 8.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Re-rolls failed Wound rolls when throwing or Fighting with these daggers.</description>
+      <description>Re-roll failed Wound rolls when Throwing or Dueling with these Daggers.</description>
     </rule>
     <rule id="7881-22d9-70b6-ec05" name="Twin Elven Blade" book="The Free Peoples" page="19" hidden="false">
       <profiles/>
@@ -915,7 +892,7 @@ Range 12&quot;/28cm and Strength 8.</description>
       <modifiers/>
       <description> Fight is 6/3+.</description>
     </rule>
-    <rule id="8dfa-499f-5fdc-5cb6" name="Noldorin Exiles" book="The Free Peoples" page="20" hidden="true">
+    <rule id="8dfa-499f-5fdc-5cb6" name="Noldorin Exiles" book="The Free Peoples" page="20" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -951,7 +928,7 @@ Range 12&quot;/28cm and Strength 8.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Having Charged, Strength 5 until the end of the turn.</description>
+      <description>Having Charged, 5 Strength until the end of the turn.</description>
     </rule>
     <rule id="4e5f-c9b1-ae7b-b2a2" name="Horn of the Riddermark" book="Kingdoms of Men" page="33" hidden="false">
       <profiles/>
@@ -959,7 +936,7 @@ Range 12&quot;/28cm and Strength 8.</description>
       <infoLinks/>
       <modifiers/>
       <description>+1 Courage to all Hobbits.
-[If the model is Slain or Moves off the board, the bonus is cancelled.]</description>
+[If Slain or Moved off the board, the bonus is cancelled.]</description>
     </rule>
     <rule id="8412-03bf-9794-b0e9" name="Royal Standard of Rohan" book="Kingdoms of Men" page="33" hidden="false">
       <profiles/>
@@ -967,8 +944,8 @@ Range 12&quot;/28cm and Strength 8.</description>
       <infoLinks/>
       <modifiers/>
       <description>Follows the rules for Banners, with additional effects:
-Heros of Rohan who have 0 Might points at the start of the turn automatically add one Might to their store if they start the turn within 3&quot;/8cm of the Royal Standard of Rohan.
-[Excluding the bearer.]</description>
+	Heros of Rohan within 3&quot;/8cm recovers 1 Might, if they start that turn with with 0 Might.
+	[Excluding this model.]</description>
     </rule>
     <rule id="88d1-bb99-3f37-9e42" name="Westfold Redshields" book="Kingdoms of Men" page="33" hidden="false">
       <profiles/>
@@ -982,24 +959,25 @@ Heros of Rohan who have 0 Might points at the start of the turn automatically ad
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A War Horn that adds +2 Courage, not +1.</description>
+      <description>A War Horn that adds +2 Courage.</description>
     </rule>
     <rule id="4437-51cb-cddc-19e8" name="Master Archer" book="Kingdoms of Men" page="34" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>&apos;In the way&apos; rolls fail on rolls of 1, not 1-3.
-Each Hero or Monster slain by this model restores a point of this model&apos;s Might, up to its starting value.</description>
+      <description>&apos;In the way&apos; rolls only fail on rolls of 1.
+Each Hero or Monster slain by this model restores a point of this model&apos;s Might.
+[Maximum of starting value.]</description>
     </rule>
     <rule id="3861-08a3-a589-bbff" name="Legendary Hero" book="Kingdoms of Men" page="34" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>After the first Might roll of each turn, roll a dice. If:
+      <description>After the model&apos;s first use of Might of each turn, roll a dice. If:
 	1-3: no effect.
-	4-6: do not reduce Might store.</description>
+	4-6: does not deplete Might.</description>
     </rule>
     <rule id="f506-9f8a-dcc4-a80d" name="Vanguard" book="Kingdoms of Men" page="35" hidden="false">
       <profiles/>
@@ -1023,7 +1001,7 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion"/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion."/>
         <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Friendly models within 6&quot;/14cm automatically pass Courage tests."/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Range is increased to 12&quot;/28cm."/>
       </characteristics>
@@ -1034,7 +1012,7 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion"/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion."/>
         <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Friendly models within 6&quot;/14cm cause Terror."/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Range is increased to 12&quot;/28cm."/>
       </characteristics>
@@ -1045,10 +1023,11 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
         <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target takes a Strength 9 hit.
-[The attacker chooses whether the mount or rider is struck; can target a model in combat.]"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Wounding hit causes D3 Wounds"/>
+[The attacker chooses whether a mount or rider is struck.]
+[Can Target a model in combat.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Successful Strike causes (1/2)D6 Wounds."/>
       </characteristics>
     </profile>
     <profile id="9a6d-1caf-4086-7fed" name="Chill Soul" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1057,8 +1036,10 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target suffers a wound. (The attacker chooses whether the mount or rider is struck; can target a model in combat). "/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target suffers one Wound.
+[The attacker chooses whether a mount or rider is Wounded.]
+[Can Target a model in combat.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Ali models within 5&quot; of target take a Strength 5 hit."/>
       </characteristics>
     </profile>
@@ -1068,9 +1049,12 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Caster can move target up to half its maximum move distance and it is then lmmobilised. (Cannot Jump, Leap, Climb or Lie Down; can take it into difficult terrain and Charge an enemy - no Courage test required; can drop an item or to put on the One Ring; the model may not move any further that turn, for any reason)."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target also reduces Fight value and Attacks to 1."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Caster can move Target up to half its maximum Movement and it is then &apos;lmmobilised&apos;.
+[Cannot Jump, Leap, Climb or Lie Down.]
+[Can take it into difficult terrain and Charge an enemy (no Courage test required).]
+[Can drop an item or put on the One Ring.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target&apos;s Fight and Attack reduced to 1."/>
       </characteristics>
     </profile>
     <profile id="30b7-e3eb-d568-de5a" name="Curse" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1079,9 +1063,9 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant "/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target loses a Fate point."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target loses ali of its Fate points."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant ."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="-1 Fate."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="- ALL Fate"/>
       </characteristics>
     </profile>
     <profile id="22d5-e222-fa43-e053" name="Drain Courage" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1090,9 +1074,13 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target reduces Courage by 1 for rest of the battle, to a minimum of 1. Can be used multiple times on the same model and is cumulative with other effects."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target reduces Courage by D3 for the rest of the battle."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="-1 Courage.
+Last for rest of the battle.
+[Minimum of 1.]
+[Can be used multiple times on the same model.]
+[Cumulative with other effects.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="-(1/2)D6 Courage."/>
       </characteristics>
     </profile>
     <profile id="a860-6e7b-f3da-47da" name="Fortify Spirit" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1101,9 +1089,12 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target rolls 2 extra dice for Resist rolls. (Targets the caster or a model in base contact with them; these dice do not reduce their Will and can be rolled if they have no Will points remaining or choose not to expend any Will)."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target also adds 1 to the highest dice rolled when Resisting."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target rolls +2D6 dice for Resist rolls.
+[Targets the caster or a model in base contact with them.]
+[Extra dice do not require Will.]
+[Extra dice can be used instead of/in addition to Target&apos;s Will points.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="+1 to highest Resist roll."/>
       </characteristics>
     </profile>
     <profile id="2b9f-9d60-2bce-8c5d" name="Fury" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1112,9 +1103,13 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Friendly models of the same race within 6&quot; automatically pass Courage tests and are granted an extra 6+ Fate roll. (Roll is taken immediated after a Wound is caused; can be taken before other Fate rolls are made; can be altered by Might)."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Fate roll is increased to 5+"/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Allies of the same race within 6&quot;/14cm automatically pass Courage tests.
+They are also granted an (extra) 6+ Fate roll.
+[Must be used immediately a Wound is caused.]
+[Can be taken before other Fate rolls are made.]
+[Can be altered by Might.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Fate roll is lessened to 5+."/>
       </characteristics>
     </profile>
     <profile id="0e29-3e49-d7d8-9560" name="Immobilise/Transfix" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1123,9 +1118,11 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target cannot move (except Back Away), shoot or make Strikes. Also, he halves his Fight value and Attacks characteristic, rounding up.  While this power is in effect, the target model may not move (except to Back Away, should he lose a Fight) or shoot. Additionally, while this power is in effect, he halves his Fight and Attacks characteristics (rounding up) and may not Strike if he wins a Duel roll"/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target&apos;s Fight value and Attacks characteristic are reduced to 1."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target cannot Move (except Back Away), Shoot or Strike.
+Halve Fight and Attack.
+[Round up.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Fight Attack are reduced to 1."/>
       </characteristics>
     </profile>
     <profile id="1de3-52e2-16f0-f54d" name="Nature&apos;s Wrath" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1134,9 +1131,10 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="All enemy models within 6&quot; of the caster are knocked Prone. (Cavalry models suffer a Rises from the Dust result; both rider and mount are knocked Prone)."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Enemy models within 6&quot; aiso suffer a Strength 2 hit."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="All enemies within 6&quot;/14cm of the caster are knocked Prone.
+[Cavalry models suffer a &apos;Rises from the Dust&apos; result (both rider and mount are knocked Prone).]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Enemies also suffer a Strength 2 hit."/>
       </characteristics>
     </profile>
     <profile id="d093-adcd-5032-6dc1" name="Panic Steed" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1145,9 +1143,10 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant "/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target mount is removed from play (even Monstrous mounts). The rider is thrown, the Thrown Rider chart to determines the effect."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Ali models within 3&quot; of the target are also affected"/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Mount is removed (even Monstrous mounts).
+The rider is Thrown."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Effects alll models within 3&quot;/8cm of the Target."/>
       </characteristics>
     </profile>
     <profile id="8ae4-8b3f-6268-956b" name="Paralyse" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1156,9 +1155,16 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="The target is immediatiely paralysed. It is knocked Prone and may do nothing until it recovers. The victim also makes no Duel rolls, and thus will automatically lose a Fight unles joined by a friendly model.  At the end of the Fight phase, the controlling player must roll a D6 for each of his Paralysed models. On the roll of a 6, the model recovers and stands up. Friendly models who spend the Fight phase in contact with a Paralysed model, and do nothing else, may also attempt to revive the victim. Roll an additional D6 for the Paralysed model for each such friend. Might points can be used to modify this roll."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target suffers a Strength 5 hit each time it fails to recover."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target knocked Prone and may do nothing until it recovers.
+Target makes no Duel rolls, so loses Duels automatically unless joined by an Ally.
+
+Recovery:
+          At the end of the Fight phase, player rolls 1D6 for each of their Paralysed models.
+          Model stands up on a 6+.
+          For each ally in base contact during the Fight phase, and does nothing else, contributes +1D6 to this roll.
+          [Might points can be used to modify this roll.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target suffers a Strength 5 hit each time they fail to recover."/>
       </characteristics>
     </profile>
     <profile id="1fd9-7821-ca59-15be" name="Renew" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1167,9 +1173,10 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant "/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target regains a single Wound, to a maximum of its original value."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target regains D3 Wounds."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Regains one Wound.
+[Maximum of starting value.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Regains (1/2)D6 Wounds."/>
       </characteristics>
     </profile>
     <profile id="34da-dce7-eeab-1efc" name="Sap Will" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1178,9 +1185,10 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="The target loses D3+1 Will points, to a minimum of 0."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target loses ali of its Will points."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="- ((1/2)D6+1) Will.
+[Minimum of 0.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="- ALL Will."/>
       </characteristics>
     </profile>
     <profile id="47b2-79ba-c8e0-0861" name="Sorcerous Blast" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1189,9 +1197,20 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="The target model is blasted D6&quot; directly away from the caster and knocked Prone. Roll a dice and move the target that number of inches. Other models in the path of the blasted model are moved aside and knocked Prone. If the target, or one of the models that is knocked Prone, is engaged in combat, then all the models (friend and foe) in the same Fight are also knocked Prone. The target model suffers a Strenthg 5 hit, and any other model knocked Prone suffers a Strength 3 hit. If the blasted model hits an Obstacle or a model that has a Strength of 6 or above, the blasted model&apos;s move immediately ends. The Obstacle or model (if it has a Defence value) suffer a Strength 3 hit. Move any models underneath the target model&apos;s final position by the minimum distance that allows them to be placed Prone on the board. Note: even Transfixed/Compelled or otherise immobilised models will be blasted by Sorcerous Blast."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target suffers a Strength 6 hit, and other models knocked Prone suffer Strength 4 hits."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target is blown 1D6&quot;/2D6cm away from the caster.
+The Target is knocked Prone and suffers a Strength 5 hit.
+
+Models in the path of the Target (Proxies) are moved aside and knocked Prone.
+Models in a Duel with the Target or Proxies (Deullers) are also knocked Prone.
+Proxies and Duellers suffer a Strength 3 hit.
+
+The Target stops if it hits an Obstacle, or a model that has a Strength &gt; 6 (Large).
+The Obstacle or Large suffers a Strength 3 hit.
+
+Move any models underneath the Target&apos;s final position such that they can be placed Prone.
+[Immobilised/Transfixed models can be Targetted by Sorcerous Blast.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target suffers a Strength 6 hit, and other models effected suffer Strength 4 hits."/>
       </characteristics>
     </profile>
     <profile id="e28f-a134-2570-a2ed" name="Terrifying Aura" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1200,9 +1219,9 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion"/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion."/>
         <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Caster causes Terror."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Enemies take the Courage test on 306 and discard the highest."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Enemies take the Courage test on 3D6, discaring the highest."/>
       </characteristics>
     </profile>
     <profile id="b4e5-0279-dcb1-6ed4" name="Your Staff is Broken!" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1211,9 +1230,10 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="This power destroys the staff of the target model. All the advantages associated with the staff are immediately lost (including the two-handed weapon bonus)."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="The target also suffers a Strength 7 hit."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target&apos;s Staff is Destroyed.
+All assiciated advantages associated are immediately lost (including the Two-Tanded weapon bonus and penalty)."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target also suffers a Strength 7 hit."/>
       </characteristics>
     </profile>
     <profile id="5134-d1bd-1c25-a3cf" name="Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
@@ -1232,9 +1252,10 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
         <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target Spirit or Undead model suffers a Wound."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target model suffers D3 Wounds."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target model suffers (1/2)D6 Wounds.
+[Round up.]"/>
       </characteristics>
     </profile>
     <profile id="e0f1-9d42-617f-9c8d" name="Strengthen Will" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1243,9 +1264,12 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="The caster can use this spell to give one Will point to a friendly Hero within range. The target&apos;s Will can be increased past their starting amount, and this power can be used even if they started the game without any Will points."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value=" The target receives D3 Will points instead of 1."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="+1 Will.
+[Can only Target Heroes.]
+[Can be increased past its starting amount.]
+[Can be used on Heros that start with 0 Will.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="+(1/2)D6 Will."/>
       </characteristics>
     </profile>
     <profile id="070b-2e1d-113d-b9e0" name="Cross Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
@@ -1361,7 +1385,7 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Steed"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
       </characteristics>
     </profile>
     <profile id="5096-defb-9f42-7e85" name="Fell Warg" book="The Hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
@@ -1377,7 +1401,7 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Steed"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
       </characteristics>
     </profile>
     <profile id="6ce1-5ee7-4e92-16a0" name="Horse" book="The Hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
@@ -1393,7 +1417,7 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Steed"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
       </characteristics>
     </profile>
     <profile id="ae78-94b5-cb0a-147b" name="Pony" book="The Hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
@@ -1409,7 +1433,7 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Steed"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
       </characteristics>
     </profile>
     <profile id="182c-e771-b776-c020" name="Warg" book="The Hobbit: An Unexpected Journey" page="51" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
@@ -1425,7 +1449,7 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="1"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry steed"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
       </characteristics>
     </profile>
     <profile id="b55b-5615-4438-2b70" name="Armour" book="The Hobbit: An Unexpected Journey" page="74" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
@@ -1470,10 +1494,11 @@ Each Hero or Monster slain by this model restores a point of this model&apos;s M
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Shots at caster, or a model within 6&quot;/14cm, only hit on a 6.
-Illuminates 12&quot;/28cm area around caster."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Duration changes to Exhaustion"/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Shots at the caster, or a model within 6&quot;/14cm, only hit on rolls of 6.
+Illuminates 12&quot;/28cm around the caster.
+[Duels in this area are not in the dark.]"/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Duration changes to Exhaustion."/>
       </characteristics>
     </profile>
     <profile id="e186-4e86-e821-5c37" name="The Mithril Crown" book="Moria &amp; Angmar" page="17" hidden="false" profileTypeId="94df-4b19-2396-f831" profileTypeName="Hero Wargear">
@@ -1482,8 +1507,7 @@ Illuminates 12&quot;/28cm area around caster."/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="A few meagre pieces of enchanted Mithril hammered into a crown, and a web of carefully spun lies can bring out the best in any Goblin.
-While Grôblog is alive, Goblins pass the Fate save provided by Fury on a 5+ instead of just the roll of a 6."/>
+        <characteristic name="Description" characteristicTypeId="6a41-8cf5-dfe2-74dc" value="While Grôblog is alive, Goblins&apos; &apos;Fury&apos; Fate roll is lessened to 5+."/>
       </characteristics>
     </profile>
     <profile id="d00c-cc54-b171-2453" name="Bestial Fury" book="Moria &amp; Angmar" page="17" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1492,10 +1516,11 @@ While Grôblog is alive, Goblins pass the Fate save provided by Fury on a 5+ ins
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Dice score to use 3+.
-This works exactly as described for Fury in the main rules manual, except its effects apply to (unridden) Wargs, Spiders and Bat Swarms, not Goblins."/>
-        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="The special Fate roll that the power provides is passed on a 5+ instead of a 6."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Exhaustion."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Roll of 3+ to use.
+Follows rules for &apos;Fury&apos;.
+Only applies to (unridden) Wargs, Spiders and Bat Swarms."/>
+        <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Fate roll is lessened to 5+."/>
       </characteristics>
     </profile>
     <profile id="4735-0b9f-a055-6a17" name="Breathe Fire" book="Moria &amp; Angmar" page="21" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1505,7 +1530,10 @@ This works exactly as described for Fury in the main rules manual, except its ef
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Each time a Dragon breathes fire, it expends a point of Will. If the shot hits, it affects the target and any model (Good or Evil) within 2&quot;/4cm (Fate rolls may be taken as normal). Any model that suffers a Wound caused by Dragon breath is automatically slain."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Costs one Will point.
+If the Shot hits, it affects the Target and all other models within 2&quot;/4cm.
+Any models Wounded by Dragon breath are automatically Slain.
+[Fate rolls may be taken as usual.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
       </characteristics>
     </profile>
@@ -1516,7 +1544,9 @@ This works exactly as described for Fury in the main rules manual, except its ef
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Fight Phase of Target"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="This power can be used against a single Bat, (unridden) Warg or Spider model. If the power is successfully used, the target’s Fight, Strength, Attacks and Courage are increased by 3 until the end of the Fight phase. The enraged model suffers a Strength 10 hit at the end of the Fight phase."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="+3 Fight, Strength, Attack and Courage.
+The Target suffers a Strength 10 hit at the end of the Fight phase.
+[Can only be used on (unridden) Wargs, Spiders and Bat Swarms.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
       </characteristics>
     </profile>
@@ -1527,7 +1557,8 @@ This works exactly as described for Fury in the main rules manual, except its ef
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Pick an enemy model within sight of the Shaman. The victim has all of its weapons destroyed and is considered to be unarmed for the remainder of the game."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target any enemy within sight of the caster.
+Target has all of its weapons Destroyed and is unarmed for the rest of the battle."/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
       </characteristics>
     </profile>
@@ -1538,7 +1569,9 @@ This works exactly as described for Fury in the main rules manual, except its ef
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Draw a straight line that extends 2D6&quot; (double the score if playing in cm) from the Shaman. All models touched are knocked to the ground and suffer a Strength 6 hit. One model affected can attempt to resist this power in the usual manner."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Draw a straight line that extends 2D6&quot;/4D6cm from the caster.
+All models touched are knocked Prone and suffer a Strength 6 hit.
+One model affected can attempt to Resist."/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9"/>
       </characteristics>
     </profile>
@@ -1578,10 +1611,10 @@ This works exactly as described for Fury in the main rules manual, except its ef
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="A single model within range is blown 2D6&quot;/4D6cm directly away from the caster.
-If this brings the target into contact with another model or an area of impassable terrain, it stops 1“ away from the obstacle.
-In either case, the model is knocked to the ground and cannot move, for any reason, later in the turn."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="A single model within range is blown 2D6&quot;/4D6cm away from the caster.
+The Target is knocked Prone.
+[Blown to no closer than 1&quot;/2cm of impassable terrain.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="-"/>
       </characteristics>
     </profile>
@@ -1600,8 +1633,12 @@ In either case, the model is knocked to the ground and cannot move, for any reas
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant"/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="This spell affects all enemy models within 6&quot;/14cm of Elrond, but only one foe can attempt to resist it. If resisted, all foes are unaffected; if the resist attempt is failed, then all are affected. All enemies within 6&quot;/14cm are knocked to the ground. Cavalry models are automatically thrown both steed and rider are knocked to the ground. All affected models then suffer a Strength 2 hit, or a Strength 8 hit if they are in a stream, river or other similar water terrain feature."/>
+        <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Instant."/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="All enemies within 6&quot;/14cm are knocked to the ground and suffer a Strength 2 hit (or a Strength 8 hit if wholly within watery terrain.)
+[Only one affected foe can attempt to Resist.]
+[If resisted, all are un-affected.]
+[If not resisted, all are affected.]
+[Cavalry are Thrown and both the mount and rider are knocked Prone.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="-"/>
       </characteristics>
     </profile>
@@ -1618,7 +1655,7 @@ In either case, the model is knocked to the ground and cannot move, for any reas
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Steed"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
       </characteristics>
     </profile>
     <profile id="a30f-d0cc-5462-a7bd" name="Pureblood Steed" book="Kingdoms of Men" page="34" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
@@ -1634,7 +1671,7 @@ In either case, the model is knocked to the ground and cannot move, for any reas
         <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
-        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Steed"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
       </characteristics>
     </profile>
   </sharedProfiles>
