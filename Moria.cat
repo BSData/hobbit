@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1351-790a-10ca-e52f" name="Moria" revision="8" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1351-790a-10ca-e52f" name="Moria" revision="9" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -555,6 +555,12 @@
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="62ac-9f16-1077-ffed" name="Throw Stones" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -1097,7 +1103,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6e20-7952-2a57-4264" name="Death-touch" hidden="false" targetId="f111-6e17-b690-a710" type="rule">
+        <infoLink id="6e20-7952-2a57-4264" name="Death-Touch" hidden="false" targetId="f111-6e17-b690-a710" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1116,6 +1122,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="1ff7-6029-fd16-bf5d" name="Immobilise/Transfix" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0df8-c45e-7d09-c01f" name="Paralyse" hidden="false" targetId="8ae4-8b3f-6268-956b" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>

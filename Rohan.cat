@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e167-5c41-57e7-502b" name="Rohan" book="Kingdoms of Men" revision="10" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e167-5c41-57e7-502b" name="Rohan" book="Kingdoms of Men" revision="11" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2068,7 +2068,13 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="0471-c36d-c7ea-3e21" name="Bows" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
+        <infoLink id="0471-c36d-c7ea-3e21" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cd31-16b3-454d-0c28" name="Bow" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2078,6 +2084,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18b9-24ae-6c4e-440d" type="max"/>
+        <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="cd6b-6e34-feaa-b840" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -2092,6 +2099,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="70c3-e587-74ea-6a45" name="Bows" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eb4a-6d60-5b57-b88b" name="Bow" hidden="false" targetId="5134-d1bd-1c25-a3cf" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2353,13 +2366,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="29ed-a467-348c-60d5" name="Shield" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="67af-8883-11a0-5d7f" name="Shielding" hidden="false" targetId="e0df-99a8-fc55-3419" type="rule">
+        <infoLink id="29ed-a467-348c-60d5" name="Shield, Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2382,13 +2389,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="931a-5054-726d-5520" name="Shield" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="42bc-e8f5-de74-7277" name="Shielding" hidden="false" targetId="e0df-99a8-fc55-3419" type="rule">
+        <infoLink id="931a-5054-726d-5520" name="Shield, Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2412,6 +2413,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="c61a-a428-e883-6101" name="Royal Standard of Rohan" hidden="false" targetId="8412-03bf-9794-b0e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="51b5-9985-8b8d-66b3" name="Banner" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2488,7 +2495,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="00e1-e103-f691-c9c2" name="Two-handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+        <infoLink id="00e1-e103-f691-c9c2" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2580,13 +2587,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="614e-2780-c876-61a2" name="War Horns" hidden="false" targetId="2763-dbf3-7fde-9758" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="cc0b-f63e-315b-cbe1" name="The Horn of the Hammerhand" hidden="false" targetId="b616-abe9-cd64-671b" type="rule">
+        <infoLink id="cc0b-f63e-315b-cbe1" name="Horn of the Hammerhand" hidden="false" targetId="b616-abe9-cd64-671b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>

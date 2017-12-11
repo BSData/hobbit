@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2732-1504-6898-05c5" name="Isengard" revision="7" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2732-1504-6898-05c5" name="Isengard" revision="9" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -85,15 +85,45 @@
           <modifiers/>
           <description>The range of Saruman&apos;s Stand Fast! rule is 12&quot;/28cm.</description>
         </rule>
-        <rule id="37f3-c0c2-86be-b673" name="Staff of Power" book="The Fallen Realms" page="17" hidden="false">
+      </rules>
+      <infoLinks>
+        <infoLink id="71b0-03af-7d1b-4ff9" name="Command/Compel" hidden="false" targetId="8426-539b-db72-64a0" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Whilst he wields his staff, Saruman can expend 1 point of Will each turn without reducing his own Will store.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
+        </infoLink>
+        <infoLink id="987d-e76c-8c85-07e5" name="Immobilise/Transfix" hidden="false" targetId="0e29-3e49-d7d8-9560" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7ad9-c05f-e8c7-7d0a" name="Terrifying Aura" hidden="false" targetId="e28f-a134-2570-a2ed" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fea4-51a9-a1cd-0b44" name="Terror" hidden="false" targetId="bbd5-1efb-458e-c4ba" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ecaa-afaf-691a-f6a1" name="Sorcerous Blast" hidden="false" targetId="47b2-79ba-c8e0-0861" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7bd1-00c9-d1fa-fb8f" name="Staff of Power" hidden="false" targetId="5563-9c52-8ada-de9b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f48-b2b3-abd4-fa89" type="max"/>
@@ -2448,7 +2478,20 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
     <selectionEntry id="14a8-0d31-bdac-eef9" name="Orc Bow" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="cba6-4ef5-9fc5-6dac" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fdae-b0c9-7475-12eb" name="Orc Bow" hidden="false" targetId="2c9f-4686-0c96-3d17" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="3f65-7c07-1606-a384" type="max"/>
@@ -2465,7 +2508,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
     <selectionEntry id="1840-8e69-a979-b24d" name="Shield" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="fd00-cbf0-bc65-96e5" name="Shield, Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e87-87ea-c0dd-dff6" type="max"/>
@@ -2481,7 +2531,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
     <selectionEntry id="a845-c33c-a3e4-a687" name="Horse" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="602c-4db1-35a3-33fe" name="Horse" hidden="false" targetId="6ce1-5ee7-4e92-16a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65aa-06b3-7f92-3788" type="max"/>
@@ -2497,7 +2554,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
     <selectionEntry id="db74-7405-8f9b-a078" name="Shield (Hero)" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="4510-1d35-677f-f6f4" name="Shield, Cumbersome, Shielding" hidden="false" targetId="b934-e865-e199-a7ae" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9217-7ea6-36f2-f0c3" type="max"/>
@@ -2510,10 +2574,17 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b0d-d905-b11b-ebd9" name="Warg (Hero)" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4b0d-d905-b11b-ebd9" name="Warg" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="8554-ef63-adbb-24dd" name="Warg" hidden="false" targetId="182c-e771-b776-c020" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="183c-847c-df79-fd2a" type="max"/>
@@ -2523,13 +2594,20 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="53cc-99a1-f6d0-0a6b" name="Crossbow (Hero)" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="0417-086c-2d3d-ca92" name="Crossbow" hidden="false" targetId="95db-f21e-3f94-0389" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf4-46a1-b7c8-c639" type="max"/>
@@ -2542,11 +2620,26 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b15-0e1c-a651-9bfb" name="Heavy Armour (Hero)" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2b15-0e1c-a651-9bfb" name="Heavy Armour" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
-      <modifiers/>
+      <infoLinks>
+        <infoLink id="2107-d31f-4370-c04f" name="Heavy Armour" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f63-394b-dfff-5c53" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="051d-162e-7907-8ac3" type="max"/>
       </constraints>
@@ -2555,13 +2648,26 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
+        <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f9aa-3a82-ef59-8710" name="Orc Bow (Hero)" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="705a-5c73-229f-9659" name="Orc Bow" hidden="false" targetId="2c9f-4686-0c96-3d17" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3334-668c-b980-902a" name="Bow" hidden="false" targetId="0844-3834-04ba-d6b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5327-ff9d-e68a-61d1" type="max"/>
@@ -2577,7 +2683,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
     <selectionEntry id="9295-5fd4-b935-599d" name="Two-handed weapon (Hero)" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="0ff9-e5bb-1aaf-f339" name="Two-Handed Weapon" hidden="false" targetId="2949-6b26-329e-151a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fc6-3e76-fd56-1bc7" type="max"/>
@@ -2593,7 +2706,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
     <selectionEntry id="c720-f789-b6ed-42dc" name="Banner" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="49f8-88c8-66da-0c04" name="Banner" hidden="false" targetId="5ae7-455d-aa7e-032a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dc5-0043-4644-5f39" type="max"/>
@@ -2609,7 +2729,14 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
     <selectionEntry id="753b-d26d-4097-dd7b" name="Crossbow" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="3a97-3e9e-c288-736c" name="Crossbow" hidden="false" targetId="95db-f21e-3f94-0389" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27ac-1d20-13d8-bccd" type="max"/>
@@ -2626,7 +2753,20 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
     <selectionEntry id="d5ce-addd-b841-092a" name="Pike" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="857b-e86e-e068-0177" name="Pikes" hidden="false" targetId="c9f2-20e8-9d4e-27a6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="95c8-948c-7c0a-d140" name="Spear" hidden="false" targetId="644a-02f5-9e09-a4a9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e351-61ee-f119-cdaa" type="max"/>
@@ -2637,6 +2777,122 @@ This restriction ends if Saruman is slain, if Grima voluntarily charges a Good m
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a09-6316-781c-379d" name="Warg (Hero)" book="The Fallen Realms" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e8d5-13da-944b-5769" name="Warg" hidden="false" targetId="182c-e771-b776-c020" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fec9-5af0-e5b1-25fc" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f63-394b-dfff-5c53" name="Armour" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a6f0-dd6b-5102-9884" name="Armour" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b15-0e1c-a651-9bfb" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41f3-4c45-3758-6038" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4701-5e25-c80b-c38c" name="Heavy Armour (Hero)" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b104-1506-7376-cc6a" name="Heavy Armour" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f107-114d-724c-1c72" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="26c6-5bdc-9d05-7695" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f107-114d-724c-1c72" name="Armour (Hero)" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9701-1be8-affe-05d9" name="Armour" hidden="false" targetId="b55b-5615-4438-2b70" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4701-5e25-c80b-c38c" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf8-d7a2-9f36-97de" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
