@@ -393,10 +393,10 @@ If not Slain, hit models must immediately pass a Courage test, or be removed fro
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Shield:
+      <description>
+Shield:
 	+1 Defence, unless armed with a Bow, Two-Danded Weapon, Spear, or Pike.
 	[The model can only use Elven blades one-handed.]
-
 Shielding:
 	Double the number of dice rolled in the Duel.
 	[Prone models can use Shielding.]
