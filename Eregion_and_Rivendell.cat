@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="6" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e71-1951-deac-8195" name="Eregion and Rivendell" book="The Free Peoples" revision="7" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1872,6 +1872,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c09a-c60d-9379-f89f" type="max"/>
+        <constraint field="selections" scope="primary-category" value="33.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="c20d-5400-5b2c-2ee5" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1351-790a-10ca-e52f" name="Moria" revision="9" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1351-790a-10ca-e52f" name="Moria" revision="10" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -529,31 +529,11 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b78e-37de-f280-6944" name="Throw Stones (Troll)" hidden="false" targetId="2688-6783-ce1d-87c7" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="f0b8-b19b-5a38-4221" name="Throw Stones (Troll)" hidden="false" targetId="3684-0687-03d8-0b2f" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-        <infoLink id="d2fb-c9e0-4ae6-ae10" name="Troll Chain" hidden="false" targetId="2d35-e002-508d-3d6e" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="f521-a4b0-a85f-9ed5" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5437-e47b-466b-0c08" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
         <infoLink id="62ac-9f16-1077-ffed" name="Throw Stones" hidden="false" targetId="6cc8-0177-db8a-9eb4" type="rule">
           <profiles/>
@@ -2398,6 +2378,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01b7-7ae7-9d54-2aa8" type="max"/>
+        <constraint field="selections" scope="primary-category" value="33.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b62-298f-6083-9abc" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
