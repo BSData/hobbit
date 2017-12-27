@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7956-83ff-c873-658e" name="Harad" revision="2" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7956-83ff-c873-658e" name="Harad" revision="4" battleScribeVersion="2.01" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8,7 +8,7 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="879f-5f51-3307-49ca" name="Suladân, The Serpent Lord" book="The Lord of the Rings" page="156" hidden="false" collective="false" type="model">
+    <selectionEntry id="879f-5f51-3307-49ca" name="Suladân, The Serpent Lord" book="The Fallen Realms" page="156" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="d090-a08b-8347-a6c4" name="Suladân, The Serpent Lord" book="The Lord of the Rings" page="156" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -39,14 +39,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="9022-54ee-a657-8887" name="Ascendant" book="The Lord of the Rings" page="156" hidden="false" targetId="ebc4-f98a-153a-790d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="979c-963b-7d61-9e8f" type="max"/>
@@ -93,7 +86,7 @@
         <cost name="pts" costTypeId="points" value="85.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="94e5-787e-a556-9192" name="Haradrim King" book="The Lord of the Rings" page="156" hidden="false" collective="false" type="model">
+    <selectionEntry id="94e5-787e-a556-9192" name="Haradrim King" book="The Fallen Realms" page="156" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="1695-94c2-2123-a16a" name="Haradrim King" book="The Lord of the Rings" page="156" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -187,7 +180,7 @@
         <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fee7-c642-e74e-f2be" name="Haradrim Chieftain" book="The Lord of the Rings" page="156" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="fee7-c642-e74e-f2be" name="Haradrim Chieftain" book="The Fallen Realms" page="156" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="1979-d845-3f09-75e5" name="Haradrim Chieftain" book="The Lord of the Rings" page="156" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -278,7 +271,7 @@
         <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2236-2d5d-093f-0627" name="Hâsharin" book="The Lord of the Rings" page="157" hidden="false" collective="false" type="model">
+    <selectionEntry id="2236-2d5d-093f-0627" name="Hâsharin" book="The Fallen Realms" page="157" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="1068-d6f3-ca58-d6e2" name="Hasharin" book="The Lord of the Rings" page="156" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
           <profiles/>
@@ -302,25 +295,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="9099-c966-199c-6b59" name="The Bane of Kings" hidden="false" targetId="b649-7afe-2628-f3c9" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8c7f-445c-4c8f-bcb5" name="Stalk Unseen" hidden="false" targetId="34f7-16a7-5027-733f" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ff6e-dce2-eda4-67c1" name="Preternatural Agility" hidden="false" targetId="0bb2-dc09-d7d3-4c4a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="2ce4-7b6d-9f4c-83ec" name="Elven Cloaks" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
+        <infoLink id="2ce4-7b6d-9f4c-83ec" name="Elven Cloak" hidden="false" targetId="4d2b-177f-7240-6734" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -373,7 +348,7 @@
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="12ae-292b-db8b-f579" name="Mûmakil of Harad" book="The Lord of the Rings" page="158" hidden="false" collective="false" type="model">
+    <selectionEntry id="12ae-292b-db8b-f579" name="Mûmakil of Harad" book="The Fallen Realms" page="158" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="2103-0dcf-e9cf-d79a" name="Mûmakil of Harad" book="The Lord of the Rings" page="158" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -515,7 +490,7 @@
         <cost name="pts" costTypeId="points" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b253-a3df-72ad-5c28" name="Haradrim Warrior" book="The Lord of the Rings" page="159" hidden="false" collective="false" type="model">
+    <selectionEntry id="b253-a3df-72ad-5c28" name="Haradrim Warrior" book="The Fallen Realms" page="159" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="5a00-59fd-96a9-13bf" name="Haradrim Warrior" book="The Lord of the Rings" page="159" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
           <profiles/>
@@ -619,6 +594,43 @@
         <cost name="pts" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="296a-3754-32f9-4684" name="The Betrayer" book="The Fallen Realms" page="27" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="edf7-040f-a941-18cb" name="The Betrayer" book="The Fallen Realms" page="27" hidden="false" profileTypeId="07d0-bd3a-4a2e-7fc3" profileTypeName="Hero/Independent Hero">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="9aa1-0558-afe7-c4cd" value="6&quot;/14cm"/>
+            <characteristic name="Fight" characteristicTypeId="994d-f52a-5bd3-3999" value="5/4+"/>
+            <characteristic name="Strength" characteristicTypeId="831d-46e6-7fc1-05a3" value="4"/>
+            <characteristic name="Defence" characteristicTypeId="fba1-bb39-c1ba-ecc5" value="8"/>
+            <characteristic name="Attack" characteristicTypeId="c687-7ea3-0136-2709" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="d47a-e35a-5537-db08" value="1"/>
+            <characteristic name="Courage" characteristicTypeId="e454-648f-e035-2d38" value="6"/>
+            <characteristic name="Might" characteristicTypeId="d58c-1700-0746-eb70" value="2"/>
+            <characteristic name="Will" characteristicTypeId="2901-329c-81a2-38c6" value="14"/>
+            <characteristic name="Fate" characteristicTypeId="9560-1b5e-8403-8e23" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5fc6-5066-6538-7e3b" value="Spirit, Ringwraith"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cfe-06da-2e1d-5c01" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd30-019b-e529-e129" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="110.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -655,7 +667,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7baa-53eb-363b-b011" name="Poisoned Arrows" hidden="false" targetId="f6d1-fadc-51d1-d48e" type="rule">
+        <infoLink id="e723-8ead-aacd-8ce5" name="Poisoned Arrows" hidden="false" targetId="ad3a-a37d-44be-1bbe" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -766,7 +778,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9df8-18bc-e218-7875" name="Blowpipe" book="The Lord of the Rings" page="156" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9df8-18bc-e218-7875" name="Blowpipe" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -789,17 +801,10 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cd14-ae78-7381-f846" name="Tusk Weapons" book="The Lord of the Rings" page="158" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cd14-ae78-7381-f846" name="Tusk Weapons" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="08b4-73a4-9f56-d15d" name="Tusk Weapons" hidden="false" targetId="4cf9-76da-1c93-ce2e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a1e-01ac-085a-5b94" type="max"/>
@@ -812,17 +817,10 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="427f-74fe-c17d-6026" name="Mahûd Chieftain" book="The Lord of the Rings" page="158" hidden="false" collective="false" type="model">
+    <selectionEntry id="427f-74fe-c17d-6026" name="Mahûd Chieftain" book="" page="" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="6749-2ef8-75e7-cddb" name="Mahûd Chieftain" hidden="false" targetId="ee78-bffb-616d-8dcd" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2bb-68ed-36cc-9c50" type="max"/>
@@ -845,7 +843,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4849-4d65-3f2d-9e8d" name="Poisoned Arrows" hidden="false" targetId="f6d1-fadc-51d1-d48e" type="rule">
+        <infoLink id="4849-4d65-3f2d-9e8d" name="Poisoned Arrows" hidden="false" targetId="ad3a-a37d-44be-1bbe" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -934,7 +932,7 @@
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f310-8f03-7793-8d83" name="War Horn" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f310-8f03-7793-8d83" name="War Horn" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -980,59 +978,168 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b351-3d80-b084-b140" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="cba0-5fc5-dcf9-74a4" name="Heavy Armour" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cf9-f034-30fa-c887" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0070-4555-b95c-f1e9" name="Heavy Armour (Hero)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5348-6dcb-c1d8-d7cd" name="Heavy Armour" hidden="false" targetId="ac25-2fd8-3d85-7866" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7356-c790-9779-405a" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad1c-0db0-1ee0-2949" name="Armoured Horse (Hero)" book="" page="" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="951f-ed36-f54c-6e3e" name="Armoured Horse" hidden="false" targetId="9d3e-edce-5c71-931b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="99b8-91a5-fb85-b6aa" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5da1-5f8c-ea68-7ed9" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6369-724c-9057-c230" name="Horned Fell Beast" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8990-b494-b541-1d17" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4d4-004e-0c7d-ab23" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ac4-909a-ac50-e5f1" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8990-b494-b541-1d17" name="Armoured Fell Beast" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6369-724c-9057-c230" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4d4-004e-0c7d-ab23" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7afb-0dff-6665-910e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e4d4-004e-0c7d-ab23" name="Fell Beast" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="163d-a5c1-ab41-eaef" name="Fly" hidden="false" targetId="401d-ce6a-48ff-ac6c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6369-724c-9057-c230" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8990-b494-b541-1d17" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e54d-6d3f-2a73-46c9" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
-  <sharedRules>
-    <rule id="f6d1-fadc-51d1-d48e" name="Poisoned Arrows" book="The Lord of the Rings" page="156" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>The Haradrim always smear the tips of their arrows with the preserved venom of reptiles and scorpions living in their lands. Every time the player hits a model with the Haradrim arrow, but rolls a 1 on the D6 to wound it, he must re-roll the D6.</description>
-    </rule>
-    <rule id="ebc4-f98a-153a-790d" name="Ascendant" book="The Lord of the Rings" page="156" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Suladân&apos;s reputation is growing with each victory. making his name commonplace amongst the Haradrim, and his very presence can inspire armies to great deads. The range of Suladân&apos;s Stand Fast! rule is 12&quot;/28cm rather than 6&quot;/14cm.</description>
-    </rule>
-    <rule id="b649-7afe-2628-f3c9" name="The Bane of Kings" book="The Lord of the Rings" page="156" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>The weapons of the Hâsharii are coated with a poison, far more potent than those used by other warriors. Each time an Hâsharin strikes a model with a shooting or close combat attack, but fails to wound, he must re-roll a D6.</description>
-    </rule>
-    <rule id="34f7-16a7-5027-733f" name="Stalk Unseen" book="The Lord of the Rings" page="156" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Hâsharii learn to walk silently and stealthily through all manner of terrain. An Hâsharin always counts as wearing an Elven Cloak.</description>
-    </rule>
-    <rule id="0bb2-dc09-d7d3-4c4a" name="Preternatural Agility" book="The Lord of the Rings" page="156" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Hâsharri are graceful and elegant fighters, able to dart aside from the thrust of a blade with ease and strike through the gaps in a foes armour with pinpoint accuracy. To represent this dexterity in gaming terms, an Hâsharin can never be trapped whilst standing.</description>
-    </rule>
-    <rule id="4cf9-76da-1c93-ce2e" name="Tusk Weapons" book="The Lord of the Rings" page="158" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Sometimes the Haradrim attach long chains, spikes and other lethal implements to the tusks of the Mûmakil, in order to make it even more difficult for unfortunate victims to escape the fury of their charging war-beasts. If given this upgrade, the Muûakil inflicts four strength 9 hits rather than the normal three when trampling.</description>
-    </rule>
-    <rule id="ee78-bffb-616d-8dcd" name="Mahûd Chieftain" book="The Lord of the Rings" page="158" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>The Mahûd chieftain carries a hand weapon and wears armour. He replaces in all respects the Mûmak&apos;s Commander, except that he always stands on the bi-forked wooden structure at the front of the Mûmak (the position at the top of the howdah can be freely filled by a normal Haradrim). In such a position, the Mahûd Chieftain recieves less cover against incoming fire than the Haradrim in the howdah. The howdah only counts as being in the way of an enemy shot if some part of it si physically between the shooter and the Mahûd Chieftain (following the normal rules for cover).</description>
-    </rule>
-  </sharedRules>
+  <sharedRules/>
   <sharedProfiles>
     <profile id="0765-4a52-0a24-e553" name="Blowpipe" book="The Lord of the Rings" page="156" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>

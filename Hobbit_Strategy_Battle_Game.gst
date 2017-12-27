@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, The Free Peoples, Moria &amp; Angmar, The Fallen Realms" revision="11" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, The Free Peoples, Moria &amp; Angmar, The Fallen Realms" revision="12" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -344,14 +344,14 @@ Can not end its movement within control zones, woods, or upon any terrain that i
 -1 Courage to all enemies within 12&quot;/28cm.
 [Not cumulative with other similar penalties (&apos;Ancient Evil&apos;, &apos;Doom, Doom!&apos;, etc.).]</description>
     </rule>
-    <rule id="514f-ef5e-91a6-fb55" name="Lances" book="The Hobbit: An Unexpected Journey" page="68" hidden="false">
+    <rule id="514f-ef5e-91a6-fb55" name="Lance" book="The Hobbit: An Unexpected Journey" page="68" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
 Can only be used while Mounted.
-If the model Charges, +1 to Wound against any type of model.
+If the model Charges, +1 to Wound roll against any type of model.
 [Does not apply in difficult terrain.]
 [Discarded if the model Dismounts or their steed is Slain.]</description>
     </rule>
@@ -371,7 +371,7 @@ Re-roll Jump, Leap and Climb test.
       <infoLinks/>
       <modifiers/>
       <description>
-Follows rules for Spears, with additions:
+Follows rules for &apos;Spears&apos;, with additions:
 	Can Support an ally by being in base contact with a supporting Pike- or Spear-armed model, such that the two models Support one ally.
 	[Require two hands to use, so cannot be used with a Shield or Bow.]</description>
     </rule>
@@ -604,7 +604,7 @@ If Ashrâk Wounds or is Wounded, the opposing model must roll 1D6; &apos;Paralys
       <infoLinks/>
       <modifiers/>
       <description>
-Enemies Charged by a Dragon are Knocked to the Ground.</description>
+Enemies Charged by a Dragon are &apos;Knocked Prone&apos;.</description>
     </rule>
     <rule id="c625-f769-e557-8716" name="Drums in the Deep" book="Moria &amp; Angmar" page="25" hidden="false">
       <profiles/>
@@ -706,7 +706,7 @@ Re-roll failed Wound rolls.</description>
       <infoLinks/>
       <modifiers/>
       <description>
-&apos;Monstrous Mount&apos;.</description>
+Follows the rules for &apos;Monstrous Mount&apos;.</description>
     </rule>
     <rule id="cad3-1947-7257-66a9" name="Progeny" book="Moria &amp; Angmar" page="23" hidden="false">
       <profiles/>
@@ -1021,7 +1021,7 @@ Having Charged, 5 Strength until the end of the turn.</description>
       <infoLinks/>
       <modifiers/>
       <description>
-Follows the rules for Banners, with additional effects:
+Follows the rules for &apos;Banners&apos;, with additional effects:
 	Heros of Rohan within 3&quot;/8cm recovers 1 Might, if they start that turn with with 0 Might.
 	[Excluding this model.]</description>
     </rule>
@@ -1077,6 +1077,105 @@ Outriders can use an ally&apos;s &apos;Stand Fast!&apos; at any range.</descript
       <description>
 +1 to Strength.</description>
     </rule>
+    <rule id="92bf-db39-01fc-92b7" name="Master of Poison" book="The Fallen Realms" page="27" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+All allied models within 6&quot;/14cm with &apos;Poisoned Arrows, Darts, Blades&apos; rule re-roll failed Wound rolls on a 1 or 2.</description>
+    </rule>
+    <rule id="8be6-f535-900d-e4ac" name="The Will of Evil" book="The Fallen Realms" page="27" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Heros wearing the Ring are not invisible to this model.
+Expends 1 Will after each Duel it Fights, except if its opponent is wearing the Ring.
+Once its Will is depleted to 0, model is removed as a casualty.</description>
+    </rule>
+    <rule id="8cf1-909f-3644-3865" name="Combat Mimicry" book="The Fallen Realms" page="28" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Can use the Fight, Strength, and/or Attack values of their opponent in a Duel.</description>
+    </rule>
+    <rule id="9787-cb27-1f45-8c11" name="Ascendant" book="The Fallen Realms" page="29" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+ &apos;Stand Fast!&apos; range is 12“/28cm.</description>
+    </rule>
+    <rule id="82c4-f3f6-df01-88dd" name="Stalk Unseen" book="The Fallen Realms" page="29" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Follows the rules for &apos;Elven Cloak&apos;.</description>
+    </rule>
+    <rule id="5fea-b79f-692e-ee0a" name="Preternatural Agility" book="The Fallen Realms" page="29" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Can not be Trapped whilst standing.</description>
+    </rule>
+    <rule id="1962-4348-5130-757a" name="Blowpipe" book="The Fallen Realms" page="29" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Can Shoot in the Shoot Phase.
+[Must have used no more than half of their Movement in the Move Phase.]</description>
+    </rule>
+    <rule id="688f-e906-c6c0-ff75" name="Impaler" book="The Fallen Realms" page="29" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+War Camel inflicts a Strength 4 hit on one model it has Charged.</description>
+    </rule>
+    <rule id="4c59-dd5c-0c3b-10e1" name="War Spear" book="The Fallen Realms" page="29" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Follows rules for &apos;Lance&apos; when wielder is mounted.
+Follows rules for &apos;Spear&apos; when wielder is on foot.
+</description>
+    </rule>
+    <rule id="a399-991f-f515-9edb" name="Feral" book="The Fallen Realms" page="27" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+If Rider is Slain, model flees automatically.</description>
+    </rule>
+    <rule id="4a4b-ca79-6713-7d26" name="Mahûd Chieftain" book="The Lord of the Rings" page="158" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The Mahûd chieftain carries a hand weapon and wears armour. He replaces in all respects the Mûmak&apos;s Commander, except that he always stands on the bi-forked wooden structure at the front of the Mûmak (the position at the top of the howdah can be freely filled by a normal Haradrim). In such a position, the Mahûd Chieftain recieves less cover against incoming fire than the Haradrim in the howdah. The howdah only counts as being in the way of an enemy shot if some part of it si physically between the shooter and the Mahûd Chieftain (following the normal rules for cover).</description>
+    </rule>
+    <rule id="1df4-b156-b5c4-c0d3" name="Tusk Weapons" book="The Fallen Realms" page="34" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Mûmakil inflicts four Strength 9 hits when Trampling.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="db4a-8e11-f47e-31fd" name="Aura of Command" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
@@ -1101,7 +1200,7 @@ Outriders can use an ally&apos;s &apos;Stand Fast!&apos; at any range.</descript
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Range is increased to 12&quot;/28cm."/>
       </characteristics>
     </profile>
-    <profile id="57e6-ead8-bf89-fae0" name="Black Dart" book="The Hobbit: An Unexpected Journey" page="78284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
+    <profile id="57e6-ead8-bf89-fae0" name="Black Dart" book="The Hobbit: An Unexpected Journey" page="284" hidden="false" profileTypeId="ef0d-eda5-1c44-f66a" profileTypeName="Magical Powers description">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1691,6 +1790,89 @@ Outriders can use an ally&apos;s &apos;Stand Fast!&apos; at any range.</descript
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
         <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
+      </characteristics>
+    </profile>
+    <profile id="cc89-bb7f-190f-15d9" name="Armour fo the Sundered Land" book="The Fallen Realms" page="28" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="Wearer only loses a point of Will if they lose a Duel."/>
+      </characteristics>
+    </profile>
+    <profile id="aa17-e430-5d9c-d874" name="Blowpipe" book="The Fallen Realms" page="29" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;/28cm"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="edb0-9f9c-8edf-c89a" name="War Camel" book="The Fallen Realms" page="29" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="10&quot;/24cm"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="0"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="4"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="4"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="0"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="1"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="2"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6"/>
+      </characteristics>
+    </profile>
+    <profile id="87db-c1d3-0385-fbd7" name="Armoured Fell Beast" book="The Fallen Realms" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="12&quot;/28cm"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="5/5+"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="6"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="7"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Monster"/>
+      </characteristics>
+    </profile>
+    <profile id="967f-6c4e-4933-1c98" name="Fell Beast" book="The Fallen Realms" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="12&quot;/28cm"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="5/5+"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="6"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="6"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Monster"/>
+      </characteristics>
+    </profile>
+    <profile id="52e6-bb3e-7c9c-e4a6" name="Horned Fell Beast" book="The Fallen Realms" page="27" hidden="false" profileTypeId="c77f-e6ae-b63d-62d2" profileTypeName="Warrior">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Move" characteristicTypeId="196b-a97b-5c5f-dee8" value="12&quot;/28cm"/>
+        <characteristic name="Fight" characteristicTypeId="3d78-8110-7697-953f" value="5/5+"/>
+        <characteristic name="Strength" characteristicTypeId="dec8-2675-ef6e-49c0" value="7"/>
+        <characteristic name="Defence" characteristicTypeId="cddc-0d63-2e80-720a" value="6"/>
+        <characteristic name="Attack" characteristicTypeId="fad9-e38b-321f-e9f0" value="2"/>
+        <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
+        <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
+        <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Monster"/>
       </characteristics>
     </profile>
   </sharedProfiles>

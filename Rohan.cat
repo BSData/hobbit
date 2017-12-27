@@ -1979,7 +1979,7 @@
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="7a5e-5d3d-0af3-8810" name="Armour" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7a5e-5d3d-0af3-8810" name="Armour" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2010,7 +2010,7 @@
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="95f4-903c-2905-1d0a" name="Armour (Hero)" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="95f4-903c-2905-1d0a" name="Armour (Hero)" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2123,7 +2123,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="53c4-5288-dc04-7969" name="Horse" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="53c4-5288-dc04-7969" name="Horse" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2146,7 +2146,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a45e-08c5-f20a-dbeb" name="Horse (Hero)" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a45e-08c5-f20a-dbeb" name="Horse (Hero)" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2200,7 +2200,7 @@
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0f8d-b497-450a-89a6" name="War Horn" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0f8d-b497-450a-89a6" name="War Horn" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2223,7 +2223,7 @@
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9bc5-676c-e2c9-7d7e" name="Throwing Spears" book="Kingdoms of Men" page="34" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9bc5-676c-e2c9-7d7e" name="Throwing Spears" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2246,7 +2246,7 @@
         <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c06-d97d-d47a-83a7" name="Heavy Armour" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9c06-d97d-d47a-83a7" name="Heavy Armour" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2277,7 +2277,7 @@
         <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a29e-bc1c-85a5-c88d" name="Heavy Armour (Hero)" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a29e-bc1c-85a5-c88d" name="Heavy Armour (Hero)" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2308,7 +2308,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="809a-8dbd-c0b3-86ac" name="Throwing Spears (Hero)" book="Kingdoms of Men" page="34" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="809a-8dbd-c0b3-86ac" name="Throwing Spears (Hero)" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2331,7 +2331,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d93-eb83-e400-0d44" name="Armoured Horse (Hero)" book="Kingdoms of Men" page="31" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7d93-eb83-e400-0d44" name="Armoured Horse (Hero)" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2362,7 +2362,7 @@
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b32a-3241-6a2d-15e8" name="Shield" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b32a-3241-6a2d-15e8" name="Shield" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2385,7 +2385,7 @@
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="96b5-031c-a497-4d3a" name="Shield (Hero)" book="The Free Peoples" page="21" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="96b5-031c-a497-4d3a" name="Shield (Hero)" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2408,7 +2408,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="119e-9c89-9ac6-a4ac" name="Royal Standard of Rohan (Hero)" book="Kingdoms of Men" page="33" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="119e-9c89-9ac6-a4ac" name="Royal Standard of Rohan (Hero)" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2437,7 +2437,7 @@
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8c99-fe03-143a-ac54" name="Westfold Redshields" book="Kingdoms of Men" page="33" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="8c99-fe03-143a-ac54" name="Westfold Redshields" book="" page="" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2468,7 +2468,7 @@
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="60eb-6c1f-867c-f7ab" name="Felaróf (Hero)" book="Kingdoms of Men" page="34" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="60eb-6c1f-867c-f7ab" name="Felaróf (Hero)" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2491,7 +2491,7 @@
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cd80-4fa0-e1dd-b100" name="Two-Handed Weapon (Hero)" book="Kingdoms of Men" page="32" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cd80-4fa0-e1dd-b100" name="Two-Handed Weapon (Hero)" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2514,7 +2514,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ad1b-6367-186b-9f63" name="Elven Cloak (Hero)" book="Kingdom of Men" page="33" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ad1b-6367-186b-9f63" name="Elven Cloak (Hero)" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2537,7 +2537,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="20e0-b8fc-0104-29e3" name="Pony" book="Kingdoms of Men" page="33" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="20e0-b8fc-0104-29e3" name="Pony" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2560,7 +2560,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af09-8b66-c309-e09e" name="Horn of the Riddermark" book="Kingdoms of Men" page="33" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="af09-8b66-c309-e09e" name="Horn of the Riddermark" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2583,7 +2583,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b642-efec-486d-25af" name="Horn of the Hammerhand" book="Kingdoms of Men" page="33" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b642-efec-486d-25af" name="Horn of the Hammerhand" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2629,7 +2629,7 @@
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5429-a216-e854-45bd" name="Pureblood Steed" book="Kingdoms of Men" page="35" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="5429-a216-e854-45bd" name="Pureblood Steed" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2652,7 +2652,7 @@
         <cost name="pts" costTypeId="points" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9bb0-f9d2-33ab-a41e" name="Helmingas" book="Kingdoms of Men" page="32" hidden="true" collective="false" type="upgrade">
+    <selectionEntry id="9bb0-f9d2-33ab-a41e" name="Helmingas" book="" page="" hidden="true" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
