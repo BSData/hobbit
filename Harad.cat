@@ -781,14 +781,7 @@
     <selectionEntry id="9df8-18bc-e218-7875" name="Blowpipe" book="" page="" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks>
-        <infoLink id="f8db-2497-c924-19dc" name="Blowpipe" hidden="false" targetId="0765-4a52-0a24-e553" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce22-4ecf-caca-aebb" type="max"/>
@@ -1140,16 +1133,5 @@
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules/>
-  <sharedProfiles>
-    <profile id="0765-4a52-0a24-e553" name="Blowpipe" book="The Lord of the Rings" page="156" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="12&quot;/28cm"/>
-        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
+  <sharedProfiles/>
 </catalogue>
