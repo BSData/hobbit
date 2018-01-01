@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, The Free Peoples, Moria &amp; Angmar, The Fallen Realms" revision="12" battleScribeVersion="2.01" authorName="Christian Sørup Jensen" authorContact="christiansorup@me.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="16cf-760b-7965-6537" name="Hobbit Strategy Battle Game" book="Hobbit, Desolation of Smaug, Kingdoms of Men, The Free Peoples, Moria &amp; Angmar, The Fallen Realms" revision="13" battleScribeVersion="2.01" authorName="Christian Sørup Jensen, Matthew Hastings" authorContact="christiansorup@me.com, M-J-Hastings@users.noreply.github.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -375,13 +375,13 @@ Follows rules for &apos;Spears&apos;, with additions:
 	Can Support an ally by being in base contact with a supporting Pike- or Spear-armed model, such that the two models Support one ally.
 	[Require two hands to use, so cannot be used with a Shield or Bow.]</description>
     </rule>
-    <rule id="ad3a-a37d-44be-1bbe" name="Poisoned Arrows" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
+    <rule id="ad3a-a37d-44be-1bbe" name="Poisoned Arrows/Darts" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
-Re-roll failed Wound rolls when Shooting.</description>
+Re-roll Wound rolls of 1.</description>
     </rule>
     <rule id="4a35-7d1b-c1b5-c79f" name="Resistant to Magic" book="The Hobbit: An Unexpected Journey" page="83" hidden="false">
       <profiles/>
@@ -692,7 +692,7 @@ Ignore all obstacles except water features and gaps (chasms, ditches, etc.).</de
       <description>
 Other Wild Wargs may use this model&apos;s &apos;Stand Fast!&apos; rule and benefit from its heroic actions.</description>
     </rule>
-    <rule id="602b-4f8a-d6d4-cc33" name="Poison-Blood" book="Moria &amp; Angmar" page="19" hidden="false">
+    <rule id="602b-4f8a-d6d4-cc33" name="Poison Blood" book="Moria &amp; Angmar" page="19" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1303,6 +1303,22 @@ If they are Wounded, roll 1D6:
       <description>
 +1 Attacks.
 -1 to Stampede courage tests.</description>
+    </rule>
+    <rule id="c816-6130-a2fe-3bf0" name="Chosen of Abrakhân" book="The Fallen Realms" page="37" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
++1 Courage.</description>
+    </rule>
+    <rule id="536b-0fca-d272-1108" name="Chosen of Kârna" book="The Fallen Realms" page="36" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Fight is 3/3+</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
