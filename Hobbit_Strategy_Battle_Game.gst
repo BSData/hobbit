@@ -248,7 +248,7 @@ Can use their full Movement when carrying Heavy Objects.</description>
 +1 to all Jump, Leap and Climb test. 
 No penalties for Duels in the dark.</description>
     </rule>
-    <rule id="95db-f21e-3f94-0389" name="Crossbow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
+    <rule id="95db-f21e-3f94-0389" name="Cross Bow" book="The Hobbit: An Unexpected Journey" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -408,19 +408,19 @@ To extinguish, model must lie down and crawl 1&quot;/2cm.</description>
       <modifiers/>
       <description>
 Both the Battlefield Target and all models within 2&quot;/5cm take a Strength 3 hit.
-[This shot will neither knock models Prone nor inflict more than one Wound per hit.]
 If not Slain, hit models must immediately pass a Courage test, or be removed from play.
+[This shot will neither knock models Prone nor inflict more than one Wound per hit.]
 [Doe not apply to Siege Targets.]</description>
     </rule>
-    <rule id="b934-e865-e199-a7ae" name="Shield, Cumbersome, Shielding" book="The Hobbit: An Unexpected Journey" page="74" hidden="false">
+    <rule id="b934-e865-e199-a7ae" name="Shields, Shielding" book="The Hobbit: An Unexpected Journey" page="74" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>
 Shield:
-	+1 Defence, unless armed with a Bow, Two-Danded Weapon, Spear, or Pike.
-	[The model can only use Elven blades one-handed.]
+	+1 Defence, unless armed with a &apos;Bow&apos;, &apos;Two-Handed Weapon&apos;, &apos;Spear&apos;, or &apos;Pike&apos;.
+	[The model can only use an &apos;Elven Blade&apos; one-handed.]
 Shielding:
 	Double the number of dice rolled in the Duel.
 	[Prone models can use Shielding.]
@@ -521,7 +521,7 @@ Can Shoot in the Shoot phase.
 Range 8&quot;/20cm and Strength 1, unless otherwise stated in the model&apos;s profile.
 [Must have not Moved in the Move Phase.]</description>
     </rule>
-    <rule id="4584-95dc-15c0-9cd5" name="Throwing Weapon" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
+    <rule id="4584-95dc-15c0-9cd5" name="Throwing Weapons" book="The Hobbit: An Unexpected Journey Rulebook" page="71" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1047,7 +1047,7 @@ Follows the rules for &apos;Banners&apos;, with additional effects:
       <infoLinks/>
       <modifiers/>
       <description>
-&apos;In the way&apos; rolls only fail on rolls of 1.
+&apos;In the Way&apos; rolls only fail on rolls of 1.
 Each Hero or Monster slain by this model restores a point of this model&apos;s Might.
 [Maximum of starting value.]</description>
     </rule>
@@ -1092,7 +1092,7 @@ All allied models within 6&quot;/14cm with &apos;Poisoned Arrows, Darts, Blades&
       <modifiers/>
       <description>
 Heros wearing the Ring are not invisible to this model.
-Expends 1 Will after each Duel it Fights, except if its opponent is wearing the Ring.
+Expends 1 Will for ever Duel it Fights, except if its opponent is wearing the Ring.
 Once its Will is depleted to 0, model is removed as a casualty.</description>
     </rule>
     <rule id="8cf1-909f-3644-3865" name="Combat Mimicry" book="The Fallen Realms" page="28" hidden="false">
@@ -1162,19 +1162,147 @@ Follows rules for &apos;Spear&apos; when wielder is on foot.
       <description>
 If Rider is Slain, model flees automatically.</description>
     </rule>
-    <rule id="4a4b-ca79-6713-7d26" name="Mahûd Chieftain" book="The Lord of the Rings" page="158" hidden="false">
+    <rule id="4a4b-ca79-6713-7d26" name="Mahûd Beastmaster Chieftain" book="The Fallen Realms" page="34" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The Mahûd chieftain carries a hand weapon and wears armour. He replaces in all respects the Mûmak&apos;s Commander, except that he always stands on the bi-forked wooden structure at the front of the Mûmak (the position at the top of the howdah can be freely filled by a normal Haradrim). In such a position, the Mahûd Chieftain recieves less cover against incoming fire than the Haradrim in the howdah. The howdah only counts as being in the way of an enemy shot if some part of it si physically between the shooter and the Mahûd Chieftain (following the normal rules for cover).</description>
+      <description>
+Replaces the Mûmak&apos;s Commander in all respects other than:
+	They stand on the front platform on the Mûmak, not in the Howdah.
+	[The vacant position in the Howdah can be filled by a Haradrim.] 
+	[The Howdah no longer acts as cover, only as an obstacle.]</description>
     </rule>
     <rule id="1df4-b156-b5c4-c0d3" name="Tusk Weapons" book="The Fallen Realms" page="34" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Mûmakil inflicts four Strength 9 hits when Trampling.</description>
+      <description>
+Mûmak inflicts four Strength 9 hits when Trampling.</description>
+    </rule>
+    <rule id="1789-d376-8de9-2da0" name="Smoke Bombs" book="The Fallen Realms" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Follows rules for &apos;Throwing Weapon&apos;.
+If Target is hit but not killed, they are &apos;Transfixed&apos; for the rest of the turn.
+If roll to hit is 1, they have run out.</description>
+    </rule>
+    <rule id="e0f2-dcbd-f2d7-583b" name="Golden King&apos;s Throne" book="The Fallen Realms" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Follows rules for &apos;Banner&apos;, without the Duel roll penalty.</description>
+    </rule>
+    <rule id="f525-a935-e19f-bec6" name="Chop" book="The Fallen Realms" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Doesn&apos;t suffer the &apos;Two-Handed Weapon&apos; Duel roll penalty.</description>
+    </rule>
+    <rule id="16b2-0efd-8267-b017" name="Riches Beyond Renown" book="The Fallen Realms" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Can use Will to reduce the Courage roll of enemies within 12&quot;/28cm.
+Each point reduces the roll by 1.
+[To minimum of 1.]
+[Can use after Courage roll.]</description>
+    </rule>
+    <rule id="6c82-a3d1-50c9-949c" name="The Golden King of Abrakhân" book="The Fallen Realms" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Is treated in all respects as a single model (Targetting, Charging, Slaying).</description>
+    </rule>
+    <rule id="d030-bcb5-f444-9ca3" name="Whip" book="The Fallen Realms" page="31" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Follows rules for &apos;Throwing Weapon&apos;.</description>
+    </rule>
+    <rule id="66f5-9cd5-e877-a9b4" name="Whips of the Masters" book="The Fallen Realms" page="31" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Roll 1D6 if an allied hero within 6&quot;/14cm attempts a heroic action.
+Action has no cost on 4+.</description>
+    </rule>
+    <rule id="abf2-c658-383b-2896" name="Commanding Bellow" book="The Fallen Realms" page="31" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Acts as a &apos;Banner&apos; to Corsairs and Coursair Captain.</description>
+    </rule>
+    <rule id="6f6a-8eab-5b09-5950" name="Awesome Presence" book="The Fallen Realms" page="32" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Causes &apos;Terror&apos;.
+Counts as a &apos;Banner&apos; to allies.</description>
+    </rule>
+    <rule id="f7e9-fe9a-96cf-69fa" name="Rappelling Lines" book="The Fallen Realms" page="34" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Models in the Howdah can attempt to Dis-Mount in the Move Phase by rolling 1D6:
+	2-6: Success.
+	1: Falling damage.
+[Before of after the Mamuk has Moved.]
+[Place them in base contact with Mumak, adjacent to their position in the Howdah.]
+[If they cannot be placed in base contact, they may not Dis-Mount.]
+[May use Dis-Mount to charge, taking &apos;Terror&apos; tests prior to the action.]
+[May not Shoot.]</description>
+    </rule>
+    <rule id="5daa-8436-dfd3-aaec" name="Rocks" book="The Fallen Realms" page="34" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Models in the Howdah can Shoot in the Shoot Phase.
+[Must have not Moved in the Move Phase.]</description>
+    </rule>
+    <rule id="f87c-c840-b821-055a" name="Sigils of Defiance" book="The Fallen Realms" page="34" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+Models in the Howdah are &apos;Resistant to Magic&apos;.
+If they are Wounded, roll 1D6:
+	6: wound is ignored
+	1-5: no effect.</description>
+    </rule>
+    <rule id="4531-2ae9-9a29-88ee" name="Foul Temperament" book="The Fallen Realms" page="34" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
++1 Attacks.
+-1 to Stampede courage tests.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1498,7 +1626,7 @@ If Rider is Slain, model flees automatically.</description>
         <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="3"/>
       </characteristics>
     </profile>
-    <profile id="8f3d-592c-7215-9adf" name="Throwing weapon" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+    <profile id="8f3d-592c-7215-9adf" name="Throwing Weapons" book="The Hobbit: An Unexpected Journey" page="71" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1792,7 +1920,7 @@ If Rider is Slain, model flees automatically.</description>
         <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Cavalry Mount"/>
       </characteristics>
     </profile>
-    <profile id="cc89-bb7f-190f-15d9" name="Armour fo the Sundered Land" book="The Fallen Realms" page="28" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+    <profile id="cc89-bb7f-190f-15d9" name="Armour of the Sundered Land" book="The Fallen Realms" page="28" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1873,6 +2001,45 @@ If Rider is Slain, model flees automatically.</description>
         <characteristic name="Wounds" characteristicTypeId="901e-fb27-2b16-cfe6" value="3"/>
         <characteristic name="Courage" characteristicTypeId="0274-aa2c-00fa-faf0" value="3"/>
         <characteristic name="Type" characteristicTypeId="db72-8cd8-395a-78e6" value="Monster"/>
+      </characteristics>
+    </profile>
+    <profile id="1233-09dc-041b-ead7" name="Smoke Bombs" book="The Fallen Realms" page="30" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="6&quot;/14cm"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="5aa8-89ad-ab90-b92e" name="Whip" book="The Fallen Realms" page="31" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="2&quot;/4cm"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="17ad-3890-1e80-f546" name="Gnarled Hide" book="The Fallen Realms" page="34" hidden="false" profileTypeId="9c17-e82d-5620-86c0" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="6820-108c-64e0-a817" value="+1 to Defence."/>
+      </characteristics>
+    </profile>
+    <profile id="14b4-5fbd-58ad-d261" name="Rocks" book="The Fallen Realms" page="34" hidden="false" profileTypeId="855e-054f-01fe-5840" profileTypeName="Missile Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="1835-f3b9-d8cf-755a" value="8&quot;/20cm"/>
+        <characteristic name="Strength" characteristicTypeId="a67d-4947-b037-af0c" value="6"/>
       </characteristics>
     </profile>
   </sharedProfiles>
