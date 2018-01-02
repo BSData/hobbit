@@ -649,7 +649,7 @@ How to use the Watcher:
 If the Cave Drake wins a Duel, it can attempt to swallow a single man-sized (or smaller) model involved in the Duel.
 If the Cave Drake chooses to do so, roll to Wound.
 If successful, the model is Slain.
-[Fate rolls can be made as normal; ifeffective, the model survives and is unharmed.]</description>
+[Fate rolls can be made as normal; if effective, the model survives and is unharmed.]</description>
     </rule>
     <rule id="301d-93ae-3910-4299" name="Iron Fist" book="Moria &amp; Angmar" page="17" hidden="false">
       <profiles/>
@@ -1373,7 +1373,7 @@ Fight is 3/3+</description>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Caster can move Target up to half its maximum Movement and it is then &apos;lmmobilised&apos;. [Cannot Jump, Leap, Climb or Lie Down.] [Can take it into difficult terrain and Charge an enemy (no Courage test required).] [Can drop an item or put on the One Ring.]"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Caster can move Target up to half its maximum Movement and it is then &apos;lmmobilised&apos;. [Can take it into difficult terrain and/or Charge an enemy (no Courage test required).] [Can drop an item and/or put on the One Ring.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Target&apos;s Fight and Attack reduced to 1."/>
       </characteristics>
     </profile>
@@ -1428,7 +1428,7 @@ Fight is 3/3+</description>
       <modifiers/>
       <characteristics>
         <characteristic name="Duration" characteristicTypeId="8f10-e8cb-18f1-87dc" value="Temporary."/>
-        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target cannot Move (except Back Away), Shoot or Strike. Halve Fight and Attack. [Round up.]"/>
+        <characteristic name="Description" characteristicTypeId="d5b3-f2df-8099-58cd" value="Target cannot Move (except Back Away), Shoot or Strike. Halve Fight and Attack. [Round up.] [Cannot Jump, Leap, Climb or Lie Down.]"/>
         <characteristic name="Channelled" characteristicTypeId="7e70-d840-de7b-69e9" value="Fight Attack are reduced to 1."/>
       </characteristics>
     </profile>
