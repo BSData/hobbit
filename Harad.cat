@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7956-83ff-c873-658e" name="Harad" book="The Fallen Realms" revision="7" battleScribeVersion="2.01" authorName="Matthew Hastings" authorContact="M-J-Hastings@users.noreply.github.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7956-83ff-c873-658e" name="Harad" book="The Fallen Realms" revision="8" battleScribeVersion="2.01" authorName="Matthew Hastings" authorContact="M-J-Hastings@users.noreply.github.com" gameSystemId="16cf-760b-7965-6537" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -530,7 +530,21 @@
             <modifier type="increment" field="cddc-0d63-2e80-720a" value="1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="7efd-8675-ed22-e603" type="equalTo"/>
+                <condition field="selections" scope="b253-a3df-72ad-5c28" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="7efd-8675-ed22-e603" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="3d78-8110-7697-953f" value="3/3+">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="b253-a3df-72ad-5c28" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="4bd0-eb67-cf7b-abe4" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="0274-aa2c-00fa-faf0" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="b253-a3df-72ad-5c28" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="6881-d318-6382-eb53" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
